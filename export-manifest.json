@@ -1,5 +1,5 @@
 {
-  "description": "Public export. Local machine paths normalized; reader header commentary removed. Numeric observations, outputs and failure records retained. Original spec hashes identify private originals, not normalized export bytes. Export hashes identify the public copies. Historical source files are archival; use bench.mjs for portable reruns.",
+  "description": "Public export. Local machine paths normalized; reader header commentary removed. Numeric observations, outputs and failure records retained. Original spec hashes identify private originals, not normalized export bytes. Export hashes identify the public copies. Historical source files are archival; use bench.mjs for portable reruns. Public text line endings are canonical LF before export hashes are computed; original-source hashes remain unchanged.",
   "files": [
     {
       "source": "core.mjs",
@@ -107,7 +107,7 @@
       "source": "salad-api-concurrency-retry.mjs",
       "export": "archive/harness/salad-api-concurrency-retry.mjs",
       "originalSha256": "372d6acb7fa1816adf0baede84d7f2d4e32ba76b05824e4707399707ed4120eb",
-      "exportSha256": "cba15bb3196a0f804cd973e0f8f96f67f0f992928665760b9136b7b788ab236d"
+      "exportSha256": "20d0e7ba150aac631ccaf1f382c76c5b405373d0106e79ec0a7e2f88cfbbf2f0"
     },
     {
       "source": "salad-api-concurrency.mjs",
@@ -131,85 +131,85 @@
       "source": "salad-api-eight-burst.mjs",
       "export": "archive/harness/salad-api-eight-burst.mjs",
       "originalSha256": "e38a7aad558e73ac7eb5a408261ce73a59b9d3df88736d3e7fa8c0adff97de7c",
-      "exportSha256": "24d9502313f3cff04f20582ae53f4281110de8bdb13c323cac52c69ec5d1b38f"
+      "exportSha256": "c641702e269ffaf7fb896a5aeed861c74b72b6564431abf03054868637a72f32"
     },
     {
       "source": "salad-api-eight-per-second-immediate-retry-10s.mjs",
       "export": "archive/harness/salad-api-eight-per-second-immediate-retry-10s.mjs",
       "originalSha256": "05f817a542a97d2a082a25591732e512f5767df926b5c583522d5b3fd93616de",
-      "exportSha256": "d3fe0d1c01fd43c32929c6be23b38386e612615055398dad5bd0a9a4285831b3"
+      "exportSha256": "3909cc60a67f690ac20884a2aa93df9299117c01b1c6e1b7577a1cb57f0d2261"
     },
     {
       "source": "salad-api-eight-per-second-immediate-retry.mjs",
       "export": "archive/harness/salad-api-eight-per-second-immediate-retry.mjs",
       "originalSha256": "08b6d68fc995b42eb721839215375523436330734c0e42de351f01a51fbba7ae",
-      "exportSha256": "b30a9035b60c3e27ec2e818b941399b79ca3011fcce29a50e82b46806dba9eec"
+      "exportSha256": "e5ede061c793a5f71cdbf43c198d83025baffdd44aecbee1c196aec1c2a976b6"
     },
     {
       "source": "salad-api-eight-per-second.mjs",
       "export": "archive/harness/salad-api-eight-per-second.mjs",
       "originalSha256": "ac5b9b8826cc4e7cdd9b3d147867dec238f5b4414436648fdfa89565014a1a63",
-      "exportSha256": "85c157051dc8fc48fa8da341145eea08bff017ec285bef724743e5a6bab62261"
+      "exportSha256": "8364032c609ca6335dd40ae988b81d8a1b26e7a9a8f399fdf0453769445f0173"
     },
     {
       "source": "salad-api-four-burst.mjs",
       "export": "archive/harness/salad-api-four-burst.mjs",
       "originalSha256": "86ec6836f5c03b9428a2cf3f9e9823cb62018ee6879b03f867225e925e441323",
-      "exportSha256": "7e161707a31a6e59eaacf1cbc4e08e3e8aa9c08f0ae4110dd7c8efaff8ec608f"
+      "exportSha256": "579a1450162729366d6581d4a91148c9f83c39f45ecd93f6da1846d2843b237f"
     },
     {
       "source": "salad-api-four-per-second-immediate-retry.mjs",
       "export": "archive/harness/salad-api-four-per-second-immediate-retry.mjs",
       "originalSha256": "c763c1fa2ae921472be7363d18528c73014e97e8e2f2b7a8591d85bbc956c334",
-      "exportSha256": "bc5f0fcd9d68a3f5b93c29fe5be0224f82a64b813252742c4e58b794332cb39f"
+      "exportSha256": "e0b66f1af8e9146ca6f06157b897f47338bcdaf00235523666c087a12b751d65"
     },
     {
       "source": "salad-api-four-per-second-retry.mjs",
       "export": "archive/harness/salad-api-four-per-second-retry.mjs",
       "originalSha256": "b0cfc27dfb78c50329649052a703433a1682c7d68b54041038432766a3903e7b",
-      "exportSha256": "2abbc1263133c2388f82f35ff63f5621797433409086a1627e08b9aafe8e98a5"
+      "exportSha256": "1055db56539b07a7fdb29f15fa8cdc4db2f6e9dee849d3a4f07e2c67f0f8248b"
     },
     {
       "source": "salad-api-four-per-second.mjs",
       "export": "archive/harness/salad-api-four-per-second.mjs",
       "originalSha256": "5b9c9d66767b7df55806b62adf5886b4e225a99ba8f64c8d7d9094d51f758d32",
-      "exportSha256": "4b9574b2e71dd815f30a8f5f260d8db6f3dd3708e06fca8fc7c2891ea3082c0f"
+      "exportSha256": "147ff3c0f36618ee3ff0b5098e434f594446ebc18822d770ae943a98c5292534"
     },
     {
       "source": "salad-api-rate-sweep.mjs",
       "export": "archive/harness/salad-api-rate-sweep.mjs",
       "originalSha256": "60e623071260ed2a718bbab203c83f3041f0d17020326ac8b1f0e3110294671f",
-      "exportSha256": "fa1a55cddd4941584de6a51954e8eb933ac2443d026a15d9fc69283e66433b0e"
+      "exportSha256": "2cf8492f9772ee672313adfb1153064bd8b216399f3e0ab9b626703cf088ed3f"
     },
     {
       "source": "salad-api-report.mjs",
       "export": "archive/harness/salad-api-report.mjs",
       "originalSha256": "5ea8a3b9589efbede110f9bb8290db40a0c9a7fcaa9284eddf23cb5c862f5b17",
-      "exportSha256": "5ea8a3b9589efbede110f9bb8290db40a0c9a7fcaa9284eddf23cb5c862f5b17"
+      "exportSha256": "878f8a4348c435f8c912515261100ad64b1cfc8fddcd899196353d6582ae4acf"
     },
     {
       "source": "salad-api-run.mjs",
       "export": "archive/harness/salad-api-run.mjs",
       "originalSha256": "15a9e6f92efaf1a845ecd47b26194977fce6d075120920e43442be34b50b4e0a",
-      "exportSha256": "897ef0c989913dce64394d6d30493c69f1567e17a8c3b092a49454d7917d6ed5"
+      "exportSha256": "34c857dea14dee6cc830a10f03ef725de995891c86d99490d344ce5a14ef5147"
     },
     {
       "source": "salad-api-sixteen-burst.mjs",
       "export": "archive/harness/salad-api-sixteen-burst.mjs",
       "originalSha256": "377ae6b85715e98936a1d208d04c2bd694774f224c325f1b9156be1db955bb84",
-      "exportSha256": "1153448429d272e1fce176929f583b8e7d9babd61fd506fab918531add435d30"
+      "exportSha256": "00c60080dfc158317bc09b741c40c9f197e0e69477327a53b347239847adecc8"
     },
     {
       "source": "salad-api-sixteen-staggered.mjs",
       "export": "archive/harness/salad-api-sixteen-staggered.mjs",
       "originalSha256": "eee63a4a22df83be5dd0e3ef11e909b0a771efb93e076c2128cbc5acf78ceeae",
-      "exportSha256": "b1ad8430ed165466f28abe74613841b691ccc29bb60ab02cf6f7615d881c3c59"
+      "exportSha256": "38589bba7e2f5ec844352ee3e30f864a9e4de960818c5c66e32eab778df4e9a1"
     },
     {
       "source": "salad-api-twelve-burst.mjs",
       "export": "archive/harness/salad-api-twelve-burst.mjs",
       "originalSha256": "f0abe52d0dc75e6e5d1f999b35a02f588d59aa1a9626655d4050aaf664e19777",
-      "exportSha256": "ddd172a021696a73cf2d61545b6edf90cb202ea802daceafbc28f76d56e18171"
+      "exportSha256": "d7baff44b07bbc38a7a03192cc9f1773336459b9593415f03b95192c8f034073"
     },
     {
       "source": "salad-cost.mjs",
@@ -233,7 +233,7 @@
       "source": "salad-worker.mjs",
       "export": "archive/harness/salad-worker.mjs",
       "originalSha256": "6f9b00af038ce8efdbea50efa6cc67bee0266fcfdb2f666135c4c1d912c3598b",
-      "exportSha256": "6f9b00af038ce8efdbea50efa6cc67bee0266fcfdb2f666135c4c1d912c3598b"
+      "exportSha256": "fc3703f70fb5d4928fee733d8f5c80ebf0e768802922774de328d6a46b4aac19"
     },
     {
       "source": "worker.mjs",
@@ -515,7 +515,7 @@
       "source": "runs/salad-api-2026-10-15T22-25-16-854Z/comparison.md",
       "export": "results/salad-api-2026-10-15T22-25-16-854Z/comparison.md",
       "originalSha256": "0438a3d7d20c15647d887561acbe8205de620c14438ad4f36f6c47e48054b285",
-      "exportSha256": "0438a3d7d20c15647d887561acbe8205de620c14438ad4f36f6c47e48054b285"
+      "exportSha256": "650594ec017d4de00ec02377e7cbe711d9b70a91ff31d1d53054cfa5a4a08b39"
     },
     {
       "source": "runs/salad-api-2026-10-15T22-25-16-854Z/receipt.json",
