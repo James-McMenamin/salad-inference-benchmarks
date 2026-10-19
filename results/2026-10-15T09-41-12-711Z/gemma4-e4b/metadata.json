@@ -1,0 +1,78 @@
+{
+  "model": {
+    "id": "gemma4-e4b",
+    "repo": "google/gemma-4-E4B-it-qat-q4_0-gguf",
+    "revision": "4b4a2c1d584be7264f87aac328a1bc739ce81b6c",
+    "name": "gemma-4-E4B_q4_0-it.gguf",
+    "sha256": "676c35070db6dbe52f93e9c864ee0fba4eddea94b9c875d9cb10daff453fbaee",
+    "quant": "QAT Q4_0",
+    "file": "<workspace>\\memoracle\\experiments\\model-comparison\\prepared\\gemma-4-E4B_q4_0-it.gguf",
+    "bytes": 5154941280
+  },
+  "specId": "cb8abf40f0410f2404e2c3b93d3725727c206b22562b8b8a238435d7dbb50adc",
+  "gpu": "vulkan",
+  "devices": [
+    "NVIDIA GeForce RTX 3090 Ti"
+  ],
+  "visibleVulkanDevices": "0",
+  "memoryTelemetry": "nvidia-smi dedicated GPU index 0",
+  "architecture": "gemma4",
+  "gpuLayers": 43,
+  "modelMemoryBytes": 5139117224,
+  "serializedEmptyContextBytes": 26,
+  "serializedEmptySecondContextBytes": 26,
+  "contextSize": 4096,
+  "batchSize": 512,
+  "baseline": {
+    "total": 25757220864,
+    "used": 8550088704,
+    "free": 16940793856,
+    "utilization": 2
+  },
+  "afterModel": {
+    "total": 25757220864,
+    "used": 11387535360,
+    "free": 14103347200,
+    "utilization": 3
+  },
+  "afterContext": {
+    "total": 25757220864,
+    "used": 12077498368,
+    "free": 13413384192,
+    "utilization": 2
+  },
+  "afterSecondContext": {
+    "total": 25757220864,
+    "used": 12767461376,
+    "free": 12723421184,
+    "utilization": 9
+  },
+  "loadMs": 3000.4662,
+  "setupMs": 4622.8185,
+  "ramAfterLoad": {
+    "rss": 3256918016,
+    "heapTotal": 55189504,
+    "heapUsed": 52538592,
+    "external": 2375487,
+    "arrayBuffers": 27520
+  },
+  "settings": {
+    "gpu": "vulkan",
+    "contextSize": 4096,
+    "threads": 2,
+    "batchSize": 512,
+    "repeats": 3,
+    "temperature": 0,
+    "seed": 42,
+    "thoughtTokens": 0,
+    "admission": "shared-cpu",
+    "priority": "BelowNormal",
+    "affinityMask": 272629760
+  },
+  "processResources": {
+    "priority": "BelowNormal",
+    "affinity": 272629760,
+    "pid": 73324
+  },
+  "chatWrapper": null
+}

@@ -1,0 +1,153 @@
+{
+  "specId": "f352770dd599ecb68dbe72e00e6f4d9d803c2afeae06e12f905d10b8f76d2c0a",
+  "concurrency": 8,
+  "settings": {
+    "gpu": "vulkan",
+    "contextSize": 4096,
+    "threads": 2,
+    "batchSize": 512,
+    "repeats": 3,
+    "temperature": 0,
+    "seed": 42,
+    "thoughtTokens": 0,
+    "admission": "shared-cpu",
+    "priority": "BelowNormal",
+    "affinityMask": 272629760,
+    "maxThreads": 2,
+    "contextSizePerRequest": 4096,
+    "sharedContext": true,
+    "requestsPerRound": 32,
+    "telemetryMs": 200,
+    "scope": "E4B concurrency; one model, independent sequences, simultaneous bursts"
+  },
+  "resource": {
+    "priority": "BelowNormal",
+    "affinity": 272629760,
+    "pid": 66416
+  },
+  "devices": [
+    "NVIDIA GeForce RTX 3090 Ti"
+  ],
+  "gpuLayers": 43,
+  "modelMemoryBytes": 5139117224,
+  "contextSizePerRequest": 4096,
+  "baseline": {
+    "total": 25757220864,
+    "used": 9253683200,
+    "free": 16237199360,
+    "utilization": 2
+  },
+  "afterModel": {
+    "total": 25757220864,
+    "used": 12097421312,
+    "free": 13393461248,
+    "utilization": 2
+  },
+  "afterContexts": {
+    "total": 25757220864,
+    "used": 13618905088,
+    "free": 11871977472,
+    "utilization": 35
+  },
+  "loadMs": 2672.2483999999995,
+  "allocationMs": 781.4621999999999,
+  "hostBefore": {
+    "cpuPercent": 38,
+    "freeRamKiB": 59373548
+  },
+  "requests": 96,
+  "passed": 96,
+  "errors": 0,
+  "latencyMs": {
+    "n": 96,
+    "median": 5245.717700000001,
+    "p95": 8474.889299999995,
+    "max": 9174.9807
+  },
+  "firstAnswerTokenMs": {
+    "n": 96,
+    "median": 4679.391900000002,
+    "p95": 7822.030399999996,
+    "max": 8665.2768
+  },
+  "wallMs": 72872.99020000003,
+  "requestsPerSecond": 1.3173605163796334,
+  "answerTokensPerSecond": 25.866922639329257,
+  "rounds": [
+    {
+      "requests": 32,
+      "passed": 32,
+      "errors": 0,
+      "latencyMs": {
+        "n": 32,
+        "median": 5308.236600000004,
+        "p95": 5918.084999999999,
+        "max": 6093.314999999999
+      },
+      "firstAnswerTokenMs": {
+        "n": 32,
+        "median": 4785.094099999998,
+        "p95": 5590.261199999997,
+        "max": 5609.905599999998
+      },
+      "wallMs": 23111.149900000004,
+      "requestsPerSecond": 1.3846130607287521,
+      "answerTokensPerSecond": 26.523993944585158
+    },
+    {
+      "requests": 32,
+      "passed": 32,
+      "errors": 0,
+      "latencyMs": {
+        "n": 32,
+        "median": 5287.190900000001,
+        "p95": 8990.1881,
+        "max": 9174.9807
+      },
+      "firstAnswerTokenMs": {
+        "n": 32,
+        "median": 4638.500899999999,
+        "p95": 7861.4732,
+        "max": 8665.2768
+      },
+      "wallMs": 26186.5155,
+      "requestsPerSecond": 1.2220029808853339,
+      "answerTokensPerSecond": 23.485369788890008
+    },
+    {
+      "requests": 32,
+      "passed": 32,
+      "errors": 0,
+      "latencyMs": {
+        "n": 32,
+        "median": 5227.389999999999,
+        "p95": 6040.432799999995,
+        "max": 6047.016100000008
+      },
+      "firstAnswerTokenMs": {
+        "n": 32,
+        "median": 4710.731700000004,
+        "p95": 5533.236300000004,
+        "max": 5556.298200000005
+      },
+      "wallMs": 23575.324800000017,
+      "requestsPerSecond": 1.357351394793932,
+      "answerTokensPerSecond": 27.868120824362915
+    }
+  ],
+  "peakDeviceVramBytes": 13867417600,
+  "incrementalPeakVramBytes": 4613734400,
+  "afterWorkload": {
+    "total": 25757220864,
+    "used": 13742637056,
+    "free": 11748245504,
+    "utilization": 64
+  },
+  "hostAfter": {
+    "cpuPercent": 52,
+    "freeRamKiB": 56594752
+  },
+  "sampleCount": 357,
+  "peakRssBytes": 3737092096,
+  "note": "Simultaneous bursts with independent sequences sharing one model and context; no production retrieval or network; shared CPU load and resident production bot. Throughput excludes writes between waves, loading, and warmup. Automatic rubric, not independent factual adjudication."
+}

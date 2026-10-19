@@ -1,0 +1,33 @@
+{
+  "concurrency": 12,
+  "requests": 12,
+  "passed": 6,
+  "errors": 5,
+  "latencyMs": {
+    "n": 12,
+    "median": 22147.4564,
+    "p95": 29691.5645,
+    "max": 29691.5645
+  },
+  "firstAnswerTokenMs": {
+    "n": 0,
+    "median": null,
+    "p95": null,
+    "max": null
+  },
+  "wallMs": 29692.246900000002,
+  "requestsPerSecond": 0.40414590517230276,
+  "answerTokensPerSecond": 5.8601156249983894,
+  "peakActiveApiCalls": 11,
+  "calls": 16,
+  "inputTokens": 16002,
+  "outputTokens": 995,
+  "costUsd": 0.0013489900000000004,
+  "usdPer1000Attempts": 0.11241583333333337,
+  "usdPer1000Passes": 0.22483166666666674,
+  "truncatedCalls": 2,
+  "reasoningCalls": 0,
+  "requestsWithUnknownCharge": 10,
+  "failedApiAttempts": 33,
+  "requestsRetried": 10
+}

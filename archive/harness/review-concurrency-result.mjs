@@ -1,0 +1,17 @@
+import fs from 'node:fs';
+const run = process.argv[2];
+const data = JSON.parse(fs.readFileSync(`${run}/review-data.json`));
+let report = '# Qwen3.6-35B-A3B concurrency test: reviewed results\n\n384 reader-plus-answer questions attempted, 96 per level. Ten frozen messy Discord questions and wiki sources repeated in three rounds, with level order rotated. Thinking disabled, temperature zero, no retries. Complete workload finished; input hashes matched. Provider errors prevent capacity certification.\n\n| Concurrent | Completed / attempted | Rubric passes / completed | Completed median | Completed p95 | Cost / completed answer |\n| --- | --- | --- | --- | --- | --- |\n';
+for (const s of data.summary) report += `| ${s.concurrency} | ${s.completed}/96 | ${s.passed}/${s.completed} | ${(s.median/1000).toFixed(2)} s | ${(s.p95/1000).toFixed(2)} s | $${s.costPerAnswer.toFixed(6)} |\n`;
+report += '\nThe 16-concurrency row has only one completed answer and is not representative. Completed answers at 2/4/8 cost about $0.171–$0.173 per 1,000, including reader and answer calls.\n\nThe first two 16-request waves produced service-unavailable responses and timeouts. Later waves at multiple levels returned HTTP 400 “model does not exist” and some 503 responses, before service recovered late in round three. This does not prove that concurrency caused the incident or establish a maximum capacity. Quick error responses are excluded from the timing table. Original comparison.json retains all-attempt timings for audit.\n\n137 workflows completed; 134 passed the automatic rubric. Three incorrect NPC abstentions occurred. Review of all distinct case/answer combinations also found a recipe answer claiming required Enchanting skill 25, although the source distinguishes Start 5 and Trivial 25. Rubric passes are not exhaustive accuracy.\n\nTotal observed usage-derived charge: $0.02623435 (2.62 cents), including successful API calls in failed workflows. Failed calls without usage have unknown charges; this is not invoice reconciliation. Documented rates: $0.06 input / $0.95 output per million tokens: https://docs.salad.com/ai-gateway/reference/pricing.\n\nLatency includes network and provider queueing for reader plus answer calls. Fixed knowledge-base passages were supplied; production retrieval, Discord delivery and other classification/background calls are excluded. Short waves do not establish sustained capacity. No streaming first-token or VRAM measurement.\n';
+fs.writeFileSync(`${run}/comparison.md`, report);
+const review = {reviewedAt: new Date().toISOString(), status: 'reviewed-provider-errors-prevent-capacity-certification', distinctAnswersReviewed: data.distinctAnswers.length, summary: data.summary, notes: ['Three incorrect NPC abstentions', 'One recipe output misstates trivial skill as required skill', 'Full workload preserved without retries', 'Unknown charges disclosed']};
+fs.writeFileSync(`${run}/assistant-review.json`, JSON.stringify(review, null, 2));
+for (const file of [`${run}/receipt.json`, '<scratch>/work/memoracle-model-comparison.json']) {
+  const r = JSON.parse(fs.readFileSync(file));
+  if (r.run.replaceAll('\\', '/').endsWith(run.replaceAll('\\', '/'))) {
+    r.status = 'completed-reviewed-by-assistant'; r.reviewStatus = review.status; r.reviewedAt = review.reviewedAt;
+    fs.writeFileSync(file, JSON.stringify(r, null, 2));
+  }
+}
+console.log(JSON.stringify({distinctAnswersReviewed: review.distinctAnswersReviewed}));

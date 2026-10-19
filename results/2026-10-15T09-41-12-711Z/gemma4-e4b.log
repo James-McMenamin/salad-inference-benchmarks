@@ -1,0 +1,141 @@
+[node-llama-cpp] load: control-looking token:     50 '<|tool_response>' was not control-type; this is probably a bug in the model. its type will be overridden
+[node-llama-cpp] load: control-looking token:    212 '</s>' was not control-type; this is probably a bug in the model. its type will be overridden
+[node-llama-cpp] load: special_eog_ids contains '<|tool_response>', removing '</s>' token from EOG list
+gemma4-e4b 1 intent/typo-location FAIL 589ms
+gemma4-e4b 2 intent/typo-recipe PASS 555ms
+gemma4-e4b 3 intent/typo-level PASS 567ms
+gemma4-e4b 4 intent/typo-quest PASS 551ms
+gemma4-e4b 5 intent/typo-drops PASS 640ms
+gemma4-e4b 6 intent/typo-borders PASS 594ms
+gemma4-e4b 7 intent/ac-location FAIL 583ms
+gemma4-e4b 8 intent/ac-gear PASS 583ms
+gemma4-e4b 9 intent/ac-hunt FAIL 577ms
+gemma4-e4b 10 intent/ac-ambiguous PASS 570ms
+gemma4-e4b 11 intent/ss-ambiguous FAIL 572ms
+gemma4-e4b 12 intent/pointer-no-context FAIL 558ms
+gemma4-e4b 13 intent/npc-followup PASS 610ms
+gemma4-e4b 14 intent/zone-followup PASS 596ms
+gemma4-e4b 15 intent/recipe-followup PASS 648ms
+gemma4-e4b 16 intent/class-followup PASS 607ms
+gemma4-e4b 17 intent/map-followup PASS 554ms
+gemma4-e4b 18 intent/mixed-multiple PASS 599ms
+gemma4-e4b 19 intent/multiple-location PASS 653ms
+gemma4-e4b 20 intent/name-preserve PASS 652ms
+gemma4-e4b 21 intent/name-unfamiliar PASS 598ms
+gemma4-e4b 22 intent/explicit-new-target PASS 0ms
+gemma4-e4b 23 intent/new-zone PASS 594ms
+gemma4-e4b 24 intent/slang-mechanic PASS 546ms
+gemma4-e4b 25 grounding/level PASS 801ms
+gemma4-e4b 26 grounding/npc PASS 772ms
+gemma4-e4b 27 grounding/quest PASS 779ms
+gemma4-e4b 28 grounding/recipe PASS 1107ms
+gemma4-e4b 29 grounding/borders PASS 817ms
+gemma4-e4b 30 grounding/drop PASS 839ms
+gemma4-e4b 31 grounding/pronoun-answer PASS 803ms
+gemma4-e4b 32 grounding/missing-release PASS 717ms
+gemma4-e4b 33 grounding/missing-discord PASS 702ms
+gemma4-e4b 34 grounding/missing-rate PASS 710ms
+gemma4-e4b 35 judge/wher do i buy fishin poles PASS 89ms
+gemma4-e4b 36 judge/necro pet lvl?? PASS 87ms
+gemma4-e4b 37 judge/any1 know wat drops aashirs journal PASS 86ms
+gemma4-e4b 38 judge/glass flats connected 2 where PASS 86ms
+gemma4-e4b 39 judge/bank nh were FAIL 86ms
+gemma4-e4b 40 judge/who do i msg for refund PASS 87ms
+gemma4-e4b 41 judge/yo sup dudes PASS 107ms
+gemma4-e4b 42 judge/anyone wanna duo later PASS 87ms
+gemma4-e4b 43 judge/im going to bed gn PASS 87ms
+gemma4-e4b 44 judge/can u hear me in voice PASS 87ms
+gemma4-e4b 45 judge/that fight was sick lol PASS 86ms
+gemma4-e4b 46 judge/whats ur phone number PASS 85ms
+gemma4-e4b 47 intent/typo-recipe PASS 565ms
+gemma4-e4b 48 intent/typo-level PASS 596ms
+gemma4-e4b 49 intent/typo-quest PASS 549ms
+gemma4-e4b 50 intent/typo-drops PASS 654ms
+gemma4-e4b 51 intent/typo-borders PASS 595ms
+gemma4-e4b 52 intent/ac-location FAIL 583ms
+gemma4-e4b 53 intent/ac-gear PASS 579ms
+gemma4-e4b 54 intent/ac-hunt FAIL 582ms
+gemma4-e4b 55 intent/ac-ambiguous PASS 588ms
+gemma4-e4b 56 intent/ss-ambiguous FAIL 594ms
+gemma4-e4b 57 intent/pointer-no-context FAIL 547ms
+gemma4-e4b 58 intent/npc-followup PASS 615ms
+gemma4-e4b 59 intent/zone-followup PASS 598ms
+gemma4-e4b 60 intent/recipe-followup PASS 642ms
+gemma4-e4b 61 intent/class-followup PASS 618ms
+gemma4-e4b 62 intent/map-followup PASS 577ms
+gemma4-e4b 63 intent/mixed-multiple PASS 613ms
+gemma4-e4b 64 intent/multiple-location PASS 656ms
+gemma4-e4b 65 intent/name-preserve PASS 664ms
+gemma4-e4b 66 intent/name-unfamiliar PASS 575ms
+gemma4-e4b 67 intent/explicit-new-target PASS 0ms
+gemma4-e4b 68 intent/new-zone PASS 603ms
+gemma4-e4b 69 intent/slang-mechanic PASS 562ms
+gemma4-e4b 70 intent/typo-location FAIL 557ms
+gemma4-e4b 71 grounding/npc PASS 797ms
+gemma4-e4b 72 grounding/quest PASS 791ms
+gemma4-e4b 73 grounding/recipe PASS 1083ms
+gemma4-e4b 74 grounding/borders PASS 794ms
+gemma4-e4b 75 grounding/drop PASS 878ms
+gemma4-e4b 76 grounding/pronoun-answer PASS 819ms
+gemma4-e4b 77 grounding/missing-release PASS 726ms
+gemma4-e4b 78 grounding/missing-discord PASS 716ms
+gemma4-e4b 79 grounding/missing-rate PASS 727ms
+gemma4-e4b 80 grounding/level PASS 808ms
+gemma4-e4b 81 judge/necro pet lvl?? PASS 86ms
+gemma4-e4b 82 judge/any1 know wat drops aashirs journal PASS 88ms
+gemma4-e4b 83 judge/glass flats connected 2 where PASS 98ms
+gemma4-e4b 84 judge/bank nh were FAIL 89ms
+gemma4-e4b 85 judge/who do i msg for refund PASS 86ms
+gemma4-e4b 86 judge/yo sup dudes PASS 86ms
+gemma4-e4b 87 judge/anyone wanna duo later PASS 87ms
+gemma4-e4b 88 judge/im going to bed gn PASS 87ms
+gemma4-e4b 89 judge/can u hear me in voice PASS 91ms
+gemma4-e4b 90 judge/that fight was sick lol PASS 86ms
+gemma4-e4b 91 judge/whats ur phone number PASS 88ms
+gemma4-e4b 92 judge/wher do i buy fishin poles PASS 103ms
+gemma4-e4b 93 intent/typo-level PASS 567ms
+gemma4-e4b 94 intent/typo-quest PASS 554ms
+gemma4-e4b 95 intent/typo-drops PASS 652ms
+gemma4-e4b 96 intent/typo-borders PASS 614ms
+gemma4-e4b 97 intent/ac-location FAIL 573ms
+gemma4-e4b 98 intent/ac-gear PASS 571ms
+gemma4-e4b 99 intent/ac-hunt FAIL 569ms
+gemma4-e4b 100 intent/ac-ambiguous PASS 566ms
+gemma4-e4b 101 intent/ss-ambiguous FAIL 573ms
+gemma4-e4b 102 intent/pointer-no-context FAIL 590ms
+gemma4-e4b 103 intent/npc-followup PASS 633ms
+gemma4-e4b 104 intent/zone-followup PASS 594ms
+gemma4-e4b 105 intent/recipe-followup PASS 636ms
+gemma4-e4b 106 intent/class-followup PASS 606ms
+gemma4-e4b 107 intent/map-followup PASS 549ms
+gemma4-e4b 108 intent/mixed-multiple PASS 599ms
+gemma4-e4b 109 intent/multiple-location PASS 658ms
+gemma4-e4b 110 intent/name-preserve PASS 647ms
+gemma4-e4b 111 intent/name-unfamiliar PASS 589ms
+gemma4-e4b 112 intent/explicit-new-target PASS 0ms
+gemma4-e4b 113 intent/new-zone PASS 604ms
+gemma4-e4b 114 intent/slang-mechanic PASS 549ms
+gemma4-e4b 115 intent/typo-location FAIL 515ms
+gemma4-e4b 116 intent/typo-recipe PASS 555ms
+gemma4-e4b 117 grounding/quest PASS 791ms
+gemma4-e4b 118 grounding/recipe PASS 1063ms
+gemma4-e4b 119 grounding/borders PASS 775ms
+gemma4-e4b 120 grounding/drop PASS 836ms
+gemma4-e4b 121 grounding/pronoun-answer PASS 833ms
+gemma4-e4b 122 grounding/missing-release PASS 765ms
+gemma4-e4b 123 grounding/missing-discord PASS 672ms
+gemma4-e4b 124 grounding/missing-rate PASS 714ms
+gemma4-e4b 125 grounding/level PASS 780ms
+gemma4-e4b 126 grounding/npc PASS 746ms
+gemma4-e4b 127 judge/any1 know wat drops aashirs journal PASS 87ms
+gemma4-e4b 128 judge/glass flats connected 2 where PASS 86ms
+gemma4-e4b 129 judge/bank nh were FAIL 87ms
+gemma4-e4b 130 judge/who do i msg for refund PASS 90ms
+gemma4-e4b 131 judge/yo sup dudes PASS 86ms
+gemma4-e4b 132 judge/anyone wanna duo later PASS 86ms
+gemma4-e4b 133 judge/im going to bed gn PASS 86ms
+gemma4-e4b 134 judge/can u hear me in voice PASS 85ms
+gemma4-e4b 135 judge/that fight was sick lol PASS 86ms
+gemma4-e4b 136 judge/whats ur phone number PASS 87ms
+gemma4-e4b 137 judge/wher do i buy fishin poles PASS 86ms
+gemma4-e4b 138 judge/necro pet lvl?? PASS 86ms

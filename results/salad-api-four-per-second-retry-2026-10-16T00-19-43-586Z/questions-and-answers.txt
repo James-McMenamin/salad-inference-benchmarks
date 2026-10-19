@@ -1,0 +1,286 @@
+Four starts at t=0, t=1, t=2 seconds. Up to three retries per temporary failed API call; latency includes retries.
+
+{
+  "status": "completed-needs-review",
+  "groups": [
+    {
+      "offsetMs": 0,
+      "completed": 4,
+      "passed": 3,
+      "errors": {}
+    },
+    {
+      "offsetMs": 1000,
+      "completed": 3,
+      "passed": 3,
+      "errors": {
+        "HTTP 503": 1
+      }
+    },
+    {
+      "offsetMs": 2000,
+      "completed": 4,
+      "passed": 4,
+      "errors": {}
+    }
+  ],
+  "completed": 11,
+  "medianCompletedMs": 97466.678,
+  "minCompletedMs": 5000.515200000001,
+  "maxCompletedMs": 99014.1628,
+  "requestsRetried": 11,
+  "failedApiAttempts": 14,
+  "costUsd": 0.00207767,
+  "rows": [
+    {
+      "question": "falln pass lvl range??",
+      "seconds": 98.9549587,
+      "answer": "Fallen Pass is for levels 19 to 44 [1].",
+      "attempts": [
+        {
+          "kind": "answer",
+          "attempt": 0,
+          "error": "The operation was aborted due to timeout",
+          "retrying": true,
+          "delayMs": 2719.1078362594567
+        }
+      ],
+      "grade": {
+        "pass": true,
+        "reasons": [],
+        "manualReviewRequired": true
+      }
+    },
+    {
+      "question": "wheres abot harow at??",
+      "seconds": 98.2588018,
+      "answer": "The sources do not mention a character named \"Harow.\" However, they do list Abbot Harrow, who is found in Underdocks at the Temple of Ygorath [1].",
+      "attempts": [
+        {
+          "kind": "answer",
+          "attempt": 0,
+          "error": "The operation was aborted due to timeout",
+          "retrying": true,
+          "delayMs": 2672.0726730968454
+        }
+      ],
+      "grade": {
+        "pass": true,
+        "reasons": [],
+        "manualReviewRequired": true
+      }
+    },
+    {
+      "question": "who givs a sweet treat quest",
+      "seconds": 98.08467399999999,
+      "answer": "Guard Pippi Pinecone gives the quest A Sweet Treat in Evershade Weald [1].",
+      "attempts": [
+        {
+          "kind": "answer",
+          "attempt": 0,
+          "error": "The operation was aborted due to timeout",
+          "retrying": true,
+          "delayMs": 2154.876083199947
+        }
+      ],
+      "grade": {
+        "pass": true,
+        "reasons": [],
+        "manualReviewRequired": true
+      }
+    },
+    {
+      "question": "wat do i need 2 make enchanted cloth",
+      "seconds": 97.8584393,
+      "answer": "To make Enchanted Cloth, you need 1 Cloth Scrap and 1 Enchanted Powder [1]. You must use a crafting vessel such as a Tome of Enchantment or an Enchanting Station in Night Harbor [1]. This recipe is for the Enchanting profession and requires a Start skill of 5 and a Trivial of 25 [1].",
+      "attempts": [
+        {
+          "kind": "answer",
+          "attempt": 0,
+          "error": "The operation was aborted due to timeout",
+          "retrying": true,
+          "delayMs": 2125.832279723754
+        }
+      ],
+      "grade": {
+        "pass": false,
+        "reasons": [
+          "missing Cloth Scraps"
+        ],
+        "manualReviewRequired": true
+      }
+    },
+    {
+      "question": "glass flats conects to wat zones",
+      "seconds": 27.047729800000003,
+      "error": "HTTP 503",
+      "attempts": [
+        {
+          "kind": "answer",
+          "attempt": 0,
+          "error": "HTTP 503",
+          "status": 503,
+          "retrying": true,
+          "delayMs": 2033.8455644015985
+        },
+        {
+          "kind": "answer",
+          "attempt": 1,
+          "error": "HTTP 503",
+          "status": 503,
+          "retrying": true,
+          "delayMs": 4983.1119831767155
+        },
+        {
+          "kind": "answer",
+          "attempt": 2,
+          "error": "HTTP 503",
+          "status": 503,
+          "retrying": true,
+          "delayMs": 8558.410941600165
+        },
+        {
+          "kind": "answer",
+          "attempt": 3,
+          "error": "HTTP 503",
+          "status": 503,
+          "retrying": false,
+          "delayMs": 0
+        }
+      ],
+      "grade": {
+        "pass": false,
+        "reasons": [
+          "request error"
+        ]
+      }
+    },
+    {
+      "question": "aashirs journal wat drops it",
+      "seconds": 5.000515200000001,
+      "answer": "Aashir's Journal is dropped by a cultist in Night Harbor [1].",
+      "attempts": [],
+      "grade": {
+        "pass": true,
+        "reasons": [],
+        "manualReviewRequired": true
+      }
+    },
+    {
+      "question": "where he at tho",
+      "seconds": 99.01416280000001,
+      "answer": "Guard Pippi Pinecone is located in Evershade Weald [1].",
+      "attempts": [
+        {
+          "kind": "answer",
+          "attempt": 0,
+          "error": "The operation was aborted due to timeout",
+          "retrying": true,
+          "delayMs": 2594.5081171414736
+        }
+      ],
+      "grade": {
+        "pass": true,
+        "reasons": [],
+        "manualReviewRequired": true
+      }
+    },
+    {
+      "question": "mnm mobile app release when??",
+      "seconds": 97.466678,
+      "answer": "The wiki doesn't say.",
+      "attempts": [
+        {
+          "kind": "answer",
+          "attempt": 0,
+          "error": "The operation was aborted due to timeout",
+          "retrying": true,
+          "delayMs": 2196.2848929742568
+        }
+      ],
+      "grade": {
+        "pass": true,
+        "reasons": [],
+        "manualReviewRequired": true
+      }
+    },
+    {
+      "question": "wat discord does abbot harrow use",
+      "seconds": 94.48061870000001,
+      "answer": "The wiki doesn't say.",
+      "attempts": [
+        {
+          "kind": "reader",
+          "attempt": 0,
+          "error": "The operation was aborted due to timeout",
+          "retrying": true,
+          "delayMs": 2650.25890571917
+        }
+      ],
+      "grade": {
+        "pass": true,
+        "reasons": [],
+        "manualReviewRequired": true
+      }
+    },
+    {
+      "question": "journal drop chance % exact pls",
+      "seconds": 94.00692539999999,
+      "answer": "The wiki doesn't say.",
+      "attempts": [
+        {
+          "kind": "reader",
+          "attempt": 0,
+          "error": "The operation was aborted due to timeout",
+          "retrying": true,
+          "delayMs": 2705.2576786377713
+        }
+      ],
+      "grade": {
+        "pass": true,
+        "reasons": [],
+        "manualReviewRequired": true
+      }
+    },
+    {
+      "question": "falln pass lvl range??",
+      "seconds": 93.92912199999999,
+      "answer": "Fallen Pass is for levels 19 to 44 [1].",
+      "attempts": [
+        {
+          "kind": "reader",
+          "attempt": 0,
+          "error": "The operation was aborted due to timeout",
+          "retrying": true,
+          "delayMs": 2299.2929659720116
+        }
+      ],
+      "grade": {
+        "pass": true,
+        "reasons": [],
+        "manualReviewRequired": true
+      }
+    },
+    {
+      "question": "wheres abot harow at??",
+      "seconds": 96.4386785,
+      "answer": "The wiki does not mention a character named \"Harow.\" It does list Abbot Harrow, who is found in Underdocks at the Temple of Ygorath [1].",
+      "attempts": [
+        {
+          "kind": "reader",
+          "attempt": 0,
+          "error": "The operation was aborted due to timeout",
+          "retrying": true,
+          "delayMs": 2780.034214093779
+        }
+      ],
+      "grade": {
+        "pass": true,
+        "reasons": [],
+        "manualReviewRequired": true
+      }
+    }
+  ]
+}
+
+Token usage costs include partial failed workflows, but calls without usage have unknown charges; not invoice reconciled.

@@ -1,0 +1,21 @@
+{
+  "scope": "memoracle API model comparison",
+  "status": "completed-reviewed-by-assistant",
+  "startedAt": "2026-10-15T22:25:16.863Z",
+  "run": "<workspace>\\memoracle\\experiments\\model-comparison\\runs\\salad-api-2026-10-15T22-25-16-854Z",
+  "previous": {
+    "status": "failed",
+    "run": "<workspace>\\memoracle\\experiments\\model-comparison\\runs\\salad-api-2026-10-15T22-24-27-692Z"
+  },
+  "workerPid": 85484,
+  "models": [
+    "qwen3.5-9b",
+    "qwen3.6-35b-a3b"
+  ],
+  "completed": 276,
+  "costUsd": 0.03100982000000002,
+  "model": "qwen3.6-35b-a3b",
+  "modelCompleted": 138,
+  "finishedAt": "2026-10-15T22:34:33.231Z",
+  "review": "<workspace>\\memoracle\\experiments\\model-comparison\\runs\\salad-api-2026-10-15T22-25-16-854Z\\assistant-review.json"
+}

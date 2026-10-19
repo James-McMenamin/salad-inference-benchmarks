@@ -1,0 +1,12 @@
+{
+  "reviewedAt": "2026-10-16T00:21:44.679Z",
+  "completedAnswersReviewed": 11,
+  "automaticPasses": 10,
+  "manualAssessment": "All 11 completed answers convey the expected facts or appropriate abstention. The automatic recipe failure is a singular/plural exact-match issue: Cloth Scrap versus Cloth Scraps. This is a naming variation, not a missing ingredient.",
+  "notes": [
+    "One terminal HTTP503 after all three retries",
+    "Ten workflows recovered after a 90-second timeout",
+    "No evidence of sustained reliable throughput; most completed answers took 94–99 seconds",
+    "Costs from returned usage only; failed or timed-out calls may have unreported charges"
+  ]
+}

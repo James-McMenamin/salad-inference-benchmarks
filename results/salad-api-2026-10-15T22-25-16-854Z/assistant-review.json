@@ -1,0 +1,20 @@
+{
+  "reviewedAt": "2026-10-15T22:35:47.817062+00:00",
+  "reviewer": "assistant",
+  "qwen3.6": {
+    "groundingUniqueAnswerTextsReviewed": 13,
+    "assessment": "All reviewed grounded answers match supplied sources, with valid citations; missing-information cases decline. Twelve interpretation trials fail, including invented resolution of ambiguous ss, lost map context, lost title in typo, and one wrong intent label."
+  },
+  "qwen3.5": {
+    "assessment": "Twelve of thirteen failed grounding trials produced repetitive non-English output; the other failed to resolve the prior named NPC and declined. Passing rows still include unnecessary distractor facts or literal treatment of a typo. These are served-endpoint observations at temperature zero with reasoning disabled, not a general model capability ranking."
+  },
+  "pricing": "Usage-derived costs at pricing-reference rates; no invoice reconciliation. Homepage differs on 9B rate.",
+  "checks": {
+    "harnessTestsPassed": 18,
+    "timedModelsCompleted": 2,
+    "timedTrialsPerModel": 138,
+    "apiCallsPerModel": 165,
+    "frozenInputHashesVerified": true
+  },
+  "localBaseline": "Same-day Gemma run reused; no new local benchmark run; GPU electricity and rental cost not measured."
+}

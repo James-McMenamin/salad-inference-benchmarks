@@ -1,0 +1,54 @@
+{
+  "scope": "memoracle model concurrency performance experiment",
+  "status": "completed-reviewed-by-assistant",
+  "specId": "f352770dd599ecb68dbe72e00e6f4d9d803c2afeae06e12f905d10b8f76d2c0a",
+  "specFile": "<workspace>\\memoracle\\experiments\\model-comparison\\prepared\\concurrency-spec.json",
+  "admission": "shared-cpu",
+  "quietSeconds": 0,
+  "submittedAt": "2026-10-15T21:15:57.238Z",
+  "previous": {
+    "specId": "cb8abf40f0410f2404e2c3b93d3725727c206b22562b8b8a238435d7dbb50adc",
+    "status": "completed-reviewed-by-assistant",
+    "run": "<workspace>\\memoracle\\experiments\\model-comparison\\runs\\2026-10-15T09-41-12-711Z",
+    "review": "<workspace>\\memoracle\\experiments\\model-comparison\\runs\\2026-10-15T09-41-12-711Z\\review.md"
+  },
+  "run": "<workspace>\\memoracle\\experiments\\model-comparison\\runs\\concurrency-2026-10-15T21-16-05-155Z",
+  "results": [
+    {
+      "concurrency": 1,
+      "exitCode": 0,
+      "out": "<workspace>\\memoracle\\experiments\\model-comparison\\runs\\concurrency-2026-10-15T21-16-05-155Z\\c1",
+      "log": "<workspace>\\memoracle\\experiments\\model-comparison\\runs\\concurrency-2026-10-15T21-16-05-155Z\\c1.log"
+    },
+    {
+      "concurrency": 2,
+      "exitCode": 0,
+      "out": "<workspace>\\memoracle\\experiments\\model-comparison\\runs\\concurrency-2026-10-15T21-16-05-155Z\\c2",
+      "log": "<workspace>\\memoracle\\experiments\\model-comparison\\runs\\concurrency-2026-10-15T21-16-05-155Z\\c2.log"
+    },
+    {
+      "concurrency": 4,
+      "exitCode": 0,
+      "out": "<workspace>\\memoracle\\experiments\\model-comparison\\runs\\concurrency-2026-10-15T21-16-05-155Z\\c4",
+      "log": "<workspace>\\memoracle\\experiments\\model-comparison\\runs\\concurrency-2026-10-15T21-16-05-155Z\\c4.log"
+    },
+    {
+      "concurrency": 8,
+      "exitCode": 0,
+      "out": "<workspace>\\memoracle\\experiments\\model-comparison\\runs\\concurrency-2026-10-15T21-16-05-155Z\\c8",
+      "log": "<workspace>\\memoracle\\experiments\\model-comparison\\runs\\concurrency-2026-10-15T21-16-05-155Z\\c8.log"
+    },
+    {
+      "concurrency": 16,
+      "exitCode": 0,
+      "out": "<workspace>\\memoracle\\experiments\\model-comparison\\runs\\concurrency-2026-10-15T21-16-05-155Z\\c16",
+      "log": "<workspace>\\memoracle\\experiments\\model-comparison\\runs\\concurrency-2026-10-15T21-16-05-155Z\\c16.log"
+    }
+  ],
+  "waitingFor": 16,
+  "waitingReasons": [],
+  "startedAt": "2026-10-15T21:16:05.86Z",
+  "workerPid": 83504,
+  "finishedAt": "2026-10-15T21:24:24.837Z",
+  "review": "<workspace>\\memoracle\\docs\\gemma-e4b-concurrency.md"
+}

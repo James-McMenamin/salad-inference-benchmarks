@@ -1,0 +1,124 @@
+4 questions at t=0, t=1, t=2 seconds. No retries.
+
+{
+  "groups": [
+    {
+      "offsetMs": 0,
+      "actualStartMs": [
+        0.03769999999997253,
+        1.4589999999999463,
+        1.9149999999999636,
+        2.226099999999974
+      ],
+      "completed": 0,
+      "passed": 0,
+      "errors": {
+        "HTTP 401": 4
+      }
+    },
+    {
+      "offsetMs": 1000,
+      "actualStartMs": [
+        1007.4387,
+        1009.3662,
+        1010.312,
+        1011.2725999999999
+      ],
+      "completed": 0,
+      "passed": 0,
+      "errors": {
+        "HTTP 401": 4
+      }
+    },
+    {
+      "offsetMs": 2000,
+      "actualStartMs": [
+        2002.6841,
+        2004.4278999999997,
+        2005.2091,
+        2005.9573
+      ],
+      "completed": 0,
+      "passed": 0,
+      "errors": {
+        "HTTP 401": 4
+      }
+    }
+  ],
+  "peakActiveApiCalls": 12,
+  "costUsd": 0,
+  "errorBodies": [
+    "{\"status\":401,\"title\":\"Unauthorized\",\"type\":\"about:blank\"}"
+  ]
+}
+
+Question: falln pass lvl range??
+Start: 0.04 ms
+Time: 10.602 seconds
+Error: HTTP 401
+
+
+Question: wheres abot harow at??
+Start: 1.46 ms
+Time: 10.601 seconds
+Error: HTTP 401
+
+
+Question: who givs a sweet treat quest
+Start: 1.91 ms
+Time: 10.600 seconds
+Error: HTTP 401
+
+
+Question: wat do i need 2 make enchanted cloth
+Start: 2.23 ms
+Time: 10.600 seconds
+Error: HTTP 401
+
+
+Question: glass flats conects to wat zones
+Start: 1007.44 ms
+Time: 9.595 seconds
+Error: HTTP 401
+
+
+Question: aashirs journal wat drops it
+Start: 1009.37 ms
+Time: 9.593 seconds
+Error: HTTP 401
+
+
+Question: where he at tho
+Start: 1010.31 ms
+Time: 9.592 seconds
+Error: HTTP 401
+
+
+Question: mnm mobile app release when??
+Start: 1011.27 ms
+Time: 9.591 seconds
+Error: HTTP 401
+
+
+Question: wat discord does abbot harrow use
+Start: 2002.68 ms
+Time: 8.599 seconds
+Error: HTTP 401
+
+
+Question: journal drop chance % exact pls
+Start: 2004.43 ms
+Time: 8.598 seconds
+Error: HTTP 401
+
+
+Question: falln pass lvl range??
+Start: 2005.21 ms
+Time: 8.597 seconds
+Error: HTTP 401
+
+
+Question: wheres abot harow at??
+Start: 2005.96 ms
+Time: 8.596 seconds
+Error: HTTP 401

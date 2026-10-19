@@ -1,0 +1,163 @@
+Four questions at t=0, t=1, t=2 seconds; no retries.
+
+{
+  "groups": [
+    {
+      "offsetMs": 0,
+      "actualStartMs": [
+        0.04070000000001528,
+        1.5394000000000005,
+        1.8956000000000586,
+        2.18870000000004
+      ],
+      "completed": 4,
+      "passed": 4,
+      "errors": {}
+    },
+    {
+      "offsetMs": 1000,
+      "actualStartMs": [
+        1005.0600000000001,
+        1006.9359000000001,
+        1007.9468,
+        1008.9586
+      ],
+      "completed": 2,
+      "passed": 2,
+      "errors": {
+        "The operation was aborted due to timeout": 2
+      }
+    },
+    {
+      "offsetMs": 2000,
+      "actualStartMs": [
+        2003.7756,
+        2005.1680000000001,
+        2005.9210000000003,
+        2006.6116000000002
+      ],
+      "completed": 4,
+      "passed": 4,
+      "errors": {}
+    }
+  ],
+  "completed": 10,
+  "medianCompletedMs": 2750.6201,
+  "minCompletedMs": 1682.998,
+  "maxCompletedMs": 5977.5918,
+  "costUsd": 0.0020365099999999996,
+  "peakActiveApiCalls": 12,
+  "answers": [
+    {
+      "question": "falln pass lvl range??",
+      "answer": "Fallen Pass is for levels 19 to 44 [1]."
+    },
+    {
+      "question": "wheres abot harow at??",
+      "answer": "Abbot Harrow is located in Underdocks, specifically at the Temple of Ygorath [1]. The sources do not mention anyone named \"Harow,\" so it is assumed you are referring to Abbot Harrow."
+    },
+    {
+      "question": "who givs a sweet treat quest",
+      "answer": "A Sweet Treat is given by Guard Pippi Pinecone in Evershade Weald [1]."
+    },
+    {
+      "question": "wat do i need 2 make enchanted cloth",
+      "answer": "To make Enchanted Cloth, you need Cloth Scraps and Enchanted Powder [1]. You must also have the Enchanting profession and use either a Tome of Enchantment or an Enchanting Station in Night Harbor to craft it [1]."
+    },
+    {
+      "question": "where he at tho",
+      "answer": "Guard Pippi Pinecone is located in Evershade Weald [1]."
+    },
+    {
+      "question": "mnm mobile app release when??",
+      "answer": "The wiki doesn't say."
+    },
+    {
+      "question": "wat discord does abbot harrow use",
+      "answer": "The wiki doesn't say."
+    },
+    {
+      "question": "journal drop chance % exact pls",
+      "answer": "The wiki doesn't say."
+    },
+    {
+      "question": "falln pass lvl range??",
+      "answer": "Fallen Pass is for levels 19 to 44 [1]."
+    },
+    {
+      "question": "wheres abot harow at??",
+      "answer": "Abbot Harrow is located in the Underdocks, specifically at the Temple of Ygorath [1]."
+    }
+  ]
+}
+
+Question: falln pass lvl range??
+Start offset: 0.04 ms
+Time: 2.751 seconds
+Answer: Fallen Pass is for levels 19 to 44 [1].
+
+
+Question: wheres abot harow at??
+Start offset: 1.54 ms
+Time: 2.718 seconds
+Answer: Abbot Harrow is located in Underdocks, specifically at the Temple of Ygorath [1]. The sources do not mention anyone named "Harow," so it is assumed you are referring to Abbot Harrow.
+
+
+Question: who givs a sweet treat quest
+Start offset: 1.90 ms
+Time: 4.309 seconds
+Answer: A Sweet Treat is given by Guard Pippi Pinecone in Evershade Weald [1].
+
+
+Question: wat do i need 2 make enchanted cloth
+Start offset: 2.19 ms
+Time: 5.376 seconds
+Answer: To make Enchanted Cloth, you need Cloth Scraps and Enchanted Powder [1]. You must also have the Enchanting profession and use either a Tome of Enchantment or an Enchanting Station in Night Harbor to craft it [1].
+
+
+Question: glass flats conects to wat zones
+Start offset: 1005.06 ms
+Time: 91.459 seconds
+Error: The operation was aborted due to timeout
+
+
+Question: aashirs journal wat drops it
+Start offset: 1006.94 ms
+Time: 91.412 seconds
+Error: The operation was aborted due to timeout
+
+
+Question: where he at tho
+Start offset: 1007.95 ms
+Time: 5.978 seconds
+Answer: Guard Pippi Pinecone is located in Evershade Weald [1].
+
+
+Question: mnm mobile app release when??
+Start offset: 1008.96 ms
+Time: 1.779 seconds
+Answer: The wiki doesn't say.
+
+
+Question: wat discord does abbot harrow use
+Start offset: 2003.78 ms
+Time: 1.683 seconds
+Answer: The wiki doesn't say.
+
+
+Question: journal drop chance % exact pls
+Start offset: 2005.17 ms
+Time: 5.402 seconds
+Answer: The wiki doesn't say.
+
+
+Question: falln pass lvl range??
+Start offset: 2005.92 ms
+Time: 2.060 seconds
+Answer: Fallen Pass is for levels 19 to 44 [1].
+
+
+Question: wheres abot harow at??
+Start offset: 2006.61 ms
+Time: 1.818 seconds
+Answer: Abbot Harrow is located in the Underdocks, specifically at the Temple of Ygorath [1].

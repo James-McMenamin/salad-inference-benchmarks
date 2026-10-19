@@ -1,0 +1,919 @@
+[
+  {
+    "model": "Gemma E4B local (historical baseline)",
+    "tasks": {
+      "intent": {
+        "passed": 57,
+        "total": 72,
+        "latencyMs": {
+          "n": 72,
+          "median": 588.6402999999991,
+          "p95": 653.705200000004
+        },
+        "inputTokens": 104094,
+        "outputTokens": 2874,
+        "calls": 69,
+        "failures": [
+          {
+            "id": "typo-location",
+            "rep": 0,
+            "reasons": [
+              "missing abb?ot"
+            ]
+          },
+          {
+            "id": "ac-location",
+            "rep": 0,
+            "reasons": [
+              "unexpected ambiguity"
+            ]
+          },
+          {
+            "id": "ac-hunt",
+            "rep": 0,
+            "reasons": [
+              "unexpected ambiguity"
+            ]
+          },
+          {
+            "id": "ss-ambiguous",
+            "rep": 0,
+            "reasons": [
+              "guessed ambiguous input"
+            ]
+          },
+          {
+            "id": "pointer-no-context",
+            "rep": 0,
+            "reasons": [
+              "guessed ambiguous input"
+            ]
+          },
+          {
+            "id": "ac-location",
+            "rep": 1,
+            "reasons": [
+              "unexpected ambiguity"
+            ]
+          },
+          {
+            "id": "ac-hunt",
+            "rep": 1,
+            "reasons": [
+              "unexpected ambiguity"
+            ]
+          },
+          {
+            "id": "ss-ambiguous",
+            "rep": 1,
+            "reasons": [
+              "guessed ambiguous input"
+            ]
+          },
+          {
+            "id": "pointer-no-context",
+            "rep": 1,
+            "reasons": [
+              "guessed ambiguous input"
+            ]
+          },
+          {
+            "id": "typo-location",
+            "rep": 1,
+            "reasons": [
+              "missing abb?ot"
+            ]
+          },
+          {
+            "id": "ac-location",
+            "rep": 2,
+            "reasons": [
+              "unexpected ambiguity"
+            ]
+          },
+          {
+            "id": "ac-hunt",
+            "rep": 2,
+            "reasons": [
+              "unexpected ambiguity"
+            ]
+          },
+          {
+            "id": "ss-ambiguous",
+            "rep": 2,
+            "reasons": [
+              "guessed ambiguous input"
+            ]
+          },
+          {
+            "id": "pointer-no-context",
+            "rep": 2,
+            "reasons": [
+              "guessed ambiguous input"
+            ]
+          },
+          {
+            "id": "typo-location",
+            "rep": 2,
+            "reasons": [
+              "missing abb?ot"
+            ]
+          }
+        ]
+      },
+      "grounding": {
+        "passed": 30,
+        "total": 30,
+        "latencyMs": {
+          "n": 30,
+          "median": 790.8112999999939,
+          "p95": 1082.7200000000012
+        },
+        "inputTokens": 54153,
+        "outputTokens": 1767,
+        "calls": 60,
+        "failures": []
+      },
+      "judge": {
+        "passed": 33,
+        "total": 36,
+        "latencyMs": {
+          "n": 36,
+          "median": 86.63770000000659,
+          "p95": 103.28000000000611
+        },
+        "inputTokens": 9330,
+        "outputTokens": 72,
+        "calls": 36,
+        "failures": [
+          {
+            "id": "bank nh were",
+            "rep": 0,
+            "reasons": [
+              "wrong game-question decision"
+            ]
+          },
+          {
+            "id": "bank nh were",
+            "rep": 1,
+            "reasons": [
+              "wrong game-question decision"
+            ]
+          },
+          {
+            "id": "bank nh were",
+            "rep": 2,
+            "reasons": [
+              "wrong game-question decision"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "model": "qwen3.5-9b",
+    "tasks": {
+      "intent": {
+        "passed": 36,
+        "total": 72,
+        "latencyMs": {
+          "n": 72,
+          "median": 1253.06289999999,
+          "p95": 7698.670700000017
+        },
+        "inputTokens": 106107,
+        "outputTokens": 7601,
+        "calls": 69,
+        "failures": [
+          {
+            "id": "typo-location",
+            "rep": 0,
+            "reasons": [
+              "missing abb?ot"
+            ]
+          },
+          {
+            "id": "typo-recipe",
+            "rep": 0,
+            "reasons": [
+              "unusable reader output"
+            ]
+          },
+          {
+            "id": "typo-level",
+            "rep": 0,
+            "reasons": [
+              "missing fall[ae]?n"
+            ]
+          },
+          {
+            "id": "ac-hunt",
+            "rep": 0,
+            "reasons": [
+              "missing ancient crypt"
+            ]
+          },
+          {
+            "id": "ac-ambiguous",
+            "rep": 0,
+            "reasons": [
+              "unusable reader output"
+            ]
+          },
+          {
+            "id": "ss-ambiguous",
+            "rep": 0,
+            "reasons": [
+              "guessed ambiguous input"
+            ]
+          },
+          {
+            "id": "npc-followup",
+            "rep": 0,
+            "reasons": [
+              "unusable reader output"
+            ]
+          },
+          {
+            "id": "class-followup",
+            "rep": 0,
+            "reasons": [
+              "unusable reader output"
+            ]
+          },
+          {
+            "id": "map-followup",
+            "rep": 0,
+            "reasons": [
+              "missing underdocks"
+            ]
+          },
+          {
+            "id": "mixed-multiple",
+            "rep": 0,
+            "reasons": [
+              "lost another question"
+            ]
+          },
+          {
+            "id": "multiple-location",
+            "rep": 0,
+            "reasons": [
+              "unusable reader output"
+            ]
+          },
+          {
+            "id": "new-zone",
+            "rep": 0,
+            "reasons": [
+              "unusable reader output"
+            ]
+          },
+          {
+            "id": "typo-level",
+            "rep": 1,
+            "reasons": [
+              "missing fall[ae]?n"
+            ]
+          },
+          {
+            "id": "typo-quest",
+            "rep": 1,
+            "reasons": [
+              "unusable reader output"
+            ]
+          },
+          {
+            "id": "ac-location",
+            "rep": 1,
+            "reasons": [
+              "unusable reader output"
+            ]
+          },
+          {
+            "id": "ac-hunt",
+            "rep": 1,
+            "reasons": [
+              "unusable reader output"
+            ]
+          },
+          {
+            "id": "ac-ambiguous",
+            "rep": 1,
+            "reasons": [
+              "unusable reader output"
+            ]
+          },
+          {
+            "id": "ss-ambiguous",
+            "rep": 1,
+            "reasons": [
+              "guessed ambiguous input"
+            ]
+          },
+          {
+            "id": "pointer-no-context",
+            "rep": 1,
+            "reasons": [
+              "guessed ambiguous input"
+            ]
+          },
+          {
+            "id": "class-followup",
+            "rep": 1,
+            "reasons": [
+              "unusable reader output"
+            ]
+          },
+          {
+            "id": "map-followup",
+            "rep": 1,
+            "reasons": [
+              "missing underdocks"
+            ]
+          },
+          {
+            "id": "mixed-multiple",
+            "rep": 1,
+            "reasons": [
+              "lost another question"
+            ]
+          },
+          {
+            "id": "name-unfamiliar",
+            "rep": 1,
+            "reasons": [
+              "unusable reader output"
+            ]
+          },
+          {
+            "id": "typo-location",
+            "rep": 1,
+            "reasons": [
+              "unusable reader output"
+            ]
+          },
+          {
+            "id": "typo-level",
+            "rep": 2,
+            "reasons": [
+              "missing fall[ae]?n"
+            ]
+          },
+          {
+            "id": "typo-quest",
+            "rep": 2,
+            "reasons": [
+              "unusable reader output"
+            ]
+          },
+          {
+            "id": "ac-location",
+            "rep": 2,
+            "reasons": [
+              "unusable reader output"
+            ]
+          },
+          {
+            "id": "ac-hunt",
+            "rep": 2,
+            "reasons": [
+              "missing ancient crypt"
+            ]
+          },
+          {
+            "id": "ac-ambiguous",
+            "rep": 2,
+            "reasons": [
+              "unusable reader output"
+            ]
+          },
+          {
+            "id": "ss-ambiguous",
+            "rep": 2,
+            "reasons": [
+              "guessed ambiguous input"
+            ]
+          },
+          {
+            "id": "npc-followup",
+            "rep": 2,
+            "reasons": [
+              "unusable reader output"
+            ]
+          },
+          {
+            "id": "recipe-followup",
+            "rep": 2,
+            "reasons": [
+              "unusable reader output"
+            ]
+          },
+          {
+            "id": "map-followup",
+            "rep": 2,
+            "reasons": [
+              "missing underdocks"
+            ]
+          },
+          {
+            "id": "mixed-multiple",
+            "rep": 2,
+            "reasons": [
+              "unusable reader output"
+            ]
+          },
+          {
+            "id": "name-unfamiliar",
+            "rep": 2,
+            "reasons": [
+              "unusable reader output"
+            ]
+          },
+          {
+            "id": "typo-location",
+            "rep": 2,
+            "reasons": [
+              "unusable reader output"
+            ]
+          }
+        ]
+      },
+      "grounding": {
+        "passed": 17,
+        "total": 30,
+        "latencyMs": {
+          "n": 30,
+          "median": 5827.624899999995,
+          "p95": 14677.169300000009
+        },
+        "inputTokens": 55326,
+        "outputTokens": 8293,
+        "calls": 60,
+        "failures": [
+          {
+            "id": "level",
+            "rep": 0,
+            "reasons": [
+              "missing 19",
+              "missing 44",
+              "no citations",
+              "did not cite Fallen Pass"
+            ]
+          },
+          {
+            "id": "recipe",
+            "rep": 0,
+            "reasons": [
+              "missing Cloth Scraps",
+              "missing Enchanted Powder",
+              "no citations",
+              "did not cite Enchanted Cloth"
+            ]
+          },
+          {
+            "id": "pronoun-answer",
+            "rep": 0,
+            "reasons": [
+              "missing Evershade Weald",
+              "no citations",
+              "did not cite A Sweet Treat"
+            ]
+          },
+          {
+            "id": "missing-release",
+            "rep": 0,
+            "reasons": [
+              "did not decline"
+            ]
+          },
+          {
+            "id": "missing-rate",
+            "rep": 0,
+            "reasons": [
+              "did not decline"
+            ]
+          },
+          {
+            "id": "recipe",
+            "rep": 1,
+            "reasons": [
+              "missing Cloth Scraps",
+              "missing Enchanted Powder",
+              "no citations",
+              "did not cite Enchanted Cloth"
+            ]
+          },
+          {
+            "id": "missing-release",
+            "rep": 1,
+            "reasons": [
+              "did not decline"
+            ]
+          },
+          {
+            "id": "missing-discord",
+            "rep": 1,
+            "reasons": [
+              "did not decline"
+            ]
+          },
+          {
+            "id": "quest",
+            "rep": 2,
+            "reasons": [
+              "missing Pippi Pinecone",
+              "no citations",
+              "did not cite A Sweet Treat"
+            ]
+          },
+          {
+            "id": "drop",
+            "rep": 2,
+            "reasons": [
+              "missing cultist",
+              "no citations",
+              "did not cite Aashir's Journal"
+            ]
+          },
+          {
+            "id": "pronoun-answer",
+            "rep": 2,
+            "reasons": [
+              "declined answerable question"
+            ]
+          },
+          {
+            "id": "missing-rate",
+            "rep": 2,
+            "reasons": [
+              "did not decline"
+            ]
+          },
+          {
+            "id": "npc",
+            "rep": 2,
+            "reasons": [
+              "missing Underdocks",
+              "missing Temple of Ygorath",
+              "no citations",
+              "did not cite Abbot Harrow"
+            ]
+          }
+        ]
+      },
+      "judge": {
+        "passed": 24,
+        "total": 36,
+        "latencyMs": {
+          "n": 36,
+          "median": 481.9986000000208,
+          "p95": 601.9063999999926
+        },
+        "inputTokens": 9408,
+        "outputTokens": 96,
+        "calls": 36,
+        "failures": [
+          {
+            "id": "any1 know wat drops aashirs journal",
+            "rep": 0,
+            "reasons": [
+              "wrong game-question decision"
+            ]
+          },
+          {
+            "id": "who do i msg for refund",
+            "rep": 0,
+            "reasons": [
+              "wrong game-question decision"
+            ]
+          },
+          {
+            "id": "im going to bed gn",
+            "rep": 0,
+            "reasons": [
+              "wrong game-question decision"
+            ]
+          },
+          {
+            "id": "whats ur phone number",
+            "rep": 0,
+            "reasons": [
+              "wrong game-question decision"
+            ]
+          },
+          {
+            "id": "any1 know wat drops aashirs journal",
+            "rep": 1,
+            "reasons": [
+              "wrong game-question decision"
+            ]
+          },
+          {
+            "id": "who do i msg for refund",
+            "rep": 1,
+            "reasons": [
+              "wrong game-question decision"
+            ]
+          },
+          {
+            "id": "im going to bed gn",
+            "rep": 1,
+            "reasons": [
+              "wrong game-question decision"
+            ]
+          },
+          {
+            "id": "whats ur phone number",
+            "rep": 1,
+            "reasons": [
+              "wrong game-question decision"
+            ]
+          },
+          {
+            "id": "any1 know wat drops aashirs journal",
+            "rep": 2,
+            "reasons": [
+              "wrong game-question decision"
+            ]
+          },
+          {
+            "id": "who do i msg for refund",
+            "rep": 2,
+            "reasons": [
+              "wrong game-question decision"
+            ]
+          },
+          {
+            "id": "im going to bed gn",
+            "rep": 2,
+            "reasons": [
+              "wrong game-question decision"
+            ]
+          },
+          {
+            "id": "whats ur phone number",
+            "rep": 2,
+            "reasons": [
+              "wrong game-question decision"
+            ]
+          }
+        ]
+      }
+    },
+    "pricing": {
+      "model": "qwen3.5-9b",
+      "rate": {
+        "input": 0.07,
+        "output": 0.23
+      },
+      "tasks": {
+        "intent": {
+          "passed": 36,
+          "total": 72,
+          "latencyMs": {
+            "n": 72,
+            "median": 1253.06289999999,
+            "p95": 7698.670700000017
+          },
+          "inputTokens": 106107,
+          "outputTokens": 7601,
+          "costUsd": 0.00917572,
+          "usdPer1000Attempts": 0.12744055555555556,
+          "usdPer1000Passes": 0.2548811111111111,
+          "truncatedCalls": 21,
+          "reasoningCalls": 0
+        },
+        "grounding": {
+          "passed": 17,
+          "total": 30,
+          "latencyMs": {
+            "n": 30,
+            "median": 5827.624899999995,
+            "p95": 14677.169300000009
+          },
+          "inputTokens": 55326,
+          "outputTokens": 8293,
+          "costUsd": 0.005780210000000001,
+          "usdPer1000Attempts": 0.1926736666666667,
+          "usdPer1000Passes": 0.3400123529411765,
+          "truncatedCalls": 20,
+          "reasoningCalls": 0
+        },
+        "judge": {
+          "passed": 24,
+          "total": 36,
+          "latencyMs": {
+            "n": 36,
+            "median": 481.9986000000208,
+            "p95": 601.9063999999926
+          },
+          "inputTokens": 9408,
+          "outputTokens": 96,
+          "costUsd": 0.00068064,
+          "usdPer1000Attempts": 0.018906666666666665,
+          "usdPer1000Passes": 0.028360000000000003,
+          "truncatedCalls": 12,
+          "reasoningCalls": 0
+        }
+      },
+      "total": 138,
+      "calls": 165,
+      "costUsd": 0.015636569999999992,
+      "inputTokens": 170841,
+      "outputTokens": 15990
+    }
+  },
+  {
+    "model": "qwen3.6-35b-a3b",
+    "tasks": {
+      "intent": {
+        "passed": 60,
+        "total": 72,
+        "latencyMs": {
+          "n": 72,
+          "median": 996.2119999999995,
+          "p95": 3137.933699999994
+        },
+        "inputTokens": 106107,
+        "outputTokens": 3446,
+        "calls": 69,
+        "failures": [
+          {
+            "id": "typo-location",
+            "rep": 0,
+            "reasons": [
+              "missing abb?ot"
+            ]
+          },
+          {
+            "id": "ss-ambiguous",
+            "rep": 0,
+            "reasons": [
+              "guessed ambiguous input"
+            ]
+          },
+          {
+            "id": "pointer-no-context",
+            "rep": 0,
+            "reasons": [
+              "guessed ambiguous input"
+            ]
+          },
+          {
+            "id": "map-followup",
+            "rep": 0,
+            "reasons": [
+              "missing underdocks"
+            ]
+          },
+          {
+            "id": "ss-ambiguous",
+            "rep": 1,
+            "reasons": [
+              "guessed ambiguous input"
+            ]
+          },
+          {
+            "id": "map-followup",
+            "rep": 1,
+            "reasons": [
+              "missing underdocks"
+            ]
+          },
+          {
+            "id": "typo-location",
+            "rep": 1,
+            "reasons": [
+              "intent other"
+            ]
+          },
+          {
+            "id": "ss-ambiguous",
+            "rep": 2,
+            "reasons": [
+              "guessed ambiguous input"
+            ]
+          },
+          {
+            "id": "pointer-no-context",
+            "rep": 2,
+            "reasons": [
+              "guessed ambiguous input"
+            ]
+          },
+          {
+            "id": "zone-followup",
+            "rep": 2,
+            "reasons": [
+              "intent where"
+            ]
+          },
+          {
+            "id": "map-followup",
+            "rep": 2,
+            "reasons": [
+              "missing underdocks"
+            ]
+          },
+          {
+            "id": "typo-location",
+            "rep": 2,
+            "reasons": [
+              "missing abb?ot"
+            ]
+          }
+        ]
+      },
+      "grounding": {
+        "passed": 30,
+        "total": 30,
+        "latencyMs": {
+          "n": 30,
+          "median": 1931.0380000000005,
+          "p95": 3533.6954999999725
+        },
+        "inputTokens": 55380,
+        "outputTokens": 1871,
+        "calls": 60,
+        "failures": []
+      },
+      "judge": {
+        "passed": 36,
+        "total": 36,
+        "latencyMs": {
+          "n": 36,
+          "median": 447.47159999998985,
+          "p95": 785.039999999979
+        },
+        "inputTokens": 9408,
+        "outputTokens": 72,
+        "calls": 36,
+        "failures": []
+      }
+    },
+    "pricing": {
+      "model": "qwen3.6-35b-a3b",
+      "rate": {
+        "input": 0.06,
+        "output": 0.95
+      },
+      "tasks": {
+        "intent": {
+          "passed": 60,
+          "total": 72,
+          "latencyMs": {
+            "n": 72,
+            "median": 996.2119999999995,
+            "p95": 3137.933699999994
+          },
+          "inputTokens": 106107,
+          "outputTokens": 3446,
+          "costUsd": 0.009640119999999997,
+          "usdPer1000Attempts": 0.1338905555555555,
+          "usdPer1000Passes": 0.1606686666666666,
+          "truncatedCalls": 0,
+          "reasoningCalls": 0
+        },
+        "grounding": {
+          "passed": 30,
+          "total": 30,
+          "latencyMs": {
+            "n": 30,
+            "median": 1931.0380000000005,
+            "p95": 3533.6954999999725
+          },
+          "inputTokens": 55380,
+          "outputTokens": 1871,
+          "costUsd": 0.0051002500000000015,
+          "usdPer1000Attempts": 0.17000833333333337,
+          "usdPer1000Passes": 0.17000833333333337,
+          "truncatedCalls": 0,
+          "reasoningCalls": 0
+        },
+        "judge": {
+          "passed": 36,
+          "total": 36,
+          "latencyMs": {
+            "n": 36,
+            "median": 447.47159999998985,
+            "p95": 785.039999999979
+          },
+          "inputTokens": 9408,
+          "outputTokens": 72,
+          "costUsd": 0.00063288,
+          "usdPer1000Attempts": 0.017580000000000002,
+          "usdPer1000Passes": 0.017580000000000002,
+          "truncatedCalls": 0,
+          "reasoningCalls": 0
+        }
+      },
+      "total": 138,
+      "calls": 165,
+      "costUsd": 0.015373250000000001,
+      "inputTokens": 170895,
+      "outputTokens": 5389
+    }
+  }
+]

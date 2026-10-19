@@ -1,0 +1,153 @@
+12 simultaneous questions, no retries.
+
+{
+  "completed": 8,
+  "passed": 8,
+  "errors": {
+    "The operation was aborted due to timeout": 4
+  },
+  "completedMedianMs": 3628.6344000000004,
+  "completedMinMs": 1597.1756999999998,
+  "completedMaxMs": 7260.345200000001,
+  "answers": [
+    {
+      "question": "falln pass lvl range??",
+      "answer": "Fallen Pass is for levels 19 to 44 [1].",
+      "seconds": 1.8196256,
+      "grade": {
+        "pass": true,
+        "reasons": [],
+        "manualReviewRequired": true
+      }
+    },
+    {
+      "question": "wheres abot harow at??",
+      "answer": "Abbot Harrow is found in Underdocks, at the Temple of Ygorath [1].",
+      "seconds": 2.2837199999999998,
+      "grade": {
+        "pass": true,
+        "reasons": [],
+        "manualReviewRequired": true
+      }
+    },
+    {
+      "question": "wat do i need 2 make enchanted cloth",
+      "answer": "To make Enchanted Cloth, you need Cloth Scraps and Enchanted Powder [1]. You must also use a Tome of Enchantment or an Enchanting Station in Night Harbor [1].",
+      "seconds": 5.533769,
+      "grade": {
+        "pass": true,
+        "reasons": [],
+        "manualReviewRequired": true
+      }
+    },
+    {
+      "question": "glass flats conects to wat zones",
+      "answer": "Glass Flats connects to Sungreet Strand and Vale of Zintar [1].",
+      "seconds": 7.260345200000001,
+      "grade": {
+        "pass": true,
+        "reasons": [],
+        "manualReviewRequired": true
+      }
+    },
+    {
+      "question": "aashirs journal wat drops it",
+      "answer": "Aashir's Journal is dropped by a cultist in Night Harbor [1].",
+      "seconds": 2.0599694,
+      "grade": {
+        "pass": true,
+        "reasons": [],
+        "manualReviewRequired": true
+      }
+    },
+    {
+      "question": "mnm mobile app release when??",
+      "answer": "The wiki doesn't say.",
+      "seconds": 1.5971756999999998,
+      "grade": {
+        "pass": true,
+        "reasons": [],
+        "manualReviewRequired": true
+      }
+    },
+    {
+      "question": "journal drop chance % exact pls",
+      "answer": "The wiki doesn't say.",
+      "seconds": 3.6286344,
+      "grade": {
+        "pass": true,
+        "reasons": [],
+        "manualReviewRequired": true
+      }
+    },
+    {
+      "question": "falln pass lvl range??",
+      "answer": "Fallen Pass is for levels 19 to 44 [1].",
+      "seconds": 5.3806395,
+      "grade": {
+        "pass": true,
+        "reasons": [],
+        "manualReviewRequired": true
+      }
+    }
+  ]
+}
+
+Question: falln pass lvl range??
+Time: 1.820 seconds
+Answer: Fallen Pass is for levels 19 to 44 [1].
+
+
+Question: wheres abot harow at??
+Time: 2.284 seconds
+Answer: Abbot Harrow is found in Underdocks, at the Temple of Ygorath [1].
+
+
+Question: who givs a sweet treat quest
+Time: 91.386 seconds
+Error: The operation was aborted due to timeout
+
+
+Question: wat do i need 2 make enchanted cloth
+Time: 5.534 seconds
+Answer: To make Enchanted Cloth, you need Cloth Scraps and Enchanted Powder [1]. You must also use a Tome of Enchantment or an Enchanting Station in Night Harbor [1].
+
+
+Question: glass flats conects to wat zones
+Time: 7.260 seconds
+Answer: Glass Flats connects to Sungreet Strand and Vale of Zintar [1].
+
+
+Question: aashirs journal wat drops it
+Time: 2.060 seconds
+Answer: Aashir's Journal is dropped by a cultist in Night Harbor [1].
+
+
+Question: where he at tho
+Time: 90.005 seconds
+Error: The operation was aborted due to timeout
+
+
+Question: mnm mobile app release when??
+Time: 1.597 seconds
+Answer: The wiki doesn't say.
+
+
+Question: wat discord does abbot harrow use
+Time: 90.006 seconds
+Error: The operation was aborted due to timeout
+
+
+Question: journal drop chance % exact pls
+Time: 3.629 seconds
+Answer: The wiki doesn't say.
+
+
+Question: falln pass lvl range??
+Time: 5.381 seconds
+Answer: Fallen Pass is for levels 19 to 44 [1].
+
+
+Question: wheres abot harow at??
+Time: 91.200 seconds
+Error: The operation was aborted due to timeout

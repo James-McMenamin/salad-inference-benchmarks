@@ -1,0 +1,17 @@
+{
+  "scope": "memoracle API concurrency comparison",
+  "specId": "36f401e243b93a985c122b1d13fc9cff8b3aadebf8f2211e13db2d4970ad3e72",
+  "status": "completed-needs-review",
+  "startedAt": "2026-10-16T00:33:18.304Z",
+  "run": "<workspace>\\memoracle\\experiments\\model-comparison\\runs\\salad-api-eight-per-second-immediate-retry-2026-10-16T00-33-18-303Z",
+  "workerPid": 49276,
+  "completed": 24,
+  "costUsd": 0.0022450399999999994,
+  "previous": {
+    "status": "completed-needs-review",
+    "run": "<workspace>\\memoracle\\experiments\\model-comparison\\runs\\salad-api-four-per-second-immediate-retry-2026-10-16T00-32-22-273Z"
+  },
+  "concurrency": 24,
+  "round": 0,
+  "finishedAt": "2026-10-16T00:34:54.153Z"
+}

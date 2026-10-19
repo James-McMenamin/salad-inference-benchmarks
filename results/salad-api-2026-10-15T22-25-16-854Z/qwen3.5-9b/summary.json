@@ -1,0 +1,62 @@
+{
+  "model": "qwen3.5-9b",
+  "rate": {
+    "input": 0.07,
+    "output": 0.23
+  },
+  "tasks": {
+    "intent": {
+      "passed": 36,
+      "total": 72,
+      "latencyMs": {
+        "n": 72,
+        "median": 1253.06289999999,
+        "p95": 7698.670700000017
+      },
+      "inputTokens": 106107,
+      "outputTokens": 7601,
+      "costUsd": 0.00917572,
+      "usdPer1000Attempts": 0.12744055555555556,
+      "usdPer1000Passes": 0.2548811111111111,
+      "truncatedCalls": 21,
+      "reasoningCalls": 0
+    },
+    "grounding": {
+      "passed": 17,
+      "total": 30,
+      "latencyMs": {
+        "n": 30,
+        "median": 5827.624899999995,
+        "p95": 14677.169300000009
+      },
+      "inputTokens": 55326,
+      "outputTokens": 8293,
+      "costUsd": 0.005780210000000001,
+      "usdPer1000Attempts": 0.1926736666666667,
+      "usdPer1000Passes": 0.3400123529411765,
+      "truncatedCalls": 20,
+      "reasoningCalls": 0
+    },
+    "judge": {
+      "passed": 24,
+      "total": 36,
+      "latencyMs": {
+        "n": 36,
+        "median": 481.9986000000208,
+        "p95": 601.9063999999926
+      },
+      "inputTokens": 9408,
+      "outputTokens": 96,
+      "costUsd": 0.00068064,
+      "usdPer1000Attempts": 0.018906666666666665,
+      "usdPer1000Passes": 0.028360000000000003,
+      "truncatedCalls": 12,
+      "reasoningCalls": 0
+    }
+  },
+  "total": 138,
+  "calls": 165,
+  "costUsd": 0.015636569999999992,
+  "inputTokens": 170841,
+  "outputTokens": 15990
+}

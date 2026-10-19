@@ -1,0 +1,15 @@
+[node-llama-cpp] load: control-looking token:     50 '<|tool_response>' was not control-type; this is probably a bug in the model. its type will be overridden
+[node-llama-cpp] load: control-looking token:    212 '</s>' was not control-type; this is probably a bug in the model. its type will be overridden
+[node-llama-cpp] load: special_eog_ids contains '<|tool_response>', removing '</s>' token from EOG list
+concurrency=8 round=1 wave=1/4 6093ms 8/8 rubric passes
+concurrency=8 round=1 wave=2/4 5729ms 8/8 rubric passes
+concurrency=8 round=1 wave=3/4 5523ms 8/8 rubric passes
+concurrency=8 round=1 wave=4/4 5766ms 8/8 rubric passes
+concurrency=8 round=2 wave=1/4 5985ms 8/8 rubric passes
+concurrency=8 round=2 wave=2/4 9175ms 8/8 rubric passes
+concurrency=8 round=2 wave=3/4 5834ms 8/8 rubric passes
+concurrency=8 round=2 wave=4/4 5193ms 8/8 rubric passes
+concurrency=8 round=3 wave=1/4 6047ms 8/8 rubric passes
+concurrency=8 round=3 wave=2/4 6040ms 8/8 rubric passes
+concurrency=8 round=3 wave=3/4 5852ms 8/8 rubric passes
+concurrency=8 round=3 wave=4/4 5635ms 8/8 rubric passes

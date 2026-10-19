@@ -1,0 +1,126 @@
+[
+  {
+    "concurrency": 2,
+    "requests": 96,
+    "passed": 38,
+    "errors": 56,
+    "latencyMs": {
+      "n": 96,
+      "median": 604.126900000032,
+      "p95": 3324.0977999999996,
+      "max": 5577.9501
+    },
+    "firstAnswerTokenMs": {
+      "n": 0,
+      "median": null,
+      "p95": null,
+      "max": null
+    },
+    "wallMs": 69917.37849999999,
+    "requestsPerSecond": 1.3730491911964349,
+    "answerTokensPerSecond": 10.097632593590449,
+    "peakActiveApiCalls": 2,
+    "calls": 80,
+    "inputTokens": 73795,
+    "outputTokens": 2540,
+    "costUsd": 0.0068407,
+    "usdPer1000Attempts": 0.07125729166666667,
+    "usdPer1000Passes": 0.18001842105263158,
+    "truncatedCalls": 0,
+    "reasoningCalls": 0,
+    "requestsWithUnknownCharge": 56
+  },
+  {
+    "concurrency": 4,
+    "requests": 96,
+    "passed": 64,
+    "errors": 32,
+    "latencyMs": {
+      "n": 96,
+      "median": 1277.0815000000002,
+      "p95": 3316.2001999999993,
+      "max": 4306.239200000011
+    },
+    "firstAnswerTokenMs": {
+      "n": 0,
+      "median": null,
+      "p95": null,
+      "max": null
+    },
+    "wallMs": 54828.912300000025,
+    "requestsPerSecond": 1.7509010478765226,
+    "answerTokensPerSecond": 22.378704018171803,
+    "peakActiveApiCalls": 4,
+    "calls": 128,
+    "inputTokens": 118102,
+    "outputTokens": 4141,
+    "costUsd": 0.01102007,
+    "usdPer1000Attempts": 0.11479239583333334,
+    "usdPer1000Passes": 0.17218859375,
+    "truncatedCalls": 0,
+    "reasoningCalls": 0,
+    "requestsWithUnknownCharge": 32
+  },
+  {
+    "concurrency": 8,
+    "requests": 96,
+    "passed": 31,
+    "errors": 64,
+    "latencyMs": {
+      "n": 96,
+      "median": 600.1416999999783,
+      "p95": 3537.811300000001,
+      "max": 5659.413099999991
+    },
+    "firstAnswerTokenMs": {
+      "n": 0,
+      "median": null,
+      "p95": null,
+      "max": null
+    },
+    "wallMs": 23200.483499999973,
+    "requestsPerSecond": 4.137844799656874,
+    "answerTokensPerSecond": 26.93909374776611,
+    "peakActiveApiCalls": 8,
+    "calls": 64,
+    "inputTokens": 59038,
+    "outputTokens": 2085,
+    "costUsd": 0.005523029999999999,
+    "usdPer1000Attempts": 0.05753156249999999,
+    "usdPer1000Passes": 0.1781622580645161,
+    "truncatedCalls": 0,
+    "reasoningCalls": 0,
+    "requestsWithUnknownCharge": 64
+  },
+  {
+    "concurrency": 16,
+    "requests": 96,
+    "passed": 1,
+    "errors": 95,
+    "latencyMs": {
+      "n": 96,
+      "median": 606.320000000007,
+      "p95": 91247.00829999999,
+      "max": 93156.34069999997
+    },
+    "firstAnswerTokenMs": {
+      "n": 0,
+      "median": null,
+      "p95": null,
+      "max": null
+    },
+    "wallMs": 188249.65570000003,
+    "requestsPerSecond": 0.5099610920563292,
+    "answerTokensPerSecond": 0.11686608359624212,
+    "peakActiveApiCalls": 16,
+    "calls": 22,
+    "inputTokens": 32420,
+    "outputTokens": 953,
+    "costUsd": 0.0028505499999999994,
+    "usdPer1000Attempts": 0.02969322916666666,
+    "usdPer1000Passes": 2.8505499999999993,
+    "truncatedCalls": 0,
+    "reasoningCalls": 0,
+    "requestsWithUnknownCharge": 95
+  }
+]

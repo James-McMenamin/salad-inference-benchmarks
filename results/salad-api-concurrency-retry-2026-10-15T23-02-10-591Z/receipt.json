@@ -1,0 +1,17 @@
+{
+  "scope": "memoracle API concurrency comparison",
+  "specId": "3bbd9b56a14d8f61cad384295a2cad604d3bd019bc0ee8cbb98e2300a45a316e",
+  "status": "failed",
+  "startedAt": "2026-10-15T23:02:10.592Z",
+  "run": "<workspace>\\memoracle\\experiments\\model-comparison\\runs\\salad-api-concurrency-retry-2026-10-15T23-02-10-591Z",
+  "workerPid": 17212,
+  "completed": 48,
+  "costUsd": 0.007427470000000001,
+  "previous": {
+    "status": "completed-reviewed-by-assistant",
+    "run": "<workspace>\\memoracle\\experiments\\model-comparison\\runs\\salad-api-concurrency-2026-10-15T22-50-02-529Z"
+  },
+  "concurrency": 16,
+  "round": 1,
+  "error": "Error: Authorization, credit, or model failure; stopping without retries\n    at file:///<workspace>/memoracle/experiments/model-comparison/salad-api-concurrency-retry.mjs:119:79"
+}

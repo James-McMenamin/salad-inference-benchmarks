@@ -1,0 +1,209 @@
+8 questions each at t=0, t=1, t=2 seconds; no retries.
+
+{
+  "groups": [
+    {
+      "scheduledOffsetMs": 0,
+      "actualStartsMs": [
+        0.05309999999997217,
+        1.7855999999999312,
+        2.2491999999999734,
+        2.5866999999999507,
+        2.8911999999999125,
+        3.1798,
+        3.3402999999999565,
+        3.6486999999999625
+      ],
+      "completed": 0,
+      "passed": 0,
+      "errors": {
+        "The operation was aborted due to timeout": 3,
+        "HTTP 503": 5
+      }
+    },
+    {
+      "scheduledOffsetMs": 1000,
+      "actualStartsMs": [
+        1000.6606999999999,
+        1002.4416999999999,
+        1003.2743,
+        1004.0219,
+        1004.6777999999999,
+        1005.3027,
+        1005.9450999999999,
+        1006.5521999999999
+      ],
+      "completed": 0,
+      "passed": 0,
+      "errors": {
+        "HTTP 503": 6,
+        "The operation was aborted due to timeout": 2
+      }
+    },
+    {
+      "scheduledOffsetMs": 2000,
+      "actualStartsMs": [
+        2005.3841999999997,
+        2006.5552999999998,
+        2007.2796,
+        2007.8740999999998,
+        2008.4262999999999,
+        2008.9855,
+        2009.5186999999999,
+        2010.0741999999998
+      ],
+      "completed": 0,
+      "passed": 0,
+      "errors": {
+        "HTTP 503": 5,
+        "The operation was aborted due to timeout": 3
+      }
+    }
+  ],
+  "peakActiveApiCalls": 24,
+  "costUsd": 0.00094933,
+  "completedAnswers": []
+}
+
+Question: falln pass lvl range??
+Actual start: 0.05 ms
+Time: 97.955 seconds
+Error: The operation was aborted due to timeout
+
+
+Question: wheres abot harow at??
+Actual start: 1.79 ms
+Time: 9.019 seconds
+Error: HTTP 503
+
+
+Question: who givs a sweet treat quest
+Actual start: 2.25 ms
+Time: 13.951 seconds
+Error: HTTP 503
+
+
+Question: wat do i need 2 make enchanted cloth
+Actual start: 2.59 ms
+Time: 9.314 seconds
+Error: HTTP 503
+
+
+Question: glass flats conects to wat zones
+Actual start: 2.89 ms
+Time: 99.402 seconds
+Error: The operation was aborted due to timeout
+
+
+Question: aashirs journal wat drops it
+Actual start: 3.18 ms
+Time: 8.203 seconds
+Error: HTTP 503
+
+
+Question: where he at tho
+Actual start: 3.34 ms
+Time: 98.590 seconds
+Error: The operation was aborted due to timeout
+
+
+Question: mnm mobile app release when??
+Actual start: 3.65 ms
+Time: 8.069 seconds
+Error: HTTP 503
+
+
+Question: wat discord does abbot harrow use
+Actual start: 1000.66 ms
+Time: 6.529 seconds
+Error: HTTP 503
+
+
+Question: journal drop chance % exact pls
+Actual start: 1002.44 ms
+Time: 90.004 seconds
+Error: The operation was aborted due to timeout
+
+
+Question: falln pass lvl range??
+Actual start: 1003.27 ms
+Time: 90.003 seconds
+Error: The operation was aborted due to timeout
+
+
+Question: wheres abot harow at??
+Actual start: 1004.02 ms
+Time: 7.061 seconds
+Error: HTTP 503
+
+
+Question: who givs a sweet treat quest
+Actual start: 1004.68 ms
+Time: 6.849 seconds
+Error: HTTP 503
+
+
+Question: wat do i need 2 make enchanted cloth
+Actual start: 1005.30 ms
+Time: 8.686 seconds
+Error: HTTP 503
+
+
+Question: glass flats conects to wat zones
+Actual start: 1005.95 ms
+Time: 7.018 seconds
+Error: HTTP 503
+
+
+Question: aashirs journal wat drops it
+Actual start: 1006.55 ms
+Time: 6.899 seconds
+Error: HTTP 503
+
+
+Question: where he at tho
+Actual start: 2005.38 ms
+Time: 5.717 seconds
+Error: HTTP 503
+
+
+Question: mnm mobile app release when??
+Actual start: 2006.56 ms
+Time: 6.121 seconds
+Error: HTTP 503
+
+
+Question: wat discord does abbot harrow use
+Actual start: 2007.28 ms
+Time: 90.009 seconds
+Error: The operation was aborted due to timeout
+
+
+Question: journal drop chance % exact pls
+Actual start: 2007.87 ms
+Time: 5.868 seconds
+Error: HTTP 503
+
+
+Question: falln pass lvl range??
+Actual start: 2008.43 ms
+Time: 90.008 seconds
+Error: The operation was aborted due to timeout
+
+
+Question: wheres abot harow at??
+Actual start: 2008.99 ms
+Time: 90.007 seconds
+Error: The operation was aborted due to timeout
+
+
+Question: who givs a sweet treat quest
+Actual start: 2009.52 ms
+Time: 6.064 seconds
+Error: HTTP 503
+
+
+Question: wat do i need 2 make enchanted cloth
+Actual start: 2010.07 ms
+Time: 5.835 seconds
+Error: HTTP 503

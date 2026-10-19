@@ -1,0 +1,1954 @@
+{
+  "createdAt": "2026-10-15T21:15:57.236Z",
+  "model": {
+    "id": "gemma4-e4b",
+    "repo": "google/gemma-4-E4B-it-qat-q4_0-gguf",
+    "revision": "4b4a2c1d584be7264f87aac328a1bc739ce81b6c",
+    "name": "gemma-4-E4B_q4_0-it.gguf",
+    "sha256": "676c35070db6dbe52f93e9c864ee0fba4eddea94b9c875d9cb10daff453fbaee",
+    "quant": "QAT Q4_0",
+    "file": "<workspace>\\memoracle\\experiments\\model-comparison\\prepared\\gemma-4-E4B_q4_0-it.gguf",
+    "bytes": 5154941280
+  },
+  "runtime": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\index.js",
+  "runtimeInputs": [
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\apiDocsIndex.js",
+      "size": 206,
+      "mtimeMs": 1791391312326.85,
+      "sha256": "a452102129b2479d7d179c800dee5486be8745b7e7e24dae25a12bb494a9463e"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\bindings\\AddonTypes.js",
+      "size": 49,
+      "mtimeMs": 1791391312319.104,
+      "sha256": "c8211ea50b093a25202d3345097c826b33241c9030e7443e9823cd235d39207f"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\bindings\\consts.js",
+      "size": 329,
+      "mtimeMs": 1791391312399.5122,
+      "sha256": "a91ba6c74b04615faf9b5b0530574463ad576ca1a833e1cf32ed3a9ec860ec0d"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\bindings\\getLlama.js",
+      "size": 27082,
+      "mtimeMs": 1791391312558.67,
+      "sha256": "125851f9a670422542359e3e4e255f4985f85725d86d98b85b1a825211ad5e02"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\bindings\\Llama.js",
+      "size": 31029,
+      "mtimeMs": 1791391312758.2075,
+      "sha256": "ecd4b0b224ab8dc4de545b9baa9103f03a8b57d1e8ec6be6e203e9a3acb9abd9"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\bindings\\types.js",
+      "size": 3650,
+      "mtimeMs": 1791391313026.976,
+      "sha256": "4f53616ee12ef5df4586ac7553595b1e9f1ef0ad5ff7f96e01dd960f01594439"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\bindings\\utils\\applyLlamaCppRepoPatches.js",
+      "size": 3607,
+      "mtimeMs": 1791391312330.6062,
+      "sha256": "6adbbcfd46a022cf533ccac7dec43db7c3c66585174c2b30926cbebc5841b0c0"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\bindings\\utils\\asyncEvery.js",
+      "size": 559,
+      "mtimeMs": 1791391312334.2178,
+      "sha256": "802fcef172c14dd7b8e89516a2f4e33ec639b3a8f5226e7cc048ba5ccaa0af75"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\bindings\\utils\\asyncSome.js",
+      "size": 1038,
+      "mtimeMs": 1791391312335.7815,
+      "sha256": "bde2f6f3c03c11a73e0e81ff110536790639a808f08036ba3c2575fa6780dbd7"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\bindings\\utils\\binariesGithubRelease.js",
+      "size": 731,
+      "mtimeMs": 1791391312340.4155,
+      "sha256": "92ee16a6366d350f78ab2fdbf5b2559ef85eaeaa149348c561d9faca01493f04"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\bindings\\utils\\clearAllLocalBuilds.js",
+      "size": 2122,
+      "mtimeMs": 1791391312369.1758,
+      "sha256": "ae724d4a7e3d1cefc1a06d82a89bb1bd86376faf5d327a41fe4d54df3413e196"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\bindings\\utils\\cloneLlamaCppRepo.js",
+      "size": 8330,
+      "mtimeMs": 1791391312377.017,
+      "sha256": "d82d1d67937beb396aef17c3eedcc78832ccba8c8a90992164d8d93dd272836d"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\bindings\\utils\\compileLLamaCpp.js",
+      "size": 30483,
+      "mtimeMs": 1791391312383.7883,
+      "sha256": "d7f4a93e4e232ad8319c58f647b470132f4ef1c627775f4ebb490d4279ec7fa2"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\bindings\\utils\\detectAvailableComputeLayers.js",
+      "size": 13726,
+      "mtimeMs": 1791391312422.4104,
+      "sha256": "a599ae7ada45e0d0a9f75a066680c0a575004d7d27e8d22774d1536351d917eb"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\bindings\\utils\\detectBuildTools.js",
+      "size": 6666,
+      "mtimeMs": 1791391312424.4995,
+      "sha256": "ac422a3b76e0e635e55c68f6532a29829f2c65f3ae094a9e964d5b7d49f5e280"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\bindings\\utils\\detectGlibc.js",
+      "size": 3000,
+      "mtimeMs": 1791391312426.0334,
+      "sha256": "4b7eae1f09cd931b945e4be616908e46ed4d5b6afbb7eb6179d99ca23082cb98"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\bindings\\utils\\disposeBeforeExit.js",
+      "size": 1261,
+      "mtimeMs": 1791391312427.5723,
+      "sha256": "fb86435a41357625be5c7e60981a37ec3eaca7b4284d56284de970b16f4ff121"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\bindings\\utils\\getBestComputeLayersAvailable.js",
+      "size": 1224,
+      "mtimeMs": 1791391312526.858,
+      "sha256": "4e2f146b8956b080abbce92e69b31cb85188d0efcf34030d560f5e9c2bbc08ac"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\bindings\\utils\\getBuildFolderNameForBuildOptions.js",
+      "size": 4256,
+      "mtimeMs": 1791391312529.4436,
+      "sha256": "726f27f04451bdec996a2a1af3cdc2f46c9379a3f1c53ec73a7a13e272e210ff"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\bindings\\utils\\getCanUsePrebuiltBinaries.js",
+      "size": 602,
+      "mtimeMs": 1791391312530.9797,
+      "sha256": "82f0a5026a53b676089feeeee5d9b8fe31c2fcc488245e4c17f5f772e2b08f22"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\bindings\\utils\\getExampleUsageCodeOfGetLlama.js",
+      "size": 1260,
+      "mtimeMs": 1791391312534.093,
+      "sha256": "bb8a2fc18ffaa8eeea398da7469e1e33846dd4862627bf6c41d75da4cf500ad7"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\bindings\\utils\\getGpuTypesToUseForOption.js",
+      "size": 1485,
+      "mtimeMs": 1791391312549.1914,
+      "sha256": "252c98efcadbee119611403dd59f841891ceffdfae0c17c1cd339bb45e4e82b5"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\bindings\\utils\\getLinuxDistroInfo.js",
+      "size": 1759,
+      "mtimeMs": 1791391312555.3892,
+      "sha256": "9d7f27fb57821de370a8b4456c528ea3493599676bf2a9ca14729e383f4a2794"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\bindings\\utils\\getLlamaGpuTypes.js",
+      "size": 1597,
+      "mtimeMs": 1791391312561.7778,
+      "sha256": "44f7678907800ce07d0547ad67403222371cbb4ca9548ec393aa723a16e553c3"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\bindings\\utils\\getLlamaWithoutBackend.js",
+      "size": 1425,
+      "mtimeMs": 1791391312563.859,
+      "sha256": "d00e8d76323bdeadd3702153928dfe1fa08b1e58135a5a9b7e331b000c9d9ff7"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\bindings\\utils\\getPlatform.js",
+      "size": 365,
+      "mtimeMs": 1791391312568.0137,
+      "sha256": "4fbdbbe6c4b2660a2063ca4a2d62c26e2ae307e15c79e9294e38958e4d18f98c"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\bindings\\utils\\getPlatformInfo.js",
+      "size": 814,
+      "mtimeMs": 1791391312569.0586,
+      "sha256": "b8a40913c1db2e793e9f9a7ce13bb71010e7cf1a8ee0fd9c5c584bac92be0e02"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\bindings\\utils\\hasBuildingFromSourceDependenciesInstalled.js",
+      "size": 651,
+      "mtimeMs": 1791391312704.842,
+      "sha256": "d152c04f153a31f2029f36d24e9add72bf233ae6e39945d51b986ee749af3177"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\bindings\\utils\\hasFileInPath.js",
+      "size": 1483,
+      "mtimeMs": 1791391312707.4202,
+      "sha256": "f7e8c2a6d2655aa4352f8d7f1eb002fd91f310b97596971662960be462234e2a"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\bindings\\utils\\lastBuildInfo.js",
+      "size": 464,
+      "mtimeMs": 1791391312752.3662,
+      "sha256": "fac8ae83a122c904ed3e916fdf792a25ad1416817d5b1dc638576dff84727ca8"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\bindings\\utils\\logBinaryUsageExampleToConsole.js",
+      "size": 1132,
+      "mtimeMs": 1791391312827.0823,
+      "sha256": "84ad2a35b8d4bfd375d710cf70aeb096ae6f88502b203bb2d2a7ecba45a8738a"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\bindings\\utils\\logDistroInstallInstruction.js",
+      "size": 2156,
+      "mtimeMs": 1791391312828.6345,
+      "sha256": "4d300c296da90d2a362f442e47d6e43e763dd334151fbceb377bcc64d125c51b"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\bindings\\utils\\MemoryOrchestrator.js",
+      "size": 3598,
+      "mtimeMs": 1791391312835.476,
+      "sha256": "fefbb2bac798460e8cbf8f149c9f858d154ba5c9af725a1073be39cc3dd3eab6"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\bindings\\utils\\NoBinaryFoundError.js",
+      "size": 197,
+      "mtimeMs": 1791391312845.436,
+      "sha256": "4b2d75bc26da5cd695091e77ea36d3bec1528f7316404526bcefb1f13e95e7e1"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\bindings\\utils\\resolveActualBindingBinaryPath.js",
+      "size": 624,
+      "mtimeMs": 1791391312921.4043,
+      "sha256": "0e3038cb81548fe3b5e693e88e83c2abd57afc1af5cf304c865f65a6c4d8340b"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\bindings\\utils\\resolveCustomCmakeOptions.js",
+      "size": 2332,
+      "mtimeMs": 1791391312937.052,
+      "sha256": "3649144fd7324f1bf3d3cce54455d9199da81a03055156203913304f3a4d7a85"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\bindings\\utils\\testBindingBinary.js",
+      "size": 11211,
+      "mtimeMs": 1791391312990.7935,
+      "sha256": "87857f7fcddbf87c4d14a32331f88b3fefb5c40471f7b0151e94d46d881d6354"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\bindings\\utils\\testCmakeBinary.js",
+      "size": 1072,
+      "mtimeMs": 1791391312993.354,
+      "sha256": "322067542bd7fbc79a3b7af882835874f47e9252443a2ff26087ac603ae2eaf1"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\ChatWrapper.js",
+      "size": 11779,
+      "mtimeMs": 1791391312361.3967,
+      "sha256": "ff53bba9567cf4e761622e3021f3f83a044741834997dd2a5718a22607865cac"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\chatWrappers\\AlpacaChatWrapper.js",
+      "size": 1278,
+      "mtimeMs": 1791391312324.7742,
+      "sha256": "ae5e10d9fc78e5eed6e37df5185af74fd1a94fb67a1016f016029ac224da08c3"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\chatWrappers\\ChatMLChatWrapper.js",
+      "size": 3563,
+      "mtimeMs": 1791391312357.1367,
+      "sha256": "89b2ed2393b0219d8a17cd1a99e24e70f2a8c3e12edf0328c3d912738383fa20"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\chatWrappers\\DeepSeekChatWrapper.js",
+      "size": 17293,
+      "mtimeMs": 1791391312416.157,
+      "sha256": "712eba0bd11ce17e885b6ad599c3eee43de49ca738a0143839967295a4d5b691"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\chatWrappers\\EmptyChatWrapper.js",
+      "size": 174,
+      "mtimeMs": 1791391312436.4749,
+      "sha256": "cf242397d956e6c44f83123ab6888308fee4cdbea8d1fe970f45c8b7c4e42dcc"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\chatWrappers\\FalconChatWrapper.js",
+      "size": 5527,
+      "mtimeMs": 1791391312451.072,
+      "sha256": "8f08a4c6cbecea661681d02c14b69fd6253cf16a58be5eaddc587a984e5889cc"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\chatWrappers\\FunctionaryChatWrapper.js",
+      "size": 29960,
+      "mtimeMs": 1791391312466.2568,
+      "sha256": "40fa00f17c0a117838561dd6ea16c60b93b5d39fce008d7bbfd7036442d778bb"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\chatWrappers\\Gemma4ChatWrapper.js",
+      "size": 8301,
+      "mtimeMs": 1791391312517.4314,
+      "sha256": "62bc06cb1784ae17de6f25f611c533c3cc2df2e3762d2b26f5756fa0444e801b"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\chatWrappers\\GemmaChatWrapper.js",
+      "size": 4014,
+      "mtimeMs": 1791391312521.5715,
+      "sha256": "53f4ccea5b27dca4b888db12c8ece6d3f6169e6db0479c623f3b63cca0dab7ba"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\chatWrappers\\GeneralChatWrapper.js",
+      "size": 6626,
+      "mtimeMs": 1791391312523.115,
+      "sha256": "ee64545bbbdbcb1dad57f47701afb85bdcc32eb9071be05d7856ed13b524a3d4"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\chatWrappers\\generic\\JinjaTemplateChatWrapper.js",
+      "size": 47832,
+      "mtimeMs": 1791391312748.7583,
+      "sha256": "96c405e7d5a59fac1467f0ecf00bb13c7bade87ccce06f6675e1353c70775493"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\chatWrappers\\generic\\TemplateChatWrapper.js",
+      "size": 9709,
+      "mtimeMs": 1791391312987.1829,
+      "sha256": "89145ecbdbfbd3101d9245703cfa108aa8ba41a46ed93ad496e935d6b1fb6d66"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\chatWrappers\\generic\\utils\\alignFunctionCallAndSegmentSettings.js",
+      "size": 1940,
+      "mtimeMs": 1791391312322.7085,
+      "sha256": "01a797d8cde62ca573974c28bf4f7e82adb5bf9d828edae9bfa77db37fa2687a"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\chatWrappers\\generic\\utils\\chatHistoryFunctionCallMessageTemplate.js",
+      "size": 2169,
+      "mtimeMs": 1791391312353.4578,
+      "sha256": "5c3cad807c8bac246a29fee30042b288c438a0a980d3803df475d9cbc001fbd8"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\chatWrappers\\generic\\utils\\extractFunctionCallSettingsFromJinjaTemplate.js",
+      "size": 35559,
+      "mtimeMs": 1791391312444.7617,
+      "sha256": "05fbf836aacfe6f00a78f229769b4dc508aecc93f216a78b0de77e6217ce4993"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\chatWrappers\\generic\\utils\\extractSegmentSettingsFromTokenizerAndChatTemplate.js",
+      "size": 19452,
+      "mtimeMs": 1791391312448.3704,
+      "sha256": "eede565d5c6ac16eba1267154265018c0b3abf1a4a63400d38fa7b1b7a74046a"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\chatWrappers\\generic\\utils\\getFirstValidResult.js",
+      "size": 577,
+      "mtimeMs": 1791391312535.643,
+      "sha256": "bfdd8374f90da05dfb857f4184f97bef4c80ff1abfaca871c57e7e137c8e11bc"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\chatWrappers\\generic\\utils\\squashChatHistoryItems.js",
+      "size": 1482,
+      "mtimeMs": 1791391312980.4397,
+      "sha256": "caf59aca85b01d424db66bc2a35a3f1bded63d5a997d0712bf48bf626d95a824"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\chatWrappers\\generic\\utils\\templateSegmentOptionsToChatWrapperSettings.js",
+      "size": 1331,
+      "mtimeMs": 1791391312988.731,
+      "sha256": "24a22aead1bd1cdcf86f7d23c885529904c90c0b0309066b5cf069e2037084d1"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\chatWrappers\\generic\\utils\\UniqueIdGenerator.js",
+      "size": 860,
+      "mtimeMs": 1791391313035.2517,
+      "sha256": "58f761747feb14745be256f770142ce4ec59fc58449d03a2b1654c030738f682"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\chatWrappers\\HarmonyChatWrapper.js",
+      "size": 24309,
+      "mtimeMs": 1791391312702.7473,
+      "sha256": "503333c23980b16e23011a15132fd77f7e58ecc2c73a4cedebfb6e0258d0c5d6"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\chatWrappers\\Llama2ChatWrapper.js",
+      "size": 3812,
+      "mtimeMs": 1791391312759.7476,
+      "sha256": "ebefd573ed857de418b132107a7264e03a89a69e1b77817f184dd1ae6c3af8fe"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\chatWrappers\\Llama3ChatWrapper.js",
+      "size": 8143,
+      "mtimeMs": 1791391312765.93,
+      "sha256": "fb2b8f4c33dc4c8854a8c294177d31905c1a5dfcad6697fded0fe5f770aeaf88"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\chatWrappers\\Llama3_1ChatWrapper.js",
+      "size": 13657,
+      "mtimeMs": 1791391312761.8025,
+      "sha256": "fd4b4cc8f9dd914e5520a737c86c44090424c90c7f6f42a1a8c19767802f09de"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\chatWrappers\\Llama3_2LightweightChatWrapper.js",
+      "size": 12506,
+      "mtimeMs": 1791391312763.8542,
+      "sha256": "849f8827491356889245cec7c63770ebc7d0823fe02ee63d3a8b7c11f8e8a1d4"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\chatWrappers\\MistralChatWrapper.js",
+      "size": 8500,
+      "mtimeMs": 1791391312838.5928,
+      "sha256": "ddb591e87b02cb033dc0213b02c8b5325703b985f70ddebf1f52cb8074f96f4c"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\chatWrappers\\MuseChatWrapper.js",
+      "size": 19476,
+      "mtimeMs": 1791391312844.3984,
+      "sha256": "87f6541993301ff07d57518d38ba78e75fd032c7960a37c1042410845ee18e27"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\chatWrappers\\QwenChatWrapper.js",
+      "size": 17889,
+      "mtimeMs": 1791391312905.0793,
+      "sha256": "a68844358e8be7cab98224d3f1850a170f7ab150fabdfbd65f4708bb8ea14f08"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\chatWrappers\\SeedChatWrapper.js",
+      "size": 9104,
+      "mtimeMs": 1791391312968.349,
+      "sha256": "a83d5923385ed8885ef0e7843ba50f1090dab7dff0df1ad5c7181c2fda3e9a95"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\chatWrappers\\utils\\ChatModelFunctionsDocumentationGenerator.js",
+      "size": 8147,
+      "mtimeMs": 1791391312359.339,
+      "sha256": "30f42bc6cbb61ae14ae7dff527687690cacb40d54fc0ccbefc77f84ae022e655"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\chatWrappers\\utils\\chunkChatItems.js",
+      "size": 1718,
+      "mtimeMs": 1791391312363.464,
+      "sha256": "103d3392aaa01432506a6e2ea483185cadb6d47d5a71c8e4724982409df471a9"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\chatWrappers\\utils\\getModelLinageNames.js",
+      "size": 708,
+      "mtimeMs": 1791391312565.4011,
+      "sha256": "ce233cd529527674f7d8ff4d7af35ec710f722227b77f21ef6b53e7d826a59fd"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\chatWrappers\\utils\\isJinjaTemplateEquivalentToSpecializedChatWrapper.js",
+      "size": 18871,
+      "mtimeMs": 1791391312736.6943,
+      "sha256": "5f8b9c7325ab13fb573dd69e3f526c9d406c1a97b58f951315bcab3846150e70"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\chatWrappers\\utils\\isLlama3_2LightweightModel.js",
+      "size": 544,
+      "mtimeMs": 1791391312738.244,
+      "sha256": "f1c929bcca783fb4d72a70670f01738f6fa8e2ebc084f882a2de069c247b7492"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\chatWrappers\\utils\\jsonDumps.js",
+      "size": 597,
+      "mtimeMs": 1791391312750.3064,
+      "sha256": "17ae927e46310d603ff66c38270f07f3d337ad78886870eb007be099f11c8794"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\chatWrappers\\utils\\replaceRegularTextInLlamaText.js",
+      "size": 362,
+      "mtimeMs": 1791391312918.1597,
+      "sha256": "fb1ee2c3a498d69d89ad4fc0892ba979cf8a41367537f5b9f84bab4c174ab3a2"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\chatWrappers\\utils\\resolveChatWrapper.js",
+      "size": 20106,
+      "mtimeMs": 1791391312928.6172,
+      "sha256": "0df513d52083a2b0f4844e1dbbd7f22c5605717726bd19e189e474e366c2211b"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\cli\\cli.js",
+      "size": 1855,
+      "mtimeMs": 1791391312374.937,
+      "sha256": "87c4356e6eea031dfac3d2e4d1601cc699eea21337d03acad6e33403b67a6aa9"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\cli\\commands\\ChatCommand.js",
+      "size": 45016,
+      "mtimeMs": 1791391312351.4126,
+      "sha256": "f8fdb0c32d14cb0063fcbbe867250572ccad422d939b4ed1db22213069099f79"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\cli\\commands\\CompleteCommand.js",
+      "size": 34584,
+      "mtimeMs": 1791391312386.9019,
+      "sha256": "afbbbece82a5da60125e964a53f6fad00395ed4ceda647f60c77be3b38a0ae0c"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\cli\\commands\\DebugCommand.js",
+      "size": 2728,
+      "mtimeMs": 1791391312415.1406,
+      "sha256": "353d3bf1e66373f1033272a7b3bb1e17c8a8b73de50e00d0d9bebf82349e7233"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\cli\\commands\\InfillCommand.js",
+      "size": 36222,
+      "mtimeMs": 1791391312714.2947,
+      "sha256": "f36bc8f4708d233682d4b7e58255a38c81a31c55571597bd5ac1b9238302b667"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\cli\\commands\\InitCommand.js",
+      "size": 10816,
+      "mtimeMs": 1791391312716.3618,
+      "sha256": "fba77ab53edbbb1df7a1af1e1578dfb4ef3f8b84811fa3e19955786e78baf674"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\cli\\commands\\inspect\\commands\\InspectEstimateCommand.js",
+      "size": 17253,
+      "mtimeMs": 1791391312722.597,
+      "sha256": "82e38c957c0c8f7ce1a31ee82f64a19574876b29c7508747ae1bcada123fdc1c"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\cli\\commands\\inspect\\commands\\InspectGgufCommand.js",
+      "size": 12144,
+      "mtimeMs": 1791391312724.8367,
+      "sha256": "0ccb985d8de90296d1dea42f1e6b636b2b03e06d4962a851c6fc945421679570"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\cli\\commands\\inspect\\commands\\InspectGpuCommand.js",
+      "size": 16142,
+      "mtimeMs": 1791391312726.906,
+      "sha256": "a9d15a1dfcad20509614b148dd9e87054928a7247294ffd7844a79eb84bf9411"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\cli\\commands\\inspect\\commands\\InspectMeasureCommand.js",
+      "size": 47792,
+      "mtimeMs": 1791391312729.477,
+      "sha256": "32a0662925088f47e34ca772793031564118560ffab8ca14a9894d9985becea2"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\cli\\commands\\inspect\\InspectCommand.js",
+      "size": 1022,
+      "mtimeMs": 1791391312720.0027,
+      "sha256": "7eeab694515bd1fe68233095d52e8cf2783a38da363fc9c4a297be0dcb2e095e"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\cli\\commands\\OnPostInstallCommand.js",
+      "size": 3512,
+      "mtimeMs": 1791391312849.0776,
+      "sha256": "6b2b225c3207975bdb5efcc1af969953cf1a49d24878ddbb4d29c7486f715f1e"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\cli\\commands\\PullCommand.js",
+      "size": 7361,
+      "mtimeMs": 1791391312900.7742,
+      "sha256": "476d04d574bb5104133f49ef75dc52334500a6f1c46dc96942c01edb95e0a181"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\cli\\commands\\source\\commands\\BuildCommand.js",
+      "size": 6870,
+      "mtimeMs": 1791391312347.2617,
+      "sha256": "ccef5c392b08817fbeb7c8adecfe94f930a81e2df5fc176c236ac2b10710f764"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\cli\\commands\\source\\commands\\ClearCommand.js",
+      "size": 2178,
+      "mtimeMs": 1791391312370.7195,
+      "sha256": "b8fa562bf29fb703fca4c566eb327e851aa68d72ce42eecafc0ee21b01290b12"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\cli\\commands\\source\\commands\\DownloadCommand.js",
+      "size": 10792,
+      "mtimeMs": 1791391312430.645,
+      "sha256": "79ed8e16f8fd70a70c866394af631a4e56699da37a12aaceed5b290777408ca0"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\cli\\commands\\source\\SourceCommand.js",
+      "size": 827,
+      "mtimeMs": 1791391312975.116,
+      "sha256": "0ea0ebdf1d048b7970f06829e78e079e08372a28b86714dab42a2844b17d651e"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\cli\\projectTemplates.js",
+      "size": 700,
+      "mtimeMs": 1791391312896.5784,
+      "sha256": "0ec1d9207ed765684d7aadb40105e6c53b749b5d677e3a752ebf98b84be5ce9a"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\cli\\recommendedModels.js",
+      "size": 36589,
+      "mtimeMs": 1791391312911.9226,
+      "sha256": "f20d268dbdd17d3d346c9a1a63ecb189f2810e764c753e7c0edb2daca67f042e"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\cli\\startCreateCli.js",
+      "size": 839,
+      "mtimeMs": 1791391312981.9832,
+      "sha256": "065ea1d7c2483d813a92287b4859ab057ad280fe235b21d05a62692f6bb542dc"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\cli\\utils\\basicChooseFromListConsoleInteraction.js",
+      "size": 5181,
+      "mtimeMs": 1791391312338.36,
+      "sha256": "653ebe84d4f540b0b6b6c56865dc62d1550842920932d296725dac9ee2941ba0"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\cli\\utils\\ConsoleInteraction.js",
+      "size": 3777,
+      "mtimeMs": 1791391312393.2454,
+      "sha256": "e400d05978b6bf834fe7e24cd6c9578cc1dbc46135ad524acb8a014feb84b3ce"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\cli\\utils\\consolePromptQuestion.js",
+      "size": 2998,
+      "mtimeMs": 1791391312395.3384,
+      "sha256": "6824d53cd7fb036473bdb99b2beda2ebca5fca7f53fdfa3b1fa742fe90e02544"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\cli\\utils\\ConsoleTable.js",
+      "size": 3978,
+      "mtimeMs": 1791391312397.4175,
+      "sha256": "9958adda7c7f4c00cdd0a7c0eed9c110045ef48fd942826c9c1a73d471b47d2b"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\cli\\utils\\getReadablePath.js",
+      "size": 520,
+      "mtimeMs": 1791391312577.5295,
+      "sha256": "15a118fb3f72d0522a5a18f44deac0d0075bb039084b67ece166a7bf58b5b648"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\cli\\utils\\interactivelyAskForModel.js",
+      "size": 23114,
+      "mtimeMs": 1791391312732.0498,
+      "sha256": "722c832dbf956070287d55790dcd7bd8461f51baf788cd3d1af5a4e80bfd41c0"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\cli\\utils\\isRunningUnderRosetta.js",
+      "size": 782,
+      "mtimeMs": 1791391312741.4998,
+      "sha256": "fc2689024db2f20e1232228ceabe980c6960b22e16b269f31e75ae246777488a"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\cli\\utils\\logUsedGpuTypeOption.js",
+      "size": 353,
+      "mtimeMs": 1791391312830.833,
+      "sha256": "d125e072b9a920bee244e920cb9121960448be4a6f47cf64999097b8317c4712"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\cli\\utils\\packageJsonConfig.js",
+      "size": 1867,
+      "mtimeMs": 1791391312861.1843,
+      "sha256": "9af985f45eaa4b214cbb86639ac3a5294cdc4ec0d2f385140ee03d2873ed7162"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\cli\\utils\\packageManager.js",
+      "size": 522,
+      "mtimeMs": 1791391312863.235,
+      "sha256": "89f6fdd697ab3a99fa0b088a7e99b14bcc2d3e20ff4d3090e99a7a28c80e103c"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\cli\\utils\\parseXtcArg.js",
+      "size": 749,
+      "mtimeMs": 1791391312879.8748,
+      "sha256": "d5593aef7ceecc9a3aacf311582a32fdcb050770851a251b886ae03c8bbf05e6"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\cli\\utils\\printCommonInfoLines.js",
+      "size": 8482,
+      "mtimeMs": 1791391312889.2104,
+      "sha256": "a4e6bcc855f5e08fd960ba939e05c72518870f39aa54632b5b181737abed7cda"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\cli\\utils\\printInfoLine.js",
+      "size": 2215,
+      "mtimeMs": 1791391312891.439,
+      "sha256": "5f7765cee9477194dfb908c1a9bd044ba30bf5c090a96b3e124803345a2e1406"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\cli\\utils\\printModelDestination.js",
+      "size": 526,
+      "mtimeMs": 1791391312892.9712,
+      "sha256": "96274c17e53b3ef9e78a8f99114fd06f0ea4dda1a49be64cf07d585250c05570"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\cli\\utils\\projectTemplates.js",
+      "size": 2320,
+      "mtimeMs": 1791391312898.6702,
+      "sha256": "1a2830847263e65fb7ebab951b7bd3d7454fd55d07655267ec4d68b4f6116bad"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\cli\\utils\\renderModelCompatibilityPercentageWithColors.js",
+      "size": 686,
+      "mtimeMs": 1791391312916.6135,
+      "sha256": "61802f0b3c4095e014553acc17bbd574b81a415a27c2e1c1855a212da378d1f8"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\cli\\utils\\resolveCommandGgufPath.js",
+      "size": 7917,
+      "mtimeMs": 1791391312931.1978,
+      "sha256": "001c8ceca28e4ebbb559676db0c8854c71f0318e5247f499c7820a129b19f628"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\cli\\utils\\resolveHeaderFlag.js",
+      "size": 757,
+      "mtimeMs": 1791391312939.6306,
+      "sha256": "0f30e394a594a941c52ce6ec1309d6721cfbb024fcd0db2f76da6372cf926e1c"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\cli\\utils\\resolveModelRecommendationFileOptions.js",
+      "size": 669,
+      "mtimeMs": 1791391312951.6228,
+      "sha256": "72bffc91eab7aba74b988993e76a3e6c4f47c1bf6c37d359a420d0b34d854e97"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\cli\\utils\\resolveNpmrcConfig.js",
+      "size": 4417,
+      "mtimeMs": 1791391312954.7363,
+      "sha256": "e0893cc1b50e866d371fdc81d8882dff929fbaf4cd6c8fc68e2f431aa5bdba52"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\cli\\utils\\splitAnsiToLines.js",
+      "size": 1593,
+      "mtimeMs": 1791391312978.2285,
+      "sha256": "03a63564d507394f7742a21bf1c4788fda2170985c8892b0c54c32273a909ddb"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\cli\\utils\\toBytes.js",
+      "size": 139,
+      "mtimeMs": 1791391313001.2505,
+      "sha256": "a29dbda8fa14c7d4174d516bb7fb8cb56bd505be2950cd7d0e37a86e0db0a49d"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\cli\\utils\\withCliCommandDescriptionDocsUrl.js",
+      "size": 841,
+      "mtimeMs": 1791391313048.316,
+      "sha256": "00a6fc6d73210f00d29d0a2899fe5be267c43f59778a8ea5e5ffe3e0687f6527"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\commands.js",
+      "size": 579,
+      "mtimeMs": 1791391312379.6343,
+      "sha256": "eaad122a10516e843148a786e82bf4c05f5d5bc12a3b1a769583281152437c2f"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\config.js",
+      "size": 7358,
+      "mtimeMs": 1791391312392.2095,
+      "sha256": "549507abe42d73160b031cfc930db7fca149b8d9a18d196d8c3a14ea6f1aa1f7"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\consts.js",
+      "size": 363,
+      "mtimeMs": 1791391312400.5483,
+      "sha256": "34c04b8866c8d59ac8d7128652fe9b1f9294a147e9ea7c7d74fc2a94b2301df7"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\evaluator\\LlamaChat\\LlamaChat.js",
+      "size": 157855,
+      "mtimeMs": 1791391312772.7126,
+      "sha256": "a738bf8e2efc08d5338a4e2ef7c03a3e9db562a2106e2cc2848f32e987614dde"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\evaluator\\LlamaChat\\utils\\compressHistoryToFitContextSize.js",
+      "size": 2995,
+      "mtimeMs": 1791391312390.6548,
+      "sha256": "6822d2c63cafb5a5bbfd346355446aab7c86266729144f8b993b357d13a1559a"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\evaluator\\LlamaChat\\utils\\contextShiftStrategies\\eraseFirstResponseAndKeepFirstSystemChatContextShiftStrategy.js",
+      "size": 15094,
+      "mtimeMs": 1791391312440.0867,
+      "sha256": "41125ffeb8767ef2ce7fed58ae698aa9ac77f5d9ad351273afc73d86c0614c87"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\evaluator\\LlamaChat\\utils\\FunctionCallNameGrammar.js",
+      "size": 2890,
+      "mtimeMs": 1791391312468.8455,
+      "sha256": "eb3b1afb15fc56afbe4f4f98b21bc6c8a4500d34af96f183e3dd5a69f54a5d96"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\evaluator\\LlamaChat\\utils\\FunctionCallParamsGrammar.js",
+      "size": 2433,
+      "mtimeMs": 1791391312470.9136,
+      "sha256": "38d9b1b2d90136db8deb5f41017c5ed431dd2d9ba3397b80d1cb3bb3df446b92"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\evaluator\\LlamaChat\\utils\\LlamaFunctionCallValidationError.js",
+      "size": 371,
+      "mtimeMs": 1791391312805.0034,
+      "sha256": "563656f738b7facbd69497f0a686525f6a0f1f069793d196bfb36c4e86d31a66"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\evaluator\\LlamaChat\\utils\\prepareDecisionContextWindow.js",
+      "size": 9477,
+      "mtimeMs": 1791391312881.9395,
+      "sha256": "3681611d3e02a9389e80da6bc645dd95f2c655298bdfe54f24ee5846a16413bf"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\evaluator\\LlamaChatSession\\LlamaChatSession.js",
+      "size": 35064,
+      "mtimeMs": 1791391312777.3535,
+      "sha256": "c09b4e774221079e93d78f6760b551a29d356e628e1c43acdb0665d4e38c62db"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\evaluator\\LlamaChatSession\\utils\\defineChatSessionFunction.js",
+      "size": 554,
+      "mtimeMs": 1791391312418.7334,
+      "sha256": "2eef6a8e5fd32b4f245fa377689e184fed82da1484ce61a5b78d984e054a03b7"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\evaluator\\LlamaChatSession\\utils\\LlamaChatSessionPromptCompletionEngine.js",
+      "size": 8118,
+      "mtimeMs": 1791391312778.879,
+      "sha256": "9eb760cf99f4ec4a1167fd6684c138900705be1543be4dd80ecbfd7dc6f8cd3a"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\evaluator\\LlamaCompletion.js",
+      "size": 26321,
+      "mtimeMs": 1791391312781.9497,
+      "sha256": "ef7a4162a9dfccd6275ce2baed755b24717184f5c49803bb08e110e5ee946632"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\evaluator\\LlamaContext\\LlamaContext.js",
+      "size": 103865,
+      "mtimeMs": 1791391312786.788,
+      "sha256": "32ffecb04387909e904165d9f04282862ce333ba320454462ce057546f03f958"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\evaluator\\LlamaContext\\LlamaContextSequenceCheckpoints.js",
+      "size": 7264,
+      "mtimeMs": 1791391312791.4412,
+      "sha256": "15f309d2c39377724875838d724c54a77cfba11b0761c060f560faebeb086841"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\evaluator\\LlamaContext\\LlamaSampler.js",
+      "size": 1628,
+      "mtimeMs": 1791391312820.815,
+      "sha256": "c97246745ceb11093c0e42eb0806c183d6cbcd09f057715ee16be95afe41797e"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\evaluator\\LlamaContext\\TokenPredictor.js",
+      "size": 722,
+      "mtimeMs": 1791391313019.589,
+      "sha256": "40ac79c62acac96dc7e09740f88ee78c4946c8dc0afee7b175c8d2261b83c812"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\evaluator\\LlamaContext\\tokenPredictors\\DraftSequenceTokenPredictor.js",
+      "size": 12664,
+      "mtimeMs": 1791391312433.204,
+      "sha256": "1a91ba6d7d0a3ffff5cf6fd483848ebfc195913604dcada804c82aa0c22a024f"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\evaluator\\LlamaContext\\tokenPredictors\\InputLookupTokenPredictor.js",
+      "size": 6495,
+      "mtimeMs": 1791391312717.9138,
+      "sha256": "dea564074681327005c5b68b0d2642fd355aaab799e0e3cb6c8e4bf03af8227b"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\evaluator\\LlamaContext\\types.js",
+      "size": 44,
+      "mtimeMs": 1791391313028.5132,
+      "sha256": "01ae2a5b120382f9a648ced7ee8507493a134f216d100fc61600c6c9738235d2"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\evaluator\\LlamaContext\\utils\\batchItemsPrioritizationStrategies\\firstInFirstOutStrategy.js",
+      "size": 553,
+      "mtimeMs": 1791391312461.4785,
+      "sha256": "bc1587e7609b7a52e06c8d5340cf79d0d4a9eb9508f0532d4860c111cfc13df5"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\evaluator\\LlamaContext\\utils\\batchItemsPrioritizationStrategies\\maximumParallelismStrategy.js",
+      "size": 2007,
+      "mtimeMs": 1791391312833.9182,
+      "sha256": "5101e25b3bede8736ed9849ae1451ae1f4b074b29b849819ba26f2af20ab4c64"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\evaluator\\LlamaContext\\utils\\padSafeContextSize.js",
+      "size": 656,
+      "mtimeMs": 1791391312866.8584,
+      "sha256": "5eb465c7aac8ec846c351ff99fcf5bbcc41d1450a878e984aa6d9077c065eefd"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\evaluator\\LlamaContext\\utils\\resolveBatchItemsPrioritizationStrategy.js",
+      "size": 692,
+      "mtimeMs": 1791391312923.998,
+      "sha256": "5fc844b1190e6121449d3aabb7610787ae89adbe2588928ceb78ea25887c1b00"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\evaluator\\LlamaDecisionContext\\LlamaDecisionContext.js",
+      "size": 28953,
+      "mtimeMs": 1791391312795.0522,
+      "sha256": "77fa994d868ba89711b406c2877a49526c88b6e9543d97de2746759f7ab1f795"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\evaluator\\LlamaDecisionContext\\types.js",
+      "size": 44,
+      "mtimeMs": 1791391313030.073,
+      "sha256": "01ae2a5b120382f9a648ced7ee8507493a134f216d100fc61600c6c9738235d2"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\evaluator\\LlamaDecisionContext\\utils\\createDecisionAnswer.js",
+      "size": 3030,
+      "mtimeMs": 1791391312408.9534,
+      "sha256": "ae02d755b6ca7651a3ee91b359abcc361ffd960f0798e5b826007b6d3d9732fb"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\evaluator\\LlamaDecisionContext\\utils\\createQuestionInputs.js",
+      "size": 7525,
+      "mtimeMs": 1791391312413.6023,
+      "sha256": "25a896d31f19958a9729c52b838476d731c3df3a34e42e7315f08c6940d28559"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\evaluator\\LlamaDecisionContext\\utils\\evaluateChoiceDecision.js",
+      "size": 18416,
+      "mtimeMs": 1791391312442.149,
+      "sha256": "1402e18b4cb43cc2cbdc3a147d065773fe1a08ef8d9eeee586e1d3445ed69d42"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\evaluator\\LlamaDecisionContext\\utils\\generateCriteriaChoiceOptionTokens.js",
+      "size": 1744,
+      "mtimeMs": 1791391312524.6855,
+      "sha256": "5b0da60e4ba68a00c55448a6446dc621189385a47ba33e149417a027182d8950"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\evaluator\\LlamaEmbedding.js",
+      "size": 1888,
+      "mtimeMs": 1791391312798.1943,
+      "sha256": "28e53ae724e13f0978b583eaf6b9518318f2f43a7f92c70ee31ddd4472b7e372"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\evaluator\\LlamaEmbeddingContext.js",
+      "size": 4274,
+      "mtimeMs": 1791391312802.931,
+      "sha256": "5ac31a28c404cdd353e4456a59aca4d73ce3050996d103efba1fa3dec162c3fc"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\evaluator\\LlamaGrammar.js",
+      "size": 2778,
+      "mtimeMs": 1791391312807.6074,
+      "sha256": "8e9bc16a0e89b52c051ffbfd822c8cde6c41f4f1c9c79c9ae7120eb2a6240e17"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\evaluator\\LlamaGrammarEvaluationState.js",
+      "size": 1343,
+      "mtimeMs": 1791391312810.2285,
+      "sha256": "9ebf82ca57abadd07cfc7023164452bfb313f019495f41a390bff8fb667d43e0"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\evaluator\\LlamaJsonSchemaGrammar.js",
+      "size": 1498,
+      "mtimeMs": 1791391312812.304,
+      "sha256": "d68adc14c3338adeb01620f3a3ec2fd654d0f582e6a815ddb2a2e1408f1ca744"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\evaluator\\LlamaModel\\LlamaModel.js",
+      "size": 43147,
+      "mtimeMs": 1791391312816.621,
+      "sha256": "1817cc1e86d41cefedf33a526ea6b0bddc19dd29d93843cf8dbd621e4a6de556"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\evaluator\\LlamaModel\\utils\\TokenAttributes.js",
+      "size": 2289,
+      "mtimeMs": 1791391313008.0059,
+      "sha256": "5da80fb1ace4460fc62200050e8c29d02e42fade9eb4fda528b64c1462adcbd0"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\evaluator\\LlamaRankingContext.js",
+      "size": 12667,
+      "mtimeMs": 1791391312819.2617,
+      "sha256": "fa156dc22091a0a16619ff21ae581e476707b9f45bc3a7d5660b410b80e43034"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\evaluator\\TokenBias.js",
+      "size": 2709,
+      "mtimeMs": 1791391313012.7888,
+      "sha256": "55c3ea4923a3fee4b0596fc009d677dbfbc57780d206023eef1b55cc9926c564"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\evaluator\\TokenMeter.js",
+      "size": 1913,
+      "mtimeMs": 1791391313018.033,
+      "sha256": "08b54afa4bbd3e348746ca40e2b8e4e15d509c364dbfab95b28682dda7f7cf60"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\evaluator\\utils\\chunkDocument.js",
+      "size": 11572,
+      "mtimeMs": 1791391312367.6135,
+      "sha256": "44bfe2f74481983cde1a6eb89c5dd45c107e5196e101384dc8028d7854cb2263"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\gguf\\consts.js",
+      "size": 337,
+      "mtimeMs": 1791391312402.621,
+      "sha256": "7ca94d7581786a8639018d8facd9c6bf647ab6a00a995cada3dfe3a964b8b3aa"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\gguf\\errors\\InvalidGgufMagicError.js",
+      "size": 262,
+      "mtimeMs": 1791391312734.1343,
+      "sha256": "62086883c6112e44ea6b5fe0e2519c5eb10cf558eaf0ece9b56f41b1cb2643aa"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\gguf\\errors\\UnsupportedGgufValueTypeError.js",
+      "size": 362,
+      "mtimeMs": 1791391313038.3767,
+      "sha256": "48ece6aabb93455bbc021d2a73cf73655bbaf6bf3c49ae299523866383241490"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\gguf\\fileReaders\\GgufFileReader.js",
+      "size": 4088,
+      "mtimeMs": 1791391312591.1714,
+      "sha256": "c79c739c35461e12e1bdad803a1301112ec47440480fb1211f41ac962a65104e"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\gguf\\fileReaders\\GgufFsFileReader.js",
+      "size": 2544,
+      "mtimeMs": 1791391312592.7158,
+      "sha256": "c183cda5fa2b1a2b13f8925b414a824a0520ecee49d7f64adf3c7720f4c83f5e"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\gguf\\fileReaders\\GgufNetworkFetchFileReader.js",
+      "size": 5419,
+      "mtimeMs": 1791391312684.9983,
+      "sha256": "d8532f37fcccb31e4c5f4590f591392e85c13a6c0aa4a725d10edb813dabee42"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\gguf\\insights\\GgufInsights.js",
+      "size": 71733,
+      "mtimeMs": 1791391312596.8513,
+      "sha256": "d5a8783f2f213eeadd3c2982c3c6dfb84d78c641e98dbe88f162879e26fb6207"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\gguf\\insights\\GgufInsightsConfigurationResolver.js",
+      "size": 22074,
+      "mtimeMs": 1791391312599.4583,
+      "sha256": "5352875bc5c1a0a09517ad09e42d0c8fe88d35b1de78a6cfa8b8d6b633b89dcf"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\gguf\\insights\\GgufInsightsTokens.js",
+      "size": 1829,
+      "mtimeMs": 1791391312601.0188,
+      "sha256": "e6c6c37b857699fcf9dab52b13294500d29e22bdd53817eecb64bbfd8cb8299b"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\gguf\\insights\\utils\\getRamUsageFromUnifiedVram.js",
+      "size": 419,
+      "mtimeMs": 1791391312573.8687,
+      "sha256": "6a84a2ab605d416573b162f0af5521f71a395315d57ea776440665d59874b400"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\gguf\\insights\\utils\\resolveContextContextSizeOption.js",
+      "size": 9843,
+      "mtimeMs": 1791391312934.9912,
+      "sha256": "e5498d8bafe1d3b0b07a7150cce1e8cc8c056030d85244de03df122e1f8c244c"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\gguf\\insights\\utils\\resolveModelGpuLayersOption.js",
+      "size": 19040,
+      "mtimeMs": 1791391312948.4268,
+      "sha256": "7d8d762bef35852d5abc698ef3d995a7905f95430005c3715a55fa61dd612ed3"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\gguf\\insights\\utils\\scoreLevels.js",
+      "size": 502,
+      "mtimeMs": 1791391312965.237,
+      "sha256": "ef0472c88df452280a537cfdf35f13af3673b5bf2d2ae0796d67711507d842ed"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\gguf\\parser\\GgufV2Parser.js",
+      "size": 9126,
+      "mtimeMs": 1791391312692.72,
+      "sha256": "9721245213be1950889c2ca67e3cb76accf6f18ab618dea3bf4493322d41ad96"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\gguf\\parser\\GgufV3Parser.js",
+      "size": 141,
+      "mtimeMs": 1791391312694.447,
+      "sha256": "001e052ddda647be73056da35ebc0715625cc8d45c590759124e7b4924db1e6f"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\gguf\\parser\\parseGguf.js",
+      "size": 3691,
+      "mtimeMs": 1791391312868.938,
+      "sha256": "9b67604050328450afa07b032de4f763b6b97c490a752f76765e9be74d0d79ae"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\gguf\\readGgufFileInfo.js",
+      "size": 4460,
+      "mtimeMs": 1791391312908.2295,
+      "sha256": "264b39ed4b4d513d9ff8e4d760361d9ad7bbb17d7776bc32dfb58d1ef39c093c"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\gguf\\types\\GgufFileInfoTypes.js",
+      "size": 969,
+      "mtimeMs": 1791391312589.1184,
+      "sha256": "fad737e3c49df44d908d9142d8a28846d828c03e3f3537c951d2577174101cf6"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\gguf\\types\\GgufMetadataTypes.js",
+      "size": 12127,
+      "mtimeMs": 1791391312682.3982,
+      "sha256": "be02b64e1b3bfc405fb397d944fcca8e92f9137a0245ffe1e0d9438561950004"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\gguf\\types\\GgufTensorInfoTypes.js",
+      "size": 2638,
+      "mtimeMs": 1791391312690.1448,
+      "sha256": "9eab699eec197501e4dff018915c5e3b2fd6f4f818b678048f777d1aa6529b67"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\gguf\\utils\\convertMetadataKeyValueRecordToNestedObject.js",
+      "size": 3438,
+      "mtimeMs": 1791391312405.3086,
+      "sha256": "6184c1c0ffb7fa62e4183b40d36db0a16b20dc25f04b03370a1d1c3e80ff0f54"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\gguf\\utils\\getGgufFileTypeName.js",
+      "size": 484,
+      "mtimeMs": 1791391312543.495,
+      "sha256": "188a235805d9629cbb6f22da55782c38e8f20a05c55f79b1bf51a4ad6ba8139b"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\gguf\\utils\\getGgufMetadataArchitectureData.js",
+      "size": 192,
+      "mtimeMs": 1791391312545.5813,
+      "sha256": "8f460e6dd9b317f9788387e9d2ff4900453ec8ef3635c5b0d9acdeec44865787"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\gguf\\utils\\getGgufMetadataKeyValue.js",
+      "size": 967,
+      "mtimeMs": 1791391312547.1199,
+      "sha256": "5436e769fda26920e56c9858b52c8989dfdfc70342ebbf4b0b455318c37e2674"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\gguf\\utils\\ggufQuantNames.js",
+      "size": 2143,
+      "mtimeMs": 1791391312686.5525,
+      "sha256": "8ffd4ddeac18fb42d70da9d146db8ec3d0744e29e1a44c02aeee53934c39bde3"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\gguf\\utils\\GgufReadOffset.js",
+      "size": 471,
+      "mtimeMs": 1791391312688.101,
+      "sha256": "b98c40af656861a68a3583a8152de15957aaf3c96fcb8a2ad7a2dceea9377691"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\gguf\\utils\\normalizeGgufDownloadUrl.js",
+      "size": 869,
+      "mtimeMs": 1791391312846.9783,
+      "sha256": "deb9d4c96a84c8f40c4464d5ea88465e977d31482b8cdef10f5ae4c625ca4043"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\gguf\\utils\\resolveBinarySplitGgufPartUrls.js",
+      "size": 1932,
+      "mtimeMs": 1791391312926.0579,
+      "sha256": "db7db1686ccdc8f4259112eae8688a2498c74989d69c288cf005310eeceb46ee"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\gguf\\utils\\resolveSplitGgufParts.js",
+      "size": 2536,
+      "mtimeMs": 1791391312959.4048,
+      "sha256": "b72457338c22394113da6acdb5357c29ef9f1fbe60d40664989f676f57945e22"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\index.js",
+      "size": 7538,
+      "mtimeMs": 1791391312712.209,
+      "sha256": "b717c13346557216f6e743785934d60fcb57b72bae3f0da1abec0a1873fe205c"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\state.js",
+      "size": 610,
+      "mtimeMs": 1791391312983.5347,
+      "sha256": "e5333d4cc6e280f50eb742d5f8ba7cde778ec2197ac259f592f37be5f519243f"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\types.js",
+      "size": 431,
+      "mtimeMs": 1791391313031.616,
+      "sha256": "22b93be97f911afc87213c4eeddfa71dce876c88d689f8bb5296f0f6ea8c4fcf"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\utils\\appendUserMessageToChatHistory.js",
+      "size": 818,
+      "mtimeMs": 1791391312329.0593,
+      "sha256": "8504379e065a0741ed5b5d29873bc45ddeeafab5c5d612aeeab9dd6bcdfff344"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\utils\\clearTempFolder.js",
+      "size": 522,
+      "mtimeMs": 1791391312372.755,
+      "sha256": "929d17742faf42b15855508ee65e0c83de1af99ababa5cf19b419ed7fb3f2f57"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\utils\\cmake.js",
+      "size": 5954,
+      "mtimeMs": 1791391312378.5825,
+      "sha256": "c7199595d7755bf74fe2455bf41c048fc4738354bf4dc24f00081f4e7ce66f58"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\utils\\compareTokens.js",
+      "size": 121,
+      "mtimeMs": 1791391312381.2024,
+      "sha256": "78869ff7420e24c4d5f3920cc2c7cdfc840f7e0f563bfa9c17dd62b0982c1fca"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\utils\\createModelDownloader.js",
+      "size": 21362,
+      "mtimeMs": 1791391312411.5525,
+      "sha256": "5169fed00bfbe5e2e3388b16b87ce22f346d15257e6fcb6f0f97e4a43c99f7f3"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\utils\\DisposeGuard.js",
+      "size": 4306,
+      "mtimeMs": 1791391312429.1074,
+      "sha256": "a28f8e7e07184c0db4903e56871061710d67a393fa762788aad57f84104f43cd"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\utils\\findBestOption.js",
+      "size": 7620,
+      "mtimeMs": 1791391312453.1477,
+      "sha256": "57faaed24505e1d943ca1212ca72b0f8573f4e9915215175cdf68961995dfbf7"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\utils\\findCharacterRemovalCountToFitChatHistoryInContext.js",
+      "size": 5934,
+      "mtimeMs": 1791391312456.811,
+      "sha256": "e720548542e1dc697f33e073c54ecb6fa6b5f5cbb580afbf9e6e8483a557c1fc"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\utils\\formatModelParameterCount.js",
+      "size": 794,
+      "mtimeMs": 1791391312463.0378,
+      "sha256": "c1b0728d8679f2e584ed138fce661f1061e2676ad3db2a9bb94aa4ede776d5fb"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\utils\\gbnfJson\\GbnfGrammarGenerator.js",
+      "size": 2025,
+      "mtimeMs": 1791391312487.6335,
+      "sha256": "858a72151a4843b4db12dad3ebcd91d32c24adef69aae664ee6a42ea126f9565"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\utils\\gbnfJson\\GbnfTerminal.js",
+      "size": 1983,
+      "mtimeMs": 1791391312511.2007,
+      "sha256": "9276e32ea54bbf0e7bdceccec50882141d5a719af097947a5254370f3d25f735"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\utils\\gbnfJson\\getGbnfGrammarForGbnfJsonSchema.js",
+      "size": 815,
+      "mtimeMs": 1791391312538.208,
+      "sha256": "43933979ce1b9d51346b3b87766c53a3a70eccb6fdc1d150e5559c3f5c68ab69"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\utils\\gbnfJson\\terminals\\GbnfAnyJson.js",
+      "size": 2001,
+      "mtimeMs": 1791391312474.01,
+      "sha256": "345a70de69642065684dd0c74413c93352b2650ddbb187fb9777c4566b739ea5"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\utils\\gbnfJson\\terminals\\GbnfArray.js",
+      "size": 4322,
+      "mtimeMs": 1791391312476.0918,
+      "sha256": "69f2ce002fee62356a60c196da397211eb56ea4c3bb12fc9464961e50344758e"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\utils\\gbnfJson\\terminals\\GbnfBoolean.js",
+      "size": 624,
+      "mtimeMs": 1791391312477.6365,
+      "sha256": "132fbf05402b588748a225d09d837d78985c0730c1fdb8b8482189d7b10660f9"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\utils\\gbnfJson\\terminals\\GbnfBooleanValue.js",
+      "size": 397,
+      "mtimeMs": 1791391312479.178,
+      "sha256": "b2582f71fdd6e51151a8096db82e7ebb4d3b4cea51313777bbb37b794b4c79a4"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\utils\\gbnfJson\\terminals\\GbnfCommaWhitespace.js",
+      "size": 1003,
+      "mtimeMs": 1791391312480.8333,
+      "sha256": "193729fb852319dd29d0bd28920a748678e3c333da70b7e7c51ceb679a7e22fe"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\utils\\gbnfJson\\terminals\\gbnfConsts.js",
+      "size": 1978,
+      "mtimeMs": 1791391312482.3923,
+      "sha256": "a7e375d1a2b5706dba6180c4971f594577151289f6b2c73b1a502e7e4461cc59"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\utils\\gbnfJson\\terminals\\GbnfFormatString.js",
+      "size": 2462,
+      "mtimeMs": 1791391312483.9968,
+      "sha256": "0d43a0a2f6acd5d5a80206398b59f282fe3ec981960d493b3538fe20a97e8c4f"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\utils\\gbnfJson\\terminals\\GbnfGrammar.js",
+      "size": 763,
+      "mtimeMs": 1791391312485.567,
+      "sha256": "3e7d818d65a545ff14f279486d5abbc61cfa96cad5af94b010ea9c17481c3233"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\utils\\gbnfJson\\terminals\\GbnfInsideStringChar.js",
+      "size": 712,
+      "mtimeMs": 1791391312488.6572,
+      "sha256": "9f259fb69bfa5d6cee96fc2777f01aff1217b475d4ff1f48c517d1c6f01584ac"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\utils\\gbnfJson\\terminals\\GbnfNull.js",
+      "size": 302,
+      "mtimeMs": 1791391312492.8096,
+      "sha256": "973a644bf8c1ffc22b442f46d93bc17b60a3c85ab674272c3efed06096c82125"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\utils\\gbnfJson\\terminals\\GbnfNumber.js",
+      "size": 766,
+      "mtimeMs": 1791391312494.3694,
+      "sha256": "3177b4f848425f56805e797025a6b95e86807b385c6adcb921479f7be62487a2"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\utils\\gbnfJson\\terminals\\GbnfNumberValue.js",
+      "size": 736,
+      "mtimeMs": 1791391312496.5425,
+      "sha256": "bf9b9fc3bb5eb67b90a95dd0346ac456b0bf637842ebafc79bbb7e700748246b"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\utils\\gbnfJson\\terminals\\GbnfObjectMap.js",
+      "size": 4772,
+      "mtimeMs": 1791391312497.5583,
+      "sha256": "bedeae7088a652569828e95f5392c7cfcdfc2b19d32aba9f3405b0113faae011"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\utils\\gbnfJson\\terminals\\GbnfOr.js",
+      "size": 1315,
+      "mtimeMs": 1791391312499.1113,
+      "sha256": "dba191f257607ea189d057a6b0a13441b4dc73d13ef5525370461eb93b28e721"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\utils\\gbnfJson\\terminals\\GbnfRef.js",
+      "size": 1608,
+      "mtimeMs": 1791391312500.6575,
+      "sha256": "d9781bf51f6ec551c15a7a2650335165a7bfe52b76b6c3e91a827249ebe8bbd1"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\utils\\gbnfJson\\terminals\\GbnfRepetition.js",
+      "size": 4414,
+      "mtimeMs": 1791391312503.2495,
+      "sha256": "1d0d022ae1a215d047e0daa49cf3a16a8f2462b781168e72555150a671f46923"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\utils\\gbnfJson\\terminals\\GbnfString.js",
+      "size": 1553,
+      "mtimeMs": 1791391312506.398,
+      "sha256": "a20e24933b272ddb2c73bc17ffd815394e71341fe807e3f2a9f841cb29800285"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\utils\\gbnfJson\\terminals\\GbnfStringValue.js",
+      "size": 740,
+      "mtimeMs": 1791391312508.4778,
+      "sha256": "bc414dfc4dfbf08a3dedb96cbf8f0288963b3fdd56370f79ca742a06997921a4"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\utils\\gbnfJson\\terminals\\GbnfVerbatimText.js",
+      "size": 561,
+      "mtimeMs": 1791391312512.7534,
+      "sha256": "c99a3bacc1af5cf2b9069530f869c75dddee72e3ac15011f19f55bec3eb9580d"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\utils\\gbnfJson\\terminals\\GbnfWhitespace.js",
+      "size": 2447,
+      "mtimeMs": 1791391312514.323,
+      "sha256": "e12969298b9231d539be8e4070a7c8b9904209d616c0ec6d8e5142da86c97ad6"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\utils\\gbnfJson\\types.js",
+      "size": 971,
+      "mtimeMs": 1791391313033.1685,
+      "sha256": "60797b779a01eae217a0d7eb984b35f9d0db5cde4893b8e82af9f9a6f4445644"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\utils\\gbnfJson\\utils\\defsScope.js",
+      "size": 503,
+      "mtimeMs": 1791391312420.8708,
+      "sha256": "e34523dbff69870eedc77398fb62a86df56683957d6799dc60d6702823f759d2"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\utils\\gbnfJson\\utils\\GbnfJsonScopeState.js",
+      "size": 448,
+      "mtimeMs": 1791391312490.731,
+      "sha256": "a915329ed402e0d431f8de697da34795ef7d448a52ae4bec1abf91c2c1f35ceb"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\utils\\gbnfJson\\utils\\getGbnfJsonTerminalForGbnfJsonSchema.js",
+      "size": 7766,
+      "mtimeMs": 1791391312540.2793,
+      "sha256": "f5564f445b4ed21996b52e7f31469f12c7ee3e0c7a10c8ec3cd1317e3bd8cde0"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\utils\\gbnfJson\\utils\\getGbnfJsonTerminalForLiteral.js",
+      "size": 746,
+      "mtimeMs": 1791391312541.953,
+      "sha256": "08dc92cbffaad588b48769f36cb7fa4b0a463b434406b4c6488788d50198dd2f"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\utils\\gbnfJson\\utils\\validateObjectAgainstGbnfSchema.js",
+      "size": 11821,
+      "mtimeMs": 1791391313041.558,
+      "sha256": "fe72f816614467d8a555edd57a2e04faf53c482ee9962069e6111ab235e68689"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\utils\\getBuildDefaults.js",
+      "size": 407,
+      "mtimeMs": 1791391312527.8984,
+      "sha256": "357794f5fa13b8e072fb0a9789c57546aa4a90ac594b9861649103b4dac0dccc"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\utils\\getConsoleLogPrefix.js",
+      "size": 476,
+      "mtimeMs": 1791391312532.5337,
+      "sha256": "545fbee413150980771e74ddc3416360516b74183a44141c7ebc812a4dbd9bd5"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\utils\\getFirstWritableDir.js",
+      "size": 2041,
+      "mtimeMs": 1791391312537.1838,
+      "sha256": "9d9c1c56eb6a35e42118de05e4ffa550c063cdd876e0ece8c0a51d51a532f3db"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\utils\\getGrammarsFolder.js",
+      "size": 864,
+      "mtimeMs": 1791391312551.759,
+      "sha256": "7f6577f22f7d20e50204758ab8e347ed159ed2a4ad96694bb9f1def40e3df031"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\utils\\getLlamaClasses.js",
+      "size": 518,
+      "mtimeMs": 1791391312560.2195,
+      "sha256": "d302533c3d9b482bc79465cc6ab965ef6c65b27378e397a500ccc95899d6bdf0"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\utils\\getModuleVersion.js",
+      "size": 489,
+      "mtimeMs": 1791391312566.969,
+      "sha256": "b41db3080c44ae6b72f4694530ec53b67b11b80010148e7bc5cb402eaf47be33"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\utils\\getQueuedTokensBeforeStopTrigger.js",
+      "size": 1629,
+      "mtimeMs": 1791391312570.613,
+      "sha256": "a0c58d20c56323364c5595574a6ab360af1243f22f215551f6b330c349225a09"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\utils\\getReadableContextSize.js",
+      "size": 224,
+      "mtimeMs": 1791391312575.9512,
+      "sha256": "2eda724e0b6cc088c2be7cdc31d601138b4554b1a4b6c417d666cddb77f62981"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\utils\\getStandardizedChatWrapperSegmentDefinition.js",
+      "size": 740,
+      "mtimeMs": 1791391312579.5847,
+      "sha256": "872535ad30af1c00f988992572c33800744dda3f4b92517a20e8bece080e9cba"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\utils\\getTempDir.js",
+      "size": 3944,
+      "mtimeMs": 1791391312583.7368,
+      "sha256": "9c288ce04f137a74ed797156764ddb7e246b0885d58f0143d327c2e3ef43291f"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\utils\\getTypeScriptTypeStringForGbnfJsonSchema.js",
+      "size": 10067,
+      "mtimeMs": 1791391312585.8254,
+      "sha256": "f52c9f39cd190e78f2cb9f87ae08460007bf01e8afa6b4b533950080bb2466f3"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\utils\\GitHubClient.js",
+      "size": 2871,
+      "mtimeMs": 1791391312696.52,
+      "sha256": "73e332bf028ceacef4a03d6101332dcc667a9818e55aaf6c16ff58b3cf09ac2f"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\utils\\gitReleaseBundles.js",
+      "size": 7315,
+      "mtimeMs": 1791391312700.6494,
+      "sha256": "cffd7cbc06c78bd8c6a5dfd95e89dfb0d9ea1df3e22c26c974171d537287a7fe"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\utils\\hashString.js",
+      "size": 304,
+      "mtimeMs": 1791391312709.1191,
+      "sha256": "66ef1e6d770554ece8dbff802ef75155fc2426778f637411d8c2f6d1a0130c7d"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\utils\\includesText.js",
+      "size": 547,
+      "mtimeMs": 1791391312710.6616,
+      "sha256": "f3aa7a6b02102c56654309fe819f7a986bf83e15fcd9ba7bc2b21d341ca346c7"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\utils\\InsufficientMemoryError.js",
+      "size": 187,
+      "mtimeMs": 1791391312730.517,
+      "sha256": "5dd06963d1e0eeece6c94c2f0073d221c94ad075f73e7c4c1b2af05d00b3f153"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\utils\\isLockfileActive.js",
+      "size": 564,
+      "mtimeMs": 1791391312739.9565,
+      "sha256": "f96cc9ff168f95df8256ee8ea5989206ce81060260b78bdecb2e0ca3b2f07e1b"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\utils\\isToken.js",
+      "size": 108,
+      "mtimeMs": 1791391312743.049,
+      "sha256": "05c890f8182a3abc9d81523eba9876f39c7da899f716fdf5fc6f998bc31396b2"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\utils\\isUrl.js",
+      "size": 432,
+      "mtimeMs": 1791391312744.6409,
+      "sha256": "a157f7d265f99d8ec56d28064eee4e46f456a20e9b90fc99539e9acf71d59504"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\utils\\LlamaText.js",
+      "size": 20260,
+      "mtimeMs": 1791391312822.8816,
+      "sha256": "365b88562516b8798b8ca89a31b3ae800bac72b1a73600fdef5ab2d57a2c3297"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\utils\\llamaTextUtils.js",
+      "size": 5041,
+      "mtimeMs": 1791391312825.473,
+      "sha256": "a42862b9fde6d5d400bc845195b6855237ccbf41e0a9495b2bb16e0f5936c80d"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\utils\\LruCache.js",
+      "size": 1262,
+      "mtimeMs": 1791391312832.3745,
+      "sha256": "b798a51e191f738f034c3a375be69a17c3a3dad2b0652b8b495fc31fd9d85f39"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\utils\\mergeUnionTypes.js",
+      "size": 54,
+      "mtimeMs": 1791391312837.5486,
+      "sha256": "64a682d41044824b7e865c1a74497278ce9502fdc7bb8d4e318cc818a8a71506"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\utils\\modelDownloadEndpoints.js",
+      "size": 1446,
+      "mtimeMs": 1791391312840.6633,
+      "sha256": "754f8a718446f696f9228e60b4140e9b322bf2f172d7d766d211aac2f0bfbbd1"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\utils\\modelFileAccessTokens.js",
+      "size": 1517,
+      "mtimeMs": 1791391312842.2058,
+      "sha256": "6eecbbc65afa42dc2be711d2ad4ca684f504bfd960d5a26cbd6122efa82ba206"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\utils\\OpenAIFormat.js",
+      "size": 22541,
+      "mtimeMs": 1791391312852.1792,
+      "sha256": "60d8a538956c225108c81305d9569867b4b19715d75e7dbbaf0028698df0b928"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\utils\\optionsMatrix.js",
+      "size": 2380,
+      "mtimeMs": 1791391312856.3262,
+      "sha256": "d05158548adb368d564fbcc2b701b081d9607d19332a61e6371edc5e0f8efcfe"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\utils\\OverridesObject.js",
+      "size": 54,
+      "mtimeMs": 1791391312858.414,
+      "sha256": "074aa76e24c30df0becead5cd83a97d82a0274dc58c037aeb3dfc4bc80659bd1"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\utils\\parseModelFileName.js",
+      "size": 4127,
+      "mtimeMs": 1791391312870.5117,
+      "sha256": "0f7656a04da8a27dfbcb9a844c3093925575b19ea693820a914dcc7ac01b0d6a"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\utils\\parseModelUri.js",
+      "size": 16844,
+      "mtimeMs": 1791391312873.0864,
+      "sha256": "597d04fbd3365d1c0ebecdc09c7a1caae20a6a546345d6007b7525a9fd2da91b"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\utils\\parseTextTemplate.js",
+      "size": 4063,
+      "mtimeMs": 1791391312875.7537,
+      "sha256": "68109be41f5693d073f80bcfcd0e919f3a59a5dde500f98321cb6391584ba90e"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\utils\\prettyPrintObject.js",
+      "size": 3257,
+      "mtimeMs": 1791391312884.548,
+      "sha256": "44e1fd89a158fb541a81c0d522f80ab6af9830e0317070d11acf4f2907685865"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\utils\\ProgressTracker.js",
+      "size": 2017,
+      "mtimeMs": 1791391312894.516,
+      "sha256": "dc8074d100060fb6add01dd8489e996483880f64fe47b010d9725f1bb9047689"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\utils\\pushAll.js",
+      "size": 325,
+      "mtimeMs": 1791391312902.3372,
+      "sha256": "63f610435ba23fb8d0a176290c865352c41f14bc654aa177ad1ffe5b21ff8703"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\utils\\removeNullFields.js",
+      "size": 463,
+      "mtimeMs": 1791391312914.0164,
+      "sha256": "03b102c81200905e42fb16342f8069ca1b46a8cf7ea4b8f3a6dc6f7dccc08fc1"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\utils\\ReplHistory.js",
+      "size": 2417,
+      "mtimeMs": 1791391312919.8503,
+      "sha256": "eb6997335a57c2d20e660816d1728e34edfad5861a1ed173a82f9bb1e8930fa8"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\utils\\resolveGithubRelease.js",
+      "size": 1309,
+      "mtimeMs": 1791391312938.0757,
+      "sha256": "0705b40509f9e418221ac002e9dcce9c316ed3c83e803273a708539e8f0ad715"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\utils\\resolveLastTokens.js",
+      "size": 520,
+      "mtimeMs": 1791391312941.6826,
+      "sha256": "5c076be1702ca399427ccd2f9c74bb9d31c6bc6d02dd6ce27c083407aa5a3b7d"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\utils\\resolveModelDestination.js",
+      "size": 2105,
+      "mtimeMs": 1791391312944.2983,
+      "sha256": "635e741c59eff2b5d21a7e5e9ff45a517b2ef64f227263dc5fbb842a86dd0a7e"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\utils\\resolveModelFile.js",
+      "size": 9178,
+      "mtimeMs": 1791391312945.8574,
+      "sha256": "20ee9452b352ea838507799ab7811c56de487c72fcdce2daddb05e77b0d47690"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\utils\\runtime.js",
+      "size": 449,
+      "mtimeMs": 1791391312960.9497,
+      "sha256": "5771887dc7a3d71d4419d384f3e5d22d5161b3f73318777ed2537fb0093f06fc"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\utils\\safeEventCallback.js",
+      "size": 927,
+      "mtimeMs": 1791391312963.0269,
+      "sha256": "1dd119443cae2e1d5fac46dacb3ce9bf4b41673a4918254b79d8769cc72902f8"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\utils\\signalSleep.js",
+      "size": 707,
+      "mtimeMs": 1791391312973.0146,
+      "sha256": "ab2df71548437f77b74a37754c59d176f068cd49e5ca517ca54099455d671406"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\utils\\spawnCommand.js",
+      "size": 3343,
+      "mtimeMs": 1791391312976.6724,
+      "sha256": "cfc7689a38bae00550280b796acce9e3ff39aacb98069a4ed57a4f8acc4405c9"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\utils\\StopGenerationDetector.js",
+      "size": 11766,
+      "mtimeMs": 1791391312985.1162,
+      "sha256": "7086ca55490678c6ad31be2793509094e803bf1896c29fb06db668821f3898dc"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\utils\\ThreadsSplitter.js",
+      "size": 7306,
+      "mtimeMs": 1791391312998.657,
+      "sha256": "887e783ea5103acf6fcc80c9dd2546c7f80008f7f03b91b92c98d9a30392dc6e"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\utils\\tokenizeInput.js",
+      "size": 487,
+      "mtimeMs": 1791391313013.8325,
+      "sha256": "bcd5808f8d6062e94e13b8918d855c90ccaf94b17088fb0f152909dc3a0781ad"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\utils\\tokenizerUtils.js",
+      "size": 1321,
+      "mtimeMs": 1791391313015.9475,
+      "sha256": "ab18ffdb28d795702d0b2ec5b492205675c3d55620fa5da8bb10e315ab79f006"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\utils\\TokenStreamRegulator.js",
+      "size": 7358,
+      "mtimeMs": 1791391313021.1428,
+      "sha256": "a33f7f5b67b53519ce18a9761e596246e4d5a8282b46d51a2fc24ebad6669f88"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\utils\\transformPromisable.js",
+      "size": 3984,
+      "mtimeMs": 1791391313023.7317,
+      "sha256": "45fb50977723fb895edd901f98d8b625a4d86ab7dbae0d09af0c4319e195a1d0"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\utils\\truncateTextAndRoundToWords.js",
+      "size": 4534,
+      "mtimeMs": 1791391313025.285,
+      "sha256": "591b3f62f27beec3b190f543d565d656fe742fa37eec65708e3e34becf53418a"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\utils\\UnsupportedError.js",
+      "size": 191,
+      "mtimeMs": 1791391313036.8247,
+      "sha256": "4c3e5303ef40bbcba964abba9042c6974df2c4c44b82ac3ab2a1d72c2e9dba99"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\utils\\utilTypes.js",
+      "size": 48,
+      "mtimeMs": 1791391313039.4028,
+      "sha256": "830fb2596c531b439ba68d6cf9c2fd0bf328c0c3f60c461f919df0e4ddf38e47"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\utils\\waitForLockfileRelease.js",
+      "size": 889,
+      "mtimeMs": 1791391313044.1592,
+      "sha256": "a349b0a7f0b29cb83760eb6defc81d2a632ca990e2d16165382126a13d3dd9a0"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\utils\\withAbortSignal.js",
+      "size": 695,
+      "mtimeMs": 1791391313046.221,
+      "sha256": "550c15eec556dbbe8e9f0ab85ff39828bc6ace6c0ef0a3c9a71e4b9fbd028d81"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\utils\\withLockfile.js",
+      "size": 1490,
+      "mtimeMs": 1791391313050.3857,
+      "sha256": "bc2878b5712e785d6fb51c59f69e050eb7a96a7446571bbd8255809755474e9c"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\utils\\withOra.js",
+      "size": 1225,
+      "mtimeMs": 1791391313055.5798,
+      "sha256": "5da09caa147037d9d7a773c3b13c80a43d546913951396345641437a6753e5cd"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\utils\\withProgressLog.js",
+      "size": 8831,
+      "mtimeMs": 1791391313072.4773,
+      "sha256": "d5f79389e712c29f39adfb2ef06e0be0c98c43a3cdc97ca0a9ad0a5ef0fd3190"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\utils\\withStatusLogs.js",
+      "size": 1199,
+      "mtimeMs": 1791391313074.55,
+      "sha256": "d73d4ac230812f40adc6f5ecc22b045479d5fbc232e03ffbf5dabcf4830eb170"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\node-llama-cpp\\dist\\utils\\wrapAbortSignal.js",
+      "size": 461,
+      "mtimeMs": 1791391313075.5913,
+      "sha256": "fe6ed6e322a654720d3cba38a98ba8a966ce32bc00406adc7eca91b559c26b27"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\@node-llama-cpp\\win-x64-vulkan\\bins\\win-x64-vulkan\\ggml-base.dll",
+      "size": 869888,
+      "mtimeMs": 1791391311044.1575,
+      "sha256": "1987bfc030bc01be7ed224b1006138759bead9d327ebeead554ae34188f6da6d"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\@node-llama-cpp\\win-x64-vulkan\\bins\\win-x64-vulkan\\ggml-cpu-alderlake.dll",
+      "size": 1261056,
+      "mtimeMs": 1791391311175.7683,
+      "sha256": "b0d4432a5e25f6f4808e0d4ca683bf6ba58aeb87b6ac6582d88c2b91b47b93eb"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\@node-llama-cpp\\win-x64-vulkan\\bins\\win-x64-vulkan\\ggml-cpu-cannonlake.dll",
+      "size": 1479680,
+      "mtimeMs": 1791391311275.359,
+      "sha256": "20174eb91bcd2fed749f3390b811da3f50b7a27faed37140ae2ccfcc15078236"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\@node-llama-cpp\\win-x64-vulkan\\bins\\win-x64-vulkan\\ggml-cpu-cascadelake.dll",
+      "size": 1464832,
+      "mtimeMs": 1791391311394.2034,
+      "sha256": "d92b09dafe13ced62aab7c849a06d14ff6e6cd9d7ef0178bfd2d9c6aca3ecb49"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\@node-llama-cpp\\win-x64-vulkan\\bins\\win-x64-vulkan\\ggml-cpu-cooperlake.dll",
+      "size": 1465344,
+      "mtimeMs": 1791391311473.538,
+      "sha256": "a3b026c1e75f85cbb21608c663f8bfed3654fd07719ff82e1c881a3b68fc0d39"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\@node-llama-cpp\\win-x64-vulkan\\bins\\win-x64-vulkan\\ggml-cpu-haswell.dll",
+      "size": 1267200,
+      "mtimeMs": 1791391311542.4019,
+      "sha256": "3263c6e0d4c5cbee2b6ab383f6f964ef45994342658432d938d6811d0b61dfce"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\@node-llama-cpp\\win-x64-vulkan\\bins\\win-x64-vulkan\\ggml-cpu-icelake.dll",
+      "size": 1471488,
+      "mtimeMs": 1791391311607.2517,
+      "sha256": "901dcfa83d0c2a251b90b37f4b430c5be678c7817e15d676596626c6a2855be7"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\@node-llama-cpp\\win-x64-vulkan\\bins\\win-x64-vulkan\\ggml-cpu-ivybridge.dll",
+      "size": 1158144,
+      "mtimeMs": 1791391311633.662,
+      "sha256": "69ad60522a9ff14a7a35edda40c69fb45b7296553cd1dabe9bf5b1d2d97b23e0"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\@node-llama-cpp\\win-x64-vulkan\\bins\\win-x64-vulkan\\ggml-cpu-piledriver.dll",
+      "size": 1162240,
+      "mtimeMs": 1791391311706.0486,
+      "sha256": "e32035931d260a5755de3ed290028c2f1689107e00c2dae93d5b0c26984f4b0d"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\@node-llama-cpp\\win-x64-vulkan\\bins\\win-x64-vulkan\\ggml-cpu-sandybridge.dll",
+      "size": 1138176,
+      "mtimeMs": 1791391311734.1099,
+      "sha256": "a98f05f6837948760ccb513261c5ea6b3fe2515c6180ef0a2619985bfa64ca85"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\@node-llama-cpp\\win-x64-vulkan\\bins\\win-x64-vulkan\\ggml-cpu-sapphirerapids.dll",
+      "size": 1757184,
+      "mtimeMs": 1791391311796.722,
+      "sha256": "f9540bef8481b617309c65ca909cdecf8d7c468ce808329903c0f1b373f04a15"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\@node-llama-cpp\\win-x64-vulkan\\bins\\win-x64-vulkan\\ggml-cpu-skylakex.dll",
+      "size": 1473536,
+      "mtimeMs": 1791391311848.2512,
+      "sha256": "37b4568eb851eb86b6290d766a9b1144dca5055bbfc7da15ea5637337013eb1d"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\@node-llama-cpp\\win-x64-vulkan\\bins\\win-x64-vulkan\\ggml-cpu-sse42.dll",
+      "size": 963072,
+      "mtimeMs": 1791391311875.9512,
+      "sha256": "b6484c384cffe6d4f2ef6a53cff6098467beaa6227ddd2d1130781ea7c1e3748"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\@node-llama-cpp\\win-x64-vulkan\\bins\\win-x64-vulkan\\ggml-cpu-x64.dll",
+      "size": 953856,
+      "mtimeMs": 1791391311895.64,
+      "sha256": "8d264fbdcffbf1bb7c7fc5a38df14a1a6f0a1ca22e2d5f4d80c70cda92bee102"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\@node-llama-cpp\\win-x64-vulkan\\bins\\win-x64-vulkan\\ggml-cpu-zen4.dll",
+      "size": 1472000,
+      "mtimeMs": 1791391311951.488,
+      "sha256": "caf34b849b79c1c9109a4cb355b8ff3f51fdbe56c467b40a3f03cd30a7c9f517"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\@node-llama-cpp\\win-x64-vulkan\\bins\\win-x64-vulkan\\ggml-vulkan.dll",
+      "size": 43495936,
+      "mtimeMs": 1791391312840.1523,
+      "sha256": "982562233fcab58b255ea90d383970043abb01d1392e19c76c7204d90854bd76"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\@node-llama-cpp\\win-x64-vulkan\\bins\\win-x64-vulkan\\ggml.vulkan.v0.5.0.dll",
+      "size": 101888,
+      "mtimeMs": 1791391312843.763,
+      "sha256": "5bb4712cf765d9f8acadd183785f3717c6433ae394d9fc8ad14edee2e8a86ee9"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\@node-llama-cpp\\win-x64-vulkan\\bins\\win-x64-vulkan\\llama-addon.node",
+      "size": 633344,
+      "mtimeMs": 1791391313097.403,
+      "sha256": "886a2107c5fe434d442bdbdd284eb26d27eb95b6669fd0ebec2e0397efaf7050"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\@node-llama-cpp\\win-x64-vulkan\\bins\\win-x64-vulkan\\llama-common.dll",
+      "size": 6189056,
+      "mtimeMs": 1791391312974.0703,
+      "sha256": "8e493b98e14c04b85b5c1312e38bf19947d0d619115f4cbda83065928c39e835"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\@node-llama-cpp\\win-x64-vulkan\\bins\\win-x64-vulkan\\llama.vulkan.v0.5.0.dll",
+      "size": 3843072,
+      "mtimeMs": 1791391313046.221,
+      "sha256": "bf95ec6944f464e939d986970bcfe6c24bd516bb57b69230cca460436fa3ed5d"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\@node-llama-cpp\\win-x64-vulkan\\bins\\win-x64-vulkan\\_nlcBuildMetadata.json",
+      "size": 224,
+      "mtimeMs": 1791391313054.028,
+      "sha256": "ee6cbeb3cf4b83adc5f4760a1ec70225fa7857f5bc578ef93ede8e7f6d6d1626"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\@node-llama-cpp\\win-x64-vulkan\\dist\\index.js",
+      "size": 422,
+      "mtimeMs": 1791391313048.8313,
+      "sha256": "032284f3124f6952b49b78f2f0098fba0102fc276780028e6859a45f560f53cb"
+    },
+    {
+      "file": "<workspace>\\mnm-lore\\node_modules\\@node-llama-cpp\\win-x64-vulkan\\package.json",
+      "size": 849,
+      "mtimeMs": 1791391313069.262,
+      "sha256": "491111640eeab49a31b4a681f7a5989dd6cf717d64070c42e539c93c16b3c20c"
+    }
+  ],
+  "reader": "<workspace>\\memoracle\\experiments\\model-comparison\\prepared\\reader.mjs",
+  "prompts": "<workspace>\\memoracle\\experiments\\model-comparison\\prepared\\prompts.json",
+  "cases": "<workspace>\\memoracle\\experiments\\model-comparison\\prepared\\cases.json",
+  "files": [
+    {
+      "file": "<workspace>\\memoracle\\experiments\\model-comparison\\concurrency.mjs",
+      "sha256": "2ec355a9e581a71a540f61e141b3b0821e0d3d806fe474254c8b26b3da9daa21"
+    },
+    {
+      "file": "<workspace>\\memoracle\\experiments\\model-comparison\\concurrency-worker.mjs",
+      "sha256": "7e67fc5080fb2392063018900e6d85d2a7cbc099c3137d8874f5eb4886a99913"
+    },
+    {
+      "file": "<workspace>\\memoracle\\experiments\\model-comparison\\concurrency-core.mjs",
+      "sha256": "6ec155d8fc50c2798480f0ff77ba3ebf652593ddfa63c5e0a69f9420fcb687e4"
+    },
+    {
+      "file": "<workspace>\\memoracle\\experiments\\model-comparison\\core.mjs",
+      "sha256": "dea67b91ee4cbddbabcccf60581b46963b8d7cac0ca148b276118349c72952a8"
+    },
+    {
+      "file": "<workspace>\\memoracle\\experiments\\model-comparison\\prepared\\reader.mjs",
+      "sha256": "b1b13d451ef4a7e55b371a0e6c0a44b88c1e3917479c09ff2b55dfa8f36ff904"
+    },
+    {
+      "file": "<workspace>\\memoracle\\experiments\\model-comparison\\prepared\\prompts.json",
+      "sha256": "dd6589f2687b01feb45c1de99dde78d0f703ccff2dcb672c544abd4c3b4cb0f6"
+    },
+    {
+      "file": "<workspace>\\memoracle\\experiments\\model-comparison\\prepared\\cases.json",
+      "sha256": "fb6e26ba193cd436403c7a88995099b9b613d3a819b08900afe165572a0b9cdf"
+    }
+  ],
+  "levels": [
+    1,
+    2,
+    4,
+    8,
+    16
+  ],
+  "settings": {
+    "gpu": "vulkan",
+    "contextSize": 4096,
+    "threads": 2,
+    "batchSize": 512,
+    "repeats": 3,
+    "temperature": 0,
+    "seed": 42,
+    "thoughtTokens": 0,
+    "admission": "shared-cpu",
+    "priority": "BelowNormal",
+    "affinityMask": 272629760,
+    "maxThreads": 2,
+    "contextSizePerRequest": 4096,
+    "sharedContext": true,
+    "requestsPerRound": 32,
+    "telemetryMs": 200,
+    "scope": "E4B concurrency; one model, independent sequences, simultaneous bursts"
+  },
+  "id": "f352770dd599ecb68dbe72e00e6f4d9d803c2afeae06e12f905d10b8f76d2c0a"
+}

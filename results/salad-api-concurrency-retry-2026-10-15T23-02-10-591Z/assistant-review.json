@@ -1,0 +1,11 @@
+{
+  "reviewedAt": "2026-10-15T23:10:53.011Z",
+  "status": "partial-run-stopped-on-http401",
+  "distinctAnswersReviewed": 16,
+  "notes": [
+    "Reviewed 16 distinct answer variants against the same frozen sources; correct core facts and abstentions; typo caveats awkward but locations supplied",
+    "31 of 48 completed with 31 rubric passes; incomplete 96-question workload is not a passing capacity gate",
+    "No automatic restart after authentication failure",
+    "Reported cost includes partial failed workflows; unreported usage unknown"
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "specId": "f352770dd599ecb68dbe72e00e6f4d9d803c2afeae06e12f905d10b8f76d2c0a",
+  "concurrency": 4,
+  "settings": {
+    "gpu": "vulkan",
+    "contextSize": 4096,
+    "threads": 2,
+    "batchSize": 512,
+    "repeats": 3,
+    "temperature": 0,
+    "seed": 42,
+    "thoughtTokens": 0,
+    "admission": "shared-cpu",
+    "priority": "BelowNormal",
+    "affinityMask": 272629760,
+    "maxThreads": 2,
+    "contextSizePerRequest": 4096,
+    "sharedContext": true,
+    "requestsPerRound": 32,
+    "telemetryMs": 200,
+    "scope": "E4B concurrency; one model, independent sequences, simultaneous bursts"
+  },
+  "resource": {
+    "priority": "BelowNormal",
+    "affinity": 272629760,
+    "pid": 50404
+  },
+  "devices": [
+    "NVIDIA GeForce RTX 3090 Ti"
+  ],
+  "gpuLayers": 43,
+  "modelMemoryBytes": 5139117224,
+  "contextSizePerRequest": 4096,
+  "baseline": {
+    "total": 25757220864,
+    "used": 9317646336,
+    "free": 16173236224,
+    "utilization": 2
+  },
+  "afterModel": {
+    "total": 25757220864,
+    "used": 12482248704,
+    "free": 13008633856,
+    "utilization": 22
+  },
+  "afterContexts": {
+    "total": 25757220864,
+    "used": 13496221696,
+    "free": 11994660864,
+    "utilization": 4
+  },
+  "loadMs": 2561.013099999999,
+  "allocationMs": 559.7777999999998,
+  "hostBefore": {
+    "cpuPercent": 5,
+    "freeRamKiB": 59973640
+  }
+}

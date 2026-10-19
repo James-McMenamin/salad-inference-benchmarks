@@ -1,0 +1,29 @@
+{
+  "model": "qwen3.6-35b-a3b",
+  "rate": {
+    "input": 0.06,
+    "output": 0.95
+  },
+  "rateSource": "https://docs.salad.com/ai-gateway/reference/pricing",
+  "levels": [
+    24
+  ],
+  "repeats": 1,
+  "requestsPerRound": 24,
+  "requestsPerLevel": 24,
+  "temperature": 0,
+  "reasoning": false,
+  "readerMaxTokens": 260,
+  "answerMaxTokens": 400,
+  "files": {
+    "<workspace>\\memoracle\\experiments\\model-comparison\\salad-api-eight-per-second.mjs": "ac5b9b8826cc4e7cdd9b3d147867dec238f5b4414436648fdfa89565014a1a63",
+    "<workspace>\\memoracle\\experiments\\model-comparison\\core.mjs": "dea67b91ee4cbddbabcccf60581b46963b8d7cac0ca148b276118349c72952a8",
+    "<workspace>\\memoracle\\experiments\\model-comparison\\concurrency-core.mjs": "6ec155d8fc50c2798480f0ff77ba3ebf652593ddfa63c5e0a69f9420fcb687e4",
+    "<workspace>\\memoracle\\experiments\\model-comparison\\salad-api-core.mjs": "07039654d71626ba9e3f0d076b3b148f608ac9319f3980b2d5622c71c5555e7c",
+    "<workspace>\\memoracle\\experiments\\model-comparison\\runs\\salad-api-2026-10-15T22-25-16-854Z\\inputs\\cases.json": "fb6e26ba193cd436403c7a88995099b9b613d3a819b08900afe165572a0b9cdf",
+    "<workspace>\\memoracle\\experiments\\model-comparison\\runs\\salad-api-2026-10-15T22-25-16-854Z\\inputs\\prompts.json": "dd6589f2687b01feb45c1de99dde78d0f703ccff2dcb672c544abd4c3b4cb0f6",
+    "<workspace>\\memoracle\\experiments\\model-comparison\\runs\\salad-api-2026-10-15T22-25-16-854Z\\inputs\\reader.mjs": "b1b13d451ef4a7e55b371a0e6c0a44b88c1e3917479c09ff2b55dfa8f36ff904"
+  },
+  "method": "Simultaneous waves of independent reader-plus-answer requests. Eight starts each at offsets 0/1000/2000 ms; up to 24 overlapping workflows. Frozen sources; no retrieval/Discord delivery. No retries. Latency includes internet and provider queueing. Report all rubric failures and request errors.",
+  "id": "35b8c0ea11c85f69aa14dd2600463884f1d437bc265cf2a3b34b3147a7c3688e"
+}

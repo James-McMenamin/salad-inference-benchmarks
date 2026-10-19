@@ -1,0 +1,15 @@
+{
+  "scope": "memoracle API concurrency comparison",
+  "specId": "0c1f00b8fd0fa9d088a7e62581116b438ba216e4a9cd9edd80c1dd96694938f9",
+  "status": "failed",
+  "startedAt": "2026-10-16T00:38:30.988Z",
+  "run": "<workspace>\\memoracle\\experiments\\model-comparison\\runs\\salad-api-eight-per-second-immediate-retry-10s-2026-10-16T00-38-30-986Z",
+  "workerPid": 53132,
+  "completed": 0,
+  "costUsd": 0,
+  "previous": {
+    "status": "completed-needs-review",
+    "run": "<workspace>\\memoracle\\experiments\\model-comparison\\runs\\salad-api-eight-per-second-immediate-retry-2026-10-16T00-33-18-303Z"
+  },
+  "error": "Error: Requested model unavailable\n    at file:///<workspace>/memoracle/experiments/model-comparison/salad-api-eight-per-second-immediate-retry-10s.mjs:103:53"
+}

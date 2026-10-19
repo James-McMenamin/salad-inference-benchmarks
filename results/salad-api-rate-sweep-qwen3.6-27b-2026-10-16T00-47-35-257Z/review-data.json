@@ -1,0 +1,139 @@
+{
+  "model": "qwen3.6-27b",
+  "stats": [
+    {
+      "questionsPerSecond": 1,
+      "completed": 3,
+      "attempted": 3,
+      "passed": 3,
+      "retried": 1,
+      "medianCompletedSeconds": 6.3445197,
+      "maxCompletedSeconds": 16.180983899999998,
+      "costUsd": 0.0019444699999999996,
+      "errors": {}
+    },
+    {
+      "questionsPerSecond": 2,
+      "completed": 6,
+      "attempted": 6,
+      "passed": 6,
+      "retried": 2,
+      "medianCompletedSeconds": 9.2829924,
+      "maxCompletedSeconds": 17.693099099999998,
+      "costUsd": 0.004001149999999999,
+      "errors": {}
+    },
+    {
+      "questionsPerSecond": 4,
+      "completed": 2,
+      "attempted": 12,
+      "passed": 2,
+      "retried": 12,
+      "medianCompletedSeconds": 30.045273,
+      "maxCompletedSeconds": 30.045273,
+      "costUsd": 0.0028839,
+      "errors": {
+        "The operation was aborted due to timeout": 3,
+        "HTTP 503": 7
+      }
+    },
+    {
+      "questionsPerSecond": 8,
+      "completed": 2,
+      "attempted": 24,
+      "passed": 2,
+      "retried": 24,
+      "medianCompletedSeconds": 41.4809216,
+      "maxCompletedSeconds": 41.4809216,
+      "costUsd": 0.00392848,
+      "errors": {
+        "HTTP 503": 17,
+        "The operation was aborted due to timeout": 5
+      }
+    }
+  ],
+  "totalCostUsd": 0.012757999999999999,
+  "distinctAnswers": [
+    {
+      "caseId": "level",
+      "answer": "Fallen Pass is for levels 19 to 44 [1].",
+      "grade": {
+        "pass": true,
+        "reasons": [],
+        "manualReviewRequired": true
+      }
+    },
+    {
+      "caseId": "npc",
+      "answer": "Abbot Harrow is found in Underdocks, at the Temple of Ygorath [1].",
+      "grade": {
+        "pass": true,
+        "reasons": [],
+        "manualReviewRequired": true
+      }
+    },
+    {
+      "caseId": "quest",
+      "answer": "Guard Pippi Pinecone gives the quest A Sweet Treat in Evershade Weald [1].",
+      "grade": {
+        "pass": true,
+        "reasons": [],
+        "manualReviewRequired": true
+      }
+    },
+    {
+      "caseId": "recipe",
+      "answer": "To make Enchanted Cloth, you need 1 Cloth Scraps and 1 Enchanted Powder [1]. You must use a Tome of Enchantment or an Enchanting Station in Night Harbor as the crafting vessel [1]. This recipe is part of the Enchanting profession [1].",
+      "grade": {
+        "pass": true,
+        "reasons": [],
+        "manualReviewRequired": true
+      }
+    },
+    {
+      "caseId": "borders",
+      "answer": "Glass Flats borders Sungreet Strand and Vale of Zintar [1].",
+      "grade": {
+        "pass": true,
+        "reasons": [],
+        "manualReviewRequired": true
+      }
+    },
+    {
+      "caseId": "drop",
+      "answer": "Aashir's Journal is dropped by a cultist in Night Harbor [1].",
+      "grade": {
+        "pass": true,
+        "reasons": [],
+        "manualReviewRequired": true
+      }
+    },
+    {
+      "caseId": "missing-release",
+      "answer": "The wiki doesn't say.",
+      "grade": {
+        "pass": true,
+        "reasons": [],
+        "manualReviewRequired": true
+      }
+    },
+    {
+      "caseId": "pronoun-answer",
+      "answer": "Guard Pippi Pinecone is located in Evershade Weald [1].",
+      "grade": {
+        "pass": true,
+        "reasons": [],
+        "manualReviewRequired": true
+      }
+    },
+    {
+      "caseId": "missing-rate",
+      "answer": "The wiki doesn't say.",
+      "grade": {
+        "pass": true,
+        "reasons": [],
+        "manualReviewRequired": true
+      }
+    }
+  ]
+}

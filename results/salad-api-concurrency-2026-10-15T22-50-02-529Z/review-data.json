@@ -1,0 +1,459 @@
+{
+  "summary": [
+    {
+      "concurrency": 2,
+      "completed": 40,
+      "passed": 38,
+      "errors": {
+        "HTTP 400": 32,
+        "HTTP 503": 24
+      },
+      "median": 1856.2115999999987,
+      "p95": 3722.956500000004,
+      "completedCostUsd": 0.0068407,
+      "costPerAnswer": 0.0001710175,
+      "cleanWaveRps": 0.7528897603002288
+    },
+    {
+      "concurrency": 4,
+      "completed": 64,
+      "passed": 64,
+      "errors": {
+        "HTTP 400": 32
+      },
+      "median": 1563.3965000000026,
+      "p95": 3550.568800000001,
+      "completedCostUsd": 0.01102007,
+      "costPerAnswer": 0.00017218859375,
+      "cleanWaveRps": 1.2799745925043375
+    },
+    {
+      "concurrency": 8,
+      "completed": 32,
+      "passed": 31,
+      "errors": {
+        "HTTP 400": 56,
+        "HTTP 503": 8
+      },
+      "median": 1974.1156000000046,
+      "p95": 5060.282899999991,
+      "completedCostUsd": 0.005523029999999999,
+      "costPerAnswer": 0.00017259468749999997,
+      "cleanWaveRps": 1.74568778838694
+    },
+    {
+      "concurrency": 16,
+      "completed": 1,
+      "passed": 1,
+      "errors": {
+        "HTTP 503": 44,
+        "The operation was aborted due to timeout": 19,
+        "HTTP 400": 32
+      },
+      "median": 3552.5076999999874,
+      "p95": 3552.5076999999874,
+      "completedCostUsd": 0.00016674000000000002,
+      "costPerAnswer": 0.00016674000000000002,
+      "cleanWaveRps": null
+    }
+  ],
+  "distinctAnswers": [
+    {
+      "caseId": "level",
+      "answer": "Fallen Pass is for levels 19 to 44 [1].",
+      "grade": {
+        "pass": true,
+        "reasons": [],
+        "manualReviewRequired": true
+      },
+      "read": {
+        "asks": "what",
+        "question": "what is the level range for Falln Pass",
+        "meant": {},
+        "refers": "",
+        "more": [],
+        "unclear": ""
+      }
+    },
+    {
+      "caseId": "npc",
+      "answer": "The wiki doesn't say.",
+      "grade": {
+        "pass": false,
+        "reasons": [
+          "declined answerable question",
+          "missing Underdocks",
+          "missing Temple of Ygorath",
+          "no citations",
+          "did not cite Abbot Harrow"
+        ],
+        "manualReviewRequired": true
+      },
+      "read": {
+        "asks": "where",
+        "question": "where is Harow at?",
+        "meant": {},
+        "refers": "",
+        "more": [],
+        "unclear": ""
+      }
+    },
+    {
+      "caseId": "quest",
+      "answer": "Guard Pippi Pinecone gives the quest A Sweet Treat in Evershade Weald [1].",
+      "grade": {
+        "pass": true,
+        "reasons": [],
+        "manualReviewRequired": true
+      },
+      "read": {
+        "asks": "who",
+        "question": "who gives a sweet treat quest",
+        "meant": {},
+        "refers": "",
+        "more": [],
+        "unclear": ""
+      }
+    },
+    {
+      "caseId": "recipe",
+      "answer": "To make Enchanted Cloth, you need Cloth Scraps and Enchanted Powder [1]. You must use a Tome of Enchantment or an Enchanting Station in Night Harbor to craft it [1].",
+      "grade": {
+        "pass": true,
+        "reasons": [],
+        "manualReviewRequired": true
+      },
+      "read": {
+        "asks": "what",
+        "question": "what do i need to make enchanted cloth",
+        "meant": {},
+        "refers": "",
+        "more": [],
+        "unclear": ""
+      }
+    },
+    {
+      "caseId": "borders",
+      "answer": "Glass Flats connects to Sungreet Strand and Vale of Zintar [1].",
+      "grade": {
+        "pass": true,
+        "reasons": [],
+        "manualReviewRequired": true
+      },
+      "read": {
+        "asks": "where",
+        "question": "what zones does Glass Flats connect to",
+        "meant": {},
+        "refers": "",
+        "more": [],
+        "unclear": ""
+      }
+    },
+    {
+      "caseId": "drop",
+      "answer": "Aashir's Journal is dropped by a cultist in Night Harbor [1].",
+      "grade": {
+        "pass": true,
+        "reasons": [],
+        "manualReviewRequired": true
+      },
+      "read": {
+        "asks": "what",
+        "question": "what drops Aashir's Journal",
+        "meant": {},
+        "refers": "",
+        "more": [],
+        "unclear": ""
+      }
+    },
+    {
+      "caseId": "pronoun-answer",
+      "answer": "Guard Pippi Pinecone is located in Evershade Weald [1].",
+      "grade": {
+        "pass": true,
+        "reasons": [],
+        "manualReviewRequired": true
+      },
+      "read": {
+        "asks": "where",
+        "question": "where is Guard Pippi Pinecone at tho",
+        "meant": {},
+        "refers": "Guard Pippi Pinecone",
+        "more": [],
+        "unclear": ""
+      }
+    },
+    {
+      "caseId": "missing-release",
+      "answer": "The wiki doesn't say.",
+      "grade": {
+        "pass": true,
+        "reasons": [],
+        "manualReviewRequired": true
+      },
+      "read": {
+        "asks": "when",
+        "question": "when is the mnm mobile app release",
+        "meant": {},
+        "refers": "",
+        "more": [],
+        "unclear": ""
+      }
+    },
+    {
+      "caseId": "missing-discord",
+      "answer": "The wiki doesn't say.",
+      "grade": {
+        "pass": true,
+        "reasons": [],
+        "manualReviewRequired": true
+      },
+      "read": {
+        "asks": "what",
+        "question": "what discord does abbot harrow use",
+        "meant": {},
+        "refers": "",
+        "more": [],
+        "unclear": ""
+      }
+    },
+    {
+      "caseId": "missing-rate",
+      "answer": "The wiki doesn't say.",
+      "grade": {
+        "pass": true,
+        "reasons": [],
+        "manualReviewRequired": true
+      },
+      "read": {
+        "asks": "what",
+        "question": "what is the exact journal drop chance percentage",
+        "meant": {},
+        "refers": "",
+        "more": [],
+        "unclear": ""
+      }
+    },
+    {
+      "caseId": "quest",
+      "answer": "The quest \"A Sweet Treat\" is given by Guard Pippi Pinecone in Evershade Weald [1].",
+      "grade": {
+        "pass": true,
+        "reasons": [],
+        "manualReviewRequired": true
+      },
+      "read": {
+        "asks": "who",
+        "question": "who gives a sweet treat quest",
+        "meant": {},
+        "refers": "",
+        "more": [],
+        "unclear": ""
+      }
+    },
+    {
+      "caseId": "npc",
+      "answer": "Abbot Harrow is found in Underdocks, at the Temple of Ygorath [1].",
+      "grade": {
+        "pass": true,
+        "reasons": [],
+        "manualReviewRequired": true
+      },
+      "read": {
+        "asks": "where",
+        "question": "where is Harow at?",
+        "meant": {},
+        "refers": "",
+        "more": [],
+        "unclear": ""
+      }
+    },
+    {
+      "caseId": "quest",
+      "answer": "Guard Pippi Pinecone gives the A Sweet Treat quest in Evershade Weald [1].",
+      "grade": {
+        "pass": true,
+        "reasons": [],
+        "manualReviewRequired": true
+      },
+      "read": {
+        "asks": "who",
+        "question": "who gives a sweet treat quest",
+        "meant": {},
+        "refers": "",
+        "more": [],
+        "unclear": ""
+      }
+    },
+    {
+      "caseId": "npc",
+      "answer": "Abbot Harrow is found in Underdocks, specifically at the Temple of Ygorath [1].",
+      "grade": {
+        "pass": true,
+        "reasons": [],
+        "manualReviewRequired": true
+      },
+      "read": {
+        "asks": "where",
+        "question": "where is Harow at?",
+        "meant": {},
+        "refers": "",
+        "more": [],
+        "unclear": ""
+      }
+    },
+    {
+      "caseId": "recipe",
+      "answer": "To make Enchanted Cloth, you need Cloth Scraps and Enchanted Powder [1]. You must have the Enchanting profession and use either a Tome of Enchantment or an Enchanting Station in Night Harbor to craft it [1].",
+      "grade": {
+        "pass": true,
+        "reasons": [],
+        "manualReviewRequired": true
+      },
+      "read": {
+        "asks": "what",
+        "question": "what do i need to make enchanted cloth",
+        "meant": {},
+        "refers": "",
+        "more": [],
+        "unclear": ""
+      }
+    },
+    {
+      "caseId": "quest",
+      "answer": "Guard Pippi Pinecone gives the quest A Sweet Treat [1].",
+      "grade": {
+        "pass": true,
+        "reasons": [],
+        "manualReviewRequired": true
+      },
+      "read": {
+        "asks": "who",
+        "question": "who gives a sweet treat quest",
+        "meant": {},
+        "refers": "",
+        "more": [],
+        "unclear": ""
+      }
+    },
+    {
+      "caseId": "recipe",
+      "answer": "To make Enchanted Cloth, you need Cloth Scraps and Enchanted Powder [1]. You must use a Tome of Enchantment or an Enchanting Station in Night Harbor to craft it [1]. This recipe is available to characters with the Enchanting profession [1].",
+      "grade": {
+        "pass": true,
+        "reasons": [],
+        "manualReviewRequired": true
+      },
+      "read": {
+        "asks": "what",
+        "question": "what do i need to make enchanted cloth",
+        "meant": {},
+        "refers": "",
+        "more": [],
+        "unclear": ""
+      }
+    },
+    {
+      "caseId": "npc",
+      "answer": "The wiki does not mention a character named \"Harow.\" It does list Abbot Harrow, who is found in Underdocks at the Temple of Ygorath [1].",
+      "grade": {
+        "pass": true,
+        "reasons": [],
+        "manualReviewRequired": true
+      },
+      "read": {
+        "asks": "where",
+        "question": "where is Harow at?",
+        "meant": {},
+        "refers": "",
+        "more": [],
+        "unclear": ""
+      }
+    },
+    {
+      "caseId": "recipe",
+      "answer": "To make Enchanted Cloth, you need Cloth Scraps and Enchanted Powder [1]. You must use a Tome of Enchantment or an Enchanting Station in Night Harbor, and the required Enchanting skill is 25 [1].",
+      "grade": {
+        "pass": true,
+        "reasons": [],
+        "manualReviewRequired": true
+      },
+      "read": {
+        "asks": "what",
+        "question": "what do i need to make enchanted cloth",
+        "meant": {},
+        "refers": "",
+        "more": [],
+        "unclear": ""
+      }
+    },
+    {
+      "caseId": "npc",
+      "answer": "Abbot Harrow is located in the Underdocks, specifically at the Temple of Ygorath [1]. The sources do not mention a character named \"Harow,\" but Abbot Harrow is the only relevant NPC listed [1].",
+      "grade": {
+        "pass": true,
+        "reasons": [],
+        "manualReviewRequired": true
+      },
+      "read": {
+        "asks": "where",
+        "question": "where is Harow at?",
+        "meant": {},
+        "refers": "",
+        "more": [],
+        "unclear": ""
+      }
+    },
+    {
+      "caseId": "recipe",
+      "answer": "To make Enchanted Cloth, you need Cloth Scraps and Enchanted Powder [1]. You must use a Tome of Enchantment or an Enchanting Station in Night Harbor to craft it [1]. This recipe is for the Enchanting profession and requires a Start skill of 5 and a Trivial skill of 25 [1].",
+      "grade": {
+        "pass": true,
+        "reasons": [],
+        "manualReviewRequired": true
+      },
+      "read": {
+        "asks": "what",
+        "question": "what do i need to make enchanted cloth",
+        "meant": {},
+        "refers": "",
+        "more": [],
+        "unclear": ""
+      }
+    },
+    {
+      "caseId": "recipe",
+      "answer": "To craft Enchanted Cloth, you need Cloth Scraps and Enchanted Powder [1]. You must use a Tome of Enchantment or an Enchanting Station in Night Harbor to perform the crafting [1].",
+      "grade": {
+        "pass": true,
+        "reasons": [],
+        "manualReviewRequired": true
+      },
+      "read": {
+        "asks": "what",
+        "question": "what do i need to make enchanted cloth",
+        "meant": {},
+        "refers": "",
+        "more": [],
+        "unclear": ""
+      }
+    },
+    {
+      "caseId": "recipe",
+      "answer": "To make Enchanted Cloth, you need Cloth Scraps and Enchanted Powder [1]. You must also use a Tome of Enchantment or an Enchanting Station in Night Harbor [1].",
+      "grade": {
+        "pass": true,
+        "reasons": [],
+        "manualReviewRequired": true
+      },
+      "read": {
+        "asks": "what",
+        "question": "what do i need to make enchanted cloth",
+        "meant": {},
+        "refers": "",
+        "more": [],
+        "unclear": ""
+      }
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "specId": "f352770dd599ecb68dbe72e00e6f4d9d803c2afeae06e12f905d10b8f76d2c0a",
+  "concurrency": 4,
+  "settings": {
+    "gpu": "vulkan",
+    "contextSize": 4096,
+    "threads": 2,
+    "batchSize": 512,
+    "repeats": 3,
+    "temperature": 0,
+    "seed": 42,
+    "thoughtTokens": 0,
+    "admission": "shared-cpu",
+    "priority": "BelowNormal",
+    "affinityMask": 272629760,
+    "maxThreads": 2,
+    "contextSizePerRequest": 4096,
+    "sharedContext": true,
+    "requestsPerRound": 32,
+    "telemetryMs": 200,
+    "scope": "E4B concurrency; one model, independent sequences, simultaneous bursts"
+  },
+  "resource": {
+    "priority": "BelowNormal",
+    "affinity": 272629760,
+    "pid": 50404
+  },
+  "devices": [
+    "NVIDIA GeForce RTX 3090 Ti"
+  ],
+  "gpuLayers": 43,
+  "modelMemoryBytes": 5139117224,
+  "contextSizePerRequest": 4096,
+  "baseline": {
+    "total": 25757220864,
+    "used": 9317646336,
+    "free": 16173236224,
+    "utilization": 2
+  },
+  "afterModel": {
+    "total": 25757220864,
+    "used": 12482248704,
+    "free": 13008633856,
+    "utilization": 22
+  },
+  "afterContexts": {
+    "total": 25757220864,
+    "used": 13496221696,
+    "free": 11994660864,
+    "utilization": 4
+  },
+  "loadMs": 2561.013099999999,
+  "allocationMs": 559.7777999999998,
+  "hostBefore": {
+    "cpuPercent": 5,
+    "freeRamKiB": 59973640
+  },
+  "requests": 96,
+  "passed": 96,
+  "errors": 0,
+  "latencyMs": {
+    "n": 96,
+    "median": 2570.7455000000045,
+    "p95": 3145.3977999999915,
+    "max": 3345.694300000003
+  },
+  "firstAnswerTokenMs": {
+    "n": 96,
+    "median": 2238.3759999999893,
+    "p95": 2713.893200000006,
+    "max": 2866.7052000000112
+  },
+  "wallMs": 69840.19279999999,
+  "requestsPerSecond": 1.374566652112679,
+  "answerTokensPerSecond": 26.96155214508515,
+  "rounds": [
+    {
+      "requests": 32,
+      "passed": 32,
+      "errors": 0,
+      "latencyMs": {
+        "n": 32,
+        "median": 2607.5719000000026,
+        "p95": 3101.4399999999987,
+        "max": 3137.640800000001
+      },
+      "firstAnswerTokenMs": {
+        "n": 32,
+        "median": 2200.493200000001,
+        "p95": 2752.3138999999974,
+        "max": 2849.4822999999997
+      },
+      "wallMs": 22979.188700000002,
+      "requestsPerSecond": 1.3925643945819548,
+      "answerTokensPerSecond": 26.676311683710573
+    },
+    {
+      "requests": 32,
+      "passed": 32,
+      "errors": 0,
+      "latencyMs": {
+        "n": 32,
+        "median": 2537.533199999998,
+        "p95": 3115.7770999999993,
+        "max": 3235.187100000003
+      },
+      "firstAnswerTokenMs": {
+        "n": 32,
+        "median": 2216.3582000000024,
+        "p95": 2661.568500000001,
+        "max": 2713.893200000006
+      },
+      "wallMs": 23129.113899999997,
+      "requestsPerSecond": 1.3835376546785911,
+      "answerTokensPerSecond": 26.503393197436765
+    },
+    {
+      "requests": 32,
+      "passed": 32,
+      "errors": 0,
+      "latencyMs": {
+        "n": 32,
+        "median": 2674.8896999999997,
+        "p95": 3299.1400999999896,
+        "max": 3345.694300000003
+      },
+      "firstAnswerTokenMs": {
+        "n": 32,
+        "median": 2248.0319000000018,
+        "p95": 2781.0344999999943,
+        "max": 2866.7052000000112
+      },
+      "wallMs": 23731.890199999987,
+      "requestsPerSecond": 1.348396597587495,
+      "answerTokensPerSecond": 27.684267644218256
+    }
+  ],
+  "peakDeviceVramBytes": 14050918400,
+  "incrementalPeakVramBytes": 4733272064,
+  "afterWorkload": {
+    "total": 25757220864,
+    "used": 13242466304,
+    "free": 12248416256,
+    "utilization": 75
+  },
+  "hostAfter": {
+    "cpuPercent": 45,
+    "freeRamKiB": 56195920
+  },
+  "sampleCount": 342,
+  "peakRssBytes": 3541884928,
+  "note": "Simultaneous bursts with independent sequences sharing one model and context; no production retrieval or network; shared CPU load and resident production bot. Throughput excludes writes between waves, loading, and warmup. Automatic rubric, not independent factual adjudication."
+}

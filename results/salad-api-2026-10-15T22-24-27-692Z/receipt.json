@@ -1,0 +1,20 @@
+{
+  "scope": "memoracle API model comparison",
+  "status": "failed",
+  "startedAt": "2026-10-15T22:24:27.702Z",
+  "run": "<workspace>\\memoracle\\experiments\\model-comparison\\runs\\salad-api-2026-10-15T22-24-27-692Z",
+  "previous": {
+    "status": "completed-reviewed-by-assistant",
+    "run": "<workspace>\\memoracle\\experiments\\model-comparison\\runs\\concurrency-2026-10-15T21-16-05-155Z"
+  },
+  "workerPid": 25752,
+  "models": [
+    "qwen3.5-9b",
+    "qwen3.6-35b-a3b"
+  ],
+  "completed": 0,
+  "costUsd": 0,
+  "model": "qwen3.5-9b",
+  "modelCompleted": 0,
+  "error": "API 400: {\"detail\":\"invalid request body\",\"status\":400,\"title\":\"Bad Request\",\"type\":\"about:blank\"}"
+}

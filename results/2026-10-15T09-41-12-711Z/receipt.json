@@ -1,0 +1,91 @@
+{
+  "scope": "memoracle model comparison performance experiment",
+  "specId": "cb8abf40f0410f2404e2c3b93d3725727c206b22562b8b8a238435d7dbb50adc",
+  "status": "completed-reviewed-by-assistant",
+  "submittedAt": "2026-10-15T09:41:11.051Z",
+  "quietSeconds": 0,
+  "admission": "shared-cpu",
+  "specFile": "<workspace>\\memoracle\\experiments\\model-comparison\\prepared\\spec.json",
+  "previous": {
+    "scope": "memoracle model comparison performance experiment",
+    "specId": "2e375643eb62e192cc34bf6f642277a4862eb6c00688c894354bc83b3e441cff",
+    "status": "failed",
+    "submittedAt": "2026-10-15T09:40:11.049Z",
+    "quietSeconds": 0,
+    "admission": "shared-cpu",
+    "specFile": "<workspace>\\memoracle\\experiments\\model-comparison\\prepared\\spec.json",
+    "previous": {
+      "scope": "memoracle model comparison performance experiment",
+      "specId": "d62a9479307df5fe614ca356fc89a9fa18674a606a02a641ccc141c7337fff23",
+      "status": "interrupted-instrumentation",
+      "submittedAt": "2026-10-15T09:38:20.577Z",
+      "quietSeconds": 0,
+      "admission": "shared-cpu",
+      "specFile": "<workspace>\\memoracle\\experiments\\model-comparison\\prepared\\spec.json",
+      "previous": {
+        "scope": "memoracle model comparison performance experiment",
+        "specId": "cc18857769bc3093f1c9951251bbdc2542a406f5082269bedac9e62ad9d57fdc",
+        "status": "pending",
+        "submittedAt": "2026-10-15T09:20:33.466Z",
+        "quietSeconds": 60,
+        "specFile": "<workspace>\\memoracle\\experiments\\model-comparison\\prepared\\spec.json",
+        "previous": null,
+        "waitingReasons": [
+          "Host CPU load >= 15%",
+          "Active build/test: cargo.exe pid=50980",
+          "Active build/test: cargo-nextest.exe pid=66944",
+          "Active CPU workload: jepsen_ak13-7782c5a27ba6fb33 pid=17212"
+        ],
+        "waitingFor": "qwen3-4b"
+      },
+      "waitingReasons": [],
+      "waitingFor": "qwen3-4b",
+      "run": "<workspace>\\memoracle\\experiments\\model-comparison\\runs\\2026-10-15T09-38-22-371Z",
+      "startedAt": "2026-10-15T09:38:22.372Z",
+      "results": [],
+      "workerPid": 66288,
+      "interruptionReason": "Library VRAM counter totals 108079611904 bytes including AMD shared memory; replace with NVIDIA-only counters and pin Vulkan device 0. Preserve all existing outputs."
+    },
+    "waitingReasons": [],
+    "waitingFor": "qwen3-4b",
+    "run": "<workspace>\\memoracle\\experiments\\model-comparison\\runs\\2026-10-15T09-40-12-899Z",
+    "startedAt": "2026-10-15T09:40:12.9Z",
+    "results": [
+      {
+        "model": "qwen3-4b",
+        "exitCode": 1,
+        "output": "<workspace>\\memoracle\\experiments\\model-comparison\\runs\\2026-10-15T09-40-12-899Z\\qwen3-4b",
+        "log": "<workspace>\\memoracle\\experiments\\model-comparison\\runs\\2026-10-15T09-40-12-899Z\\qwen3-4b.log"
+      }
+    ],
+    "workerPid": 57068,
+    "error": "Error: Worker failed: qwen3-4b; retained logs, no automatic retry\n    at file:///<workspace>/memoracle/experiments/model-comparison/run.mjs:54:22"
+  },
+  "waitingReasons": [],
+  "waitingFor": "gemma4-e4b",
+  "run": "<workspace>\\memoracle\\experiments\\model-comparison\\runs\\2026-10-15T09-41-12-711Z",
+  "startedAt": "2026-10-15T09:41:12.712Z",
+  "results": [
+    {
+      "model": "qwen3-4b",
+      "exitCode": 0,
+      "output": "<workspace>\\memoracle\\experiments\\model-comparison\\runs\\2026-10-15T09-41-12-711Z\\qwen3-4b",
+      "log": "<workspace>\\memoracle\\experiments\\model-comparison\\runs\\2026-10-15T09-41-12-711Z\\qwen3-4b.log"
+    },
+    {
+      "model": "gemma4-e2b",
+      "exitCode": 0,
+      "output": "<workspace>\\memoracle\\experiments\\model-comparison\\runs\\2026-10-15T09-41-12-711Z\\gemma4-e2b",
+      "log": "<workspace>\\memoracle\\experiments\\model-comparison\\runs\\2026-10-15T09-41-12-711Z\\gemma4-e2b.log"
+    },
+    {
+      "model": "gemma4-e4b",
+      "exitCode": 0,
+      "output": "<workspace>\\memoracle\\experiments\\model-comparison\\runs\\2026-10-15T09-41-12-711Z\\gemma4-e4b",
+      "log": "<workspace>\\memoracle\\experiments\\model-comparison\\runs\\2026-10-15T09-41-12-711Z\\gemma4-e4b.log"
+    }
+  ],
+  "workerPid": 73324,
+  "finishedAt": "2026-10-15T09:44:42.862Z",
+  "review": "<workspace>\\memoracle\\experiments\\model-comparison\\runs\\2026-10-15T09-41-12-711Z\\review.md"
+}

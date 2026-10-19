@@ -1,0 +1,139 @@
+[node-llama-cpp] load: control-looking token: 128247 '</s>' was not control-type; this is probably a bug in the model. its type will be overridden
+qwen3-4b 1 intent/typo-location PASS 482ms
+qwen3-4b 2 intent/typo-recipe PASS 451ms
+qwen3-4b 3 intent/typo-level PASS 466ms
+qwen3-4b 4 intent/typo-quest FAIL 440ms
+qwen3-4b 5 intent/typo-drops PASS 442ms
+qwen3-4b 6 intent/typo-borders PASS 438ms
+qwen3-4b 7 intent/ac-location PASS 444ms
+qwen3-4b 8 intent/ac-gear FAIL 410ms
+qwen3-4b 9 intent/ac-hunt FAIL 408ms
+qwen3-4b 10 intent/ac-ambiguous PASS 401ms
+qwen3-4b 11 intent/ss-ambiguous FAIL 467ms
+qwen3-4b 12 intent/pointer-no-context FAIL 439ms
+qwen3-4b 13 intent/npc-followup FAIL 449ms
+qwen3-4b 14 intent/zone-followup PASS 448ms
+qwen3-4b 15 intent/recipe-followup PASS 454ms
+qwen3-4b 16 intent/class-followup PASS 462ms
+qwen3-4b 17 intent/map-followup FAIL 412ms
+qwen3-4b 18 intent/mixed-multiple FAIL 449ms
+qwen3-4b 19 intent/multiple-location FAIL 449ms
+qwen3-4b 20 intent/name-preserve PASS 433ms
+qwen3-4b 21 intent/name-unfamiliar PASS 468ms
+qwen3-4b 22 intent/explicit-new-target PASS 0ms
+qwen3-4b 23 intent/new-zone FAIL 436ms
+qwen3-4b 24 intent/slang-mechanic PASS 441ms
+qwen3-4b 25 grounding/level PASS 580ms
+qwen3-4b 26 grounding/npc PASS 619ms
+qwen3-4b 27 grounding/quest PASS 577ms
+qwen3-4b 28 grounding/recipe PASS 774ms
+qwen3-4b 29 grounding/borders PASS 634ms
+qwen3-4b 30 grounding/drop PASS 670ms
+qwen3-4b 31 grounding/pronoun-answer PASS 612ms
+qwen3-4b 32 grounding/missing-release PASS 560ms
+qwen3-4b 33 grounding/missing-discord PASS 530ms
+qwen3-4b 34 grounding/missing-rate PASS 557ms
+qwen3-4b 35 judge/wher do i buy fishin poles PASS 82ms
+qwen3-4b 36 judge/necro pet lvl?? PASS 73ms
+qwen3-4b 37 judge/any1 know wat drops aashirs journal PASS 82ms
+qwen3-4b 38 judge/glass flats connected 2 where FAIL 84ms
+qwen3-4b 39 judge/bank nh were FAIL 68ms
+qwen3-4b 40 judge/who do i msg for refund PASS 82ms
+qwen3-4b 41 judge/yo sup dudes PASS 68ms
+qwen3-4b 42 judge/anyone wanna duo later PASS 68ms
+qwen3-4b 43 judge/im going to bed gn PASS 67ms
+qwen3-4b 44 judge/can u hear me in voice PASS 81ms
+qwen3-4b 45 judge/that fight was sick lol PASS 69ms
+qwen3-4b 46 judge/whats ur phone number PASS 68ms
+qwen3-4b 47 intent/typo-recipe PASS 450ms
+qwen3-4b 48 intent/typo-level PASS 452ms
+qwen3-4b 49 intent/typo-quest FAIL 437ms
+qwen3-4b 50 intent/typo-drops PASS 440ms
+qwen3-4b 51 intent/typo-borders PASS 435ms
+qwen3-4b 52 intent/ac-location PASS 443ms
+qwen3-4b 53 intent/ac-gear FAIL 416ms
+qwen3-4b 54 intent/ac-hunt FAIL 421ms
+qwen3-4b 55 intent/ac-ambiguous PASS 410ms
+qwen3-4b 56 intent/ss-ambiguous FAIL 471ms
+qwen3-4b 57 intent/pointer-no-context FAIL 430ms
+qwen3-4b 58 intent/npc-followup FAIL 445ms
+qwen3-4b 59 intent/zone-followup PASS 443ms
+qwen3-4b 60 intent/recipe-followup PASS 449ms
+qwen3-4b 61 intent/class-followup PASS 458ms
+qwen3-4b 62 intent/map-followup FAIL 412ms
+qwen3-4b 63 intent/mixed-multiple FAIL 444ms
+qwen3-4b 64 intent/multiple-location FAIL 449ms
+qwen3-4b 65 intent/name-preserve PASS 457ms
+qwen3-4b 66 intent/name-unfamiliar PASS 466ms
+qwen3-4b 67 intent/explicit-new-target PASS 0ms
+qwen3-4b 68 intent/new-zone FAIL 433ms
+qwen3-4b 69 intent/slang-mechanic PASS 439ms
+qwen3-4b 70 intent/typo-location PASS 433ms
+qwen3-4b 71 grounding/npc PASS 610ms
+qwen3-4b 72 grounding/quest PASS 600ms
+qwen3-4b 73 grounding/recipe PASS 786ms
+qwen3-4b 74 grounding/borders PASS 613ms
+qwen3-4b 75 grounding/drop PASS 661ms
+qwen3-4b 76 grounding/pronoun-answer PASS 629ms
+qwen3-4b 77 grounding/missing-release PASS 558ms
+qwen3-4b 78 grounding/missing-discord PASS 525ms
+qwen3-4b 79 grounding/missing-rate PASS 550ms
+qwen3-4b 80 grounding/level PASS 588ms
+qwen3-4b 81 judge/necro pet lvl?? PASS 68ms
+qwen3-4b 82 judge/any1 know wat drops aashirs journal PASS 97ms
+qwen3-4b 83 judge/glass flats connected 2 where FAIL 82ms
+qwen3-4b 84 judge/bank nh were FAIL 66ms
+qwen3-4b 85 judge/who do i msg for refund PASS 80ms
+qwen3-4b 86 judge/yo sup dudes PASS 67ms
+qwen3-4b 87 judge/anyone wanna duo later PASS 67ms
+qwen3-4b 88 judge/im going to bed gn PASS 67ms
+qwen3-4b 89 judge/can u hear me in voice PASS 82ms
+qwen3-4b 90 judge/that fight was sick lol PASS 67ms
+qwen3-4b 91 judge/whats ur phone number PASS 67ms
+qwen3-4b 92 judge/wher do i buy fishin poles PASS 82ms
+qwen3-4b 93 intent/typo-level PASS 449ms
+qwen3-4b 94 intent/typo-quest FAIL 442ms
+qwen3-4b 95 intent/typo-drops PASS 442ms
+qwen3-4b 96 intent/typo-borders PASS 434ms
+qwen3-4b 97 intent/ac-location PASS 446ms
+qwen3-4b 98 intent/ac-gear FAIL 418ms
+qwen3-4b 99 intent/ac-hunt FAIL 423ms
+qwen3-4b 100 intent/ac-ambiguous PASS 412ms
+qwen3-4b 101 intent/ss-ambiguous FAIL 455ms
+qwen3-4b 102 intent/pointer-no-context FAIL 428ms
+qwen3-4b 103 intent/npc-followup FAIL 436ms
+qwen3-4b 104 intent/zone-followup PASS 445ms
+qwen3-4b 105 intent/recipe-followup PASS 457ms
+qwen3-4b 106 intent/class-followup PASS 463ms
+qwen3-4b 107 intent/map-followup FAIL 420ms
+qwen3-4b 108 intent/mixed-multiple FAIL 459ms
+qwen3-4b 109 intent/multiple-location FAIL 449ms
+qwen3-4b 110 intent/name-preserve PASS 434ms
+qwen3-4b 111 intent/name-unfamiliar PASS 473ms
+qwen3-4b 112 intent/explicit-new-target PASS 0ms
+qwen3-4b 113 intent/new-zone FAIL 433ms
+qwen3-4b 114 intent/slang-mechanic PASS 438ms
+qwen3-4b 115 intent/typo-location PASS 433ms
+qwen3-4b 116 intent/typo-recipe PASS 460ms
+qwen3-4b 117 grounding/quest PASS 587ms
+qwen3-4b 118 grounding/recipe PASS 799ms
+qwen3-4b 119 grounding/borders PASS 609ms
+qwen3-4b 120 grounding/drop PASS 693ms
+qwen3-4b 121 grounding/pronoun-answer PASS 624ms
+qwen3-4b 122 grounding/missing-release PASS 557ms
+qwen3-4b 123 grounding/missing-discord PASS 541ms
+qwen3-4b 124 grounding/missing-rate PASS 571ms
+qwen3-4b 125 grounding/level PASS 593ms
+qwen3-4b 126 grounding/npc PASS 613ms
+qwen3-4b 127 judge/any1 know wat drops aashirs journal PASS 82ms
+qwen3-4b 128 judge/glass flats connected 2 where FAIL 81ms
+qwen3-4b 129 judge/bank nh were FAIL 68ms
+qwen3-4b 130 judge/who do i msg for refund PASS 81ms
+qwen3-4b 131 judge/yo sup dudes PASS 82ms
+qwen3-4b 132 judge/anyone wanna duo later PASS 68ms
+qwen3-4b 133 judge/im going to bed gn PASS 67ms
+qwen3-4b 134 judge/can u hear me in voice PASS 80ms
+qwen3-4b 135 judge/that fight was sick lol PASS 67ms
+qwen3-4b 136 judge/whats ur phone number PASS 68ms
+qwen3-4b 137 judge/wher do i buy fishin poles PASS 80ms
+qwen3-4b 138 judge/necro pet lvl?? PASS 66ms

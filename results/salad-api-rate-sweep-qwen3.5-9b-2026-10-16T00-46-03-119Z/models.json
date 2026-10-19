@@ -1,0 +1,29 @@
+{
+  "data": [
+    {
+      "created": 1774508400,
+      "id": "qwen3.6-35b-a3b",
+      "object": "model",
+      "owned_by": "salad"
+    },
+    {
+      "created": 1774508400,
+      "id": "qwen3.6-27b",
+      "object": "model",
+      "owned_by": "salad"
+    },
+    {
+      "created": 1774508400,
+      "id": "qwen3.5-35b-a3b",
+      "object": "model",
+      "owned_by": "salad"
+    },
+    {
+      "created": 1774508400,
+      "id": "qwen3.5-9b",
+      "object": "model",
+      "owned_by": "salad"
+    }
+  ],
+  "object": "list"
+}

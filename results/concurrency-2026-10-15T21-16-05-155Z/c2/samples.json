@@ -1,0 +1,4682 @@
+[
+  {
+    "at": 1792099070611,
+    "phase": "warmup",
+    "round": -1,
+    "total": 25757220864,
+    "used": 13004439552,
+    "free": 12486443008,
+    "utilization": 4,
+    "rss": 3238158336
+  },
+  {
+    "at": 1792099070827,
+    "phase": "warmup",
+    "round": -1,
+    "total": 25757220864,
+    "used": 13004439552,
+    "free": 12486443008,
+    "utilization": 15,
+    "rss": 3270520832
+  },
+  {
+    "at": 1792099071030,
+    "phase": "warmup",
+    "round": -1,
+    "total": 25757220864,
+    "used": 13004439552,
+    "free": 12486443008,
+    "utilization": 15,
+    "rss": 3305201664
+  },
+  {
+    "at": 1792099071235,
+    "phase": "warmup",
+    "round": -1,
+    "total": 25757220864,
+    "used": 13019119616,
+    "free": 12471762944,
+    "utilization": 6,
+    "rss": 3395338240
+  },
+  {
+    "at": 1792099071440,
+    "phase": "warmup",
+    "round": -1,
+    "total": 25757220864,
+    "used": 13020168192,
+    "free": 12470714368,
+    "utilization": 6,
+    "rss": 3436011520
+  },
+  {
+    "at": 1792099071644,
+    "phase": "warmup",
+    "round": -1,
+    "total": 25757220864,
+    "used": 13021216768,
+    "free": 12469665792,
+    "utilization": 6,
+    "rss": 3436339200
+  },
+  {
+    "at": 1792099071848,
+    "phase": "warmup",
+    "round": -1,
+    "total": 25757220864,
+    "used": 13022265344,
+    "free": 12468617216,
+    "utilization": 4,
+    "rss": 3436539904
+  },
+  {
+    "at": 1792099072054,
+    "phase": "warmup",
+    "round": -1,
+    "total": 25757220864,
+    "used": 13022265344,
+    "free": 12468617216,
+    "utilization": 4,
+    "rss": 3443236864
+  },
+  {
+    "at": 1792099072258,
+    "phase": "warmup",
+    "round": -1,
+    "total": 25757220864,
+    "used": 13015973888,
+    "free": 12474908672,
+    "utilization": 3,
+    "rss": 3445284864
+  },
+  {
+    "at": 1792099072462,
+    "phase": "warmup",
+    "round": -1,
+    "total": 25757220864,
+    "used": 13011779584,
+    "free": 12479102976,
+    "utilization": 3,
+    "rss": 3505451008
+  },
+  {
+    "at": 1792099072666,
+    "phase": "warmup",
+    "round": -1,
+    "total": 25757220864,
+    "used": 13008633856,
+    "free": 12482248704,
+    "utilization": 3,
+    "rss": 3509686272
+  },
+  {
+    "at": 1792099072870,
+    "phase": "warmup",
+    "round": -1,
+    "total": 25757220864,
+    "used": 13009682432,
+    "free": 12481200128,
+    "utilization": 2,
+    "rss": 3509714944
+  },
+  {
+    "at": 1792099073072,
+    "phase": "warmup",
+    "round": -1,
+    "total": 25757220864,
+    "used": 13026459648,
+    "free": 12464422912,
+    "utilization": 2,
+    "rss": 3513114624
+  },
+  {
+    "at": 1792099073277,
+    "phase": "warmup",
+    "round": -1,
+    "total": 25757220864,
+    "used": 13018071040,
+    "free": 12472811520,
+    "utilization": 5,
+    "rss": 3521777664
+  },
+  {
+    "at": 1792099073482,
+    "phase": "warmup",
+    "round": -1,
+    "total": 25757220864,
+    "used": 13036945408,
+    "free": 12453937152,
+    "utilization": 5,
+    "rss": 3523465216
+  },
+  {
+    "at": 1792099073687,
+    "phase": "warmup",
+    "round": -1,
+    "total": 25757220864,
+    "used": 13034848256,
+    "free": 12456034304,
+    "utilization": 4,
+    "rss": 3523477504
+  },
+  {
+    "at": 1792099073891,
+    "phase": "warmup",
+    "round": -1,
+    "total": 25757220864,
+    "used": 13021216768,
+    "free": 12469665792,
+    "utilization": 4,
+    "rss": 3523489792
+  },
+  {
+    "at": 1792099074094,
+    "phase": "warmup",
+    "round": -1,
+    "total": 25757220864,
+    "used": 13021216768,
+    "free": 12469665792,
+    "utilization": 4,
+    "rss": 3454763008
+  },
+  {
+    "at": 1792099074296,
+    "phase": "warmup",
+    "round": -1,
+    "total": 25757220864,
+    "used": 13006536704,
+    "free": 12484345856,
+    "utilization": 3,
+    "rss": 3456348160
+  },
+  {
+    "at": 1792099074499,
+    "phase": "warmup",
+    "round": -1,
+    "total": 25757220864,
+    "used": 13006536704,
+    "free": 12484345856,
+    "utilization": 3,
+    "rss": 3477188608
+  },
+  {
+    "at": 1792099074715,
+    "phase": "warmup",
+    "round": -1,
+    "total": 25757220864,
+    "used": 13006536704,
+    "free": 12484345856,
+    "utilization": 2,
+    "rss": 3519164416
+  },
+  {
+    "at": 1792099074918,
+    "phase": "warmup",
+    "round": -1,
+    "total": 25757220864,
+    "used": 13006536704,
+    "free": 12484345856,
+    "utilization": 2,
+    "rss": 3520499712
+  },
+  {
+    "at": 1792099075122,
+    "phase": "warmup",
+    "round": -1,
+    "total": 25757220864,
+    "used": 13021216768,
+    "free": 12469665792,
+    "utilization": 2,
+    "rss": 3520499712
+  },
+  {
+    "at": 1792099075325,
+    "phase": "warmup",
+    "round": -1,
+    "total": 25757220864,
+    "used": 13013876736,
+    "free": 12477005824,
+    "utilization": 5,
+    "rss": 3520499712
+  },
+  {
+    "at": 1792099075528,
+    "phase": "warmup",
+    "round": -1,
+    "total": 25757220864,
+    "used": 12986613760,
+    "free": 12504268800,
+    "utilization": 5,
+    "rss": 3520499712
+  },
+  {
+    "at": 1792099075732,
+    "phase": "warmup",
+    "round": -1,
+    "total": 25757220864,
+    "used": 12977176576,
+    "free": 12513705984,
+    "utilization": 4,
+    "rss": 3520499712
+  },
+  {
+    "at": 1792099075934,
+    "phase": "warmup",
+    "round": -1,
+    "total": 25757220864,
+    "used": 12979273728,
+    "free": 12511608832,
+    "utilization": 4,
+    "rss": 3520499712
+  },
+  {
+    "at": 1792099076138,
+    "phase": "warmup",
+    "round": -1,
+    "total": 25757220864,
+    "used": 12979273728,
+    "free": 12511608832,
+    "utilization": 4,
+    "rss": 3520499712
+  },
+  {
+    "at": 1792099076341,
+    "phase": "warmup",
+    "round": -1,
+    "total": 25757220864,
+    "used": 12976128000,
+    "free": 12514754560,
+    "utilization": 3,
+    "rss": 3520503808
+  },
+  {
+    "at": 1792099076545,
+    "phase": "warmup",
+    "round": -1,
+    "total": 25757220864,
+    "used": 12976128000,
+    "free": 12514754560,
+    "utilization": 3,
+    "rss": 3520569344
+  },
+  {
+    "at": 1792099076749,
+    "phase": "warmup",
+    "round": -1,
+    "total": 25757220864,
+    "used": 13037993984,
+    "free": 12452888576,
+    "utilization": 2,
+    "rss": 3523100672
+  },
+  {
+    "at": 1792099076953,
+    "phase": "warmup",
+    "round": -1,
+    "total": 25757220864,
+    "used": 13037993984,
+    "free": 12452888576,
+    "utilization": 2,
+    "rss": 3526479872
+  },
+  {
+    "at": 1792099077156,
+    "phase": "warmup",
+    "round": -1,
+    "total": 25757220864,
+    "used": 13037993984,
+    "free": 12452888576,
+    "utilization": 2,
+    "rss": 3529785344
+  },
+  {
+    "at": 1792099077360,
+    "phase": "warmup",
+    "round": -1,
+    "total": 25757220864,
+    "used": 13037993984,
+    "free": 12452888576,
+    "utilization": 95,
+    "rss": 3534151680
+  },
+  {
+    "at": 1792099077563,
+    "phase": "warmup",
+    "round": -1,
+    "total": 25757220864,
+    "used": 13037993984,
+    "free": 12452888576,
+    "utilization": 95,
+    "rss": 3537928192
+  },
+  {
+    "at": 1792099077765,
+    "phase": "warmup",
+    "round": -1,
+    "total": 25757220864,
+    "used": 13037993984,
+    "free": 12452888576,
+    "utilization": 2,
+    "rss": 3342499840
+  },
+  {
+    "at": 1792099077969,
+    "phase": "warmup",
+    "round": -1,
+    "total": 25757220864,
+    "used": 13037993984,
+    "free": 12452888576,
+    "utilization": 2,
+    "rss": 3345506304
+  },
+  {
+    "at": 1792099078173,
+    "phase": "warmup",
+    "round": -1,
+    "total": 25757220864,
+    "used": 13037993984,
+    "free": 12452888576,
+    "utilization": 38,
+    "rss": 3390328832
+  },
+  {
+    "at": 1792099078373,
+    "phase": "warmup",
+    "round": -1,
+    "total": 25757220864,
+    "used": 13018071040,
+    "free": 12472811520,
+    "utilization": 38,
+    "rss": 3390382080
+  },
+  {
+    "at": 1792099078578,
+    "phase": "warmup",
+    "round": -1,
+    "total": 25757220864,
+    "used": 13018071040,
+    "free": 12472811520,
+    "utilization": 38,
+    "rss": 3390418944
+  },
+  {
+    "at": 1792099078784,
+    "phase": "warmup",
+    "round": -1,
+    "total": 25757220864,
+    "used": 13019119616,
+    "free": 12471762944,
+    "utilization": 78,
+    "rss": 3395719168
+  },
+  {
+    "at": 1792099079000,
+    "phase": "warmup",
+    "round": -1,
+    "total": 25757220864,
+    "used": 13019119616,
+    "free": 12471762944,
+    "utilization": 78,
+    "rss": 3391209472
+  },
+  {
+    "at": 1792099079214,
+    "phase": "measurement",
+    "round": 0,
+    "total": 25757220864,
+    "used": 13031702528,
+    "free": 12459180032,
+    "utilization": 78,
+    "rss": 3409657856
+  },
+  {
+    "at": 1792099079419,
+    "phase": "measurement",
+    "round": 0,
+    "total": 25757220864,
+    "used": 13031702528,
+    "free": 12459180032,
+    "utilization": 78,
+    "rss": 3372224512
+  },
+  {
+    "at": 1792099079623,
+    "phase": "measurement",
+    "round": 0,
+    "total": 25757220864,
+    "used": 13031702528,
+    "free": 12459180032,
+    "utilization": 78,
+    "rss": 3372314624
+  },
+  {
+    "at": 1792099079834,
+    "phase": "measurement",
+    "round": 0,
+    "total": 25757220864,
+    "used": 13032751104,
+    "free": 12458131456,
+    "utilization": 95,
+    "rss": 3411443712
+  },
+  {
+    "at": 1792099080045,
+    "phase": "measurement",
+    "round": 0,
+    "total": 25757220864,
+    "used": 13033799680,
+    "free": 12457082880,
+    "utilization": 95,
+    "rss": 3411845120
+  },
+  {
+    "at": 1792099080247,
+    "phase": "measurement",
+    "round": 0,
+    "total": 25757220864,
+    "used": 13033799680,
+    "free": 12457082880,
+    "utilization": 77,
+    "rss": 3414487040
+  },
+  {
+    "at": 1792099080451,
+    "phase": "measurement",
+    "round": 0,
+    "total": 25757220864,
+    "used": 13031702528,
+    "free": 12459180032,
+    "utilization": 77,
+    "rss": 3415552000
+  },
+  {
+    "at": 1792099080666,
+    "phase": "measurement",
+    "round": 0,
+    "total": 25757220864,
+    "used": 13031702528,
+    "free": 12459180032,
+    "utilization": 77,
+    "rss": 3408314368
+  },
+  {
+    "at": 1792099080868,
+    "phase": "measurement",
+    "round": 0,
+    "total": 25757220864,
+    "used": 13039042560,
+    "free": 12451840000,
+    "utilization": 57,
+    "rss": 3418513408
+  },
+  {
+    "at": 1792099081072,
+    "phase": "measurement",
+    "round": 0,
+    "total": 25757220864,
+    "used": 13039042560,
+    "free": 12451840000,
+    "utilization": 57,
+    "rss": 3394813952
+  },
+  {
+    "at": 1792099081276,
+    "phase": "measurement",
+    "round": 0,
+    "total": 25757220864,
+    "used": 13039042560,
+    "free": 12451840000,
+    "utilization": 95,
+    "rss": 3394969600
+  },
+  {
+    "at": 1792099081479,
+    "phase": "measurement",
+    "round": 0,
+    "total": 25757220864,
+    "used": 13039042560,
+    "free": 12451840000,
+    "utilization": 95,
+    "rss": 3395084288
+  },
+  {
+    "at": 1792099081681,
+    "phase": "measurement",
+    "round": 0,
+    "total": 25757220864,
+    "used": 13039042560,
+    "free": 12451840000,
+    "utilization": 33,
+    "rss": 3437088768
+  },
+  {
+    "at": 1792099081885,
+    "phase": "measurement",
+    "round": 0,
+    "total": 25757220864,
+    "used": 13039042560,
+    "free": 12451840000,
+    "utilization": 33,
+    "rss": 3437228032
+  },
+  {
+    "at": 1792099082086,
+    "phase": "measurement",
+    "round": 0,
+    "total": 25757220864,
+    "used": 13039042560,
+    "free": 12451840000,
+    "utilization": 33,
+    "rss": 3437248512
+  },
+  {
+    "at": 1792099082289,
+    "phase": "measurement",
+    "round": 0,
+    "total": 25757220864,
+    "used": 13025411072,
+    "free": 12465471488,
+    "utilization": 74,
+    "rss": 3402113024
+  },
+  {
+    "at": 1792099082494,
+    "phase": "measurement",
+    "round": 0,
+    "total": 25757220864,
+    "used": 13025411072,
+    "free": 12465471488,
+    "utilization": 74,
+    "rss": 3422056448
+  },
+  {
+    "at": 1792099082697,
+    "phase": "measurement",
+    "round": 0,
+    "total": 25757220864,
+    "used": 13025411072,
+    "free": 12465471488,
+    "utilization": 75,
+    "rss": 3422081024
+  },
+  {
+    "at": 1792099082899,
+    "phase": "measurement",
+    "round": 0,
+    "total": 25757220864,
+    "used": 13025411072,
+    "free": 12465471488,
+    "utilization": 75,
+    "rss": 3431952384
+  },
+  {
+    "at": 1792099083103,
+    "phase": "measurement",
+    "round": 0,
+    "total": 25757220864,
+    "used": 13040091136,
+    "free": 12450791424,
+    "utilization": 75,
+    "rss": 3409051648
+  },
+  {
+    "at": 1792099083304,
+    "phase": "measurement",
+    "round": 0,
+    "total": 25757220864,
+    "used": 13039042560,
+    "free": 12451840000,
+    "utilization": 82,
+    "rss": 3409051648
+  },
+  {
+    "at": 1792099083507,
+    "phase": "measurement",
+    "round": 0,
+    "total": 25757220864,
+    "used": 13039042560,
+    "free": 12451840000,
+    "utilization": 82,
+    "rss": 3409051648
+  },
+  {
+    "at": 1792099083710,
+    "phase": "measurement",
+    "round": 0,
+    "total": 25757220864,
+    "used": 13039042560,
+    "free": 12451840000,
+    "utilization": 79,
+    "rss": 3426250752
+  },
+  {
+    "at": 1792099083912,
+    "phase": "measurement",
+    "round": 0,
+    "total": 25757220864,
+    "used": 13040091136,
+    "free": 12450791424,
+    "utilization": 79,
+    "rss": 3425468416
+  },
+  {
+    "at": 1792099084114,
+    "phase": "measurement",
+    "round": 0,
+    "total": 25757220864,
+    "used": 13040091136,
+    "free": 12450791424,
+    "utilization": 79,
+    "rss": 3426230272
+  },
+  {
+    "at": 1792099084329,
+    "phase": "measurement",
+    "round": 0,
+    "total": 25757220864,
+    "used": 13039042560,
+    "free": 12451840000,
+    "utilization": 74,
+    "rss": 3426512896
+  },
+  {
+    "at": 1792099084531,
+    "phase": "measurement",
+    "round": 0,
+    "total": 25757220864,
+    "used": 13039042560,
+    "free": 12451840000,
+    "utilization": 74,
+    "rss": 3421945856
+  },
+  {
+    "at": 1792099084734,
+    "phase": "measurement",
+    "round": 0,
+    "total": 25757220864,
+    "used": 13041139712,
+    "free": 12449742848,
+    "utilization": 58,
+    "rss": 3413569536
+  },
+  {
+    "at": 1792099084939,
+    "phase": "measurement",
+    "round": 0,
+    "total": 25757220864,
+    "used": 13041139712,
+    "free": 12449742848,
+    "utilization": 58,
+    "rss": 3391963136
+  },
+  {
+    "at": 1792099085142,
+    "phase": "measurement",
+    "round": 0,
+    "total": 25757220864,
+    "used": 13041139712,
+    "free": 12449742848,
+    "utilization": 58,
+    "rss": 3392131072
+  },
+  {
+    "at": 1792099085345,
+    "phase": "measurement",
+    "round": 0,
+    "total": 25757220864,
+    "used": 13041139712,
+    "free": 12449742848,
+    "utilization": 89,
+    "rss": 3392200704
+  },
+  {
+    "at": 1792099085549,
+    "phase": "measurement",
+    "round": 0,
+    "total": 25757220864,
+    "used": 13044285440,
+    "free": 12446597120,
+    "utilization": 89,
+    "rss": 3434795008
+  },
+  {
+    "at": 1792099085751,
+    "phase": "measurement",
+    "round": 0,
+    "total": 25757220864,
+    "used": 13051625472,
+    "free": 12439257088,
+    "utilization": 59,
+    "rss": 3428638720
+  },
+  {
+    "at": 1792099085955,
+    "phase": "measurement",
+    "round": 0,
+    "total": 25757220864,
+    "used": 12989759488,
+    "free": 12501123072,
+    "utilization": 59,
+    "rss": 3428810752
+  },
+  {
+    "at": 1792099086156,
+    "phase": "measurement",
+    "round": 0,
+    "total": 25757220864,
+    "used": 12989759488,
+    "free": 12501123072,
+    "utilization": 59,
+    "rss": 3428810752
+  },
+  {
+    "at": 1792099086371,
+    "phase": "measurement",
+    "round": 0,
+    "total": 25757220864,
+    "used": 12989759488,
+    "free": 12501123072,
+    "utilization": 71,
+    "rss": 3425611776
+  },
+  {
+    "at": 1792099086573,
+    "phase": "measurement",
+    "round": 0,
+    "total": 25757220864,
+    "used": 12989759488,
+    "free": 12501123072,
+    "utilization": 71,
+    "rss": 3413594112
+  },
+  {
+    "at": 1792099086775,
+    "phase": "measurement",
+    "round": 0,
+    "total": 25757220864,
+    "used": 12989759488,
+    "free": 12501123072,
+    "utilization": 53,
+    "rss": 3387035648
+  },
+  {
+    "at": 1792099086979,
+    "phase": "measurement",
+    "round": 0,
+    "total": 25757220864,
+    "used": 12989759488,
+    "free": 12501123072,
+    "utilization": 53,
+    "rss": 3387035648
+  },
+  {
+    "at": 1792099087183,
+    "phase": "measurement",
+    "round": 0,
+    "total": 25757220864,
+    "used": 12988710912,
+    "free": 12502171648,
+    "utilization": 95,
+    "rss": 3387125760
+  },
+  {
+    "at": 1792099087386,
+    "phase": "measurement",
+    "round": 0,
+    "total": 25757220864,
+    "used": 12988710912,
+    "free": 12502171648,
+    "utilization": 95,
+    "rss": 3429093376
+  },
+  {
+    "at": 1792099087587,
+    "phase": "measurement",
+    "round": 0,
+    "total": 25757220864,
+    "used": 12988710912,
+    "free": 12502171648,
+    "utilization": 95,
+    "rss": 3429093376
+  },
+  {
+    "at": 1792099087791,
+    "phase": "measurement",
+    "round": 0,
+    "total": 25757220864,
+    "used": 12989759488,
+    "free": 12501123072,
+    "utilization": 79,
+    "rss": 3429294080
+  },
+  {
+    "at": 1792099088007,
+    "phase": "measurement",
+    "round": 0,
+    "total": 25757220864,
+    "used": 12989759488,
+    "free": 12501123072,
+    "utilization": 79,
+    "rss": 3404517376
+  },
+  {
+    "at": 1792099088215,
+    "phase": "measurement",
+    "round": 0,
+    "total": 25757220864,
+    "used": 12989759488,
+    "free": 12501123072,
+    "utilization": 84,
+    "rss": 3393789952
+  },
+  {
+    "at": 1792099088416,
+    "phase": "measurement",
+    "round": 0,
+    "total": 25757220864,
+    "used": 12987662336,
+    "free": 12503220224,
+    "utilization": 84,
+    "rss": 3393789952
+  },
+  {
+    "at": 1792099088618,
+    "phase": "measurement",
+    "round": 0,
+    "total": 25757220864,
+    "used": 12987662336,
+    "free": 12503220224,
+    "utilization": 84,
+    "rss": 3393855488
+  },
+  {
+    "at": 1792099088820,
+    "phase": "measurement",
+    "round": 0,
+    "total": 25757220864,
+    "used": 12989759488,
+    "free": 12501123072,
+    "utilization": 94,
+    "rss": 3429584896
+  },
+  {
+    "at": 1792099089021,
+    "phase": "measurement",
+    "round": 0,
+    "total": 25757220864,
+    "used": 12989759488,
+    "free": 12501123072,
+    "utilization": 94,
+    "rss": 3429584896
+  },
+  {
+    "at": 1792099089222,
+    "phase": "measurement",
+    "round": 0,
+    "total": 25757220864,
+    "used": 12989759488,
+    "free": 12501123072,
+    "utilization": 75,
+    "rss": 3429236736
+  },
+  {
+    "at": 1792099089424,
+    "phase": "measurement",
+    "round": 0,
+    "total": 25757220864,
+    "used": 12988710912,
+    "free": 12502171648,
+    "utilization": 75,
+    "rss": 3411529728
+  },
+  {
+    "at": 1792099089627,
+    "phase": "measurement",
+    "round": 0,
+    "total": 25757220864,
+    "used": 12988710912,
+    "free": 12502171648,
+    "utilization": 75,
+    "rss": 3411492864
+  },
+  {
+    "at": 1792099089828,
+    "phase": "measurement",
+    "round": 0,
+    "total": 25757220864,
+    "used": 12988710912,
+    "free": 12502171648,
+    "utilization": 80,
+    "rss": 3411791872
+  },
+  {
+    "at": 1792099090034,
+    "phase": "measurement",
+    "round": 0,
+    "total": 25757220864,
+    "used": 12988710912,
+    "free": 12502171648,
+    "utilization": 80,
+    "rss": 3394076672
+  },
+  {
+    "at": 1792099090237,
+    "phase": "measurement",
+    "round": 0,
+    "total": 25757220864,
+    "used": 12988710912,
+    "free": 12502171648,
+    "utilization": 95,
+    "rss": 3394076672
+  },
+  {
+    "at": 1792099090440,
+    "phase": "measurement",
+    "round": 0,
+    "total": 25757220864,
+    "used": 12972982272,
+    "free": 12517900288,
+    "utilization": 95,
+    "rss": 3415056384
+  },
+  {
+    "at": 1792099090643,
+    "phase": "measurement",
+    "round": 0,
+    "total": 25757220864,
+    "used": 12972982272,
+    "free": 12517900288,
+    "utilization": 95,
+    "rss": 3429867520
+  },
+  {
+    "at": 1792099090843,
+    "phase": "measurement",
+    "round": 0,
+    "total": 25757220864,
+    "used": 12965642240,
+    "free": 12525240320,
+    "utilization": 77,
+    "rss": 3429867520
+  },
+  {
+    "at": 1792099091047,
+    "phase": "measurement",
+    "round": 0,
+    "total": 25757220864,
+    "used": 12980322304,
+    "free": 12510560256,
+    "utilization": 77,
+    "rss": 3429867520
+  },
+  {
+    "at": 1792099091250,
+    "phase": "measurement",
+    "round": 0,
+    "total": 25757220864,
+    "used": 12979273728,
+    "free": 12511608832,
+    "utilization": 66,
+    "rss": 3406295040
+  },
+  {
+    "at": 1792099091451,
+    "phase": "measurement",
+    "round": 0,
+    "total": 25757220864,
+    "used": 12979273728,
+    "free": 12511608832,
+    "utilization": 66,
+    "rss": 3413983232
+  },
+  {
+    "at": 1792099091653,
+    "phase": "measurement",
+    "round": 0,
+    "total": 25757220864,
+    "used": 12979273728,
+    "free": 12511608832,
+    "utilization": 66,
+    "rss": 3426697216
+  },
+  {
+    "at": 1792099091853,
+    "phase": "measurement",
+    "round": 0,
+    "total": 25757220864,
+    "used": 12980322304,
+    "free": 12510560256,
+    "utilization": 79,
+    "rss": 3423608832
+  },
+  {
+    "at": 1792099092057,
+    "phase": "measurement",
+    "round": 0,
+    "total": 25757220864,
+    "used": 12980322304,
+    "free": 12510560256,
+    "utilization": 79,
+    "rss": 3391303680
+  },
+  {
+    "at": 1792099092260,
+    "phase": "measurement",
+    "round": 0,
+    "total": 25757220864,
+    "used": 12980322304,
+    "free": 12510560256,
+    "utilization": 90,
+    "rss": 3391303680
+  },
+  {
+    "at": 1792099092475,
+    "phase": "measurement",
+    "round": 0,
+    "total": 25757220864,
+    "used": 12979273728,
+    "free": 12511608832,
+    "utilization": 90,
+    "rss": 3433271296
+  },
+  {
+    "at": 1792099092676,
+    "phase": "measurement",
+    "round": 0,
+    "total": 25757220864,
+    "used": 12979273728,
+    "free": 12511608832,
+    "utilization": 76,
+    "rss": 3430117376
+  },
+  {
+    "at": 1792099092879,
+    "phase": "measurement",
+    "round": 0,
+    "total": 25757220864,
+    "used": 12980322304,
+    "free": 12510560256,
+    "utilization": 76,
+    "rss": 3430117376
+  },
+  {
+    "at": 1792099093083,
+    "phase": "measurement",
+    "round": 0,
+    "total": 25757220864,
+    "used": 12980322304,
+    "free": 12510560256,
+    "utilization": 76,
+    "rss": 3430117376
+  },
+  {
+    "at": 1792099093286,
+    "phase": "measurement",
+    "round": 0,
+    "total": 25757220864,
+    "used": 12981370880,
+    "free": 12509511680,
+    "utilization": 76,
+    "rss": 3412287488
+  },
+  {
+    "at": 1792099093488,
+    "phase": "measurement",
+    "round": 0,
+    "total": 25757220864,
+    "used": 12980322304,
+    "free": 12510560256,
+    "utilization": 76,
+    "rss": 3404410880
+  },
+  {
+    "at": 1792099093691,
+    "phase": "measurement",
+    "round": 0,
+    "total": 25757220864,
+    "used": 12980322304,
+    "free": 12510560256,
+    "utilization": 74,
+    "rss": 3424391168
+  },
+  {
+    "at": 1792099093894,
+    "phase": "measurement",
+    "round": 0,
+    "total": 25757220864,
+    "used": 12983468032,
+    "free": 12507414528,
+    "utilization": 74,
+    "rss": 3391438848
+  },
+  {
+    "at": 1792099094096,
+    "phase": "measurement",
+    "round": 0,
+    "total": 25757220864,
+    "used": 12984516608,
+    "free": 12506365952,
+    "utilization": 74,
+    "rss": 3391438848
+  },
+  {
+    "at": 1792099094299,
+    "phase": "measurement",
+    "round": 0,
+    "total": 25757220864,
+    "used": 12984516608,
+    "free": 12506365952,
+    "utilization": 94,
+    "rss": 3391438848
+  },
+  {
+    "at": 1792099094503,
+    "phase": "measurement",
+    "round": 0,
+    "total": 25757220864,
+    "used": 12984516608,
+    "free": 12506365952,
+    "utilization": 94,
+    "rss": 3433463808
+  },
+  {
+    "at": 1792099094706,
+    "phase": "measurement",
+    "round": 0,
+    "total": 25757220864,
+    "used": 12984516608,
+    "free": 12506365952,
+    "utilization": 65,
+    "rss": 3430510592
+  },
+  {
+    "at": 1792099094908,
+    "phase": "measurement",
+    "round": 0,
+    "total": 25757220864,
+    "used": 12985565184,
+    "free": 12505317376,
+    "utilization": 65,
+    "rss": 3430514688
+  },
+  {
+    "at": 1792099095112,
+    "phase": "measurement",
+    "round": 0,
+    "total": 25757220864,
+    "used": 12983468032,
+    "free": 12507414528,
+    "utilization": 65,
+    "rss": 3412684800
+  },
+  {
+    "at": 1792099095317,
+    "phase": "measurement",
+    "round": 0,
+    "total": 25757220864,
+    "used": 12985565184,
+    "free": 12505317376,
+    "utilization": 78,
+    "rss": 3415195648
+  },
+  {
+    "at": 1792099095521,
+    "phase": "measurement",
+    "round": 0,
+    "total": 25757220864,
+    "used": 12985565184,
+    "free": 12505317376,
+    "utilization": 78,
+    "rss": 3391782912
+  },
+  {
+    "at": 1792099095724,
+    "phase": "measurement",
+    "round": 0,
+    "total": 25757220864,
+    "used": 12988710912,
+    "free": 12502171648,
+    "utilization": 91,
+    "rss": 3391913984
+  },
+  {
+    "at": 1792099095926,
+    "phase": "measurement",
+    "round": 0,
+    "total": 25757220864,
+    "used": 12986613760,
+    "free": 12504268800,
+    "utilization": 91,
+    "rss": 3391913984
+  },
+  {
+    "at": 1792099096129,
+    "phase": "measurement",
+    "round": 0,
+    "total": 25757220864,
+    "used": 12986613760,
+    "free": 12504268800,
+    "utilization": 91,
+    "rss": 3433873408
+  },
+  {
+    "at": 1792099096332,
+    "phase": "measurement",
+    "round": 0,
+    "total": 25757220864,
+    "used": 12998148096,
+    "free": 12492734464,
+    "utilization": 76,
+    "rss": 3430723584
+  },
+  {
+    "at": 1792099096538,
+    "phase": "measurement",
+    "round": 0,
+    "total": 25757220864,
+    "used": 12997099520,
+    "free": 12493783040,
+    "utilization": 76,
+    "rss": 3431182336
+  },
+  {
+    "at": 1792099096741,
+    "phase": "measurement",
+    "round": 0,
+    "total": 25757220864,
+    "used": 12999196672,
+    "free": 12491685888,
+    "utilization": 79,
+    "rss": 3413352448
+  },
+  {
+    "at": 1792099096945,
+    "phase": "measurement",
+    "round": 0,
+    "total": 25757220864,
+    "used": 12999196672,
+    "free": 12491685888,
+    "utilization": 79,
+    "rss": 3419226112
+  },
+  {
+    "at": 1792099097151,
+    "phase": "measurement",
+    "round": 0,
+    "total": 25757220864,
+    "used": 12997099520,
+    "free": 12493783040,
+    "utilization": 79,
+    "rss": 3389284352
+  },
+  {
+    "at": 1792099097355,
+    "phase": "measurement",
+    "round": 0,
+    "total": 25757220864,
+    "used": 12997099520,
+    "free": 12493783040,
+    "utilization": 61,
+    "rss": 3389284352
+  },
+  {
+    "at": 1792099097556,
+    "phase": "measurement",
+    "round": 0,
+    "total": 25757220864,
+    "used": 12995002368,
+    "free": 12495880192,
+    "utilization": 61,
+    "rss": 3389284352
+  },
+  {
+    "at": 1792099097758,
+    "phase": "measurement",
+    "round": 0,
+    "total": 25757220864,
+    "used": 12997099520,
+    "free": 12493783040,
+    "utilization": 81,
+    "rss": 3431243776
+  },
+  {
+    "at": 1792099097963,
+    "phase": "measurement",
+    "round": 0,
+    "total": 25757220864,
+    "used": 12997099520,
+    "free": 12493783040,
+    "utilization": 81,
+    "rss": 3431309312
+  },
+  {
+    "at": 1792099098165,
+    "phase": "measurement",
+    "round": 0,
+    "total": 25757220864,
+    "used": 12997099520,
+    "free": 12493783040,
+    "utilization": 81,
+    "rss": 3431309312
+  },
+  {
+    "at": 1792099098365,
+    "phase": "measurement",
+    "round": 0,
+    "total": 25757220864,
+    "used": 12997099520,
+    "free": 12493783040,
+    "utilization": 78,
+    "rss": 3400466432
+  },
+  {
+    "at": 1792099098568,
+    "phase": "measurement",
+    "round": 0,
+    "total": 25757220864,
+    "used": 12997099520,
+    "free": 12493783040,
+    "utilization": 78,
+    "rss": 3413872640
+  },
+  {
+    "at": 1792099098770,
+    "phase": "measurement",
+    "round": 0,
+    "total": 25757220864,
+    "used": 12997099520,
+    "free": 12493783040,
+    "utilization": 61,
+    "rss": 3396157440
+  },
+  {
+    "at": 1792099098985,
+    "phase": "measurement",
+    "round": 0,
+    "total": 25757220864,
+    "used": 12997099520,
+    "free": 12493783040,
+    "utilization": 61,
+    "rss": 3396157440
+  },
+  {
+    "at": 1792099099188,
+    "phase": "measurement",
+    "round": 0,
+    "total": 25757220864,
+    "used": 12997099520,
+    "free": 12493783040,
+    "utilization": 95,
+    "rss": 3396182016
+  },
+  {
+    "at": 1792099099394,
+    "phase": "measurement",
+    "round": 0,
+    "total": 25757220864,
+    "used": 12996050944,
+    "free": 12494831616,
+    "utilization": 95,
+    "rss": 3438530560
+  },
+  {
+    "at": 1792099099609,
+    "phase": "measurement",
+    "round": 0,
+    "total": 25757220864,
+    "used": 12981370880,
+    "free": 12509511680,
+    "utilization": 95,
+    "rss": 3432419328
+  },
+  {
+    "at": 1792099099813,
+    "phase": "measurement",
+    "round": 0,
+    "total": 25757220864,
+    "used": 12980322304,
+    "free": 12510560256,
+    "utilization": 76,
+    "rss": 3432423424
+  },
+  {
+    "at": 1792099100014,
+    "phase": "measurement",
+    "round": 0,
+    "total": 25757220864,
+    "used": 12978225152,
+    "free": 12512657408,
+    "utilization": 76,
+    "rss": 3397656576
+  },
+  {
+    "at": 1792099100217,
+    "phase": "measurement",
+    "round": 0,
+    "total": 25757220864,
+    "used": 12978225152,
+    "free": 12512657408,
+    "utilization": 81,
+    "rss": 3424149504
+  },
+  {
+    "at": 1792099100422,
+    "phase": "measurement",
+    "round": 0,
+    "total": 25757220864,
+    "used": 12992905216,
+    "free": 12497977344,
+    "utilization": 81,
+    "rss": 3430682624
+  },
+  {
+    "at": 1792099100624,
+    "phase": "measurement",
+    "round": 0,
+    "total": 25757220864,
+    "used": 12992905216,
+    "free": 12497977344,
+    "utilization": 81,
+    "rss": 3427532800
+  },
+  {
+    "at": 1792099100827,
+    "phase": "measurement",
+    "round": 0,
+    "total": 25757220864,
+    "used": 12992905216,
+    "free": 12497977344,
+    "utilization": 91,
+    "rss": 3395223552
+  },
+  {
+    "at": 1792099101032,
+    "phase": "measurement",
+    "round": 0,
+    "total": 25757220864,
+    "used": 12992905216,
+    "free": 12497977344,
+    "utilization": 91,
+    "rss": 3395223552
+  },
+  {
+    "at": 1792099101234,
+    "phase": "measurement",
+    "round": 0,
+    "total": 25757220864,
+    "used": 12992905216,
+    "free": 12497977344,
+    "utilization": 94,
+    "rss": 3395342336
+  },
+  {
+    "at": 1792099101435,
+    "phase": "measurement",
+    "round": 0,
+    "total": 25757220864,
+    "used": 12991856640,
+    "free": 12499025920,
+    "utilization": 94,
+    "rss": 3434414080
+  },
+  {
+    "at": 1792099101635,
+    "phase": "measurement",
+    "round": 0,
+    "total": 25757220864,
+    "used": 12989759488,
+    "free": 12501123072,
+    "utilization": 94,
+    "rss": 3434414080
+  },
+  {
+    "at": 1792099101839,
+    "phase": "measurement",
+    "round": 0,
+    "total": 25757220864,
+    "used": 12991856640,
+    "free": 12499025920,
+    "utilization": 76,
+    "rss": 3434721280
+  },
+  {
+    "at": 1792099102043,
+    "phase": "measurement",
+    "round": 0,
+    "total": 25757220864,
+    "used": 12991856640,
+    "free": 12499025920,
+    "utilization": 76,
+    "rss": 3417526272
+  },
+  {
+    "at": 1792099102244,
+    "phase": "measurement",
+    "round": 0,
+    "total": 25757220864,
+    "used": 12991856640,
+    "free": 12499025920,
+    "utilization": 84,
+    "rss": 3413516288
+  },
+  {
+    "at": 1792099102446,
+    "phase": "measurement",
+    "round": 0,
+    "total": 25757220864,
+    "used": 12991856640,
+    "free": 12499025920,
+    "utilization": 84,
+    "rss": 3419938816
+  },
+  {
+    "at": 1792099102649,
+    "phase": "measurement",
+    "round": 0,
+    "total": 25757220864,
+    "used": 12991856640,
+    "free": 12499025920,
+    "utilization": 84,
+    "rss": 3400704000
+  },
+  {
+    "at": 1792099102851,
+    "phase": "measurement",
+    "round": 0,
+    "total": 25757220864,
+    "used": 12991856640,
+    "free": 12499025920,
+    "utilization": 85,
+    "rss": 3400704000
+  },
+  {
+    "at": 1792099103052,
+    "phase": "measurement",
+    "round": 0,
+    "total": 25757220864,
+    "used": 12991856640,
+    "free": 12499025920,
+    "utilization": 85,
+    "rss": 3400704000
+  },
+  {
+    "at": 1792099103257,
+    "phase": "measurement",
+    "round": 0,
+    "total": 25757220864,
+    "used": 12991856640,
+    "free": 12499025920,
+    "utilization": 80,
+    "rss": 3442663424
+  },
+  {
+    "at": 1792099103458,
+    "phase": "measurement",
+    "round": 0,
+    "total": 25757220864,
+    "used": 12974030848,
+    "free": 12516851712,
+    "utilization": 80,
+    "rss": 3436363776
+  },
+  {
+    "at": 1792099103673,
+    "phase": "measurement",
+    "round": 0,
+    "total": 25757220864,
+    "used": 12974030848,
+    "free": 12516851712,
+    "utilization": 80,
+    "rss": 3436363776
+  },
+  {
+    "at": 1792099103876,
+    "phase": "measurement",
+    "round": 0,
+    "total": 25757220864,
+    "used": 12974030848,
+    "free": 12516851712,
+    "utilization": 77,
+    "rss": 3418533888
+  },
+  {
+    "at": 1792099104112,
+    "phase": "measurement",
+    "round": 0,
+    "total": 25757220864,
+    "used": 12974030848,
+    "free": 12516851712,
+    "utilization": 77,
+    "rss": 3421044736
+  },
+  {
+    "at": 1792099104325,
+    "phase": "measurement",
+    "round": 0,
+    "total": 25757220864,
+    "used": 12991856640,
+    "free": 12499025920,
+    "utilization": 57,
+    "rss": 3394416640
+  },
+  {
+    "at": 1792099104528,
+    "phase": "measurement",
+    "round": 0,
+    "total": 25757220864,
+    "used": 12990808064,
+    "free": 12500074496,
+    "utilization": 57,
+    "rss": 3394416640
+  },
+  {
+    "at": 1792099104729,
+    "phase": "measurement",
+    "round": 0,
+    "total": 25757220864,
+    "used": 12991856640,
+    "free": 12499025920,
+    "utilization": 95,
+    "rss": 3394416640
+  },
+  {
+    "at": 1792099104933,
+    "phase": "measurement",
+    "round": 0,
+    "total": 25757220864,
+    "used": 12991856640,
+    "free": 12499025920,
+    "utilization": 95,
+    "rss": 3436392448
+  },
+  {
+    "at": 1792099105135,
+    "phase": "measurement",
+    "round": 0,
+    "total": 25757220864,
+    "used": 12991856640,
+    "free": 12499025920,
+    "utilization": 95,
+    "rss": 3436392448
+  },
+  {
+    "at": 1792099105338,
+    "phase": "measurement",
+    "round": 0,
+    "total": 25757220864,
+    "used": 12991856640,
+    "free": 12499025920,
+    "utilization": 77,
+    "rss": 3437178880
+  },
+  {
+    "at": 1792099105538,
+    "phase": "measurement",
+    "round": 0,
+    "total": 25757220864,
+    "used": 12990808064,
+    "free": 12500074496,
+    "utilization": 77,
+    "rss": 3451072512
+  },
+  {
+    "at": 1792099105763,
+    "phase": "measurement",
+    "round": 0,
+    "total": 25757220864,
+    "used": 12991856640,
+    "free": 12499025920,
+    "utilization": 79,
+    "rss": 3436797952
+  },
+  {
+    "at": 1792099105976,
+    "phase": "measurement",
+    "round": 0,
+    "total": 25757220864,
+    "used": 12991856640,
+    "free": 12499025920,
+    "utilization": 79,
+    "rss": 3395231744
+  },
+  {
+    "at": 1792099106177,
+    "phase": "measurement",
+    "round": 0,
+    "total": 25757220864,
+    "used": 12991856640,
+    "free": 12499025920,
+    "utilization": 94,
+    "rss": 3395231744
+  },
+  {
+    "at": 1792099106390,
+    "phase": "measurement",
+    "round": 0,
+    "total": 25757220864,
+    "used": 12991856640,
+    "free": 12499025920,
+    "utilization": 94,
+    "rss": 3437191168
+  },
+  {
+    "at": 1792099106599,
+    "phase": "measurement",
+    "round": 0,
+    "total": 25757220864,
+    "used": 12991856640,
+    "free": 12499025920,
+    "utilization": 94,
+    "rss": 3437191168
+  },
+  {
+    "at": 1792099106801,
+    "phase": "measurement",
+    "round": 0,
+    "total": 25757220864,
+    "used": 12991856640,
+    "free": 12499025920,
+    "utilization": 75,
+    "rss": 3437191168
+  },
+  {
+    "at": 1792099107004,
+    "phase": "measurement",
+    "round": 0,
+    "total": 25757220864,
+    "used": 12991856640,
+    "free": 12499025920,
+    "utilization": 75,
+    "rss": 3419406336
+  },
+  {
+    "at": 1792099107205,
+    "phase": "measurement",
+    "round": 0,
+    "total": 25757220864,
+    "used": 12991856640,
+    "free": 12499025920,
+    "utilization": 78,
+    "rss": 3425591296
+  },
+  {
+    "at": 1792099107406,
+    "phase": "measurement",
+    "round": 0,
+    "total": 25757220864,
+    "used": 12991856640,
+    "free": 12499025920,
+    "utilization": 78,
+    "rss": 3419357184
+  },
+  {
+    "at": 1792099107610,
+    "phase": "measurement",
+    "round": 1,
+    "total": 25757220864,
+    "used": 12977176576,
+    "free": 12513705984,
+    "utilization": 78,
+    "rss": 3395342336
+  },
+  {
+    "at": 1792099107814,
+    "phase": "measurement",
+    "round": 1,
+    "total": 25757220864,
+    "used": 12977176576,
+    "free": 12513705984,
+    "utilization": 95,
+    "rss": 3395342336
+  },
+  {
+    "at": 1792099108019,
+    "phase": "measurement",
+    "round": 1,
+    "total": 25757220864,
+    "used": 12977176576,
+    "free": 12513705984,
+    "utilization": 95,
+    "rss": 3437301760
+  },
+  {
+    "at": 1792099108223,
+    "phase": "measurement",
+    "round": 1,
+    "total": 25757220864,
+    "used": 12977176576,
+    "free": 12513705984,
+    "utilization": 61,
+    "rss": 3437301760
+  },
+  {
+    "at": 1792099108424,
+    "phase": "measurement",
+    "round": 1,
+    "total": 25757220864,
+    "used": 12990808064,
+    "free": 12500074496,
+    "utilization": 61,
+    "rss": 3437301760
+  },
+  {
+    "at": 1792099108630,
+    "phase": "measurement",
+    "round": 1,
+    "total": 25757220864,
+    "used": 12990808064,
+    "free": 12500074496,
+    "utilization": 61,
+    "rss": 3419471872
+  },
+  {
+    "at": 1792099108829,
+    "phase": "measurement",
+    "round": 1,
+    "total": 25757220864,
+    "used": 12991856640,
+    "free": 12499025920,
+    "utilization": 79,
+    "rss": 3424374784
+  },
+  {
+    "at": 1792099109033,
+    "phase": "measurement",
+    "round": 1,
+    "total": 25757220864,
+    "used": 12991856640,
+    "free": 12499025920,
+    "utilization": 79,
+    "rss": 3418112000
+  },
+  {
+    "at": 1792099109235,
+    "phase": "measurement",
+    "round": 1,
+    "total": 25757220864,
+    "used": 12991856640,
+    "free": 12499025920,
+    "utilization": 77,
+    "rss": 3401707520
+  },
+  {
+    "at": 1792099109439,
+    "phase": "measurement",
+    "round": 1,
+    "total": 25757220864,
+    "used": 12991856640,
+    "free": 12499025920,
+    "utilization": 77,
+    "rss": 3401707520
+  },
+  {
+    "at": 1792099109642,
+    "phase": "measurement",
+    "round": 1,
+    "total": 25757220864,
+    "used": 12990808064,
+    "free": 12500074496,
+    "utilization": 77,
+    "rss": 3401707520
+  },
+  {
+    "at": 1792099109845,
+    "phase": "measurement",
+    "round": 1,
+    "total": 25757220864,
+    "used": 12991856640,
+    "free": 12499025920,
+    "utilization": 94,
+    "rss": 3443666944
+  },
+  {
+    "at": 1792099110052,
+    "phase": "measurement",
+    "round": 1,
+    "total": 25757220864,
+    "used": 12991856640,
+    "free": 12499025920,
+    "utilization": 94,
+    "rss": 3437432832
+  },
+  {
+    "at": 1792099110255,
+    "phase": "measurement",
+    "round": 1,
+    "total": 25757220864,
+    "used": 12991856640,
+    "free": 12499025920,
+    "utilization": 75,
+    "rss": 3437432832
+  },
+  {
+    "at": 1792099110466,
+    "phase": "measurement",
+    "round": 1,
+    "total": 25757220864,
+    "used": 12991856640,
+    "free": 12499025920,
+    "utilization": 75,
+    "rss": 3430400000
+  },
+  {
+    "at": 1792099110676,
+    "phase": "measurement",
+    "round": 1,
+    "total": 25757220864,
+    "used": 12991856640,
+    "free": 12499025920,
+    "utilization": 82,
+    "rss": 3422535680
+  },
+  {
+    "at": 1792099110879,
+    "phase": "measurement",
+    "round": 1,
+    "total": 25757220864,
+    "used": 12991856640,
+    "free": 12499025920,
+    "utilization": 82,
+    "rss": 3422543872
+  },
+  {
+    "at": 1792099111081,
+    "phase": "measurement",
+    "round": 1,
+    "total": 25757220864,
+    "used": 12991856640,
+    "free": 12499025920,
+    "utilization": 82,
+    "rss": 3433123840
+  },
+  {
+    "at": 1792099111285,
+    "phase": "measurement",
+    "round": 1,
+    "total": 25757220864,
+    "used": 12991856640,
+    "free": 12499025920,
+    "utilization": 92,
+    "rss": 3398643712
+  },
+  {
+    "at": 1792099111486,
+    "phase": "measurement",
+    "round": 1,
+    "total": 25757220864,
+    "used": 12990808064,
+    "free": 12500074496,
+    "utilization": 92,
+    "rss": 3398643712
+  },
+  {
+    "at": 1792099111689,
+    "phase": "measurement",
+    "round": 1,
+    "total": 25757220864,
+    "used": 12987662336,
+    "free": 12503220224,
+    "utilization": 94,
+    "rss": 3398643712
+  },
+  {
+    "at": 1792099111898,
+    "phase": "measurement",
+    "round": 1,
+    "total": 25757220864,
+    "used": 12993953792,
+    "free": 12496928768,
+    "utilization": 94,
+    "rss": 3437461504
+  },
+  {
+    "at": 1792099112111,
+    "phase": "measurement",
+    "round": 1,
+    "total": 25757220864,
+    "used": 12999196672,
+    "free": 12490637312,
+    "utilization": 94,
+    "rss": 3437461504
+  },
+  {
+    "at": 1792099112313,
+    "phase": "measurement",
+    "round": 1,
+    "total": 25757220864,
+    "used": 13000245248,
+    "free": 12490637312,
+    "utilization": 79,
+    "rss": 3437527040
+  },
+  {
+    "at": 1792099112517,
+    "phase": "measurement",
+    "round": 1,
+    "total": 25757220864,
+    "used": 13000245248,
+    "free": 12490637312,
+    "utilization": 79,
+    "rss": 3437625344
+  },
+  {
+    "at": 1792099112720,
+    "phase": "measurement",
+    "round": 1,
+    "total": 25757220864,
+    "used": 13000245248,
+    "free": 12490637312,
+    "utilization": 71,
+    "rss": 3414351872
+  },
+  {
+    "at": 1792099112922,
+    "phase": "measurement",
+    "round": 1,
+    "total": 25757220864,
+    "used": 13001293824,
+    "free": 12489588736,
+    "utilization": 71,
+    "rss": 3427377152
+  },
+  {
+    "at": 1792099113125,
+    "phase": "measurement",
+    "round": 1,
+    "total": 25757220864,
+    "used": 12999196672,
+    "free": 12491685888,
+    "utilization": 71,
+    "rss": 3399770112
+  },
+  {
+    "at": 1792099113328,
+    "phase": "measurement",
+    "round": 1,
+    "total": 25757220864,
+    "used": 12999196672,
+    "free": 12491685888,
+    "utilization": 60,
+    "rss": 3399770112
+  },
+  {
+    "at": 1792099113530,
+    "phase": "measurement",
+    "round": 1,
+    "total": 25757220864,
+    "used": 12998148096,
+    "free": 12492734464,
+    "utilization": 60,
+    "rss": 3399770112
+  },
+  {
+    "at": 1792099113733,
+    "phase": "measurement",
+    "round": 1,
+    "total": 25757220864,
+    "used": 12998148096,
+    "free": 12492734464,
+    "utilization": 92,
+    "rss": 3441729536
+  },
+  {
+    "at": 1792099113949,
+    "phase": "measurement",
+    "round": 1,
+    "total": 25757220864,
+    "used": 12999196672,
+    "free": 12491685888,
+    "utilization": 92,
+    "rss": 3438575616
+  },
+  {
+    "at": 1792099114150,
+    "phase": "measurement",
+    "round": 1,
+    "total": 25757220864,
+    "used": 12999196672,
+    "free": 12491685888,
+    "utilization": 92,
+    "rss": 3438575616
+  },
+  {
+    "at": 1792099114352,
+    "phase": "measurement",
+    "round": 1,
+    "total": 25757220864,
+    "used": 12999196672,
+    "free": 12491685888,
+    "utilization": 76,
+    "rss": 3431485440
+  },
+  {
+    "at": 1792099114556,
+    "phase": "measurement",
+    "round": 1,
+    "total": 25757220864,
+    "used": 13003390976,
+    "free": 12487491584,
+    "utilization": 76,
+    "rss": 3421863936
+  },
+  {
+    "at": 1792099114759,
+    "phase": "measurement",
+    "round": 1,
+    "total": 25757220864,
+    "used": 13001293824,
+    "free": 12489588736,
+    "utilization": 61,
+    "rss": 3396681728
+  },
+  {
+    "at": 1792099114961,
+    "phase": "measurement",
+    "round": 1,
+    "total": 25757220864,
+    "used": 13003390976,
+    "free": 12487491584,
+    "utilization": 61,
+    "rss": 3396681728
+  },
+  {
+    "at": 1792099115165,
+    "phase": "measurement",
+    "round": 1,
+    "total": 25757220864,
+    "used": 13003390976,
+    "free": 12487491584,
+    "utilization": 61,
+    "rss": 3438641152
+  },
+  {
+    "at": 1792099115368,
+    "phase": "measurement",
+    "round": 1,
+    "total": 25757220864,
+    "used": 13003390976,
+    "free": 12487491584,
+    "utilization": 95,
+    "rss": 3438641152
+  },
+  {
+    "at": 1792099115570,
+    "phase": "measurement",
+    "round": 1,
+    "total": 25757220864,
+    "used": 13019119616,
+    "free": 12471762944,
+    "utilization": 95,
+    "rss": 3438641152
+  },
+  {
+    "at": 1792099115771,
+    "phase": "measurement",
+    "round": 1,
+    "total": 25757220864,
+    "used": 13018071040,
+    "free": 12472811520,
+    "utilization": 77,
+    "rss": 3438641152
+  },
+  {
+    "at": 1792099115975,
+    "phase": "measurement",
+    "round": 1,
+    "total": 25757220864,
+    "used": 13018071040,
+    "free": 12472811520,
+    "utilization": 77,
+    "rss": 3412746240
+  },
+  {
+    "at": 1792099116177,
+    "phase": "measurement",
+    "round": 1,
+    "total": 25757220864,
+    "used": 13021216768,
+    "free": 12469665792,
+    "utilization": 84,
+    "rss": 3439222784
+  },
+  {
+    "at": 1792099116380,
+    "phase": "measurement",
+    "round": 1,
+    "total": 25757220864,
+    "used": 13021216768,
+    "free": 12469665792,
+    "utilization": 84,
+    "rss": 3399839744
+  },
+  {
+    "at": 1792099116583,
+    "phase": "measurement",
+    "round": 1,
+    "total": 25757220864,
+    "used": 13021216768,
+    "free": 12469665792,
+    "utilization": 84,
+    "rss": 3399839744
+  },
+  {
+    "at": 1792099116786,
+    "phase": "measurement",
+    "round": 1,
+    "total": 25757220864,
+    "used": 13021216768,
+    "free": 12469665792,
+    "utilization": 94,
+    "rss": 3399839744
+  },
+  {
+    "at": 1792099116989,
+    "phase": "measurement",
+    "round": 1,
+    "total": 25757220864,
+    "used": 13119782912,
+    "free": 12371099648,
+    "utilization": 94,
+    "rss": 3441799168
+  },
+  {
+    "at": 1792099117193,
+    "phase": "measurement",
+    "round": 1,
+    "total": 25757220864,
+    "used": 13118734336,
+    "free": 12372148224,
+    "utilization": 68,
+    "rss": 3438649344
+  },
+  {
+    "at": 1792099117397,
+    "phase": "measurement",
+    "round": 1,
+    "total": 25757220864,
+    "used": 13151240192,
+    "free": 12339642368,
+    "utilization": 68,
+    "rss": 3438649344
+  },
+  {
+    "at": 1792099117601,
+    "phase": "measurement",
+    "round": 1,
+    "total": 25757220864,
+    "used": 13148094464,
+    "free": 12342788096,
+    "utilization": 68,
+    "rss": 3414609920
+  },
+  {
+    "at": 1792099117806,
+    "phase": "measurement",
+    "round": 1,
+    "total": 25757220864,
+    "used": 13157531648,
+    "free": 12333350912,
+    "utilization": 80,
+    "rss": 3420278784
+  },
+  {
+    "at": 1792099118009,
+    "phase": "measurement",
+    "round": 1,
+    "total": 25757220864,
+    "used": 13157531648,
+    "free": 12333350912,
+    "utilization": 80,
+    "rss": 3403874304
+  },
+  {
+    "at": 1792099118213,
+    "phase": "measurement",
+    "round": 1,
+    "total": 25757220864,
+    "used": 13165920256,
+    "free": 12324962304,
+    "utilization": 95,
+    "rss": 3403874304
+  },
+  {
+    "at": 1792099118417,
+    "phase": "measurement",
+    "round": 1,
+    "total": 25757220864,
+    "used": 13166968832,
+    "free": 12323913728,
+    "utilization": 95,
+    "rss": 3403874304
+  },
+  {
+    "at": 1792099118617,
+    "phase": "measurement",
+    "round": 1,
+    "total": 25757220864,
+    "used": 13137608704,
+    "free": 12353273856,
+    "utilization": 95,
+    "rss": 3445833728
+  },
+  {
+    "at": 1792099118820,
+    "phase": "measurement",
+    "round": 1,
+    "total": 25757220864,
+    "used": 13114540032,
+    "free": 12376342528,
+    "utilization": 72,
+    "rss": 3439534080
+  },
+  {
+    "at": 1792099119024,
+    "phase": "measurement",
+    "round": 1,
+    "total": 25757220864,
+    "used": 13114540032,
+    "free": 12376342528,
+    "utilization": 72,
+    "rss": 3439534080
+  },
+  {
+    "at": 1792099119228,
+    "phase": "measurement",
+    "round": 1,
+    "total": 25757220864,
+    "used": 13114540032,
+    "free": 12376342528,
+    "utilization": 78,
+    "rss": 3421704192
+  },
+  {
+    "at": 1792099119429,
+    "phase": "measurement",
+    "round": 1,
+    "total": 25757220864,
+    "used": 13114540032,
+    "free": 12376342528,
+    "utilization": 78,
+    "rss": 3414659072
+  },
+  {
+    "at": 1792099119630,
+    "phase": "measurement",
+    "round": 1,
+    "total": 25757220864,
+    "used": 13050576896,
+    "free": 12440305664,
+    "utilization": 78,
+    "rss": 3424624640
+  },
+  {
+    "at": 1792099119831,
+    "phase": "measurement",
+    "round": 1,
+    "total": 25757220864,
+    "used": 13050576896,
+    "free": 12440305664,
+    "utilization": 63,
+    "rss": 3438432256
+  },
+  {
+    "at": 1792099120035,
+    "phase": "measurement",
+    "round": 1,
+    "total": 25757220864,
+    "used": 13064208384,
+    "free": 12426674176,
+    "utilization": 63,
+    "rss": 3435266048
+  },
+  {
+    "at": 1792099120238,
+    "phase": "measurement",
+    "round": 1,
+    "total": 25757220864,
+    "used": 13078888448,
+    "free": 12411994112,
+    "utilization": 80,
+    "rss": 3400785920
+  },
+  {
+    "at": 1792099120439,
+    "phase": "measurement",
+    "round": 1,
+    "total": 25757220864,
+    "used": 13078888448,
+    "free": 12411994112,
+    "utilization": 80,
+    "rss": 3400785920
+  },
+  {
+    "at": 1792099120644,
+    "phase": "measurement",
+    "round": 1,
+    "total": 25757220864,
+    "used": 13075742720,
+    "free": 12415139840,
+    "utilization": 80,
+    "rss": 3421757440
+  },
+  {
+    "at": 1792099120847,
+    "phase": "measurement",
+    "round": 1,
+    "total": 25757220864,
+    "used": 13072596992,
+    "free": 12418285568,
+    "utilization": 95,
+    "rss": 3439587328
+  },
+  {
+    "at": 1792099121049,
+    "phase": "measurement",
+    "round": 1,
+    "total": 25757220864,
+    "used": 13072596992,
+    "free": 12418285568,
+    "utilization": 95,
+    "rss": 3439521792
+  },
+  {
+    "at": 1792099121250,
+    "phase": "measurement",
+    "round": 1,
+    "total": 25757220864,
+    "used": 13072596992,
+    "free": 12418285568,
+    "utilization": 76,
+    "rss": 3439525888
+  },
+  {
+    "at": 1792099121452,
+    "phase": "measurement",
+    "round": 1,
+    "total": 25757220864,
+    "used": 13050576896,
+    "free": 12440305664,
+    "utilization": 76,
+    "rss": 3421696000
+  },
+  {
+    "at": 1792099121655,
+    "phase": "measurement",
+    "round": 1,
+    "total": 25757220864,
+    "used": 13043236864,
+    "free": 12447645696,
+    "utilization": 76,
+    "rss": 3409711104
+  },
+  {
+    "at": 1792099121859,
+    "phase": "measurement",
+    "round": 1,
+    "total": 25757220864,
+    "used": 13037993984,
+    "free": 12452888576,
+    "utilization": 56,
+    "rss": 3434835968
+  },
+  {
+    "at": 1792099122064,
+    "phase": "measurement",
+    "round": 1,
+    "total": 25757220864,
+    "used": 13030653952,
+    "free": 12460228608,
+    "utilization": 56,
+    "rss": 3400732672
+  },
+  {
+    "at": 1792099122268,
+    "phase": "measurement",
+    "round": 1,
+    "total": 25757220864,
+    "used": 12976128000,
+    "free": 12514754560,
+    "utilization": 95,
+    "rss": 3400732672
+  },
+  {
+    "at": 1792099122471,
+    "phase": "measurement",
+    "round": 1,
+    "total": 25757220864,
+    "used": 12976128000,
+    "free": 12514754560,
+    "utilization": 95,
+    "rss": 3440558080
+  },
+  {
+    "at": 1792099122674,
+    "phase": "measurement",
+    "round": 1,
+    "total": 25757220864,
+    "used": 12976128000,
+    "free": 12514754560,
+    "utilization": 95,
+    "rss": 3439542272
+  },
+  {
+    "at": 1792099122876,
+    "phase": "measurement",
+    "round": 1,
+    "total": 25757220864,
+    "used": 12976128000,
+    "free": 12514754560,
+    "utilization": 78,
+    "rss": 3439599616
+  },
+  {
+    "at": 1792099123077,
+    "phase": "measurement",
+    "round": 1,
+    "total": 25757220864,
+    "used": 12976128000,
+    "free": 12514754560,
+    "utilization": 78,
+    "rss": 3439603712
+  },
+  {
+    "at": 1792099123279,
+    "phase": "measurement",
+    "round": 1,
+    "total": 25757220864,
+    "used": 12962496512,
+    "free": 12528386048,
+    "utilization": 70,
+    "rss": 3411521536
+  },
+  {
+    "at": 1792099123482,
+    "phase": "measurement",
+    "round": 1,
+    "total": 25757220864,
+    "used": 12962496512,
+    "free": 12528386048,
+    "utilization": 70,
+    "rss": 3445673984
+  },
+  {
+    "at": 1792099123687,
+    "phase": "measurement",
+    "round": 1,
+    "total": 25757220864,
+    "used": 12962496512,
+    "free": 12528386048,
+    "utilization": 95,
+    "rss": 3400912896
+  },
+  {
+    "at": 1792099123888,
+    "phase": "measurement",
+    "round": 1,
+    "total": 25757220864,
+    "used": 12961447936,
+    "free": 12529434624,
+    "utilization": 95,
+    "rss": 3400916992
+  },
+  {
+    "at": 1792099124090,
+    "phase": "measurement",
+    "round": 1,
+    "total": 25757220864,
+    "used": 12961447936,
+    "free": 12529434624,
+    "utilization": 95,
+    "rss": 3439726592
+  },
+  {
+    "at": 1792099124291,
+    "phase": "measurement",
+    "round": 1,
+    "total": 25757220864,
+    "used": 12961447936,
+    "free": 12529434624,
+    "utilization": 50,
+    "rss": 3439726592
+  },
+  {
+    "at": 1792099124506,
+    "phase": "measurement",
+    "round": 1,
+    "total": 25757220864,
+    "used": 12961447936,
+    "free": 12529434624,
+    "utilization": 50,
+    "rss": 3439726592
+  },
+  {
+    "at": 1792099124707,
+    "phase": "measurement",
+    "round": 1,
+    "total": 25757220864,
+    "used": 12959350784,
+    "free": 12531531776,
+    "utilization": 77,
+    "rss": 3421896704
+  },
+  {
+    "at": 1792099124910,
+    "phase": "measurement",
+    "round": 1,
+    "total": 25757220864,
+    "used": 12959350784,
+    "free": 12531531776,
+    "utilization": 77,
+    "rss": 3410661376
+  },
+  {
+    "at": 1792099125115,
+    "phase": "measurement",
+    "round": 1,
+    "total": 25757220864,
+    "used": 12972982272,
+    "free": 12517900288,
+    "utilization": 77,
+    "rss": 3400904704
+  },
+  {
+    "at": 1792099125315,
+    "phase": "measurement",
+    "round": 1,
+    "total": 25757220864,
+    "used": 12966690816,
+    "free": 12524191744,
+    "utilization": 65,
+    "rss": 3400904704
+  },
+  {
+    "at": 1792099125516,
+    "phase": "measurement",
+    "round": 1,
+    "total": 25757220864,
+    "used": 12960399360,
+    "free": 12530483200,
+    "utilization": 65,
+    "rss": 3400904704
+  },
+  {
+    "at": 1792099125720,
+    "phase": "measurement",
+    "round": 1,
+    "total": 25757220864,
+    "used": 12960399360,
+    "free": 12530483200,
+    "utilization": 95,
+    "rss": 3439714304
+  },
+  {
+    "at": 1792099125924,
+    "phase": "measurement",
+    "round": 1,
+    "total": 25757220864,
+    "used": 12960399360,
+    "free": 12530483200,
+    "utilization": 95,
+    "rss": 3439714304
+  },
+  {
+    "at": 1792099126127,
+    "phase": "measurement",
+    "round": 1,
+    "total": 25757220864,
+    "used": 12960399360,
+    "free": 12530483200,
+    "utilization": 95,
+    "rss": 3439714304
+  },
+  {
+    "at": 1792099126327,
+    "phase": "measurement",
+    "round": 1,
+    "total": 25757220864,
+    "used": 12955156480,
+    "free": 12535726080,
+    "utilization": 77,
+    "rss": 3421884416
+  },
+  {
+    "at": 1792099126532,
+    "phase": "measurement",
+    "round": 1,
+    "total": 25757220864,
+    "used": 12949913600,
+    "free": 12540968960,
+    "utilization": 77,
+    "rss": 3426758656
+  },
+  {
+    "at": 1792099126736,
+    "phase": "measurement",
+    "round": 1,
+    "total": 25757220864,
+    "used": 12949913600,
+    "free": 12540968960,
+    "utilization": 58,
+    "rss": 3420471296
+  },
+  {
+    "at": 1792099126940,
+    "phase": "measurement",
+    "round": 1,
+    "total": 25757220864,
+    "used": 12949913600,
+    "free": 12540968960,
+    "utilization": 58,
+    "rss": 3404070912
+  },
+  {
+    "at": 1792099127141,
+    "phase": "measurement",
+    "round": 1,
+    "total": 25757220864,
+    "used": 12949913600,
+    "free": 12540968960,
+    "utilization": 58,
+    "rss": 3404070912
+  },
+  {
+    "at": 1792099127346,
+    "phase": "measurement",
+    "round": 1,
+    "total": 25757220864,
+    "used": 12949913600,
+    "free": 12540968960,
+    "utilization": 95,
+    "rss": 3446030336
+  },
+  {
+    "at": 1792099127547,
+    "phase": "measurement",
+    "round": 1,
+    "total": 25757220864,
+    "used": 12949913600,
+    "free": 12540968960,
+    "utilization": 95,
+    "rss": 3439857664
+  },
+  {
+    "at": 1792099127749,
+    "phase": "measurement",
+    "round": 1,
+    "total": 25757220864,
+    "used": 12949913600,
+    "free": 12540968960,
+    "utilization": 76,
+    "rss": 3439857664
+  },
+  {
+    "at": 1792099127950,
+    "phase": "measurement",
+    "round": 1,
+    "total": 25757220864,
+    "used": 12949913600,
+    "free": 12540968960,
+    "utilization": 76,
+    "rss": 3439878144
+  },
+  {
+    "at": 1792099128153,
+    "phase": "measurement",
+    "round": 1,
+    "total": 25757220864,
+    "used": 12949913600,
+    "free": 12540968960,
+    "utilization": 76,
+    "rss": 3418152960
+  },
+  {
+    "at": 1792099128355,
+    "phase": "measurement",
+    "round": 1,
+    "total": 25757220864,
+    "used": 12949913600,
+    "free": 12540968960,
+    "utilization": 82,
+    "rss": 3424968704
+  },
+  {
+    "at": 1792099128556,
+    "phase": "measurement",
+    "round": 1,
+    "total": 25757220864,
+    "used": 12949913600,
+    "free": 12540968960,
+    "utilization": 82,
+    "rss": 3438698496
+  },
+  {
+    "at": 1792099128758,
+    "phase": "measurement",
+    "round": 1,
+    "total": 25757220864,
+    "used": 12949913600,
+    "free": 12540968960,
+    "utilization": 70,
+    "rss": 3435548672
+  },
+  {
+    "at": 1792099128961,
+    "phase": "measurement",
+    "round": 1,
+    "total": 25757220864,
+    "used": 12949913600,
+    "free": 12540968960,
+    "utilization": 70,
+    "rss": 3401068544
+  },
+  {
+    "at": 1792099129164,
+    "phase": "measurement",
+    "round": 1,
+    "total": 25757220864,
+    "used": 12949913600,
+    "free": 12540968960,
+    "utilization": 70,
+    "rss": 3401101312
+  },
+  {
+    "at": 1792099129368,
+    "phase": "measurement",
+    "round": 1,
+    "total": 25757220864,
+    "used": 12949913600,
+    "free": 12540968960,
+    "utilization": 95,
+    "rss": 3443060736
+  },
+  {
+    "at": 1792099129569,
+    "phase": "measurement",
+    "round": 1,
+    "total": 25757220864,
+    "used": 12949913600,
+    "free": 12540968960,
+    "utilization": 95,
+    "rss": 3439910912
+  },
+  {
+    "at": 1792099129772,
+    "phase": "measurement",
+    "round": 1,
+    "total": 25757220864,
+    "used": 12949913600,
+    "free": 12540968960,
+    "utilization": 78,
+    "rss": 3439910912
+  },
+  {
+    "at": 1792099129977,
+    "phase": "measurement",
+    "round": 1,
+    "total": 25757220864,
+    "used": 12949913600,
+    "free": 12540968960,
+    "utilization": 78,
+    "rss": 3439910912
+  },
+  {
+    "at": 1792099130182,
+    "phase": "measurement",
+    "round": 1,
+    "total": 25757220864,
+    "used": 12943622144,
+    "free": 12547260416,
+    "utilization": 77,
+    "rss": 3422081024
+  },
+  {
+    "at": 1792099130384,
+    "phase": "measurement",
+    "round": 1,
+    "total": 25757220864,
+    "used": 12943622144,
+    "free": 12547260416,
+    "utilization": 77,
+    "rss": 3422502912
+  },
+  {
+    "at": 1792099130587,
+    "phase": "measurement",
+    "round": 1,
+    "total": 25757220864,
+    "used": 12943622144,
+    "free": 12547260416,
+    "utilization": 77,
+    "rss": 3435208704
+  },
+  {
+    "at": 1792099130790,
+    "phase": "measurement",
+    "round": 1,
+    "total": 25757220864,
+    "used": 12943622144,
+    "free": 12547260416,
+    "utilization": 72,
+    "rss": 3401101312
+  },
+  {
+    "at": 1792099130992,
+    "phase": "measurement",
+    "round": 1,
+    "total": 25757220864,
+    "used": 12943622144,
+    "free": 12547260416,
+    "utilization": 72,
+    "rss": 3401170944
+  },
+  {
+    "at": 1792099131195,
+    "phase": "measurement",
+    "round": 1,
+    "total": 25757220864,
+    "used": 12943622144,
+    "free": 12547260416,
+    "utilization": 96,
+    "rss": 3443126272
+  },
+  {
+    "at": 1792099131397,
+    "phase": "measurement",
+    "round": 1,
+    "total": 25757220864,
+    "used": 12943622144,
+    "free": 12547260416,
+    "utilization": 96,
+    "rss": 3439968256
+  },
+  {
+    "at": 1792099131600,
+    "phase": "measurement",
+    "round": 1,
+    "total": 25757220864,
+    "used": 12943622144,
+    "free": 12547260416,
+    "utilization": 96,
+    "rss": 3439968256
+  },
+  {
+    "at": 1792099131802,
+    "phase": "measurement",
+    "round": 1,
+    "total": 25757220864,
+    "used": 12943622144,
+    "free": 12547260416,
+    "utilization": 77,
+    "rss": 3422146560
+  },
+  {
+    "at": 1792099132005,
+    "phase": "measurement",
+    "round": 1,
+    "total": 25757220864,
+    "used": 12943622144,
+    "free": 12547260416,
+    "utilization": 77,
+    "rss": 3408752640
+  },
+  {
+    "at": 1792099132207,
+    "phase": "measurement",
+    "round": 1,
+    "total": 25757220864,
+    "used": 12943622144,
+    "free": 12547260416,
+    "utilization": 80,
+    "rss": 3398008832
+  },
+  {
+    "at": 1792099132410,
+    "phase": "measurement",
+    "round": 1,
+    "total": 25757220864,
+    "used": 12943622144,
+    "free": 12547260416,
+    "utilization": 80,
+    "rss": 3398008832
+  },
+  {
+    "at": 1792099132612,
+    "phase": "measurement",
+    "round": 1,
+    "total": 25757220864,
+    "used": 12943622144,
+    "free": 12547260416,
+    "utilization": 80,
+    "rss": 3398008832
+  },
+  {
+    "at": 1792099132816,
+    "phase": "measurement",
+    "round": 1,
+    "total": 25757220864,
+    "used": 12943622144,
+    "free": 12547260416,
+    "utilization": 95,
+    "rss": 3439968256
+  },
+  {
+    "at": 1792099133018,
+    "phase": "measurement",
+    "round": 1,
+    "total": 25757220864,
+    "used": 12943622144,
+    "free": 12547260416,
+    "utilization": 95,
+    "rss": 3439968256
+  },
+  {
+    "at": 1792099133221,
+    "phase": "measurement",
+    "round": 1,
+    "total": 25757220864,
+    "used": 12943622144,
+    "free": 12547260416,
+    "utilization": 77,
+    "rss": 3439968256
+  },
+  {
+    "at": 1792099133425,
+    "phase": "measurement",
+    "round": 1,
+    "total": 25757220864,
+    "used": 12943622144,
+    "free": 12547260416,
+    "utilization": 77,
+    "rss": 3435048960
+  },
+  {
+    "at": 1792099133646,
+    "phase": "measurement",
+    "round": 1,
+    "total": 25757220864,
+    "used": 12943622144,
+    "free": 12547260416,
+    "utilization": 77,
+    "rss": 3424174080
+  },
+  {
+    "at": 1792099133860,
+    "phase": "measurement",
+    "round": 1,
+    "total": 25757220864,
+    "used": 12943622144,
+    "free": 12547260416,
+    "utilization": 83,
+    "rss": 3397980160
+  },
+  {
+    "at": 1792099134063,
+    "phase": "measurement",
+    "round": 1,
+    "total": 25757220864,
+    "used": 12943622144,
+    "free": 12547260416,
+    "utilization": 83,
+    "rss": 3397980160
+  },
+  {
+    "at": 1792099134264,
+    "phase": "measurement",
+    "round": 1,
+    "total": 25757220864,
+    "used": 12943622144,
+    "free": 12547260416,
+    "utilization": 95,
+    "rss": 3397980160
+  },
+  {
+    "at": 1792099134466,
+    "phase": "measurement",
+    "round": 1,
+    "total": 25757220864,
+    "used": 12943622144,
+    "free": 12547260416,
+    "utilization": 95,
+    "rss": 3439939584
+  },
+  {
+    "at": 1792099134667,
+    "phase": "measurement",
+    "round": 1,
+    "total": 25757220864,
+    "used": 12943622144,
+    "free": 12547260416,
+    "utilization": 95,
+    "rss": 3439939584
+  },
+  {
+    "at": 1792099134868,
+    "phase": "measurement",
+    "round": 1,
+    "total": 25757220864,
+    "used": 12950962176,
+    "free": 12539920384,
+    "utilization": 78,
+    "rss": 3439939584
+  },
+  {
+    "at": 1792099135072,
+    "phase": "measurement",
+    "round": 1,
+    "total": 25757220864,
+    "used": 12950962176,
+    "free": 12539920384,
+    "utilization": 78,
+    "rss": 3415035904
+  },
+  {
+    "at": 1792099135274,
+    "phase": "measurement",
+    "round": 1,
+    "total": 25757220864,
+    "used": 12952010752,
+    "free": 12538871808,
+    "utilization": 83,
+    "rss": 3420704768
+  },
+  {
+    "at": 1792099135477,
+    "phase": "measurement",
+    "round": 2,
+    "total": 25757220864,
+    "used": 12952010752,
+    "free": 12538871808,
+    "utilization": 83,
+    "rss": 3398004736
+  },
+  {
+    "at": 1792099135678,
+    "phase": "measurement",
+    "round": 2,
+    "total": 25757220864,
+    "used": 12952010752,
+    "free": 12538871808,
+    "utilization": 94,
+    "rss": 3398004736
+  },
+  {
+    "at": 1792099135882,
+    "phase": "measurement",
+    "round": 2,
+    "total": 25757220864,
+    "used": 12952010752,
+    "free": 12538871808,
+    "utilization": 94,
+    "rss": 3398004736
+  },
+  {
+    "at": 1792099136083,
+    "phase": "measurement",
+    "round": 2,
+    "total": 25757220864,
+    "used": 12952010752,
+    "free": 12538871808,
+    "utilization": 94,
+    "rss": 3439964160
+  },
+  {
+    "at": 1792099136285,
+    "phase": "measurement",
+    "round": 2,
+    "total": 25757220864,
+    "used": 12952010752,
+    "free": 12538871808,
+    "utilization": 61,
+    "rss": 3439964160
+  },
+  {
+    "at": 1792099136488,
+    "phase": "measurement",
+    "round": 2,
+    "total": 25757220864,
+    "used": 12952010752,
+    "free": 12538871808,
+    "utilization": 61,
+    "rss": 3439964160
+  },
+  {
+    "at": 1792099136690,
+    "phase": "measurement",
+    "round": 2,
+    "total": 25757220864,
+    "used": 12952010752,
+    "free": 12538871808,
+    "utilization": 78,
+    "rss": 3404304384
+  },
+  {
+    "at": 1792099136892,
+    "phase": "measurement",
+    "round": 2,
+    "total": 25757220864,
+    "used": 12949913600,
+    "free": 12540968960,
+    "utilization": 78,
+    "rss": 3430207488
+  },
+  {
+    "at": 1792099137097,
+    "phase": "measurement",
+    "round": 2,
+    "total": 25757220864,
+    "used": 12945719296,
+    "free": 12545163264,
+    "utilization": 78,
+    "rss": 3425153024
+  },
+  {
+    "at": 1792099137298,
+    "phase": "measurement",
+    "round": 2,
+    "total": 25757220864,
+    "used": 12945719296,
+    "free": 12545163264,
+    "utilization": 75,
+    "rss": 3434708992
+  },
+  {
+    "at": 1792099137500,
+    "phase": "measurement",
+    "round": 2,
+    "total": 25757220864,
+    "used": 12950962176,
+    "free": 12539920384,
+    "utilization": 75,
+    "rss": 3402436608
+  },
+  {
+    "at": 1792099137704,
+    "phase": "measurement",
+    "round": 2,
+    "total": 25757220864,
+    "used": 12950962176,
+    "free": 12539920384,
+    "utilization": 94,
+    "rss": 3402436608
+  },
+  {
+    "at": 1792099137906,
+    "phase": "measurement",
+    "round": 2,
+    "total": 25757220864,
+    "used": 12950962176,
+    "free": 12539920384,
+    "utilization": 94,
+    "rss": 3402436608
+  },
+  {
+    "at": 1792099138108,
+    "phase": "measurement",
+    "round": 2,
+    "total": 25757220864,
+    "used": 12954107904,
+    "free": 12536774656,
+    "utilization": 94,
+    "rss": 3444396032
+  },
+  {
+    "at": 1792099138310,
+    "phase": "measurement",
+    "round": 2,
+    "total": 25757220864,
+    "used": 12959350784,
+    "free": 12531531776,
+    "utilization": 69,
+    "rss": 3441246208
+  },
+  {
+    "at": 1792099138512,
+    "phase": "measurement",
+    "round": 2,
+    "total": 25757220864,
+    "used": 12959350784,
+    "free": 12531531776,
+    "utilization": 69,
+    "rss": 3441311744
+  },
+  {
+    "at": 1792099138716,
+    "phase": "measurement",
+    "round": 2,
+    "total": 25757220864,
+    "used": 13044285440,
+    "free": 12446597120,
+    "utilization": 76,
+    "rss": 3441311744
+  },
+  {
+    "at": 1792099138918,
+    "phase": "measurement",
+    "round": 2,
+    "total": 25757220864,
+    "used": 13044285440,
+    "free": 12446597120,
+    "utilization": 76,
+    "rss": 3436597248
+  },
+  {
+    "at": 1792099139122,
+    "phase": "measurement",
+    "round": 2,
+    "total": 25757220864,
+    "used": 13044285440,
+    "free": 12446597120,
+    "utilization": 76,
+    "rss": 3428036608
+  },
+  {
+    "at": 1792099139325,
+    "phase": "measurement",
+    "round": 2,
+    "total": 25757220864,
+    "used": 13044285440,
+    "free": 12446597120,
+    "utilization": 87,
+    "rss": 3438616576
+  },
+  {
+    "at": 1792099139530,
+    "phase": "measurement",
+    "round": 2,
+    "total": 25757220864,
+    "used": 13042188288,
+    "free": 12448694272,
+    "utilization": 87,
+    "rss": 3403042816
+  },
+  {
+    "at": 1792099139733,
+    "phase": "measurement",
+    "round": 2,
+    "total": 25757220864,
+    "used": 13042188288,
+    "free": 12448694272,
+    "utilization": 95,
+    "rss": 3403042816
+  },
+  {
+    "at": 1792099139937,
+    "phase": "measurement",
+    "round": 2,
+    "total": 25757220864,
+    "used": 13042188288,
+    "free": 12448694272,
+    "utilization": 95,
+    "rss": 3445002240
+  },
+  {
+    "at": 1792099140140,
+    "phase": "measurement",
+    "round": 2,
+    "total": 25757220864,
+    "used": 13042188288,
+    "free": 12448694272,
+    "utilization": 95,
+    "rss": 3442126848
+  },
+  {
+    "at": 1792099140341,
+    "phase": "measurement",
+    "round": 2,
+    "total": 25757220864,
+    "used": 13065256960,
+    "free": 12425625600,
+    "utilization": 77,
+    "rss": 3442126848
+  },
+  {
+    "at": 1792099140543,
+    "phase": "measurement",
+    "round": 2,
+    "total": 25757220864,
+    "used": 13080985600,
+    "free": 12409896960,
+    "utilization": 77,
+    "rss": 3442126848
+  },
+  {
+    "at": 1792099140747,
+    "phase": "measurement",
+    "round": 2,
+    "total": 25757220864,
+    "used": 13076791296,
+    "free": 12414091264,
+    "utilization": 78,
+    "rss": 3424296960
+  },
+  {
+    "at": 1792099140949,
+    "phase": "measurement",
+    "round": 2,
+    "total": 25757220864,
+    "used": 13076791296,
+    "free": 12414091264,
+    "utilization": 78,
+    "rss": 3426844672
+  },
+  {
+    "at": 1792099141164,
+    "phase": "measurement",
+    "round": 2,
+    "total": 25757220864,
+    "used": 13076791296,
+    "free": 12414091264,
+    "utilization": 78,
+    "rss": 3400257536
+  },
+  {
+    "at": 1792099141367,
+    "phase": "measurement",
+    "round": 2,
+    "total": 25757220864,
+    "used": 13076791296,
+    "free": 12414091264,
+    "utilization": 57,
+    "rss": 3400257536
+  },
+  {
+    "at": 1792099141570,
+    "phase": "measurement",
+    "round": 2,
+    "total": 25757220864,
+    "used": 13025411072,
+    "free": 12465471488,
+    "utilization": 57,
+    "rss": 3400257536
+  },
+  {
+    "at": 1792099141772,
+    "phase": "measurement",
+    "round": 2,
+    "total": 25757220864,
+    "used": 13025411072,
+    "free": 12465471488,
+    "utilization": 95,
+    "rss": 3442216960
+  },
+  {
+    "at": 1792099141974,
+    "phase": "measurement",
+    "round": 2,
+    "total": 25757220864,
+    "used": 13025411072,
+    "free": 12465471488,
+    "utilization": 95,
+    "rss": 3442216960
+  },
+  {
+    "at": 1792099142189,
+    "phase": "measurement",
+    "round": 2,
+    "total": 25757220864,
+    "used": 13025411072,
+    "free": 12465471488,
+    "utilization": 75,
+    "rss": 3442216960
+  },
+  {
+    "at": 1792099142394,
+    "phase": "measurement",
+    "round": 2,
+    "total": 25757220864,
+    "used": 13025411072,
+    "free": 12465471488,
+    "utilization": 75,
+    "rss": 3417292800
+  },
+  {
+    "at": 1792099142602,
+    "phase": "measurement",
+    "round": 2,
+    "total": 25757220864,
+    "used": 12993953792,
+    "free": 12496928768,
+    "utilization": 75,
+    "rss": 3400253440
+  },
+  {
+    "at": 1792099142802,
+    "phase": "measurement",
+    "round": 2,
+    "total": 25757220864,
+    "used": 12984516608,
+    "free": 12506365952,
+    "utilization": 36,
+    "rss": 3400253440
+  },
+  {
+    "at": 1792099143003,
+    "phase": "measurement",
+    "round": 2,
+    "total": 25757220864,
+    "used": 12995002368,
+    "free": 12495880192,
+    "utilization": 36,
+    "rss": 3400318976
+  },
+  {
+    "at": 1792099143206,
+    "phase": "measurement",
+    "round": 2,
+    "total": 25757220864,
+    "used": 12995002368,
+    "free": 12495880192,
+    "utilization": 95,
+    "rss": 3442278400
+  },
+  {
+    "at": 1792099143409,
+    "phase": "measurement",
+    "round": 2,
+    "total": 25757220864,
+    "used": 13078888448,
+    "free": 12411994112,
+    "utilization": 95,
+    "rss": 3442475008
+  },
+  {
+    "at": 1792099143610,
+    "phase": "measurement",
+    "round": 2,
+    "total": 25757220864,
+    "used": 13077839872,
+    "free": 12413042688,
+    "utilization": 95,
+    "rss": 3442475008
+  },
+  {
+    "at": 1792099143812,
+    "phase": "measurement",
+    "round": 2,
+    "total": 25757220864,
+    "used": 13079937024,
+    "free": 12410945536,
+    "utilization": 77,
+    "rss": 3424645120
+  },
+  {
+    "at": 1792099144016,
+    "phase": "measurement",
+    "round": 2,
+    "total": 25757220864,
+    "used": 13078888448,
+    "free": 12411994112,
+    "utilization": 77,
+    "rss": 3411251200
+  },
+  {
+    "at": 1792099144230,
+    "phase": "measurement",
+    "round": 2,
+    "total": 25757220864,
+    "used": 13078888448,
+    "free": 12411994112,
+    "utilization": 77,
+    "rss": 3424530432
+  },
+  {
+    "at": 1792099144433,
+    "phase": "measurement",
+    "round": 2,
+    "total": 25757220864,
+    "used": 13078888448,
+    "free": 12411994112,
+    "utilization": 77,
+    "rss": 3406815232
+  },
+  {
+    "at": 1792099144635,
+    "phase": "measurement",
+    "round": 2,
+    "total": 25757220864,
+    "used": 13078888448,
+    "free": 12411994112,
+    "utilization": 77,
+    "rss": 3406815232
+  },
+  {
+    "at": 1792099144837,
+    "phase": "measurement",
+    "round": 2,
+    "total": 25757220864,
+    "used": 13078888448,
+    "free": 12411994112,
+    "utilization": 89,
+    "rss": 3406815232
+  },
+  {
+    "at": 1792099145039,
+    "phase": "measurement",
+    "round": 2,
+    "total": 25757220864,
+    "used": 13076791296,
+    "free": 12414091264,
+    "utilization": 89,
+    "rss": 3448774656
+  },
+  {
+    "at": 1792099145241,
+    "phase": "measurement",
+    "round": 2,
+    "total": 25757220864,
+    "used": 13076791296,
+    "free": 12414091264,
+    "utilization": 61,
+    "rss": 3442475008
+  },
+  {
+    "at": 1792099145444,
+    "phase": "measurement",
+    "round": 2,
+    "total": 25757220864,
+    "used": 13076791296,
+    "free": 12414091264,
+    "utilization": 61,
+    "rss": 3442475008
+  },
+  {
+    "at": 1792099145646,
+    "phase": "measurement",
+    "round": 2,
+    "total": 25757220864,
+    "used": 13046382592,
+    "free": 12444499968,
+    "utilization": 61,
+    "rss": 3406815232
+  },
+  {
+    "at": 1792099145849,
+    "phase": "measurement",
+    "round": 2,
+    "total": 25757220864,
+    "used": 13024362496,
+    "free": 12466520064,
+    "utilization": 78,
+    "rss": 3426418688
+  },
+  {
+    "at": 1792099146050,
+    "phase": "measurement",
+    "round": 2,
+    "total": 25757220864,
+    "used": 13002342400,
+    "free": 12488540160,
+    "utilization": 78,
+    "rss": 3439124480
+  },
+  {
+    "at": 1792099146251,
+    "phase": "measurement",
+    "round": 2,
+    "total": 25757220864,
+    "used": 13002342400,
+    "free": 12488540160,
+    "utilization": 69,
+    "rss": 3436036096
+  },
+  {
+    "at": 1792099146452,
+    "phase": "measurement",
+    "round": 2,
+    "total": 25757220864,
+    "used": 13002342400,
+    "free": 12488540160,
+    "utilization": 69,
+    "rss": 3403730944
+  },
+  {
+    "at": 1792099146656,
+    "phase": "measurement",
+    "round": 2,
+    "total": 25757220864,
+    "used": 13002342400,
+    "free": 12488540160,
+    "utilization": 69,
+    "rss": 3403730944
+  },
+  {
+    "at": 1792099146872,
+    "phase": "measurement",
+    "round": 2,
+    "total": 25757220864,
+    "used": 13002342400,
+    "free": 12488540160,
+    "utilization": 95,
+    "rss": 3403730944
+  },
+  {
+    "at": 1792099147081,
+    "phase": "measurement",
+    "round": 2,
+    "total": 25757220864,
+    "used": 13006536704,
+    "free": 12484345856,
+    "utilization": 95,
+    "rss": 3442536448
+  },
+  {
+    "at": 1792099147284,
+    "phase": "measurement",
+    "round": 2,
+    "total": 25757220864,
+    "used": 13002342400,
+    "free": 12488540160,
+    "utilization": 66,
+    "rss": 3442536448
+  },
+  {
+    "at": 1792099147486,
+    "phase": "measurement",
+    "round": 2,
+    "total": 25757220864,
+    "used": 13002342400,
+    "free": 12488540160,
+    "utilization": 66,
+    "rss": 3442536448
+  },
+  {
+    "at": 1792099147690,
+    "phase": "measurement",
+    "round": 2,
+    "total": 25757220864,
+    "used": 13008633856,
+    "free": 12482248704,
+    "utilization": 76,
+    "rss": 3424706560
+  },
+  {
+    "at": 1792099147905,
+    "phase": "measurement",
+    "round": 2,
+    "total": 25757220864,
+    "used": 12998148096,
+    "free": 12492734464,
+    "utilization": 76,
+    "rss": 3416842240
+  },
+  {
+    "at": 1792099148107,
+    "phase": "measurement",
+    "round": 2,
+    "total": 25757220864,
+    "used": 12998148096,
+    "free": 12492734464,
+    "utilization": 76,
+    "rss": 3426111488
+  },
+  {
+    "at": 1792099148310,
+    "phase": "measurement",
+    "round": 2,
+    "total": 25757220864,
+    "used": 12998148096,
+    "free": 12492734464,
+    "utilization": 59,
+    "rss": 3406876672
+  },
+  {
+    "at": 1792099148512,
+    "phase": "measurement",
+    "round": 2,
+    "total": 25757220864,
+    "used": 12998148096,
+    "free": 12492734464,
+    "utilization": 59,
+    "rss": 3406876672
+  },
+  {
+    "at": 1792099148716,
+    "phase": "measurement",
+    "round": 2,
+    "total": 25757220864,
+    "used": 12998148096,
+    "free": 12492734464,
+    "utilization": 95,
+    "rss": 3406876672
+  },
+  {
+    "at": 1792099148922,
+    "phase": "measurement",
+    "round": 2,
+    "total": 25757220864,
+    "used": 12997099520,
+    "free": 12493783040,
+    "utilization": 95,
+    "rss": 3442585600
+  },
+  {
+    "at": 1792099149126,
+    "phase": "measurement",
+    "round": 2,
+    "total": 25757220864,
+    "used": 12990808064,
+    "free": 12500074496,
+    "utilization": 95,
+    "rss": 3442655232
+  },
+  {
+    "at": 1792099149330,
+    "phase": "measurement",
+    "round": 2,
+    "total": 25757220864,
+    "used": 12990808064,
+    "free": 12500074496,
+    "utilization": 78,
+    "rss": 3442655232
+  },
+  {
+    "at": 1792099149531,
+    "phase": "measurement",
+    "round": 2,
+    "total": 25757220864,
+    "used": 12990808064,
+    "free": 12500074496,
+    "utilization": 78,
+    "rss": 3424829440
+  },
+  {
+    "at": 1792099149733,
+    "phase": "measurement",
+    "round": 2,
+    "total": 25757220864,
+    "used": 12990808064,
+    "free": 12500074496,
+    "utilization": 83,
+    "rss": 3427344384
+  },
+  {
+    "at": 1792099149936,
+    "phase": "measurement",
+    "round": 2,
+    "total": 25757220864,
+    "used": 12990808064,
+    "free": 12500074496,
+    "utilization": 83,
+    "rss": 3407011840
+  },
+  {
+    "at": 1792099150138,
+    "phase": "measurement",
+    "round": 2,
+    "total": 25757220864,
+    "used": 12984516608,
+    "free": 12506365952,
+    "utilization": 83,
+    "rss": 3407011840
+  },
+  {
+    "at": 1792099150341,
+    "phase": "measurement",
+    "round": 2,
+    "total": 25757220864,
+    "used": 12980322304,
+    "free": 12510560256,
+    "utilization": 95,
+    "rss": 3407011840
+  },
+  {
+    "at": 1792099150543,
+    "phase": "measurement",
+    "round": 2,
+    "total": 25757220864,
+    "used": 12980322304,
+    "free": 12510560256,
+    "utilization": 95,
+    "rss": 3448971264
+  },
+  {
+    "at": 1792099150745,
+    "phase": "measurement",
+    "round": 2,
+    "total": 25757220864,
+    "used": 12980322304,
+    "free": 12510560256,
+    "utilization": 59,
+    "rss": 3442663424
+  },
+  {
+    "at": 1792099150949,
+    "phase": "measurement",
+    "round": 2,
+    "total": 25757220864,
+    "used": 12980322304,
+    "free": 12510560256,
+    "utilization": 59,
+    "rss": 3442663424
+  },
+  {
+    "at": 1792099151151,
+    "phase": "measurement",
+    "round": 2,
+    "total": 25757220864,
+    "used": 12980322304,
+    "free": 12510560256,
+    "utilization": 59,
+    "rss": 3456557056
+  },
+  {
+    "at": 1792099151358,
+    "phase": "measurement",
+    "round": 2,
+    "total": 25757220864,
+    "used": 12980322304,
+    "free": 12510560256,
+    "utilization": 77,
+    "rss": 3432304640
+  },
+  {
+    "at": 1792099151571,
+    "phase": "measurement",
+    "round": 2,
+    "total": 25757220864,
+    "used": 12989759488,
+    "free": 12501123072,
+    "utilization": 77,
+    "rss": 3403935744
+  },
+  {
+    "at": 1792099151776,
+    "phase": "measurement",
+    "round": 2,
+    "total": 25757220864,
+    "used": 12989759488,
+    "free": 12501123072,
+    "utilization": 95,
+    "rss": 3403935744
+  },
+  {
+    "at": 1792099151978,
+    "phase": "measurement",
+    "round": 2,
+    "total": 25757220864,
+    "used": 12989759488,
+    "free": 12501123072,
+    "utilization": 95,
+    "rss": 3445895168
+  },
+  {
+    "at": 1792099152180,
+    "phase": "measurement",
+    "round": 2,
+    "total": 25757220864,
+    "used": 12989759488,
+    "free": 12501123072,
+    "utilization": 72,
+    "rss": 3442745344
+  },
+  {
+    "at": 1792099152383,
+    "phase": "measurement",
+    "round": 2,
+    "total": 25757220864,
+    "used": 12989759488,
+    "free": 12501123072,
+    "utilization": 72,
+    "rss": 3442745344
+  },
+  {
+    "at": 1792099152586,
+    "phase": "measurement",
+    "round": 2,
+    "total": 25757220864,
+    "used": 12989759488,
+    "free": 12501123072,
+    "utilization": 72,
+    "rss": 3424915456
+  },
+  {
+    "at": 1792099152801,
+    "phase": "measurement",
+    "round": 2,
+    "total": 25757220864,
+    "used": 12989759488,
+    "free": 12501123072,
+    "utilization": 78,
+    "rss": 3431100416
+  },
+  {
+    "at": 1792099153005,
+    "phase": "measurement",
+    "round": 2,
+    "total": 25757220864,
+    "used": 12989759488,
+    "free": 12501123072,
+    "utilization": 78,
+    "rss": 3424800768
+  },
+  {
+    "at": 1792099153206,
+    "phase": "measurement",
+    "round": 2,
+    "total": 25757220864,
+    "used": 12989759488,
+    "free": 12501123072,
+    "utilization": 71,
+    "rss": 3407085568
+  },
+  {
+    "at": 1792099153412,
+    "phase": "measurement",
+    "round": 2,
+    "total": 25757220864,
+    "used": 12989759488,
+    "free": 12501123072,
+    "utilization": 71,
+    "rss": 3407085568
+  },
+  {
+    "at": 1792099153615,
+    "phase": "measurement",
+    "round": 2,
+    "total": 25757220864,
+    "used": 12983468032,
+    "free": 12507414528,
+    "utilization": 71,
+    "rss": 3449044992
+  },
+  {
+    "at": 1792099153815,
+    "phase": "measurement",
+    "round": 2,
+    "total": 25757220864,
+    "used": 12979273728,
+    "free": 12511608832,
+    "utilization": 94,
+    "rss": 3442798592
+  },
+  {
+    "at": 1792099154019,
+    "phase": "measurement",
+    "round": 2,
+    "total": 25757220864,
+    "used": 12979273728,
+    "free": 12511608832,
+    "utilization": 94,
+    "rss": 3442798592
+  },
+  {
+    "at": 1792099154219,
+    "phase": "measurement",
+    "round": 2,
+    "total": 25757220864,
+    "used": 12979273728,
+    "free": 12511608832,
+    "utilization": 78,
+    "rss": 3442798592
+  },
+  {
+    "at": 1792099154422,
+    "phase": "measurement",
+    "round": 2,
+    "total": 25757220864,
+    "used": 12979273728,
+    "free": 12511608832,
+    "utilization": 78,
+    "rss": 3418234880
+  },
+  {
+    "at": 1792099154624,
+    "phase": "measurement",
+    "round": 2,
+    "total": 25757220864,
+    "used": 12979273728,
+    "free": 12511608832,
+    "utilization": 78,
+    "rss": 3426738176
+  },
+  {
+    "at": 1792099154825,
+    "phase": "measurement",
+    "round": 2,
+    "total": 25757220864,
+    "used": 12979273728,
+    "free": 12511608832,
+    "utilization": 77,
+    "rss": 3439443968
+  },
+  {
+    "at": 1792099155028,
+    "phase": "measurement",
+    "round": 2,
+    "total": 25757220864,
+    "used": 12979273728,
+    "free": 12511608832,
+    "utilization": 77,
+    "rss": 3436294144
+  },
+  {
+    "at": 1792099155230,
+    "phase": "measurement",
+    "round": 2,
+    "total": 25757220864,
+    "used": 12979273728,
+    "free": 12511608832,
+    "utilization": 80,
+    "rss": 3403984896
+  },
+  {
+    "at": 1792099155432,
+    "phase": "measurement",
+    "round": 2,
+    "total": 25757220864,
+    "used": 12979273728,
+    "free": 12511608832,
+    "utilization": 80,
+    "rss": 3403984896
+  },
+  {
+    "at": 1792099155638,
+    "phase": "measurement",
+    "round": 2,
+    "total": 25757220864,
+    "used": 12988710912,
+    "free": 12502171648,
+    "utilization": 80,
+    "rss": 3445944320
+  },
+  {
+    "at": 1792099155853,
+    "phase": "measurement",
+    "round": 2,
+    "total": 25757220864,
+    "used": 12988710912,
+    "free": 12502171648,
+    "utilization": 95,
+    "rss": 3442794496
+  },
+  {
+    "at": 1792099156053,
+    "phase": "measurement",
+    "round": 2,
+    "total": 25757220864,
+    "used": 12988710912,
+    "free": 12502171648,
+    "utilization": 95,
+    "rss": 3442794496
+  },
+  {
+    "at": 1792099156255,
+    "phase": "measurement",
+    "round": 2,
+    "total": 25757220864,
+    "used": 12988710912,
+    "free": 12502171648,
+    "utilization": 78,
+    "rss": 3442794496
+  },
+  {
+    "at": 1792099156458,
+    "phase": "measurement",
+    "round": 2,
+    "total": 25757220864,
+    "used": 12988710912,
+    "free": 12502171648,
+    "utilization": 78,
+    "rss": 3425030144
+  },
+  {
+    "at": 1792099156660,
+    "phase": "measurement",
+    "round": 2,
+    "total": 25757220864,
+    "used": 12988710912,
+    "free": 12502171648,
+    "utilization": 78,
+    "rss": 3429584896
+  },
+  {
+    "at": 1792099156862,
+    "phase": "measurement",
+    "round": 2,
+    "total": 25757220864,
+    "used": 12988710912,
+    "free": 12502171648,
+    "utilization": 60,
+    "rss": 3440164864
+  },
+  {
+    "at": 1792099157066,
+    "phase": "measurement",
+    "round": 2,
+    "total": 25757220864,
+    "used": 12988710912,
+    "free": 12502171648,
+    "utilization": 60,
+    "rss": 3404050432
+  },
+  {
+    "at": 1792099157268,
+    "phase": "measurement",
+    "round": 2,
+    "total": 25757220864,
+    "used": 12988710912,
+    "free": 12502171648,
+    "utilization": 95,
+    "rss": 3404050432
+  },
+  {
+    "at": 1792099157469,
+    "phase": "measurement",
+    "round": 2,
+    "total": 25757220864,
+    "used": 12988710912,
+    "free": 12502171648,
+    "utilization": 95,
+    "rss": 3404050432
+  },
+  {
+    "at": 1792099157674,
+    "phase": "measurement",
+    "round": 2,
+    "total": 25757220864,
+    "used": 12983468032,
+    "free": 12507414528,
+    "utilization": 95,
+    "rss": 3446009856
+  },
+  {
+    "at": 1792099157877,
+    "phase": "measurement",
+    "round": 2,
+    "total": 25757220864,
+    "used": 12979273728,
+    "free": 12511608832,
+    "utilization": 75,
+    "rss": 3442991104
+  },
+  {
+    "at": 1792099158080,
+    "phase": "measurement",
+    "round": 2,
+    "total": 25757220864,
+    "used": 13068402688,
+    "free": 12422479872,
+    "utilization": 75,
+    "rss": 3442991104
+  },
+  {
+    "at": 1792099158282,
+    "phase": "measurement",
+    "round": 2,
+    "total": 25757220864,
+    "used": 13068402688,
+    "free": 12422479872,
+    "utilization": 75,
+    "rss": 3425161216
+  },
+  {
+    "at": 1792099158486,
+    "phase": "measurement",
+    "round": 2,
+    "total": 25757220864,
+    "used": 13068402688,
+    "free": 12422479872,
+    "utilization": 75,
+    "rss": 3427672064
+  },
+  {
+    "at": 1792099158692,
+    "phase": "measurement",
+    "round": 2,
+    "total": 25757220864,
+    "used": 13070499840,
+    "free": 12420382720,
+    "utilization": 64,
+    "rss": 3401031680
+  },
+  {
+    "at": 1792099158894,
+    "phase": "measurement",
+    "round": 2,
+    "total": 25757220864,
+    "used": 13070499840,
+    "free": 12420382720,
+    "utilization": 64,
+    "rss": 3401031680
+  },
+  {
+    "at": 1792099159096,
+    "phase": "measurement",
+    "round": 2,
+    "total": 25757220864,
+    "used": 13070499840,
+    "free": 12420382720,
+    "utilization": 64,
+    "rss": 3401027584
+  },
+  {
+    "at": 1792099159300,
+    "phase": "measurement",
+    "round": 2,
+    "total": 25757220864,
+    "used": 13070499840,
+    "free": 12420382720,
+    "utilization": 95,
+    "rss": 3442987008
+  },
+  {
+    "at": 1792099159506,
+    "phase": "measurement",
+    "round": 2,
+    "total": 25757220864,
+    "used": 13082034176,
+    "free": 12408848384,
+    "utilization": 95,
+    "rss": 3442978816
+  },
+  {
+    "at": 1792099159708,
+    "phase": "measurement",
+    "round": 2,
+    "total": 25757220864,
+    "used": 13076791296,
+    "free": 12414091264,
+    "utilization": 78,
+    "rss": 3443044352
+  },
+  {
+    "at": 1792099159911,
+    "phase": "measurement",
+    "round": 2,
+    "total": 25757220864,
+    "used": 13076791296,
+    "free": 12414091264,
+    "utilization": 78,
+    "rss": 3434131456
+  },
+  {
+    "at": 1792099160123,
+    "phase": "measurement",
+    "round": 2,
+    "total": 25757220864,
+    "used": 13079937024,
+    "free": 12410945536,
+    "utilization": 78,
+    "rss": 3424800768
+  },
+  {
+    "at": 1792099160331,
+    "phase": "measurement",
+    "round": 2,
+    "total": 25757220864,
+    "used": 13078888448,
+    "free": 12411994112,
+    "utilization": 76,
+    "rss": 3401154560
+  },
+  {
+    "at": 1792099160534,
+    "phase": "measurement",
+    "round": 2,
+    "total": 25757220864,
+    "used": 13088325632,
+    "free": 12402556928,
+    "utilization": 76,
+    "rss": 3401154560
+  },
+  {
+    "at": 1792099160736,
+    "phase": "measurement",
+    "round": 2,
+    "total": 25757220864,
+    "used": 13090422784,
+    "free": 12400459776,
+    "utilization": 95,
+    "rss": 3422134272
+  },
+  {
+    "at": 1792099160938,
+    "phase": "measurement",
+    "round": 2,
+    "total": 25757220864,
+    "used": 13087277056,
+    "free": 12403605504,
+    "utilization": 95,
+    "rss": 3443113984
+  },
+  {
+    "at": 1792099161141,
+    "phase": "measurement",
+    "round": 2,
+    "total": 25757220864,
+    "used": 13085179904,
+    "free": 12405702656,
+    "utilization": 95,
+    "rss": 3443113984
+  },
+  {
+    "at": 1792099161344,
+    "phase": "measurement",
+    "round": 2,
+    "total": 25757220864,
+    "used": 13088325632,
+    "free": 12402556928,
+    "utilization": 78,
+    "rss": 3443113984
+  },
+  {
+    "at": 1792099161549,
+    "phase": "measurement",
+    "round": 2,
+    "total": 25757220864,
+    "used": 13088325632,
+    "free": 12402556928,
+    "utilization": 78,
+    "rss": 3418189824
+  },
+  {
+    "at": 1792099161752,
+    "phase": "measurement",
+    "round": 2,
+    "total": 25757220864,
+    "used": 13172211712,
+    "free": 12318670848,
+    "utilization": 86,
+    "rss": 3425234944
+  },
+  {
+    "at": 1792099161955,
+    "phase": "measurement",
+    "round": 2,
+    "total": 25757220864,
+    "used": 13196328960,
+    "free": 12294553600,
+    "utilization": 86,
+    "rss": 3407519744
+  },
+  {
+    "at": 1792099162159,
+    "phase": "measurement",
+    "round": 2,
+    "total": 25757220864,
+    "used": 13221494784,
+    "free": 12269387776,
+    "utilization": 86,
+    "rss": 3407523840
+  },
+  {
+    "at": 1792099162359,
+    "phase": "measurement",
+    "round": 2,
+    "total": 25757220864,
+    "used": 13241417728,
+    "free": 12249464832,
+    "utilization": 94,
+    "rss": 3407523840
+  },
+  {
+    "at": 1792099162562,
+    "phase": "measurement",
+    "round": 2,
+    "total": 25757220864,
+    "used": 13241417728,
+    "free": 12249464832,
+    "utilization": 94,
+    "rss": 3449503744
+  },
+  {
+    "at": 1792099162765,
+    "phase": "measurement",
+    "round": 2,
+    "total": 25757220864,
+    "used": 13241417728,
+    "free": 12249464832,
+    "utilization": 57,
+    "rss": 3443204096
+  },
+  {
+    "at": 1792099162970,
+    "phase": "measurement",
+    "round": 2,
+    "total": 25757220864,
+    "used": 13241417728,
+    "free": 12249464832,
+    "utilization": 57,
+    "rss": 3443204096
+  },
+  {
+    "at": 1792099163176,
+    "phase": "measurement",
+    "round": 2,
+    "total": 25757220864,
+    "used": 13200523264,
+    "free": 12290359296,
+    "utilization": 57,
+    "rss": 3443204096
+  },
+  {
+    "at": 1792099163379,
+    "phase": "measurement",
+    "round": 2,
+    "total": 25757220864,
+    "used": 13200523264,
+    "free": 12290359296,
+    "utilization": 77,
+    "rss": 3433447424
+  },
+  {
+    "at": 1792099163581,
+    "phase": "measurement",
+    "round": 2,
+    "total": 25757220864,
+    "used": 13200523264,
+    "free": 12290359296,
+    "utilization": 77,
+    "rss": 3427151872
+  },
+  {
+    "at": 1792099163785,
+    "phase": "measurement",
+    "round": 2,
+    "total": 25757220864,
+    "used": 13200523264,
+    "free": 12290359296,
+    "utilization": 77,
+    "rss": 3439857664
+  },
+  {
+    "at": 1792099163989,
+    "phase": "measurement",
+    "round": 2,
+    "total": 25757220864,
+    "used": 13200523264,
+    "free": 12290359296,
+    "utilization": 77,
+    "rss": 3436707840
+  },
+  {
+    "at": 1792099164194,
+    "phase": "finished",
+    "round": 3,
+    "total": 25757220864,
+    "used": 13193183232,
+    "free": 12297699328,
+    "utilization": 28,
+    "rss": 3450003456
+  },
+  {
+    "at": 1792099164407,
+    "phase": "finished",
+    "round": 3,
+    "total": 25757220864,
+    "used": 13190037504,
+    "free": 12300845056,
+    "utilization": 28,
+    "rss": 3450003456
+  },
+  {
+    "at": 1792099164611,
+    "phase": "finished",
+    "round": 3,
+    "total": 25757220864,
+    "used": 13175357440,
+    "free": 12315525120,
+    "utilization": 28,
+    "rss": 3450003456
+  },
+  {
+    "at": 1792099164812,
+    "phase": "finished",
+    "round": 3,
+    "total": 25757220864,
+    "used": 13175357440,
+    "free": 12315525120,
+    "utilization": 2,
+    "rss": 3450003456
+  },
+  {
+    "at": 1792099165017,
+    "phase": "finished",
+    "round": 3,
+    "total": 25757220864,
+    "used": 13171163136,
+    "free": 12319719424,
+    "utilization": 2,
+    "rss": 3450003456
+  },
+  {
+    "at": 1792099165220,
+    "phase": "finished",
+    "round": 3,
+    "total": 25757220864,
+    "used": 13109297152,
+    "free": 12381585408,
+    "utilization": 2,
+    "rss": 3450003456
+  },
+  {
+    "at": 1792099165421,
+    "phase": "finished",
+    "round": 3,
+    "total": 25757220864,
+    "used": 13109297152,
+    "free": 12381585408,
+    "utilization": 2,
+    "rss": 3450003456
+  },
+  {
+    "at": 1792099165624,
+    "phase": "finished",
+    "round": 3,
+    "total": 25757220864,
+    "used": 13089374208,
+    "free": 12401508352,
+    "utilization": 2,
+    "rss": 3450003456
+  },
+  {
+    "at": 1792099165826,
+    "phase": "finished",
+    "round": 3,
+    "total": 25757220864,
+    "used": 13258194944,
+    "free": 12232687616,
+    "utilization": 2,
+    "rss": 3450003456
+  }
+]

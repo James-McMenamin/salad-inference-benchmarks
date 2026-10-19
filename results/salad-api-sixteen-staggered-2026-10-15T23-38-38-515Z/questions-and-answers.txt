@@ -1,0 +1,130 @@
+16 staggered starts, 62.5ms scheduled interval. No retries.
+
+{
+  "startsMs": [
+    0.03840000000002419,
+    71.96600000000001,
+    135.32330000000002,
+    198.3796000000001,
+    261.1210000000001,
+    323.75239999999997,
+    384.63739999999996,
+    446.94100000000014,
+    509.2773000000001,
+    572.1086000000001,
+    633.1217,
+    695.0173000000001,
+    756.4664000000001,
+    817.6582,
+    880.3762,
+    944.1162
+  ],
+  "errors": {
+    "The operation was aborted due to timeout": 9,
+    "HTTP 503": 6
+  },
+  "completed": [
+    {
+      "question": "falln pass lvl range??",
+      "answer": "Fallen Pass is for levels 19 to 44 [1].",
+      "seconds": 6.4523238
+    }
+  ],
+  "peakActiveApiCalls": 16,
+  "costUsd": 0.00139593
+}
+
+Question: falln pass lvl range??
+Start offset: 0.04 ms
+Time from own start: 6.452 seconds
+Answer: Fallen Pass is for levels 19 to 44 [1].
+
+
+Question: wheres abot harow at??
+Start offset: 71.97 ms
+Time from own start: 97.919 seconds
+Error: The operation was aborted due to timeout
+
+
+Question: who givs a sweet treat quest
+Start offset: 135.32 ms
+Time from own start: 95.850 seconds
+Error: The operation was aborted due to timeout
+
+
+Question: wat do i need 2 make enchanted cloth
+Start offset: 198.38 ms
+Time from own start: 8.427 seconds
+Error: HTTP 503
+
+
+Question: glass flats conects to wat zones
+Start offset: 261.12 ms
+Time from own start: 7.964 seconds
+Error: HTTP 503
+
+
+Question: aashirs journal wat drops it
+Start offset: 323.75 ms
+Time from own start: 7.089 seconds
+Error: HTTP 503
+
+
+Question: where he at tho
+Start offset: 384.64 ms
+Time from own start: 13.218 seconds
+Error: HTTP 503
+
+
+Question: mnm mobile app release when??
+Start offset: 446.94 ms
+Time from own start: 96.014 seconds
+Error: The operation was aborted due to timeout
+
+
+Question: wat discord does abbot harrow use
+Start offset: 509.28 ms
+Time from own start: 98.008 seconds
+Error: The operation was aborted due to timeout
+
+
+Question: journal drop chance % exact pls
+Start offset: 572.11 ms
+Time from own start: 8.115 seconds
+Error: HTTP 503
+
+
+Question: falln pass lvl range??
+Start offset: 633.12 ms
+Time from own start: 95.629 seconds
+Error: The operation was aborted due to timeout
+
+
+Question: wheres abot harow at??
+Start offset: 695.02 ms
+Time from own start: 6.494 seconds
+Error: HTTP 503
+
+
+Question: who givs a sweet treat quest
+Start offset: 756.47 ms
+Time from own start: 90.014 seconds
+Error: The operation was aborted due to timeout
+
+
+Question: wat do i need 2 make enchanted cloth
+Start offset: 817.66 ms
+Time from own start: 90.013 seconds
+Error: The operation was aborted due to timeout
+
+
+Question: glass flats conects to wat zones
+Start offset: 880.38 ms
+Time from own start: 90.012 seconds
+Error: The operation was aborted due to timeout
+
+
+Question: aashirs journal wat drops it
+Start offset: 944.12 ms
+Time from own start: 90.011 seconds
+Error: The operation was aborted due to timeout

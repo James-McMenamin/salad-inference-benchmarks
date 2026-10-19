@@ -1,0 +1,13 @@
+{
+  "name": "salad-inference-benchmarks",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Reproducible Salad AI Gateway benchmark harness and October 2026 evidence",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "test": "node --test lib/*.test.mjs test/*.test.mjs",
+    "verify": "node scripts/verify-evidence.mjs",
+    "bench": "node bench.mjs"
+  }
+}

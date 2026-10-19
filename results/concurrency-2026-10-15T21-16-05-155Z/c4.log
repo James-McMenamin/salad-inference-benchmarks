@@ -1,0 +1,27 @@
+[node-llama-cpp] load: control-looking token:     50 '<|tool_response>' was not control-type; this is probably a bug in the model. its type will be overridden
+[node-llama-cpp] load: control-looking token:    212 '</s>' was not control-type; this is probably a bug in the model. its type will be overridden
+[node-llama-cpp] load: special_eog_ids contains '<|tool_response>', removing '</s>' token from EOG list
+concurrency=4 round=1 wave=1/8 3064ms 4/4 rubric passes
+concurrency=4 round=1 wave=2/8 2999ms 4/4 rubric passes
+concurrency=4 round=1 wave=3/8 2547ms 4/4 rubric passes
+concurrency=4 round=1 wave=4/8 3101ms 4/4 rubric passes
+concurrency=4 round=1 wave=5/8 2539ms 4/4 rubric passes
+concurrency=4 round=1 wave=6/8 3138ms 4/4 rubric passes
+concurrency=4 round=1 wave=7/8 2902ms 4/4 rubric passes
+concurrency=4 round=1 wave=8/8 2689ms 4/4 rubric passes
+concurrency=4 round=2 wave=1/8 2968ms 4/4 rubric passes
+concurrency=4 round=2 wave=2/8 2862ms 4/4 rubric passes
+concurrency=4 round=2 wave=3/8 2688ms 4/4 rubric passes
+concurrency=4 round=2 wave=4/8 3235ms 4/4 rubric passes
+concurrency=4 round=2 wave=5/8 2763ms 4/4 rubric passes
+concurrency=4 round=2 wave=6/8 3116ms 4/4 rubric passes
+concurrency=4 round=2 wave=7/8 2689ms 4/4 rubric passes
+concurrency=4 round=2 wave=8/8 2808ms 4/4 rubric passes
+concurrency=4 round=3 wave=1/8 3117ms 4/4 rubric passes
+concurrency=4 round=3 wave=2/8 2679ms 4/4 rubric passes
+concurrency=4 round=3 wave=3/8 3145ms 4/4 rubric passes
+concurrency=4 round=3 wave=4/8 2755ms 4/4 rubric passes
+concurrency=4 round=3 wave=5/8 2762ms 4/4 rubric passes
+concurrency=4 round=3 wave=6/8 3346ms 4/4 rubric passes
+concurrency=4 round=3 wave=7/8 2628ms 4/4 rubric passes
+concurrency=4 round=3 wave=8/8 3299ms 4/4 rubric passes

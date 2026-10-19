@@ -1,0 +1,38 @@
+{
+  "models": [
+    "qwen3.5-9b",
+    "qwen3.6-35b-a3b"
+  ],
+  "rates": {
+    "qwen3.5-9b": {
+      "input": 0.07,
+      "output": 0.23
+    },
+    "qwen3.6-35b-a3b": {
+      "input": 0.06,
+      "output": 0.95
+    }
+  },
+  "rateSource": "https://docs.salad.com/ai-gateway/reference/pricing",
+  "files": {
+    "prepared/cases.json": "fb6e26ba193cd436403c7a88995099b9b613d3a819b08900afe165572a0b9cdf",
+    "prepared/prompts.json": "dd6589f2687b01feb45c1de99dde78d0f703ccff2dcb672c544abd4c3b4cb0f6",
+    "prepared/reader.mjs": "b1b13d451ef4a7e55b371a0e6c0a44b88c1e3917479c09ff2b55dfa8f36ff904",
+    "core.mjs": "dea67b91ee4cbddbabcccf60581b46963b8d7cac0ca148b276118349c72952a8",
+    "salad-api-core.mjs": "07039654d71626ba9e3f0d076b3b148f608ac9319f3980b2d5622c71c5555e7c",
+    "salad-api-call.ps1": "24d0c1bf1a9f75ba42616013d78c20ed864eaee9c802c0cf7131dd9857a395a8",
+    "salad-api-run.mjs": "15a9e6f92efaf1a845ecd47b26194977fce6d075120920e43442be34b50b4e0a"
+  },
+  "repeats": 3,
+  "concurrency": 1,
+  "temperature": 0,
+  "thinking": false,
+  "thinkingControl": "chat_template_kwargs.enable_thinking=false",
+  "cases": {
+    "intent": 24,
+    "grounding": 10,
+    "judge": 12
+  },
+  "baseline": "<workspace>\\memoracle\\experiments\\model-comparison\\runs\\2026-10-15T09-41-12-711Z\\gemma4-e4b",
+  "note": "Frozen prompt/source benchmark, not full production retrieval. API latency includes transport; Gemma baseline local generation. Historical Gemma baseline reused with case/prompt hashes verified against frozen spec. No retries of billable requests; three repetitions are predeclared independent trials."
+}

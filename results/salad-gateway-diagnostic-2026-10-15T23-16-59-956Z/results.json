@@ -1,0 +1,186 @@
+[
+  {
+    "round": 0,
+    "kind": "minimal",
+    "status": 200,
+    "ms": 8041.622,
+    "requestId": null,
+    "body": {
+      "id": "chatcmpl-bdb5a93095c077df",
+      "object": "chat.completion",
+      "created": 1792106226,
+      "model": "qwen3.6-35b-a3b",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "OK.",
+            "refusal": null,
+            "annotations": null,
+            "audio": null,
+            "function_call": null,
+            "reasoning": null
+          },
+          "logprobs": null,
+          "finish_reason": "stop",
+          "stop_reason": null,
+          "token_ids": null,
+          "routed_experts": null
+        }
+      ],
+      "service_tier": null,
+      "system_fingerprint": "vllm-0.26.0-f7f0d459",
+      "usage": {
+        "prompt_tokens": 17,
+        "total_tokens": 20,
+        "completion_tokens": 3,
+        "prompt_tokens_details": null
+      },
+      "prompt_logprobs": null,
+      "prompt_token_ids": null,
+      "prompt_text": null,
+      "kv_transfer_params": null,
+      "ec_transfer_params": null,
+      "metrics": null
+    }
+  },
+  {
+    "round": 0,
+    "kind": "grounded",
+    "status": 200,
+    "ms": 642.3236000000006,
+    "requestId": null,
+    "body": {
+      "id": "chatcmpl-81232f59a248bd3b",
+      "object": "chat.completion",
+      "created": 1792106226,
+      "model": "qwen3.6-35b-a3b",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "Fallen Pass is for levels 19 to 44 [1].",
+            "refusal": null,
+            "annotations": null,
+            "audio": null,
+            "function_call": null,
+            "reasoning": null
+          },
+          "logprobs": null,
+          "finish_reason": "stop",
+          "stop_reason": null,
+          "token_ids": null,
+          "routed_experts": null
+        }
+      ],
+      "service_tier": null,
+      "system_fingerprint": "vllm-0.26.0-f7f0d459",
+      "usage": {
+        "prompt_tokens": 329,
+        "total_tokens": 346,
+        "completion_tokens": 17,
+        "prompt_tokens_details": null
+      },
+      "prompt_logprobs": null,
+      "prompt_token_ids": null,
+      "prompt_text": null,
+      "kv_transfer_params": null,
+      "ec_transfer_params": null,
+      "metrics": null
+    }
+  },
+  {
+    "round": 1,
+    "kind": "minimal",
+    "status": 200,
+    "ms": 505.5154000000002,
+    "requestId": null,
+    "body": {
+      "id": "chatcmpl-bea2901961ffafa3",
+      "object": "chat.completion",
+      "created": 1792106227,
+      "model": "qwen3.6-35b-a3b",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "OK.",
+            "refusal": null,
+            "annotations": null,
+            "audio": null,
+            "function_call": null,
+            "reasoning": null
+          },
+          "logprobs": null,
+          "finish_reason": "stop",
+          "stop_reason": null,
+          "token_ids": null,
+          "routed_experts": null
+        }
+      ],
+      "service_tier": null,
+      "system_fingerprint": "vllm-0.26.0-f7f0d459",
+      "usage": {
+        "prompt_tokens": 17,
+        "total_tokens": 20,
+        "completion_tokens": 3,
+        "prompt_tokens_details": null
+      },
+      "prompt_logprobs": null,
+      "prompt_token_ids": null,
+      "prompt_text": null,
+      "kv_transfer_params": null,
+      "ec_transfer_params": null,
+      "metrics": null
+    }
+  },
+  {
+    "round": 1,
+    "kind": "grounded",
+    "status": 200,
+    "ms": 731.1774999999998,
+    "requestId": null,
+    "body": {
+      "id": "chatcmpl-81f580657c3edd43",
+      "object": "chat.completion",
+      "created": 1792106229,
+      "model": "qwen3.6-35b-a3b",
+      "choices": [
+        {
+          "index": 0,
+          "message": {
+            "role": "assistant",
+            "content": "Fallen Pass is for levels 19 to 44 [1].",
+            "refusal": null,
+            "annotations": null,
+            "audio": null,
+            "function_call": null,
+            "reasoning": null
+          },
+          "logprobs": null,
+          "finish_reason": "stop",
+          "stop_reason": null,
+          "token_ids": null,
+          "routed_experts": null
+        }
+      ],
+      "service_tier": null,
+      "system_fingerprint": "vllm-0.26.0-f7f0d459",
+      "usage": {
+        "prompt_tokens": 329,
+        "total_tokens": 346,
+        "completion_tokens": 17,
+        "prompt_tokens_details": null
+      },
+      "prompt_logprobs": null,
+      "prompt_token_ids": null,
+      "prompt_text": null,
+      "kv_transfer_params": null,
+      "ec_transfer_params": null,
+      "metrics": null
+    }
+  }
+]

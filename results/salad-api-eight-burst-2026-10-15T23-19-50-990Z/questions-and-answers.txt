@@ -1,0 +1,39 @@
+Question: falln pass lvl range??
+Answer: Fallen Pass is for levels 19 to 44 [1].
+Time: 3.929 seconds
+Rubric: {"pass":true,"reasons":[],"manualReviewRequired":true}
+
+Question: wheres abot harow at??
+Answer: The wiki doesn't say.
+Time: 1.860 seconds
+Rubric: {"pass":false,"reasons":["declined answerable question","missing Underdocks","missing Temple of Ygorath","no citations","did not cite Abbot Harrow"],"manualReviewRequired":true}
+
+Question: who givs a sweet treat quest
+Answer: Guard Pippi Pinecone gives the quest A Sweet Treat in Evershade Weald [1].
+Time: 3.435 seconds
+Rubric: {"pass":true,"reasons":[],"manualReviewRequired":true}
+
+Question: wat do i need 2 make enchanted cloth
+Answer: To make Enchanted Cloth, you need Cloth Scraps and Enchanted Powder [1]. You must also use a Tome of Enchantment or an Enchanting Station in Night Harbor [1].
+Time: 5.086 seconds
+Rubric: {"pass":true,"reasons":[],"manualReviewRequired":true}
+
+Question: glass flats conects to wat zones
+Answer: Glass Flats connects to Sungreet Strand and Vale of Zintar [1].
+Time: 1.691 seconds
+Rubric: {"pass":true,"reasons":[],"manualReviewRequired":true}
+
+Question: aashirs journal wat drops it
+Answer: Aashir's Journal is dropped by a cultist in Night Harbor [1].
+Time: 2.398 seconds
+Rubric: {"pass":true,"reasons":[],"manualReviewRequired":true}
+
+Question: where he at tho
+Answer: Guard Pippi Pinecone is located in Evershade Weald [1].
+Time: 1.529 seconds
+Rubric: {"pass":true,"reasons":[],"manualReviewRequired":true}
+
+Question: mnm mobile app release when??
+Answer: The wiki doesn't say.
+Time: 2.446 seconds
+Rubric: {"pass":true,"reasons":[],"manualReviewRequired":true}

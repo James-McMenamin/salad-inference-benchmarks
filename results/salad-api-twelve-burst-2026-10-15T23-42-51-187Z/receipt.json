@@ -1,0 +1,17 @@
+{
+  "scope": "memoracle API concurrency comparison",
+  "specId": "49aba3acb59e19baf1a75169d5b2d15fdb5be780b79499aeafdb7e7498fd1d4e",
+  "status": "completed-needs-review",
+  "startedAt": "2026-10-15T23:42:51.188Z",
+  "run": "<workspace>\\memoracle\\experiments\\model-comparison\\runs\\salad-api-twelve-burst-2026-10-15T23-42-51-187Z",
+  "workerPid": 60000,
+  "completed": 12,
+  "costUsd": 0.0016216000000000004,
+  "previous": {
+    "status": "completed-needs-review",
+    "run": "<workspace>\\memoracle\\experiments\\model-comparison\\runs\\salad-api-sixteen-staggered-2026-10-15T23-38-38-515Z"
+  },
+  "concurrency": 12,
+  "round": 0,
+  "finishedAt": "2026-10-15T23:44:23.234Z"
+}

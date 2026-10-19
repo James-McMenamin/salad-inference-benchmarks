@@ -1,0 +1,409 @@
+Qwen3.6-35B-A3B: concurrency 16 with retries
+
+PARTIAL RUN: stopped on HTTP 401 Unauthorized after 48 of 96 planned questions. Prior evidence preserved.
+
+Up to 3 retries per failed API call (4 total attempts), 2/4/8 second backoff plus jitter. Temporary errors only; authentication errors stop the run. Each question includes reader and answer calls using frozen wiki passages. No map requests.
+
+{
+  "attempted": 48,
+  "completed": 31,
+  "passed": 31,
+  "errors": {
+    "HTTP 503": 16,
+    "HTTP 401": 1
+  },
+  "medianCompletedMs": 95020.0906,
+  "p95CompletedMs": 102767.38709999999,
+  "costUsd": 0.007427470000000001,
+  "usdPerCompleted": 0.00023959580645161293,
+  "requestsRetried": 46,
+  "failedApiAttempts": 99
+}
+
+Costs include reported usage in partial failed workflows. Failed calls without usage have unknown charges. Rates $0.06/$0.95 input/output per million tokens; not invoice reconciled. Latencies include retries/backoff and provider/network delay. Short waves and interrupted run cannot certify sustained capacity.
+
+ACTUAL QUESTIONS AND ANSWERS
+
+
+Concurrency 16, round 1, request 0-0
+Question: falln pass lvl range??
+Time: 95.289 seconds
+Answer: Fallen Pass is for levels 19 to 44 [1].
+Retry failures: 1
+Rubric: {"pass":true,"reasons":[],"manualReviewRequired":true}
+
+
+Concurrency 16, round 1, request 0-1
+Question: npc
+Time: 26.079 seconds
+ERROR: HTTP 503
+Retry failures: 4
+Rubric: {"pass":false,"reasons":["request error"]}
+
+
+Concurrency 16, round 1, request 0-2
+Question: who givs a sweet treat quest
+Time: 2.954 seconds
+Answer: Guard Pippi Pinecone gives the quest A Sweet Treat in Evershade Weald [1].
+Retry failures: 0
+Rubric: {"pass":true,"reasons":[],"manualReviewRequired":true}
+
+
+Concurrency 16, round 1, request 0-3
+Question: wat do i need 2 make enchanted cloth
+Time: 6.234 seconds
+Answer: To make Enchanted Cloth, you need Cloth Scraps and Enchanted Powder [1]. You must use a Tome of Enchantment or an Enchanting Station in Night Harbor to craft it [1].
+Retry failures: 0
+Rubric: {"pass":true,"reasons":[],"manualReviewRequired":true}
+
+
+Concurrency 16, round 1, request 0-4
+Question: glass flats conects to wat zones
+Time: 96.564 seconds
+Answer: Glass Flats connects to Sungreet Strand and Vale of Zintar [1].
+Retry failures: 1
+Rubric: {"pass":true,"reasons":[],"manualReviewRequired":true}
+
+
+Concurrency 16, round 1, request 0-5
+Question: drop
+Time: 26.528 seconds
+ERROR: HTTP 503
+Retry failures: 4
+Rubric: {"pass":false,"reasons":["request error"]}
+
+
+Concurrency 16, round 1, request 0-6
+Question: pronoun-answer
+Time: 25.376 seconds
+ERROR: HTTP 503
+Retry failures: 4
+Rubric: {"pass":false,"reasons":["request error"]}
+
+
+Concurrency 16, round 1, request 0-7
+Question: mnm mobile app release when??
+Time: 94.375 seconds
+Answer: The wiki doesn't say.
+Retry failures: 1
+Rubric: {"pass":true,"reasons":[],"manualReviewRequired":true}
+
+
+Concurrency 16, round 1, request 0-8
+Question: missing-discord
+Time: 32.215 seconds
+ERROR: HTTP 503
+Retry failures: 4
+Rubric: {"pass":false,"reasons":["request error"]}
+
+
+Concurrency 16, round 1, request 0-9
+Question: journal drop chance % exact pls
+Time: 94.597 seconds
+Answer: The wiki doesn't say.
+Retry failures: 1
+Rubric: {"pass":true,"reasons":[],"manualReviewRequired":true}
+
+
+Concurrency 16, round 1, request 0-10
+Question: falln pass lvl range??
+Time: 94.256 seconds
+Answer: Fallen Pass is for levels 19 to 44 [1].
+Retry failures: 1
+Rubric: {"pass":true,"reasons":[],"manualReviewRequired":true}
+
+
+Concurrency 16, round 1, request 0-11
+Question: wheres abot harow at??
+Time: 94.212 seconds
+Answer: Abbot Harrow is found in Underdocks, at the Temple of Ygorath [1].
+Retry failures: 1
+Rubric: {"pass":true,"reasons":[],"manualReviewRequired":true}
+
+
+Concurrency 16, round 1, request 0-12
+Question: who givs a sweet treat quest
+Time: 95.170 seconds
+Answer: The "A Sweet Treat" quest is given by Guard Pippi Pinecone in Evershade Weald [1].
+Retry failures: 1
+Rubric: {"pass":true,"reasons":[],"manualReviewRequired":true}
+
+
+Concurrency 16, round 1, request 0-13
+Question: wat do i need 2 make enchanted cloth
+Time: 97.272 seconds
+Answer: To make Enchanted Cloth, you need Cloth Scraps and Enchanted Powder [1]. You must use a crafting vessel such as a Tome of Enchantment or an Enchanting Station in Night Harbor [1]. The required profession is Enchanting [1].
+Retry failures: 1
+Rubric: {"pass":true,"reasons":[],"manualReviewRequired":true}
+
+
+Concurrency 16, round 1, request 0-14
+Question: glass flats conects to wat zones
+Time: 101.776 seconds
+Answer: Glass Flats connects to Sungreet Strand and Vale of Zintar [1].
+Retry failures: 2
+Rubric: {"pass":true,"reasons":[],"manualReviewRequired":true}
+
+
+Concurrency 16, round 1, request 0-15
+Question: aashirs journal wat drops it
+Time: 95.730 seconds
+Answer: Aashir's Journal is dropped by a cultist in Night Harbor [1].
+Retry failures: 1
+Rubric: {"pass":true,"reasons":[],"manualReviewRequired":true}
+
+
+Concurrency 16, round 1, request 0-16
+Question: pronoun-answer
+Time: 25.806 seconds
+ERROR: HTTP 503
+Retry failures: 4
+Rubric: {"pass":false,"reasons":["request error"]}
+
+
+Concurrency 16, round 1, request 0-17
+Question: missing-release
+Time: 30.253 seconds
+ERROR: HTTP 503
+Retry failures: 4
+Rubric: {"pass":false,"reasons":["request error"]}
+
+
+Concurrency 16, round 1, request 0-18
+Question: wat discord does abbot harrow use
+Time: 94.147 seconds
+Answer: The wiki doesn't say.
+Retry failures: 1
+Rubric: {"pass":true,"reasons":[],"manualReviewRequired":true}
+
+
+Concurrency 16, round 1, request 0-19
+Question: journal drop chance % exact pls
+Time: 96.538 seconds
+Answer: The wiki doesn't say.
+Retry failures: 1
+Rubric: {"pass":true,"reasons":[],"manualReviewRequired":true}
+
+
+Concurrency 16, round 1, request 0-20
+Question: level
+Time: 28.167 seconds
+ERROR: HTTP 503
+Retry failures: 4
+Rubric: {"pass":false,"reasons":["request error"]}
+
+
+Concurrency 16, round 1, request 0-21
+Question: wheres abot harow at??
+Time: 94.817 seconds
+Answer: Based on the provided sources, there is no NPC named "Harow." However, there is an NPC named **Abbot Harrow** who is located in **Underdocks**, specifically at the **Temple of Ygorath** [1].
+Retry failures: 1
+Rubric: {"pass":true,"reasons":[],"manualReviewRequired":true}
+
+
+Concurrency 16, round 1, request 0-22
+Question: who givs a sweet treat quest
+Time: 95.020 seconds
+Answer: Guard Pippi Pinecone gives the A Sweet Treat quest in Evershade Weald [1].
+Retry failures: 1
+Rubric: {"pass":true,"reasons":[],"manualReviewRequired":true}
+
+
+Concurrency 16, round 1, request 0-23
+Question: wat do i need 2 make enchanted cloth
+Time: 95.438 seconds
+Answer: To make Enchanted Cloth, you need Cloth Scraps and Enchanted Powder [1]. You must use a Tome of Enchantment or an Enchanting Station in Night Harbor to craft it [1].
+Retry failures: 1
+Rubric: {"pass":true,"reasons":[],"manualReviewRequired":true}
+
+
+Concurrency 16, round 1, request 0-24
+Question: glass flats conects to wat zones
+Time: 94.409 seconds
+Answer: Glass Flats connects to Sungreet Strand and Vale of Zintar [1].
+Retry failures: 1
+Rubric: {"pass":true,"reasons":[],"manualReviewRequired":true}
+
+
+Concurrency 16, round 1, request 0-25
+Question: aashirs journal wat drops it
+Time: 187.739 seconds
+Answer: Aashir's Journal is dropped by a cultist in Night Harbor [1].
+Retry failures: 2
+Rubric: {"pass":true,"reasons":[],"manualReviewRequired":true}
+
+
+Concurrency 16, round 1, request 0-26
+Question: pronoun-answer
+Time: 31.953 seconds
+ERROR: HTTP 503
+Retry failures: 4
+Rubric: {"pass":false,"reasons":["request error"]}
+
+
+Concurrency 16, round 1, request 0-27
+Question: mnm mobile app release when??
+Time: 102.767 seconds
+Answer: The wiki doesn't say.
+Retry failures: 2
+Rubric: {"pass":true,"reasons":[],"manualReviewRequired":true}
+
+
+Concurrency 16, round 1, request 0-28
+Question: missing-discord
+Time: 26.442 seconds
+ERROR: HTTP 503
+Retry failures: 4
+Rubric: {"pass":false,"reasons":["request error"]}
+
+
+Concurrency 16, round 1, request 0-29
+Question: missing-rate
+Time: 25.708 seconds
+ERROR: HTTP 503
+Retry failures: 4
+Rubric: {"pass":false,"reasons":["request error"]}
+
+
+Concurrency 16, round 1, request 0-30
+Question: falln pass lvl range??
+Time: 95.937 seconds
+Answer: Fallen Pass is for levels 19 to 44 [1].
+Retry failures: 1
+Rubric: {"pass":true,"reasons":[],"manualReviewRequired":true}
+
+
+Concurrency 16, round 1, request 0-31
+Question: wheres abot harow at??
+Time: 94.245 seconds
+Answer: Abbot Harrow is located in Underdocks at the Temple of Ygorath [1].
+Retry failures: 1
+Rubric: {"pass":true,"reasons":[],"manualReviewRequired":true}
+
+
+Concurrency 16, round 2, request 1-0
+Question: npc
+Time: 26.059 seconds
+ERROR: HTTP 503
+Retry failures: 4
+Rubric: {"pass":false,"reasons":["request error"]}
+
+
+Concurrency 16, round 2, request 1-1
+Question: quest
+Time: 27.751 seconds
+ERROR: HTTP 503
+Retry failures: 4
+Rubric: {"pass":false,"reasons":["request error"]}
+
+
+Concurrency 16, round 2, request 1-2
+Question: recipe
+Time: 25.474 seconds
+ERROR: HTTP 503
+Retry failures: 4
+Rubric: {"pass":false,"reasons":["request error"]}
+
+
+Concurrency 16, round 2, request 1-3
+Question: glass flats conects to wat zones
+Time: 95.272 seconds
+Answer: Glass Flats connects to Sungreet Strand and Vale of Zintar [1].
+Retry failures: 1
+Rubric: {"pass":true,"reasons":[],"manualReviewRequired":true}
+
+
+Concurrency 16, round 2, request 1-4
+Question: aashirs journal wat drops it
+Time: 94.204 seconds
+Answer: Aashir's Journal is dropped by a cultist in Night Harbor [1].
+Retry failures: 1
+Rubric: {"pass":true,"reasons":[],"manualReviewRequired":true}
+
+
+Concurrency 16, round 2, request 1-5
+Question: where he at tho
+Time: 97.352 seconds
+Answer: Guard Pippi Pinecone is located in Evershade Weald [1].
+Retry failures: 1
+Rubric: {"pass":true,"reasons":[],"manualReviewRequired":true}
+
+
+Concurrency 16, round 2, request 1-6
+Question: missing-release
+Time: 25.618 seconds
+ERROR: HTTP 503
+Retry failures: 4
+Rubric: {"pass":false,"reasons":["request error"]}
+
+
+Concurrency 16, round 2, request 1-7
+Question: wat discord does abbot harrow use
+Time: 94.259 seconds
+Answer: The wiki doesn't say.
+Retry failures: 1
+Rubric: {"pass":true,"reasons":[],"manualReviewRequired":true}
+
+
+Concurrency 16, round 2, request 1-8
+Question: missing-rate
+Time: 25.439 seconds
+ERROR: HTTP 503
+Retry failures: 4
+Rubric: {"pass":false,"reasons":["request error"]}
+
+
+Concurrency 16, round 2, request 1-9
+Question: falln pass lvl range??
+Time: 97.851 seconds
+Answer: Fallen Pass is for levels 19 to 44 [1].
+Retry failures: 1
+Rubric: {"pass":true,"reasons":[],"manualReviewRequired":true}
+
+
+Concurrency 16, round 2, request 1-10
+Question: wheres abot harow at??
+Time: 94.357 seconds
+Answer: The wiki does not mention a character named "Harow." However, it states that Abbot Harrow is found in Underdocks, at the Temple of Ygorath [1].
+Retry failures: 1
+Rubric: {"pass":true,"reasons":[],"manualReviewRequired":true}
+
+
+Concurrency 16, round 2, request 1-11
+Question: who givs a sweet treat quest
+Time: 96.603 seconds
+Answer: Guard Pippi Pinecone gives the A Sweet Treat quest in Evershade Weald [1].
+Retry failures: 1
+Rubric: {"pass":true,"reasons":[],"manualReviewRequired":true}
+
+
+Concurrency 16, round 2, request 1-12
+Question: recipe
+Time: 31.851 seconds
+ERROR: HTTP 503
+Retry failures: 4
+Rubric: {"pass":false,"reasons":["request error"]}
+
+
+Concurrency 16, round 2, request 1-13
+Question: borders
+Time: 197.794 seconds
+ERROR: HTTP 401
+Retry failures: 3
+Rubric: {"pass":false,"reasons":["request error"]}
+
+
+Concurrency 16, round 2, request 1-14
+Question: aashirs journal wat drops it
+Time: 94.875 seconds
+Answer: Aashir's Journal is dropped by a cultist in Night Harbor [1].
+Retry failures: 1
+Rubric: {"pass":true,"reasons":[],"manualReviewRequired":true}
+
+
+Concurrency 16, round 2, request 1-15
+Question: where he at tho
+Time: 94.632 seconds
+Answer: Guard Pippi Pinecone is located in Evershade Weald [1].
+Retry failures: 1
+Rubric: {"pass":true,"reasons":[],"manualReviewRequired":true}

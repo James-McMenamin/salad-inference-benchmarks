@@ -1,0 +1,79 @@
+Question: level
+Answer: The operation was aborted due to timeout
+Time: 90.010 seconds
+Rubric: {"pass":false,"reasons":["request error"]}
+
+Question: npc
+Answer: HTTP 503
+Time: 2.808 seconds
+Rubric: {"pass":false,"reasons":["request error"]}
+
+Question: quest
+Answer: The operation was aborted due to timeout
+Time: 90.011 seconds
+Rubric: {"pass":false,"reasons":["request error"]}
+
+Question: recipe
+Answer: The operation was aborted due to timeout
+Time: 91.474 seconds
+Rubric: {"pass":false,"reasons":["request error"]}
+
+Question: glass flats conects to wat zones
+Answer: Glass Flats connects to Sungreet Strand and Vale of Zintar [1].
+Time: 4.435 seconds
+Rubric: {"pass":true,"reasons":[],"manualReviewRequired":true}
+
+Question: drop
+Answer: The operation was aborted due to timeout
+Time: 95.586 seconds
+Rubric: {"pass":false,"reasons":["request error"]}
+
+Question: pronoun-answer
+Answer: HTTP 503
+Time: 3.588 seconds
+Rubric: {"pass":false,"reasons":["request error"]}
+
+Question: missing-release
+Answer: The operation was aborted due to timeout
+Time: 90.011 seconds
+Rubric: {"pass":false,"reasons":["request error"]}
+
+Question: missing-discord
+Answer: HTTP 503
+Time: 3.015 seconds
+Rubric: {"pass":false,"reasons":["request error"]}
+
+Question: missing-rate
+Answer: The operation was aborted due to timeout
+Time: 91.819 seconds
+Rubric: {"pass":false,"reasons":["request error"]}
+
+Question: level
+Answer: The operation was aborted due to timeout
+Time: 91.179 seconds
+Rubric: {"pass":false,"reasons":["request error"]}
+
+Question: npc
+Answer: HTTP 503
+Time: 2.375 seconds
+Rubric: {"pass":false,"reasons":["request error"]}
+
+Question: quest
+Answer: The operation was aborted due to timeout
+Time: 90.011 seconds
+Rubric: {"pass":false,"reasons":["request error"]}
+
+Question: recipe
+Answer: HTTP 503
+Time: 3.077 seconds
+Rubric: {"pass":false,"reasons":["request error"]}
+
+Question: borders
+Answer: The operation was aborted due to timeout
+Time: 90.011 seconds
+Rubric: {"pass":false,"reasons":["request error"]}
+
+Question: drop
+Answer: The operation was aborted due to timeout
+Time: 93.207 seconds
+Rubric: {"pass":false,"reasons":["request error"]}

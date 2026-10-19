@@ -1,0 +1,69 @@
+{
+  "reviewedAt": "2026-10-15T22:56:37.646Z",
+  "status": "reviewed-provider-errors-prevent-capacity-certification",
+  "distinctAnswersReviewed": 23,
+  "summary": [
+    {
+      "concurrency": 2,
+      "completed": 40,
+      "passed": 38,
+      "errors": {
+        "HTTP 400": 32,
+        "HTTP 503": 24
+      },
+      "median": 1856.2115999999987,
+      "p95": 3722.956500000004,
+      "completedCostUsd": 0.0068407,
+      "costPerAnswer": 0.0001710175,
+      "cleanWaveRps": 0.7528897603002288
+    },
+    {
+      "concurrency": 4,
+      "completed": 64,
+      "passed": 64,
+      "errors": {
+        "HTTP 400": 32
+      },
+      "median": 1563.3965000000026,
+      "p95": 3550.568800000001,
+      "completedCostUsd": 0.01102007,
+      "costPerAnswer": 0.00017218859375,
+      "cleanWaveRps": 1.2799745925043375
+    },
+    {
+      "concurrency": 8,
+      "completed": 32,
+      "passed": 31,
+      "errors": {
+        "HTTP 400": 56,
+        "HTTP 503": 8
+      },
+      "median": 1974.1156000000046,
+      "p95": 5060.282899999991,
+      "completedCostUsd": 0.005523029999999999,
+      "costPerAnswer": 0.00017259468749999997,
+      "cleanWaveRps": 1.74568778838694
+    },
+    {
+      "concurrency": 16,
+      "completed": 1,
+      "passed": 1,
+      "errors": {
+        "HTTP 503": 44,
+        "The operation was aborted due to timeout": 19,
+        "HTTP 400": 32
+      },
+      "median": 3552.5076999999874,
+      "p95": 3552.5076999999874,
+      "completedCostUsd": 0.00016674000000000002,
+      "costPerAnswer": 0.00016674000000000002,
+      "cleanWaveRps": null
+    }
+  ],
+  "notes": [
+    "Three incorrect NPC abstentions",
+    "One recipe output misstates trivial skill as required skill",
+    "Full workload preserved without retries",
+    "Unknown charges disclosed"
+  ]
+}

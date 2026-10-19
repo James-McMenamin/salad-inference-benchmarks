@@ -1,0 +1,41 @@
+{
+  "reviewedAt": "2026-10-15T23:40:26.670Z",
+  "result": {
+    "startsMs": [
+      0.03840000000002419,
+      71.96600000000001,
+      135.32330000000002,
+      198.3796000000001,
+      261.1210000000001,
+      323.75239999999997,
+      384.63739999999996,
+      446.94100000000014,
+      509.2773000000001,
+      572.1086000000001,
+      633.1217,
+      695.0173000000001,
+      756.4664000000001,
+      817.6582,
+      880.3762,
+      944.1162
+    ],
+    "errors": {
+      "The operation was aborted due to timeout": 9,
+      "HTTP 503": 6
+    },
+    "completed": [
+      {
+        "question": "falln pass lvl range??",
+        "answer": "Fallen Pass is for levels 19 to 44 [1].",
+        "seconds": 6.4523238
+      }
+    ],
+    "peakActiveApiCalls": 16,
+    "costUsd": 0.00139593
+  },
+  "notes": [
+    "Only completed answer reviewed against supplied sources",
+    "Input hashes checked by runner; full 16-question workload finished",
+    "No retries; unknown charges for failed calls retained in summary"
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "reviewedAt": "2026-10-16T00:00:46.720Z",
+  "result": {
+    "groups": [
+      {
+        "offsetMs": 0,
+        "actualStartMs": [
+          0.03769999999997253,
+          1.4589999999999463,
+          1.9149999999999636,
+          2.226099999999974
+        ],
+        "completed": 0,
+        "passed": 0,
+        "errors": {
+          "HTTP 401": 4
+        }
+      },
+      {
+        "offsetMs": 1000,
+        "actualStartMs": [
+          1007.4387,
+          1009.3662,
+          1010.312,
+          1011.2725999999999
+        ],
+        "completed": 0,
+        "passed": 0,
+        "errors": {
+          "HTTP 401": 4
+        }
+      },
+      {
+        "offsetMs": 2000,
+        "actualStartMs": [
+          2002.6841,
+          2004.4278999999997,
+          2005.2091,
+          2005.9573
+        ],
+        "completed": 0,
+        "passed": 0,
+        "errors": {
+          "HTTP 401": 4
+        }
+      }
+    ],
+    "peakActiveApiCalls": 12,
+    "costUsd": 0,
+    "errorBodies": [
+      "{\"status\":401,\"title\":\"Unauthorized\",\"type\":\"about:blank\"}"
+    ]
+  },
+  "notes": [
+    "Full 12-question schedule finished; runner verified input hashes",
+    "No retries; unknown charges on failed calls"
+  ]
+}

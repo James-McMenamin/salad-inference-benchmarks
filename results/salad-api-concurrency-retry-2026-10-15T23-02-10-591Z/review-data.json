@@ -1,0 +1,33 @@
+{
+  "attempted": 48,
+  "completed": 31,
+  "passed": 31,
+  "errors": {
+    "HTTP 503": 16,
+    "HTTP 401": 1
+  },
+  "medianCompletedMs": 95020.0906,
+  "p95CompletedMs": 102767.38709999999,
+  "costUsd": 0.007427470000000001,
+  "usdPerCompleted": 0.00023959580645161293,
+  "requestsRetried": 46,
+  "failedApiAttempts": 99,
+  "distinct": [
+    "level|Fallen Pass is for levels 19 to 44 [1].",
+    "quest|Guard Pippi Pinecone gives the quest A Sweet Treat in Evershade Weald [1].",
+    "recipe|To make Enchanted Cloth, you need Cloth Scraps and Enchanted Powder [1]. You must use a Tome of Enchantment or an Enchanting Station in Night Harbor to craft it [1].",
+    "borders|Glass Flats connects to Sungreet Strand and Vale of Zintar [1].",
+    "missing-release|The wiki doesn't say.",
+    "missing-rate|The wiki doesn't say.",
+    "npc|Abbot Harrow is found in Underdocks, at the Temple of Ygorath [1].",
+    "quest|The \"A Sweet Treat\" quest is given by Guard Pippi Pinecone in Evershade Weald [1].",
+    "recipe|To make Enchanted Cloth, you need Cloth Scraps and Enchanted Powder [1]. You must use a crafting vessel such as a Tome of Enchantment or an Enchanting Station in Night Harbor [1]. The required profession is Enchanting [1].",
+    "drop|Aashir's Journal is dropped by a cultist in Night Harbor [1].",
+    "missing-discord|The wiki doesn't say.",
+    "npc|Based on the provided sources, there is no NPC named \"Harow.\" However, there is an NPC named **Abbot Harrow** who is located in **Underdocks**, specifically at the **Temple of Ygorath** [1].",
+    "quest|Guard Pippi Pinecone gives the A Sweet Treat quest in Evershade Weald [1].",
+    "npc|Abbot Harrow is located in Underdocks at the Temple of Ygorath [1].",
+    "pronoun-answer|Guard Pippi Pinecone is located in Evershade Weald [1].",
+    "npc|The wiki does not mention a character named \"Harow.\" However, it states that Abbot Harrow is found in Underdocks, at the Temple of Ygorath [1]."
+  ]
+}

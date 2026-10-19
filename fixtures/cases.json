@@ -1,0 +1,778 @@
+{
+  "version": 1,
+  "intent": [
+    {
+      "id": "typo-location",
+      "line": "wheres abot harow at??",
+      "asks": [
+        "where"
+      ],
+      "all": [
+        "abb?ot",
+        "harr?ow"
+      ],
+      "group": "typos"
+    },
+    {
+      "id": "typo-recipe",
+      "line": "wat do i need 2 make enchanted cloth",
+      "asks": [
+        "what",
+        "how"
+      ],
+      "all": [
+        "enchant",
+        "cloth"
+      ],
+      "group": "typos"
+    },
+    {
+      "id": "typo-level",
+      "line": "falln pass lvl range??",
+      "asks": [
+        "what",
+        "which"
+      ],
+      "all": [
+        "fall[ae]?n",
+        "pass",
+        "level|lvl"
+      ],
+      "group": "typos"
+    },
+    {
+      "id": "typo-quest",
+      "line": "who givs a sweet treat quest",
+      "asks": [
+        "who"
+      ],
+      "all": [
+        "sweet",
+        "treat"
+      ],
+      "group": "typos"
+    },
+    {
+      "id": "typo-drops",
+      "line": "aashirs journal wat drops it",
+      "asks": [
+        "what",
+        "who"
+      ],
+      "all": [
+        "aashir",
+        "journal",
+        "drop"
+      ],
+      "group": "typos"
+    },
+    {
+      "id": "typo-borders",
+      "line": "glass flats conects to wat zones",
+      "asks": [
+        "what",
+        "which",
+        "where"
+      ],
+      "all": [
+        "glass",
+        "flat",
+        "zone|connect|border|adjacen"
+      ],
+      "group": "typos"
+    },
+    {
+      "id": "ac-location",
+      "line": "yo AC were that at",
+      "asks": [
+        "where"
+      ],
+      "all": [
+        "ancient crypt"
+      ],
+      "meanings": [
+        {
+          "word": "AC",
+          "meanings": [
+            {
+              "meaning": "Ancient Crypt",
+              "kind": "zone"
+            },
+            {
+              "meaning": "Armor Class",
+              "kind": "wiki text"
+            }
+          ]
+        }
+      ],
+      "group": "abbreviations"
+    },
+    {
+      "id": "ac-gear",
+      "line": "ac does wat exactly",
+      "recent": [
+        "this chestpiece has more armor than mine",
+        "talking about gear stats"
+      ],
+      "asks": [
+        "what",
+        "how"
+      ],
+      "all": [
+        "armor class"
+      ],
+      "meanings": [
+        {
+          "word": "ac",
+          "meanings": [
+            {
+              "meaning": "Ancient Crypt",
+              "kind": "zone"
+            },
+            {
+              "meaning": "Armor Class",
+              "kind": "wiki text"
+            }
+          ]
+        }
+      ],
+      "group": "abbreviations"
+    },
+    {
+      "id": "ac-hunt",
+      "line": "ac means wat",
+      "recent": [
+        "we keep wiping to skeletons inside AC",
+        "need another healer for this dungeon"
+      ],
+      "asks": [
+        "what"
+      ],
+      "all": [
+        "ancient crypt"
+      ],
+      "meanings": [
+        {
+          "word": "ac",
+          "meanings": [
+            {
+              "meaning": "Ancient Crypt",
+              "kind": "zone"
+            },
+            {
+              "meaning": "Armor Class",
+              "kind": "wiki text"
+            }
+          ]
+        }
+      ],
+      "group": "abbreviations"
+    },
+    {
+      "id": "ac-ambiguous",
+      "line": "ac?? whats that",
+      "unclear": true,
+      "meanings": [
+        {
+          "word": "ac",
+          "meanings": [
+            {
+              "meaning": "Ancient Crypt",
+              "kind": "zone"
+            },
+            {
+              "meaning": "Armor Class",
+              "kind": "wiki text"
+            }
+          ]
+        }
+      ],
+      "group": "ambiguity"
+    },
+    {
+      "id": "ss-ambiguous",
+      "line": "were ss at",
+      "unclear": true,
+      "meanings": [
+        {
+          "word": "ss",
+          "meanings": [
+            {
+              "meaning": "Shallow Shoals",
+              "kind": "zone"
+            },
+            {
+              "meaning": "Sungreet Strand",
+              "kind": "zone"
+            }
+          ]
+        }
+      ],
+      "group": "ambiguity"
+    },
+    {
+      "id": "pointer-no-context",
+      "line": "where are they tho",
+      "recent": [
+        "hey everyone",
+        "sup"
+      ],
+      "unclear": true,
+      "group": "ambiguity"
+    },
+    {
+      "id": "npc-followup",
+      "line": "ok where he at tho",
+      "recent": [
+        "who gives a sweet treat",
+        "(the bot answered) Guard Pippi Pinecone gives A Sweet Treat."
+      ],
+      "asks": [
+        "where"
+      ],
+      "all": [
+        "pippi",
+        "pinecone"
+      ],
+      "group": "followups"
+    },
+    {
+      "id": "zone-followup",
+      "line": "lvl range there?",
+      "recent": [
+        "we are heading to Fallen Pass",
+        "(the bot answered) Fallen Pass is a zone."
+      ],
+      "asks": [
+        "what",
+        "which"
+      ],
+      "all": [
+        "fallen pass",
+        "level|lvl"
+      ],
+      "group": "followups"
+    },
+    {
+      "id": "recipe-followup",
+      "line": "and enchanted cloth?",
+      "recent": [
+        "what ingredients do i need to craft iron ingots",
+        "(the bot answered) Iron ingots require ore."
+      ],
+      "asks": [
+        "what",
+        "how"
+      ],
+      "all": [
+        "enchant",
+        "cloth",
+        "ingredient|need|craft|make|require"
+      ],
+      "group": "followups"
+    },
+    {
+      "id": "class-followup",
+      "line": "necro tho?",
+      "recent": [
+        "what level does a shaman get its first pet",
+        "(the bot answered) We were discussing the first pet level."
+      ],
+      "asks": [
+        "what",
+        "when"
+      ],
+      "all": [
+        "necro",
+        "pet",
+        "level|lvl|when"
+      ],
+      "group": "followups"
+    },
+    {
+      "id": "map-followup",
+      "line": "map pls",
+      "recent": [
+        "we are lost in Underdocks",
+        "(the bot answered) You are asking about Underdocks."
+      ],
+      "all": [
+        "map",
+        "underdocks"
+      ],
+      "group": "followups"
+    },
+    {
+      "id": "mixed-multiple",
+      "line": "who gives sweet treat n wat rewards do i get",
+      "all": [
+        "sweet",
+        "treat",
+        "reward"
+      ],
+      "minQuestions": 2,
+      "group": "multiple"
+    },
+    {
+      "id": "multiple-location",
+      "line": "where abbot harrow at n what class is he",
+      "all": [
+        "abb?ot",
+        "harr?ow",
+        "class"
+      ],
+      "minQuestions": 2,
+      "group": "multiple"
+    },
+    {
+      "id": "name-preserve",
+      "line": "map of Ail'vorith pls",
+      "all": [
+        "map",
+        "ail.vorith"
+      ],
+      "forbid": [
+        "everquest"
+      ],
+      "group": "names"
+    },
+    {
+      "id": "name-unfamiliar",
+      "line": "who is Xal'Qorim??",
+      "asks": [
+        "who",
+        "what"
+      ],
+      "all": [
+        "xal.qorim"
+      ],
+      "group": "names"
+    },
+    {
+      "id": "explicit-new-target",
+      "line": "how do i raise Steel Talons faction",
+      "recent": [
+        "we were discussing lowering Blacktide orcs faction"
+      ],
+      "all": [
+        "raise",
+        "steel talons"
+      ],
+      "forbid": [
+        "lower blacktide"
+      ],
+      "group": "topic-switch"
+    },
+    {
+      "id": "new-zone",
+      "line": "nah glass flats lvl not fallen pass",
+      "recent": [
+        "what level is Fallen Pass"
+      ],
+      "all": [
+        "glass flats",
+        "level|lvl"
+      ],
+      "group": "topic-switch"
+    },
+    {
+      "id": "slang-mechanic",
+      "line": "if i die do i lose xp or nah",
+      "asks": [
+        "what",
+        "how",
+        "other"
+      ],
+      "all": [
+        "die|death|dying",
+        "experience|xp"
+      ],
+      "group": "typos"
+    }
+  ],
+  "grounding": [
+    {
+      "id": "level",
+      "line": "falln pass lvl range??",
+      "pages": [
+        "Fallen Pass",
+        "Glass Flats"
+      ],
+      "facts": [
+        "19",
+        "44"
+      ],
+      "citePages": [
+        "Fallen Pass"
+      ],
+      "sources": [
+        {
+          "id": 7882,
+          "page": "Fallen Pass",
+          "kind": "zone",
+          "section": "Facts",
+          "part": "f",
+          "url": "https://monstersandmemories.miraheze.org/wiki/Fallen_Pass",
+          "text": "Fallen Pass is for levels 19 to 44. Fallen Pass borders Shaded Dunes, Vale of Zintar and Fallen Watch. Notable NPCs: Overseer Shuk'Naru, Sivah Arjun, Necroferius, Merrisam Copperhelm, Rotfang, Thuraya Aislingar, Seamas Growt, Kallen Oison, Chieftain Raka'Matar, Riki'Tipa, Elder Luh'Kan and Jailor Kur'Mak."
+        },
+        {
+          "id": 8835,
+          "page": "Glass Flats",
+          "kind": "zone",
+          "section": "Facts",
+          "part": "f",
+          "url": "https://monstersandmemories.miraheze.org/wiki/Glass_Flats",
+          "text": "Glass Flats is for level 20 and up. Glass Flats borders Sungreet Strand and Vale of Zintar. Notable NPCs: Baron Bigtent."
+        }
+      ]
+    },
+    {
+      "id": "npc",
+      "line": "wheres abot harow at??",
+      "pages": [
+        "Abbot Harrow",
+        "Glass Flats"
+      ],
+      "facts": [
+        "Underdocks",
+        "Temple of Ygorath"
+      ],
+      "citePages": [
+        "Abbot Harrow"
+      ],
+      "sources": [
+        {
+          "id": 2557,
+          "page": "Abbot Harrow",
+          "kind": "npc",
+          "section": "Facts",
+          "part": "f",
+          "url": "https://monstersandmemories.miraheze.org/wiki/Abbot_Harrow",
+          "text": "Abbot Harrow is found in Underdocks, at Temple of Ygorath. Abbot Harrow is a Human Necromancer. Abbot Harrow is part of the quests Necromancer Starter Quest (Underdocks)."
+        },
+        {
+          "id": 8835,
+          "page": "Glass Flats",
+          "kind": "zone",
+          "section": "Facts",
+          "part": "f",
+          "url": "https://monstersandmemories.miraheze.org/wiki/Glass_Flats",
+          "text": "Glass Flats is for level 20 and up. Glass Flats borders Sungreet Strand and Vale of Zintar. Notable NPCs: Baron Bigtent."
+        }
+      ]
+    },
+    {
+      "id": "quest",
+      "line": "who givs a sweet treat quest",
+      "pages": [
+        "A Sweet Treat",
+        "Abbot Harrow"
+      ],
+      "facts": [
+        "Pippi Pinecone"
+      ],
+      "citePages": [
+        "A Sweet Treat"
+      ],
+      "sources": [
+        {
+          "id": 540,
+          "page": "A Sweet Treat",
+          "kind": "quest",
+          "section": "Facts",
+          "part": "f",
+          "url": "https://monstersandmemories.miraheze.org/wiki/A_Sweet_Treat",
+          "text": "A Sweet Treat is given by Guard Pippi Pinecone in Evershade Weald. Minimum level 1. NPCs involved: Mierra Willowshade, a wasp drone, Guard Halfsies and Chef Violyn. Rewards: Stein of Baker's Scorn and Half of a Jelly Cupcake."
+        },
+        {
+          "id": 2557,
+          "page": "Abbot Harrow",
+          "kind": "npc",
+          "section": "Facts",
+          "part": "f",
+          "url": "https://monstersandmemories.miraheze.org/wiki/Abbot_Harrow",
+          "text": "Abbot Harrow is found in Underdocks, at Temple of Ygorath. Abbot Harrow is a Human Necromancer. Abbot Harrow is part of the quests Necromancer Starter Quest (Underdocks)."
+        }
+      ]
+    },
+    {
+      "id": "recipe",
+      "line": "wat do i need 2 make enchanted cloth",
+      "pages": [
+        "Enchanted Cloth",
+        "A Sweet Treat"
+      ],
+      "facts": [
+        "Cloth Scraps",
+        "Enchanted Powder"
+      ],
+      "citePages": [
+        "Enchanted Cloth"
+      ],
+      "sources": [
+        {
+          "id": 7443,
+          "page": "Enchanted Cloth",
+          "kind": "item",
+          "section": null,
+          "part": "0.0",
+          "url": "https://monstersandmemories.miraheze.org/wiki/Enchanted_Cloth",
+          "text": "item name: Enchanted Cloth\nweight: 0.1\nsize: SMALL\n\nrecipe: Enchanted Cloth\nrecipe Profession: Enchanting\nrecipe Start: 5\nrecipe Trivial: 25\ncrafting Vessel: Tome of Enchantment; Enchanting Station, Night Harbor\ncrafting Ingredients: Cloth Scraps, 1; Enchanted Powder, 1\ncrafting Results: Enchanted Cloth"
+        },
+        {
+          "id": 540,
+          "page": "A Sweet Treat",
+          "kind": "quest",
+          "section": "Facts",
+          "part": "f",
+          "url": "https://monstersandmemories.miraheze.org/wiki/A_Sweet_Treat",
+          "text": "A Sweet Treat is given by Guard Pippi Pinecone in Evershade Weald. Minimum level 1. NPCs involved: Mierra Willowshade, a wasp drone, Guard Halfsies and Chef Violyn. Rewards: Stein of Baker's Scorn and Half of a Jelly Cupcake."
+        }
+      ]
+    },
+    {
+      "id": "borders",
+      "line": "glass flats conects to wat zones",
+      "pages": [
+        "Glass Flats",
+        "Fallen Pass"
+      ],
+      "facts": [
+        "Sungreet Strand",
+        "Vale of Zintar"
+      ],
+      "citePages": [
+        "Glass Flats"
+      ],
+      "sources": [
+        {
+          "id": 8835,
+          "page": "Glass Flats",
+          "kind": "zone",
+          "section": "Facts",
+          "part": "f",
+          "url": "https://monstersandmemories.miraheze.org/wiki/Glass_Flats",
+          "text": "Glass Flats is for level 20 and up. Glass Flats borders Sungreet Strand and Vale of Zintar. Notable NPCs: Baron Bigtent."
+        },
+        {
+          "id": 7882,
+          "page": "Fallen Pass",
+          "kind": "zone",
+          "section": "Facts",
+          "part": "f",
+          "url": "https://monstersandmemories.miraheze.org/wiki/Fallen_Pass",
+          "text": "Fallen Pass is for levels 19 to 44. Fallen Pass borders Shaded Dunes, Vale of Zintar and Fallen Watch. Notable NPCs: Overseer Shuk'Naru, Sivah Arjun, Necroferius, Merrisam Copperhelm, Rotfang, Thuraya Aislingar, Seamas Growt, Kallen Oison, Chieftain Raka'Matar, Riki'Tipa, Elder Luh'Kan and Jailor Kur'Mak."
+        }
+      ]
+    },
+    {
+      "id": "drop",
+      "line": "aashirs journal wat drops it",
+      "pages": [
+        "Aashir's Journal",
+        "Enchanted Cloth"
+      ],
+      "facts": [
+        "cultist"
+      ],
+      "citePages": [
+        "Aashir's Journal"
+      ],
+      "sources": [
+        {
+          "id": 2508,
+          "page": "Aashir's Journal",
+          "kind": "item",
+          "section": "Facts",
+          "part": "f",
+          "url": "https://monstersandmemories.miraheze.org/wiki/Aashir's_Journal",
+          "text": "Aashir's Journal is dropped by a cultist in Night Harbor. Slot: BAG."
+        },
+        {
+          "id": 7443,
+          "page": "Enchanted Cloth",
+          "kind": "item",
+          "section": null,
+          "part": "0.0",
+          "url": "https://monstersandmemories.miraheze.org/wiki/Enchanted_Cloth",
+          "text": "item name: Enchanted Cloth\nweight: 0.1\nsize: SMALL\n\nrecipe: Enchanted Cloth\nrecipe Profession: Enchanting\nrecipe Start: 5\nrecipe Trivial: 25\ncrafting Vessel: Tome of Enchantment; Enchanting Station, Night Harbor\ncrafting Ingredients: Cloth Scraps, 1; Enchanted Powder, 1\ncrafting Results: Enchanted Cloth"
+        }
+      ]
+    },
+    {
+      "id": "pronoun-answer",
+      "line": "where he at tho",
+      "recent": [
+        "who gives a sweet treat",
+        "(the bot answered) Guard Pippi Pinecone gives A Sweet Treat."
+      ],
+      "pages": [
+        "A Sweet Treat",
+        "Abbot Harrow"
+      ],
+      "facts": [
+        "Evershade Weald"
+      ],
+      "citePages": [
+        "A Sweet Treat"
+      ],
+      "sources": [
+        {
+          "id": 540,
+          "page": "A Sweet Treat",
+          "kind": "quest",
+          "section": "Facts",
+          "part": "f",
+          "url": "https://monstersandmemories.miraheze.org/wiki/A_Sweet_Treat",
+          "text": "A Sweet Treat is given by Guard Pippi Pinecone in Evershade Weald. Minimum level 1. NPCs involved: Mierra Willowshade, a wasp drone, Guard Halfsies and Chef Violyn. Rewards: Stein of Baker's Scorn and Half of a Jelly Cupcake."
+        },
+        {
+          "id": 2557,
+          "page": "Abbot Harrow",
+          "kind": "npc",
+          "section": "Facts",
+          "part": "f",
+          "url": "https://monstersandmemories.miraheze.org/wiki/Abbot_Harrow",
+          "text": "Abbot Harrow is found in Underdocks, at Temple of Ygorath. Abbot Harrow is a Human Necromancer. Abbot Harrow is part of the quests Necromancer Starter Quest (Underdocks)."
+        }
+      ]
+    },
+    {
+      "id": "missing-release",
+      "line": "mnm mobile app release when??",
+      "pages": [
+        "Fallen Pass",
+        "A Sweet Treat"
+      ],
+      "decline": true,
+      "sources": [
+        {
+          "id": 7882,
+          "page": "Fallen Pass",
+          "kind": "zone",
+          "section": "Facts",
+          "part": "f",
+          "url": "https://monstersandmemories.miraheze.org/wiki/Fallen_Pass",
+          "text": "Fallen Pass is for levels 19 to 44. Fallen Pass borders Shaded Dunes, Vale of Zintar and Fallen Watch. Notable NPCs: Overseer Shuk'Naru, Sivah Arjun, Necroferius, Merrisam Copperhelm, Rotfang, Thuraya Aislingar, Seamas Growt, Kallen Oison, Chieftain Raka'Matar, Riki'Tipa, Elder Luh'Kan and Jailor Kur'Mak."
+        },
+        {
+          "id": 540,
+          "page": "A Sweet Treat",
+          "kind": "quest",
+          "section": "Facts",
+          "part": "f",
+          "url": "https://monstersandmemories.miraheze.org/wiki/A_Sweet_Treat",
+          "text": "A Sweet Treat is given by Guard Pippi Pinecone in Evershade Weald. Minimum level 1. NPCs involved: Mierra Willowshade, a wasp drone, Guard Halfsies and Chef Violyn. Rewards: Stein of Baker's Scorn and Half of a Jelly Cupcake."
+        }
+      ]
+    },
+    {
+      "id": "missing-discord",
+      "line": "wat discord does abbot harrow use",
+      "pages": [
+        "Abbot Harrow",
+        "Glass Flats"
+      ],
+      "decline": true,
+      "sources": [
+        {
+          "id": 2557,
+          "page": "Abbot Harrow",
+          "kind": "npc",
+          "section": "Facts",
+          "part": "f",
+          "url": "https://monstersandmemories.miraheze.org/wiki/Abbot_Harrow",
+          "text": "Abbot Harrow is found in Underdocks, at Temple of Ygorath. Abbot Harrow is a Human Necromancer. Abbot Harrow is part of the quests Necromancer Starter Quest (Underdocks)."
+        },
+        {
+          "id": 8835,
+          "page": "Glass Flats",
+          "kind": "zone",
+          "section": "Facts",
+          "part": "f",
+          "url": "https://monstersandmemories.miraheze.org/wiki/Glass_Flats",
+          "text": "Glass Flats is for level 20 and up. Glass Flats borders Sungreet Strand and Vale of Zintar. Notable NPCs: Baron Bigtent."
+        }
+      ]
+    },
+    {
+      "id": "missing-rate",
+      "line": "journal drop chance % exact pls",
+      "pages": [
+        "Aashir's Journal",
+        "Fallen Pass"
+      ],
+      "decline": true,
+      "sources": [
+        {
+          "id": 2508,
+          "page": "Aashir's Journal",
+          "kind": "item",
+          "section": "Facts",
+          "part": "f",
+          "url": "https://monstersandmemories.miraheze.org/wiki/Aashir's_Journal",
+          "text": "Aashir's Journal is dropped by a cultist in Night Harbor. Slot: BAG."
+        },
+        {
+          "id": 7882,
+          "page": "Fallen Pass",
+          "kind": "zone",
+          "section": "Facts",
+          "part": "f",
+          "url": "https://monstersandmemories.miraheze.org/wiki/Fallen_Pass",
+          "text": "Fallen Pass is for levels 19 to 44. Fallen Pass borders Shaded Dunes, Vale of Zintar and Fallen Watch. Notable NPCs: Overseer Shuk'Naru, Sivah Arjun, Necroferius, Merrisam Copperhelm, Rotfang, Thuraya Aislingar, Seamas Growt, Kallen Oison, Chieftain Raka'Matar, Riki'Tipa, Elder Luh'Kan and Jailor Kur'Mak."
+        }
+      ]
+    }
+  ],
+  "judge": [
+    {
+      "line": "wher do i buy fishin poles",
+      "yes": true
+    },
+    {
+      "line": "necro pet lvl??",
+      "yes": true
+    },
+    {
+      "line": "any1 know wat drops aashirs journal",
+      "yes": true
+    },
+    {
+      "line": "glass flats connected 2 where",
+      "yes": true
+    },
+    {
+      "line": "bank nh were",
+      "yes": true
+    },
+    {
+      "line": "who do i msg for refund",
+      "yes": true
+    },
+    {
+      "line": "yo sup dudes",
+      "yes": false
+    },
+    {
+      "line": "anyone wanna duo later",
+      "yes": false
+    },
+    {
+      "line": "im going to bed gn",
+      "yes": false
+    },
+    {
+      "line": "can u hear me in voice",
+      "yes": false
+    },
+    {
+      "line": "that fight was sick lol",
+      "yes": false
+    },
+    {
+      "line": "whats ur phone number",
+      "yes": false
+    }
+  ]
+}

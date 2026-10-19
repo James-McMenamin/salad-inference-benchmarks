@@ -1,0 +1,969 @@
+Eight questions at 0, 1, 2 seconds; immediate retries, zero backoff, maximum three retries per temporary failed API call; unanswered timeout 90 seconds.
+
+{
+  "status": "completed-needs-review",
+  "completed": 5,
+  "passed": 5,
+  "errors": {
+    "HTTP 503": 9,
+    "HTTP 400": 10
+  },
+  "medianCompletedMs": 1690.8787,
+  "minCompletedMs": 1463.7707,
+  "maxCompletedMs": 2366.4523,
+  "wallMs": 95175.1915,
+  "requestsRetried": 19,
+  "failedApiAttempts": 76,
+  "costUsd": 0.0022450399999999994,
+  "groups": [
+    {
+      "offsetMs": 0,
+      "completed": 5,
+      "passed": 5,
+      "startsMs": [
+        0.037599999999997635,
+        1.531400000000076,
+        1.977200000000039,
+        2.2842000000000553,
+        2.5918000000000347,
+        2.8794000000000324,
+        3.03570000000002,
+        3.338799999999992
+      ]
+    },
+    {
+      "offsetMs": 1000,
+      "completed": 0,
+      "passed": 0,
+      "startsMs": [
+        1001.4564000000001,
+        1003.0334000000001,
+        1004.2016,
+        1004.9345,
+        1005.5498000000001,
+        1006.1329,
+        1006.783,
+        1007.3909
+      ]
+    },
+    {
+      "offsetMs": 2000,
+      "completed": 0,
+      "passed": 0,
+      "startsMs": [
+        2001.8292999999999,
+        2002.826,
+        2003.1803999999997,
+        2003.5504999999998,
+        2003.844,
+        2004.6893,
+        2005.3177999999998,
+        2005.9377999999997
+      ]
+    }
+  ],
+  "rows": [
+    {
+      "question": "falln pass lvl range??",
+      "answer": "Fallen Pass is for levels 19 to 44 [1].",
+      "seconds": 1.6908787,
+      "attempts": [],
+      "grade": {
+        "pass": true,
+        "reasons": [],
+        "manualReviewRequired": true
+      }
+    },
+    {
+      "question": "wheres abot harow at??",
+      "answer": "Abbot Harrow is found in Underdocks, at the Temple of Ygorath [1].",
+      "seconds": 1.620344,
+      "attempts": [],
+      "grade": {
+        "pass": true,
+        "reasons": [],
+        "manualReviewRequired": true
+      }
+    },
+    {
+      "question": "who givs a sweet treat quest",
+      "answer": "The quest \"A Sweet Treat\" is given by Guard Pippi Pinecone [1].",
+      "seconds": 2.3664522999999997,
+      "attempts": [],
+      "grade": {
+        "pass": true,
+        "reasons": [],
+        "manualReviewRequired": true
+      }
+    },
+    {
+      "question": "wat do i need 2 make enchanted cloth",
+      "answer": "To make Enchanted Cloth, you need Cloth Scraps and Enchanted Powder [1]. You must have the Enchanting profession and use either a Tome of Enchantment or an Enchanting Station in Night Harbor to craft it [1].",
+      "seconds": 1.4637707,
+      "attempts": [],
+      "grade": {
+        "pass": true,
+        "reasons": [],
+        "manualReviewRequired": true
+      }
+    },
+    {
+      "question": "glass flats conects to wat zones",
+      "answer": "Glass Flats borders Sungreet Strand and Vale of Zintar [1].",
+      "seconds": 1.8899889,
+      "attempts": [],
+      "grade": {
+        "pass": true,
+        "reasons": [],
+        "manualReviewRequired": true
+      }
+    },
+    {
+      "question": "aashirs journal wat drops it",
+      "seconds": 12.432399499999999,
+      "error": "HTTP 503",
+      "attempts": [
+        {
+          "kind": "answer",
+          "attempt": 0,
+          "error": "HTTP 503",
+          "status": 503,
+          "retrying": true,
+          "delayMs": 0
+        },
+        {
+          "kind": "answer",
+          "attempt": 1,
+          "error": "HTTP 503",
+          "status": 503,
+          "retrying": true,
+          "delayMs": 0
+        },
+        {
+          "kind": "answer",
+          "attempt": 2,
+          "error": "HTTP 503",
+          "status": 503,
+          "retrying": true,
+          "delayMs": 0
+        },
+        {
+          "kind": "answer",
+          "attempt": 3,
+          "error": "HTTP 503",
+          "status": 503,
+          "retrying": false,
+          "delayMs": 0
+        }
+      ],
+      "grade": {
+        "pass": false,
+        "reasons": [
+          "request error"
+        ]
+      }
+    },
+    {
+      "question": "where he at tho",
+      "seconds": 93.53851620000002,
+      "error": "HTTP 400",
+      "attempts": [
+        {
+          "kind": "answer",
+          "attempt": 0,
+          "error": "The operation was aborted due to timeout",
+          "retrying": true,
+          "delayMs": 0
+        },
+        {
+          "kind": "answer",
+          "attempt": 1,
+          "error": "HTTP 400",
+          "status": 400,
+          "retrying": true,
+          "delayMs": 0
+        },
+        {
+          "kind": "answer",
+          "attempt": 2,
+          "error": "HTTP 400",
+          "status": 400,
+          "retrying": true,
+          "delayMs": 0
+        },
+        {
+          "kind": "answer",
+          "attempt": 3,
+          "error": "HTTP 400",
+          "status": 400,
+          "retrying": false,
+          "delayMs": 0
+        }
+      ],
+      "grade": {
+        "pass": false,
+        "reasons": [
+          "request error"
+        ]
+      }
+    },
+    {
+      "question": "mnm mobile app release when??",
+      "seconds": 8.620191,
+      "error": "HTTP 503",
+      "attempts": [
+        {
+          "kind": "answer",
+          "attempt": 0,
+          "error": "HTTP 503",
+          "status": 503,
+          "retrying": true,
+          "delayMs": 0
+        },
+        {
+          "kind": "answer",
+          "attempt": 1,
+          "error": "HTTP 503",
+          "status": 503,
+          "retrying": true,
+          "delayMs": 0
+        },
+        {
+          "kind": "answer",
+          "attempt": 2,
+          "error": "HTTP 503",
+          "status": 503,
+          "retrying": true,
+          "delayMs": 0
+        },
+        {
+          "kind": "answer",
+          "attempt": 3,
+          "error": "HTTP 503",
+          "status": 503,
+          "retrying": false,
+          "delayMs": 0
+        }
+      ],
+      "grade": {
+        "pass": false,
+        "reasons": [
+          "request error"
+        ]
+      }
+    },
+    {
+      "question": "wat discord does abbot harrow use",
+      "seconds": 92.54890110000001,
+      "error": "HTTP 400",
+      "attempts": [
+        {
+          "kind": "answer",
+          "attempt": 0,
+          "error": "The operation was aborted due to timeout",
+          "retrying": true,
+          "delayMs": 0
+        },
+        {
+          "kind": "answer",
+          "attempt": 1,
+          "error": "HTTP 400",
+          "status": 400,
+          "retrying": true,
+          "delayMs": 0
+        },
+        {
+          "kind": "answer",
+          "attempt": 2,
+          "error": "HTTP 400",
+          "status": 400,
+          "retrying": true,
+          "delayMs": 0
+        },
+        {
+          "kind": "answer",
+          "attempt": 3,
+          "error": "HTTP 400",
+          "status": 400,
+          "retrying": false,
+          "delayMs": 0
+        }
+      ],
+      "grade": {
+        "pass": false,
+        "reasons": [
+          "request error"
+        ]
+      }
+    },
+    {
+      "question": "journal drop chance % exact pls",
+      "seconds": 91.80750289999999,
+      "error": "HTTP 400",
+      "attempts": [
+        {
+          "kind": "reader",
+          "attempt": 0,
+          "error": "The operation was aborted due to timeout",
+          "retrying": true,
+          "delayMs": 0
+        },
+        {
+          "kind": "reader",
+          "attempt": 1,
+          "error": "HTTP 400",
+          "status": 400,
+          "retrying": true,
+          "delayMs": 0
+        },
+        {
+          "kind": "reader",
+          "attempt": 2,
+          "error": "HTTP 400",
+          "status": 400,
+          "retrying": true,
+          "delayMs": 0
+        },
+        {
+          "kind": "reader",
+          "attempt": 3,
+          "error": "HTTP 400",
+          "status": 400,
+          "retrying": false,
+          "delayMs": 0
+        }
+      ],
+      "grade": {
+        "pass": false,
+        "reasons": [
+          "request error"
+        ]
+      }
+    },
+    {
+      "question": "falln pass lvl range??",
+      "seconds": 92.1269097,
+      "error": "HTTP 400",
+      "attempts": [
+        {
+          "kind": "answer",
+          "attempt": 0,
+          "error": "The operation was aborted due to timeout",
+          "retrying": true,
+          "delayMs": 0
+        },
+        {
+          "kind": "answer",
+          "attempt": 1,
+          "error": "HTTP 400",
+          "status": 400,
+          "retrying": true,
+          "delayMs": 0
+        },
+        {
+          "kind": "answer",
+          "attempt": 2,
+          "error": "HTTP 400",
+          "status": 400,
+          "retrying": true,
+          "delayMs": 0
+        },
+        {
+          "kind": "answer",
+          "attempt": 3,
+          "error": "HTTP 400",
+          "status": 400,
+          "retrying": false,
+          "delayMs": 0
+        }
+      ],
+      "grade": {
+        "pass": false,
+        "reasons": [
+          "request error"
+        ]
+      }
+    },
+    {
+      "question": "wheres abot harow at??",
+      "seconds": 92.90751939999998,
+      "error": "HTTP 400",
+      "attempts": [
+        {
+          "kind": "answer",
+          "attempt": 0,
+          "error": "The operation was aborted due to timeout",
+          "retrying": true,
+          "delayMs": 0
+        },
+        {
+          "kind": "answer",
+          "attempt": 1,
+          "error": "HTTP 400",
+          "status": 400,
+          "retrying": true,
+          "delayMs": 0
+        },
+        {
+          "kind": "answer",
+          "attempt": 2,
+          "error": "HTTP 400",
+          "status": 400,
+          "retrying": true,
+          "delayMs": 0
+        },
+        {
+          "kind": "answer",
+          "attempt": 3,
+          "error": "HTTP 400",
+          "status": 400,
+          "retrying": false,
+          "delayMs": 0
+        }
+      ],
+      "grade": {
+        "pass": false,
+        "reasons": [
+          "request error"
+        ]
+      }
+    },
+    {
+      "question": "who givs a sweet treat quest",
+      "seconds": 92.2678376,
+      "error": "HTTP 400",
+      "attempts": [
+        {
+          "kind": "answer",
+          "attempt": 0,
+          "error": "The operation was aborted due to timeout",
+          "retrying": true,
+          "delayMs": 0
+        },
+        {
+          "kind": "answer",
+          "attempt": 1,
+          "error": "HTTP 400",
+          "status": 400,
+          "retrying": true,
+          "delayMs": 0
+        },
+        {
+          "kind": "answer",
+          "attempt": 2,
+          "error": "HTTP 400",
+          "status": 400,
+          "retrying": true,
+          "delayMs": 0
+        },
+        {
+          "kind": "answer",
+          "attempt": 3,
+          "error": "HTTP 400",
+          "status": 400,
+          "retrying": false,
+          "delayMs": 0
+        }
+      ],
+      "grade": {
+        "pass": false,
+        "reasons": [
+          "request error"
+        ]
+      }
+    },
+    {
+      "question": "wat do i need 2 make enchanted cloth",
+      "seconds": 91.781887,
+      "error": "HTTP 400",
+      "attempts": [
+        {
+          "kind": "reader",
+          "attempt": 0,
+          "error": "The operation was aborted due to timeout",
+          "retrying": true,
+          "delayMs": 0
+        },
+        {
+          "kind": "reader",
+          "attempt": 1,
+          "error": "HTTP 400",
+          "status": 400,
+          "retrying": true,
+          "delayMs": 0
+        },
+        {
+          "kind": "reader",
+          "attempt": 2,
+          "error": "HTTP 400",
+          "status": 400,
+          "retrying": true,
+          "delayMs": 0
+        },
+        {
+          "kind": "reader",
+          "attempt": 3,
+          "error": "HTTP 400",
+          "status": 400,
+          "retrying": false,
+          "delayMs": 0
+        }
+      ],
+      "grade": {
+        "pass": false,
+        "reasons": [
+          "request error"
+        ]
+      }
+    },
+    {
+      "question": "glass flats conects to wat zones",
+      "seconds": 7.702397199999999,
+      "error": "HTTP 503",
+      "attempts": [
+        {
+          "kind": "answer",
+          "attempt": 0,
+          "error": "HTTP 503",
+          "status": 503,
+          "retrying": true,
+          "delayMs": 0
+        },
+        {
+          "kind": "answer",
+          "attempt": 1,
+          "error": "HTTP 503",
+          "status": 503,
+          "retrying": true,
+          "delayMs": 0
+        },
+        {
+          "kind": "answer",
+          "attempt": 2,
+          "error": "HTTP 503",
+          "status": 503,
+          "retrying": true,
+          "delayMs": 0
+        },
+        {
+          "kind": "answer",
+          "attempt": 3,
+          "error": "HTTP 503",
+          "status": 503,
+          "retrying": false,
+          "delayMs": 0
+        }
+      ],
+      "grade": {
+        "pass": false,
+        "reasons": [
+          "request error"
+        ]
+      }
+    },
+    {
+      "question": "aashirs journal wat drops it",
+      "seconds": 91.77124950000001,
+      "error": "HTTP 400",
+      "attempts": [
+        {
+          "kind": "reader",
+          "attempt": 0,
+          "error": "The operation was aborted due to timeout",
+          "retrying": true,
+          "delayMs": 0
+        },
+        {
+          "kind": "reader",
+          "attempt": 1,
+          "error": "HTTP 400",
+          "status": 400,
+          "retrying": true,
+          "delayMs": 0
+        },
+        {
+          "kind": "reader",
+          "attempt": 2,
+          "error": "HTTP 400",
+          "status": 400,
+          "retrying": true,
+          "delayMs": 0
+        },
+        {
+          "kind": "reader",
+          "attempt": 3,
+          "error": "HTTP 400",
+          "status": 400,
+          "retrying": false,
+          "delayMs": 0
+        }
+      ],
+      "grade": {
+        "pass": false,
+        "reasons": [
+          "request error"
+        ]
+      }
+    },
+    {
+      "question": "where he at tho",
+      "seconds": 7.4058858,
+      "error": "HTTP 503",
+      "attempts": [
+        {
+          "kind": "answer",
+          "attempt": 0,
+          "error": "HTTP 503",
+          "status": 503,
+          "retrying": true,
+          "delayMs": 0
+        },
+        {
+          "kind": "answer",
+          "attempt": 1,
+          "error": "HTTP 503",
+          "status": 503,
+          "retrying": true,
+          "delayMs": 0
+        },
+        {
+          "kind": "answer",
+          "attempt": 2,
+          "error": "HTTP 503",
+          "status": 503,
+          "retrying": true,
+          "delayMs": 0
+        },
+        {
+          "kind": "answer",
+          "attempt": 3,
+          "error": "HTTP 503",
+          "status": 503,
+          "retrying": false,
+          "delayMs": 0
+        }
+      ],
+      "grade": {
+        "pass": false,
+        "reasons": [
+          "request error"
+        ]
+      }
+    },
+    {
+      "question": "mnm mobile app release when??",
+      "seconds": 5.8731293,
+      "error": "HTTP 503",
+      "attempts": [
+        {
+          "kind": "reader",
+          "attempt": 0,
+          "error": "HTTP 503",
+          "status": 503,
+          "retrying": true,
+          "delayMs": 0
+        },
+        {
+          "kind": "reader",
+          "attempt": 1,
+          "error": "HTTP 503",
+          "status": 503,
+          "retrying": true,
+          "delayMs": 0
+        },
+        {
+          "kind": "reader",
+          "attempt": 2,
+          "error": "HTTP 503",
+          "status": 503,
+          "retrying": true,
+          "delayMs": 0
+        },
+        {
+          "kind": "reader",
+          "attempt": 3,
+          "error": "HTTP 503",
+          "status": 503,
+          "retrying": false,
+          "delayMs": 0
+        }
+      ],
+      "grade": {
+        "pass": false,
+        "reasons": [
+          "request error"
+        ]
+      }
+    },
+    {
+      "question": "wat discord does abbot harrow use",
+      "seconds": 91.37542239999999,
+      "error": "HTTP 400",
+      "attempts": [
+        {
+          "kind": "reader",
+          "attempt": 0,
+          "error": "The operation was aborted due to timeout",
+          "retrying": true,
+          "delayMs": 0
+        },
+        {
+          "kind": "reader",
+          "attempt": 1,
+          "error": "HTTP 400",
+          "status": 400,
+          "retrying": true,
+          "delayMs": 0
+        },
+        {
+          "kind": "reader",
+          "attempt": 2,
+          "error": "HTTP 400",
+          "status": 400,
+          "retrying": true,
+          "delayMs": 0
+        },
+        {
+          "kind": "reader",
+          "attempt": 3,
+          "error": "HTTP 400",
+          "status": 400,
+          "retrying": false,
+          "delayMs": 0
+        }
+      ],
+      "grade": {
+        "pass": false,
+        "reasons": [
+          "request error"
+        ]
+      }
+    },
+    {
+      "question": "journal drop chance % exact pls",
+      "seconds": 7.2559283,
+      "error": "HTTP 503",
+      "attempts": [
+        {
+          "kind": "answer",
+          "attempt": 0,
+          "error": "HTTP 503",
+          "status": 503,
+          "retrying": true,
+          "delayMs": 0
+        },
+        {
+          "kind": "answer",
+          "attempt": 1,
+          "error": "HTTP 503",
+          "status": 503,
+          "retrying": true,
+          "delayMs": 0
+        },
+        {
+          "kind": "answer",
+          "attempt": 2,
+          "error": "HTTP 503",
+          "status": 503,
+          "retrying": true,
+          "delayMs": 0
+        },
+        {
+          "kind": "answer",
+          "attempt": 3,
+          "error": "HTTP 503",
+          "status": 503,
+          "retrying": false,
+          "delayMs": 0
+        }
+      ],
+      "grade": {
+        "pass": false,
+        "reasons": [
+          "request error"
+        ]
+      }
+    },
+    {
+      "question": "falln pass lvl range??",
+      "seconds": 6.6309638,
+      "error": "HTTP 503",
+      "attempts": [
+        {
+          "kind": "reader",
+          "attempt": 0,
+          "error": "HTTP 503",
+          "status": 503,
+          "retrying": true,
+          "delayMs": 0
+        },
+        {
+          "kind": "reader",
+          "attempt": 1,
+          "error": "HTTP 503",
+          "status": 503,
+          "retrying": true,
+          "delayMs": 0
+        },
+        {
+          "kind": "reader",
+          "attempt": 2,
+          "error": "HTTP 503",
+          "status": 503,
+          "retrying": true,
+          "delayMs": 0
+        },
+        {
+          "kind": "reader",
+          "attempt": 3,
+          "error": "HTTP 503",
+          "status": 503,
+          "retrying": false,
+          "delayMs": 0
+        }
+      ],
+      "grade": {
+        "pass": false,
+        "reasons": [
+          "request error"
+        ]
+      }
+    },
+    {
+      "question": "wheres abot harow at??",
+      "seconds": 7.7942184,
+      "error": "HTTP 503",
+      "attempts": [
+        {
+          "kind": "reader",
+          "attempt": 0,
+          "error": "HTTP 503",
+          "status": 503,
+          "retrying": true,
+          "delayMs": 0
+        },
+        {
+          "kind": "reader",
+          "attempt": 1,
+          "error": "HTTP 503",
+          "status": 503,
+          "retrying": true,
+          "delayMs": 0
+        },
+        {
+          "kind": "reader",
+          "attempt": 2,
+          "error": "HTTP 503",
+          "status": 503,
+          "retrying": true,
+          "delayMs": 0
+        },
+        {
+          "kind": "reader",
+          "attempt": 3,
+          "error": "HTTP 503",
+          "status": 503,
+          "retrying": false,
+          "delayMs": 0
+        }
+      ],
+      "grade": {
+        "pass": false,
+        "reasons": [
+          "request error"
+        ]
+      }
+    },
+    {
+      "question": "who givs a sweet treat quest",
+      "seconds": 6.590877000000001,
+      "error": "HTTP 503",
+      "attempts": [
+        {
+          "kind": "reader",
+          "attempt": 0,
+          "error": "HTTP 503",
+          "status": 503,
+          "retrying": true,
+          "delayMs": 0
+        },
+        {
+          "kind": "reader",
+          "attempt": 1,
+          "error": "HTTP 503",
+          "status": 503,
+          "retrying": true,
+          "delayMs": 0
+        },
+        {
+          "kind": "reader",
+          "attempt": 2,
+          "error": "HTTP 503",
+          "status": 503,
+          "retrying": true,
+          "delayMs": 0
+        },
+        {
+          "kind": "reader",
+          "attempt": 3,
+          "error": "HTTP 503",
+          "status": 503,
+          "retrying": false,
+          "delayMs": 0
+        }
+      ],
+      "grade": {
+        "pass": false,
+        "reasons": [
+          "request error"
+        ]
+      }
+    },
+    {
+      "question": "wat do i need 2 make enchanted cloth",
+      "seconds": 93.1692458,
+      "error": "HTTP 400",
+      "attempts": [
+        {
+          "kind": "reader",
+          "attempt": 0,
+          "error": "HTTP 503",
+          "status": 503,
+          "retrying": true,
+          "delayMs": 0
+        },
+        {
+          "kind": "reader",
+          "attempt": 1,
+          "error": "HTTP 503",
+          "status": 503,
+          "retrying": true,
+          "delayMs": 0
+        },
+        {
+          "kind": "reader",
+          "attempt": 2,
+          "error": "The operation was aborted due to timeout",
+          "retrying": true,
+          "delayMs": 0
+        },
+        {
+          "kind": "reader",
+          "attempt": 3,
+          "error": "HTTP 400",
+          "status": 400,
+          "retrying": false,
+          "delayMs": 0
+        }
+      ],
+      "grade": {
+        "pass": false,
+        "reasons": [
+          "request error"
+        ]
+      }
+    }
+  ]
+}
+
+Costs use reported usage only; failed calls without usage may have additional charges.

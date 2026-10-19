@@ -1,0 +1,253 @@
+1/2/4/8 questions per second for three seconds each; 10-second timeout per API call, three immediate retries, zero backoff. Fixed wiki passages, no production retrieval or maps.
+
+{
+  "model": "qwen3.5-9b",
+  "stats": [
+    {
+      "questionsPerSecond": 1,
+      "completed": 3,
+      "attempted": 3,
+      "passed": 3,
+      "retried": 0,
+      "medianCompletedSeconds": 7.8621369,
+      "maxCompletedSeconds": 8.674153,
+      "costUsd": 0.0004864400000000001,
+      "errors": {}
+    },
+    {
+      "questionsPerSecond": 2,
+      "completed": 6,
+      "attempted": 6,
+      "passed": 5,
+      "retried": 1,
+      "medianCompletedSeconds": 2.8641455000000007,
+      "maxCompletedSeconds": 11.9990006,
+      "costUsd": 0.00092362,
+      "errors": {}
+    },
+    {
+      "questionsPerSecond": 4,
+      "completed": 7,
+      "attempted": 12,
+      "passed": 6,
+      "retried": 10,
+      "medianCompletedSeconds": 22.1474564,
+      "maxCompletedSeconds": 27.667129299999996,
+      "costUsd": 0.0013489900000000004,
+      "errors": {
+        "HTTP 503": 2,
+        "The operation was aborted due to timeout": 3
+      }
+    },
+    {
+      "questionsPerSecond": 8,
+      "completed": 2,
+      "attempted": 24,
+      "passed": 1,
+      "retried": 24,
+      "medianCompletedSeconds": 25.1311403,
+      "maxCompletedSeconds": 25.1311403,
+      "costUsd": 0.0013151500000000002,
+      "errors": {
+        "HTTP 503": 16,
+        "The operation was aborted due to timeout": 6
+      }
+    }
+  ],
+  "totalCostUsd": 0.004074200000000001,
+  "distinctAnswers": [
+    {
+      "caseId": "level",
+      "answer": "Fallen Pass is for levels 19 to 44 [1].",
+      "grade": {
+        "pass": true,
+        "reasons": [],
+        "manualReviewRequired": true
+      }
+    },
+    {
+      "caseId": "npc",
+      "answer": "Abbot Harrow is found in Underdocks, at the Temple of Ygorath [1].",
+      "grade": {
+        "pass": true,
+        "reasons": [],
+        "manualReviewRequired": true
+      }
+    },
+    {
+      "caseId": "quest",
+      "answer": "Guard Pippi Pinecone gives the \"A Sweet Treat\" quest in Evershade Weald [1]. Abbot Harrow is a different NPC found in Underdocks who gives the \"Necromancer Starter Quest\" [2].",
+      "grade": {
+        "pass": true,
+        "reasons": [],
+        "manualReviewRequired": true
+      }
+    },
+    {
+      "caseId": "quest",
+      "answer": "Guard Pippi Pinecone gives the A Sweet Treat quest in Evershade Weald [1].",
+      "grade": {
+        "pass": true,
+        "reasons": [],
+        "manualReviewRequired": true
+      }
+    },
+    {
+      "caseId": "recipe",
+      "answer": "To make Enchanted Cloth, you need the Enchanting Profession at level 5 or higher. The required ingredients are 1 Cloth Scrap and 1 Enchanted Powder. You must craft this using a Tome of Enchantment or an Enchanting Station found in Night Harbor [1].",
+      "grade": {
+        "pass": false,
+        "reasons": [
+          "missing Cloth Scraps"
+        ],
+        "manualReviewRequired": true
+      }
+    },
+    {
+      "caseId": "borders",
+      "answer": "The wiki does not state that Glass Flats connects to Wat zones. It only mentions that Glass Flats borders Sungreet Strand and Vale of Zintar [1].",
+      "grade": {
+        "pass": true,
+        "reasons": [],
+        "manualReviewRequired": true
+      }
+    },
+    {
+      "caseId": "drop",
+      "answer": "Aashir's Journal is dropped by a cultist in Night Harbor [1].",
+      "grade": {
+        "pass": true,
+        "reasons": [],
+        "manualReviewRequired": true
+      }
+    },
+    {
+      "caseId": "borders",
+      "answer": "The wiki does not state that Glass Flats connects to any water zones. It only mentions that Glass Flats borders Sungreet Strand and Vale of Zintar [1].",
+      "grade": {
+        "pass": true,
+        "reasons": [],
+        "manualReviewRequired": true
+      }
+    },
+    {
+      "caseId": "pronoun-answer",
+      "answer": "Guard Pippi Pinecone is located in Evershade Weald [1].",
+      "grade": {
+        "pass": true,
+        "reasons": [],
+        "manualReviewRequired": true
+      }
+    },
+    {
+      "caseId": "missing-discord",
+      "answer": "The wiki doesn't say.",
+      "grade": {
+        "pass": true,
+        "reasons": [],
+        "manualReviewRequired": true
+      }
+    },
+    {
+      "caseId": "pronoun-answer",
+      "answer": "The sources do not specify which character you are asking about, so the wiki doesn't say. If you are asking about Abbot Harrow, he is found in Underdocks at the Temple of Ygorath [2]. If you are asking about Mierra Willowshade, she is involved in the A Sweet Treat quest in Evershade Weald [1].",
+      "grade": {
+        "pass": false,
+        "reasons": [
+          "declined answerable question"
+        ],
+        "manualReviewRequired": true
+      }
+    }
+  ]
+}
+
+{"rate":1,"caseId":"level","question":"falln pass lvl range??","answer":"Fallen Pass is for levels 19 to 44 [1].","seconds":7.8621369,"retries":[]}
+
+{"rate":1,"caseId":"npc","question":"wheres abot harow at??","answer":"Abbot Harrow is found in Underdocks, at the Temple of Ygorath [1].","seconds":6.9922542000000005,"retries":[]}
+
+{"rate":1,"caseId":"quest","question":"who givs a sweet treat quest","answer":"Guard Pippi Pinecone gives the \"A Sweet Treat\" quest in Evershade Weald [1]. Abbot Harrow is a different NPC found in Underdocks who gives the \"Necromancer Starter Quest\" [2].","seconds":8.674153,"retries":[]}
+
+{"rate":2,"caseId":"level","question":"falln pass lvl range??","answer":"Fallen Pass is for levels 19 to 44 [1].","seconds":9.703442599999999,"retries":[]}
+
+{"rate":2,"caseId":"npc","question":"wheres abot harow at??","answer":"Abbot Harrow is found in Underdocks, at the Temple of Ygorath [1].","seconds":2.0710478,"retries":[]}
+
+{"rate":2,"caseId":"quest","question":"who givs a sweet treat quest","answer":"Guard Pippi Pinecone gives the A Sweet Treat quest in Evershade Weald [1].","seconds":1.6861922999999988,"retries":[]}
+
+{"rate":2,"caseId":"recipe","question":"wat do i need 2 make enchanted cloth","answer":"To make Enchanted Cloth, you need the Enchanting Profession at level 5 or higher. The required ingredients are 1 Cloth Scrap and 1 Enchanted Powder. You must craft this using a Tome of Enchantment or an Enchanting Station found in Night Harbor [1].","seconds":2.8641455000000007,"retries":[]}
+
+{"rate":2,"caseId":"borders","question":"glass flats conects to wat zones","answer":"The wiki does not state that Glass Flats connects to Wat zones. It only mentions that Glass Flats borders Sungreet Strand and Vale of Zintar [1].","seconds":11.9990006,"retries":[{"kind":"reader","attempt":0,"error":"The operation was aborted due to timeout","retrying":true,"delayMs":0}]}
+
+{"rate":2,"caseId":"drop","question":"aashirs journal wat drops it","answer":"Aashir's Journal is dropped by a cultist in Night Harbor [1].","seconds":2.051259900000001,"retries":[]}
+
+{"rate":4,"caseId":"level","question":"falln pass lvl range??","answer":"Fallen Pass is for levels 19 to 44 [1].","seconds":1.7803888999999982,"retries":[]}
+
+{"rate":4,"caseId":"npc","error":"HTTP 503","seconds":14.7063399,"retries":[{"kind":"answer","attempt":0,"error":"HTTP 503","status":503,"retrying":true,"delayMs":0},{"kind":"answer","attempt":1,"error":"HTTP 503","status":503,"retrying":true,"delayMs":0},{"kind":"answer","attempt":2,"error":"HTTP 503","status":503,"retrying":true,"delayMs":0},{"kind":"answer","attempt":3,"error":"HTTP 503","status":503,"retrying":false,"delayMs":0}]}
+
+{"rate":4,"caseId":"quest","error":"The operation was aborted due to timeout","seconds":29.691564500000002,"retries":[{"kind":"answer","attempt":0,"error":"HTTP 503","status":503,"retrying":true,"delayMs":0},{"kind":"answer","attempt":1,"error":"HTTP 503","status":503,"retrying":true,"delayMs":0},{"kind":"answer","attempt":2,"error":"The operation was aborted due to timeout","retrying":true,"delayMs":0},{"kind":"answer","attempt":3,"error":"The operation was aborted due to timeout","retrying":false,"delayMs":0}]}
+
+{"rate":4,"caseId":"recipe","question":"wat do i need 2 make enchanted cloth","answer":"To make Enchanted Cloth, you need the Enchanting Profession at level 5 or higher. The required ingredients are 1 Cloth Scrap and 1 Enchanted Powder. You must craft this using a Tome of Enchantment or an Enchanting Station found in Night Harbor [1].","seconds":3.5781271000000014,"retries":[]}
+
+{"rate":4,"caseId":"borders","question":"glass flats conects to wat zones","answer":"The wiki does not state that Glass Flats connects to any water zones. It only mentions that Glass Flats borders Sungreet Strand and Vale of Zintar [1].","seconds":21.7663887,"retries":[{"kind":"answer","attempt":0,"error":"HTTP 503","status":503,"retrying":true,"delayMs":0},{"kind":"answer","attempt":1,"error":"The operation was aborted due to timeout","retrying":true,"delayMs":0}]}
+
+{"rate":4,"caseId":"drop","question":"aashirs journal wat drops it","answer":"Aashir's Journal is dropped by a cultist in Night Harbor [1].","seconds":22.828163399999998,"retries":[{"kind":"answer","attempt":0,"error":"The operation was aborted due to timeout","retrying":true,"delayMs":0},{"kind":"answer","attempt":1,"error":"The operation was aborted due to timeout","retrying":true,"delayMs":0}]}
+
+{"rate":4,"caseId":"pronoun-answer","question":"where he at tho","answer":"Guard Pippi Pinecone is located in Evershade Weald [1].","seconds":22.1474564,"retries":[{"kind":"answer","attempt":0,"error":"The operation was aborted due to timeout","retrying":true,"delayMs":0},{"kind":"answer","attempt":1,"error":"The operation was aborted due to timeout","retrying":true,"delayMs":0}]}
+
+{"rate":4,"caseId":"missing-release","error":"HTTP 503","seconds":18.305370400000005,"retries":[{"kind":"reader","attempt":0,"error":"The operation was aborted due to timeout","retrying":true,"delayMs":0},{"kind":"reader","attempt":1,"error":"HTTP 503","status":503,"retrying":true,"delayMs":0},{"kind":"reader","attempt":2,"error":"HTTP 503","status":503,"retrying":true,"delayMs":0},{"kind":"reader","attempt":3,"error":"HTTP 503","status":503,"retrying":false,"delayMs":0}]}
+
+{"rate":4,"caseId":"missing-discord","question":"wat discord does abbot harrow use","answer":"The wiki doesn't say.","seconds":24.636223199999996,"retries":[{"kind":"reader","attempt":0,"error":"The operation was aborted due to timeout","retrying":true,"delayMs":0},{"kind":"answer","attempt":0,"error":"HTTP 503","status":503,"retrying":true,"delayMs":0},{"kind":"answer","attempt":1,"error":"The operation was aborted due to timeout","retrying":true,"delayMs":0}]}
+
+{"rate":4,"caseId":"missing-rate","error":"The operation was aborted due to timeout","seconds":26.283982299999998,"retries":[{"kind":"reader","attempt":0,"error":"HTTP 503","status":503,"retrying":true,"delayMs":0},{"kind":"reader","attempt":1,"error":"HTTP 503","status":503,"retrying":true,"delayMs":0},{"kind":"reader","attempt":2,"error":"The operation was aborted due to timeout","retrying":true,"delayMs":0},{"kind":"reader","attempt":3,"error":"The operation was aborted due to timeout","retrying":false,"delayMs":0}]}
+
+{"rate":4,"caseId":"level","question":"falln pass lvl range??","answer":"Fallen Pass is for levels 19 to 44 [1].","seconds":27.667129299999996,"retries":[{"kind":"reader","attempt":0,"error":"The operation was aborted due to timeout","retrying":true,"delayMs":0},{"kind":"answer","attempt":0,"error":"HTTP 503","status":503,"retrying":true,"delayMs":0},{"kind":"answer","attempt":1,"error":"HTTP 503","status":503,"retrying":true,"delayMs":0},{"kind":"answer","attempt":2,"error":"The operation was aborted due to timeout","retrying":true,"delayMs":0}]}
+
+{"rate":4,"caseId":"npc","error":"The operation was aborted due to timeout","seconds":18.867804900000003,"retries":[{"kind":"reader","attempt":0,"error":"HTTP 503","status":503,"retrying":true,"delayMs":0},{"kind":"reader","attempt":1,"error":"HTTP 503","status":503,"retrying":true,"delayMs":0},{"kind":"reader","attempt":2,"error":"HTTP 503","status":503,"retrying":true,"delayMs":0},{"kind":"reader","attempt":3,"error":"The operation was aborted due to timeout","retrying":false,"delayMs":0}]}
+
+{"rate":8,"caseId":"level","error":"HTTP 503","seconds":11.12360089999999,"retries":[{"kind":"answer","attempt":0,"error":"HTTP 503","status":503,"retrying":true,"delayMs":0},{"kind":"answer","attempt":1,"error":"HTTP 503","status":503,"retrying":true,"delayMs":0},{"kind":"answer","attempt":2,"error":"HTTP 503","status":503,"retrying":true,"delayMs":0},{"kind":"answer","attempt":3,"error":"HTTP 503","status":503,"retrying":false,"delayMs":0}]}
+
+{"rate":8,"caseId":"npc","error":"The operation was aborted due to timeout","seconds":18.6368349,"retries":[{"kind":"answer","attempt":0,"error":"HTTP 503","status":503,"retrying":true,"delayMs":0},{"kind":"answer","attempt":1,"error":"HTTP 503","status":503,"retrying":true,"delayMs":0},{"kind":"answer","attempt":2,"error":"HTTP 503","status":503,"retrying":true,"delayMs":0},{"kind":"answer","attempt":3,"error":"The operation was aborted due to timeout","retrying":false,"delayMs":0}]}
+
+{"rate":8,"caseId":"quest","error":"HTTP 503","seconds":18.9519922,"retries":[{"kind":"answer","attempt":0,"error":"HTTP 503","status":503,"retrying":true,"delayMs":0},{"kind":"answer","attempt":1,"error":"HTTP 503","status":503,"retrying":true,"delayMs":0},{"kind":"answer","attempt":2,"error":"HTTP 503","status":503,"retrying":true,"delayMs":0},{"kind":"answer","attempt":3,"error":"HTTP 503","status":503,"retrying":false,"delayMs":0}]}
+
+{"rate":8,"caseId":"recipe","error":"HTTP 503","seconds":18.144659499999996,"retries":[{"kind":"reader","attempt":0,"error":"The operation was aborted due to timeout","retrying":true,"delayMs":0},{"kind":"reader","attempt":1,"error":"HTTP 503","status":503,"retrying":true,"delayMs":0},{"kind":"reader","attempt":2,"error":"HTTP 503","status":503,"retrying":true,"delayMs":0},{"kind":"reader","attempt":3,"error":"HTTP 503","status":503,"retrying":false,"delayMs":0}]}
+
+{"rate":8,"caseId":"borders","error":"HTTP 503","seconds":10.1539194,"retries":[{"kind":"answer","attempt":0,"error":"HTTP 503","status":503,"retrying":true,"delayMs":0},{"kind":"answer","attempt":1,"error":"HTTP 503","status":503,"retrying":true,"delayMs":0},{"kind":"answer","attempt":2,"error":"HTTP 503","status":503,"retrying":true,"delayMs":0},{"kind":"answer","attempt":3,"error":"HTTP 503","status":503,"retrying":false,"delayMs":0}]}
+
+{"rate":8,"caseId":"drop","question":"aashirs journal wat drops it","answer":"Aashir's Journal is dropped by a cultist in Night Harbor [1].","seconds":21.594482000000003,"retries":[{"kind":"answer","attempt":0,"error":"HTTP 503","status":503,"retrying":true,"delayMs":0},{"kind":"answer","attempt":1,"error":"HTTP 503","status":503,"retrying":true,"delayMs":0},{"kind":"answer","attempt":2,"error":"The operation was aborted due to timeout","retrying":true,"delayMs":0}]}
+
+{"rate":8,"caseId":"pronoun-answer","question":"where he at tho","answer":"The sources do not specify which character you are asking about, so the wiki doesn't say. If you are asking about Abbot Harrow, he is found in Underdocks at the Temple of Ygorath [2]. If you are asking about Mierra Willowshade, she is involved in the A Sweet Treat quest in Evershade Weald [1].","seconds":25.1311403,"retries":[{"kind":"reader","attempt":0,"error":"The operation was aborted due to timeout","retrying":true,"delayMs":0},{"kind":"reader","attempt":1,"error":"The operation was aborted due to timeout","retrying":true,"delayMs":0}]}
+
+{"rate":8,"caseId":"missing-release","error":"HTTP 503","seconds":11.509354999999996,"retries":[{"kind":"answer","attempt":0,"error":"HTTP 503","status":503,"retrying":true,"delayMs":0},{"kind":"answer","attempt":1,"error":"HTTP 503","status":503,"retrying":true,"delayMs":0},{"kind":"answer","attempt":2,"error":"HTTP 503","status":503,"retrying":true,"delayMs":0},{"kind":"answer","attempt":3,"error":"HTTP 503","status":503,"retrying":false,"delayMs":0}]}
+
+{"rate":8,"caseId":"missing-discord","error":"HTTP 503","seconds":10.772035400000007,"retries":[{"kind":"reader","attempt":0,"error":"HTTP 503","status":503,"retrying":true,"delayMs":0},{"kind":"reader","attempt":1,"error":"HTTP 503","status":503,"retrying":true,"delayMs":0},{"kind":"reader","attempt":2,"error":"HTTP 503","status":503,"retrying":true,"delayMs":0},{"kind":"reader","attempt":3,"error":"HTTP 503","status":503,"retrying":false,"delayMs":0}]}
+
+{"rate":8,"caseId":"missing-rate","error":"The operation was aborted due to timeout","seconds":25.11614310000001,"retries":[{"kind":"reader","attempt":0,"error":"The operation was aborted due to timeout","retrying":true,"delayMs":0},{"kind":"reader","attempt":1,"error":"HTTP 503","status":503,"retrying":true,"delayMs":0},{"kind":"reader","attempt":2,"error":"HTTP 503","status":503,"retrying":true,"delayMs":0},{"kind":"reader","attempt":3,"error":"The operation was aborted due to timeout","retrying":false,"delayMs":0}]}
+
+{"rate":8,"caseId":"level","error":"HTTP 503","seconds":10.537004399999997,"retries":[{"kind":"answer","attempt":0,"error":"HTTP 503","status":503,"retrying":true,"delayMs":0},{"kind":"answer","attempt":1,"error":"HTTP 503","status":503,"retrying":true,"delayMs":0},{"kind":"answer","attempt":2,"error":"HTTP 503","status":503,"retrying":true,"delayMs":0},{"kind":"answer","attempt":3,"error":"HTTP 503","status":503,"retrying":false,"delayMs":0}]}
+
+{"rate":8,"caseId":"npc","error":"The operation was aborted due to timeout","seconds":24.7688035,"retries":[{"kind":"reader","attempt":0,"error":"The operation was aborted due to timeout","retrying":true,"delayMs":0},{"kind":"reader","attempt":1,"error":"HTTP 503","status":503,"retrying":true,"delayMs":0},{"kind":"reader","attempt":2,"error":"HTTP 503","status":503,"retrying":true,"delayMs":0},{"kind":"reader","attempt":3,"error":"The operation was aborted due to timeout","retrying":false,"delayMs":0}]}
+
+{"rate":8,"caseId":"quest","error":"HTTP 503","seconds":9.716048100000007,"retries":[{"kind":"reader","attempt":0,"error":"HTTP 503","status":503,"retrying":true,"delayMs":0},{"kind":"reader","attempt":1,"error":"HTTP 503","status":503,"retrying":true,"delayMs":0},{"kind":"reader","attempt":2,"error":"HTTP 503","status":503,"retrying":true,"delayMs":0},{"kind":"reader","attempt":3,"error":"HTTP 503","status":503,"retrying":false,"delayMs":0}]}
+
+{"rate":8,"caseId":"recipe","error":"HTTP 503","seconds":11.372669899999993,"retries":[{"kind":"reader","attempt":0,"error":"HTTP 503","status":503,"retrying":true,"delayMs":0},{"kind":"reader","attempt":1,"error":"HTTP 503","status":503,"retrying":true,"delayMs":0},{"kind":"reader","attempt":2,"error":"HTTP 503","status":503,"retrying":true,"delayMs":0},{"kind":"reader","attempt":3,"error":"HTTP 503","status":503,"retrying":false,"delayMs":0}]}
+
+{"rate":8,"caseId":"borders","error":"HTTP 503","seconds":9.5122209,"retries":[{"kind":"reader","attempt":0,"error":"HTTP 503","status":503,"retrying":true,"delayMs":0},{"kind":"reader","attempt":1,"error":"HTTP 503","status":503,"retrying":true,"delayMs":0},{"kind":"reader","attempt":2,"error":"HTTP 503","status":503,"retrying":true,"delayMs":0},{"kind":"reader","attempt":3,"error":"HTTP 503","status":503,"retrying":false,"delayMs":0}]}
+
+{"rate":8,"caseId":"drop","error":"HTTP 503","seconds":9.016037800000005,"retries":[{"kind":"reader","attempt":0,"error":"HTTP 503","status":503,"retrying":true,"delayMs":0},{"kind":"reader","attempt":1,"error":"HTTP 503","status":503,"retrying":true,"delayMs":0},{"kind":"reader","attempt":2,"error":"HTTP 503","status":503,"retrying":true,"delayMs":0},{"kind":"reader","attempt":3,"error":"HTTP 503","status":503,"retrying":false,"delayMs":0}]}
+
+{"rate":8,"caseId":"pronoun-answer","error":"The operation was aborted due to timeout","seconds":17.372474499999996,"retries":[{"kind":"reader","attempt":0,"error":"HTTP 503","status":503,"retrying":true,"delayMs":0},{"kind":"reader","attempt":1,"error":"HTTP 503","status":503,"retrying":true,"delayMs":0},{"kind":"reader","attempt":2,"error":"HTTP 503","status":503,"retrying":true,"delayMs":0},{"kind":"reader","attempt":3,"error":"The operation was aborted due to timeout","retrying":false,"delayMs":0}]}
+
+{"rate":8,"caseId":"missing-release","error":"HTTP 503","seconds":10.894180999999996,"retries":[{"kind":"reader","attempt":0,"error":"HTTP 503","status":503,"retrying":true,"delayMs":0},{"kind":"reader","attempt":1,"error":"HTTP 503","status":503,"retrying":true,"delayMs":0},{"kind":"reader","attempt":2,"error":"HTTP 503","status":503,"retrying":true,"delayMs":0},{"kind":"reader","attempt":3,"error":"HTTP 503","status":503,"retrying":false,"delayMs":0}]}
+
+{"rate":8,"caseId":"missing-discord","error":"HTTP 503","seconds":10.371468300000007,"retries":[{"kind":"reader","attempt":0,"error":"HTTP 503","status":503,"retrying":true,"delayMs":0},{"kind":"reader","attempt":1,"error":"HTTP 503","status":503,"retrying":true,"delayMs":0},{"kind":"reader","attempt":2,"error":"HTTP 503","status":503,"retrying":true,"delayMs":0},{"kind":"reader","attempt":3,"error":"HTTP 503","status":503,"retrying":false,"delayMs":0}]}
+
+{"rate":8,"caseId":"missing-rate","error":"HTTP 503","seconds":11.026889700000007,"retries":[{"kind":"reader","attempt":0,"error":"HTTP 503","status":503,"retrying":true,"delayMs":0},{"kind":"reader","attempt":1,"error":"HTTP 503","status":503,"retrying":true,"delayMs":0},{"kind":"reader","attempt":2,"error":"HTTP 503","status":503,"retrying":true,"delayMs":0},{"kind":"reader","attempt":3,"error":"HTTP 503","status":503,"retrying":false,"delayMs":0}]}
+
+{"rate":8,"caseId":"level","error":"The operation was aborted due to timeout","seconds":25.2850095,"retries":[{"kind":"reader","attempt":0,"error":"HTTP 503","status":503,"retrying":true,"delayMs":0},{"kind":"reader","attempt":1,"error":"HTTP 503","status":503,"retrying":true,"delayMs":0},{"kind":"reader","attempt":2,"error":"The operation was aborted due to timeout","retrying":true,"delayMs":0},{"kind":"reader","attempt":3,"error":"The operation was aborted due to timeout","retrying":false,"delayMs":0}]}
+
+{"rate":8,"caseId":"npc","error":"HTTP 503","seconds":18.1595557,"retries":[{"kind":"reader","attempt":0,"error":"HTTP 503","status":503,"retrying":true,"delayMs":0},{"kind":"reader","attempt":1,"error":"HTTP 503","status":503,"retrying":true,"delayMs":0},{"kind":"reader","attempt":2,"error":"The operation was aborted due to timeout","retrying":true,"delayMs":0},{"kind":"reader","attempt":3,"error":"HTTP 503","status":503,"retrying":false,"delayMs":0}]}
+
+{"rate":8,"caseId":"quest","error":"The operation was aborted due to timeout","seconds":34.57424389999999,"retries":[{"kind":"reader","attempt":0,"error":"HTTP 503","status":503,"retrying":true,"delayMs":0},{"kind":"answer","attempt":0,"error":"HTTP 503","status":503,"retrying":true,"delayMs":0},{"kind":"answer","attempt":1,"error":"HTTP 503","status":503,"retrying":true,"delayMs":0},{"kind":"answer","attempt":2,"error":"The operation was aborted due to timeout","retrying":true,"delayMs":0},{"kind":"answer","attempt":3,"error":"The operation was aborted due to timeout","retrying":false,"delayMs":0}]}
+
+{"rate":8,"caseId":"recipe","error":"HTTP 503","seconds":10.725766599999995,"retries":[{"kind":"reader","attempt":0,"error":"HTTP 503","status":503,"retrying":true,"delayMs":0},{"kind":"reader","attempt":1,"error":"HTTP 503","status":503,"retrying":true,"delayMs":0},{"kind":"reader","attempt":2,"error":"HTTP 503","status":503,"retrying":true,"delayMs":0},{"kind":"reader","attempt":3,"error":"HTTP 503","status":503,"retrying":false,"delayMs":0}]}

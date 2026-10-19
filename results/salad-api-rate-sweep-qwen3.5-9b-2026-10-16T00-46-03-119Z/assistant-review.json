@@ -1,0 +1,11 @@
+{
+  "reviewedAt": "2026-10-16T00:49:52.523Z",
+  "distinctAnswersReviewed": 11,
+  "notes": [
+    "Recipe rubric failure is Cloth Scrap versus Cloth Scraps naming variation",
+    "Border replies include incorrect interpretation of wat as Wat or water despite supplying correct border names",
+    "One follow-up lost the NPC referent and incorrectly declined",
+    "Short unequal case coverage at each rate; not sustained capacity or representative accuracy"
+  ],
+  "costCaveat": "Provider usage-derived charges only; timed-out or failed calls without usage have unknown additional charges"
+}
